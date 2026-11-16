@@ -5,6 +5,12 @@ facilitar su revisión. La investigación se orienta a PYMES de Chichigalpa,
 Chinandega y Somotillo, Nicaragua, durante 2027. No se afirma que el sistema haya
 sido probado en empresas.
 
+## Reconocimiento de contribuciones
+
+- [isaias-2025](https://github.com/isaias-2025) aportó la sección «Detalle de
+  la alerta» del panel, que presenta el contexto de la predicción y los datos
+  para su revisión.
+
 > **Alcance operativo:** cargar un CSV es análisis por lotes de un archivo
 > histórico. El proyecto no captura paquetes ni monitorea una red en tiempo
 > real.
