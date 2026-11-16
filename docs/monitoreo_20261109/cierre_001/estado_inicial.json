@@ -1,0 +1,86 @@
+{
+  "utc": "2026-11-09T19:57:00.216380+00:00",
+  "previous_server_pid_now": {
+    "pid": 10564,
+    "name": "chrome.exe",
+    "command": [
+      "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "--type=renderer",
+      "--origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors",
+      "--no-pre-read-main-dll",
+      "--video-capture-use-gpu-memory-buffer",
+      "--lang=es",
+      "--device-scale-factor=1.25",
+      "--num-raster-threads=4",
+      "--enable-main-frame-before-activation",
+      "--renderer-client-id=12",
+      "--launch-time-ticks=53518693",
+      "--metrics-shmem-handle=6772,i,6304660839053925283,12100502153819373667,1572864",
+      "--field-trial-handle=2020,i,8969415769446756137,208795651708906092,262144",
+      "--variations-seed-version=20261109-010037.554000-production",
+      "--pseudonymization-salt-handle=2036,i,9569523554015821307,6923483365045929094,4",
+      "--trace-process-track-uuid=3190708997556373682",
+      "--mojo-platform-channel-handle=6744",
+      "/prefetch:1"
+    ],
+    "created": 1794253611.2820492
+  },
+  "previous_server_port_listeners": [],
+  "processes": [
+    {
+      "ppid": 20120,
+      "cmdline": [
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "docs/monitoreo_20261109/cerrar_verificacion.py",
+        "inventory"
+      ],
+      "create_time": 1794254218.6027968,
+      "pid": 7380,
+      "name": "python.exe"
+    },
+    {
+      "ppid": 7380,
+      "cmdline": [
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "docs/monitoreo_20261109/cerrar_verificacion.py",
+        "inventory"
+      ],
+      "create_time": 1794254218.7767189,
+      "pid": 16376,
+      "name": "python.exe"
+    }
+  ],
+  "source_sha256": {
+    "alerts.py": "af68dbfbfc5435be441f6a078a46874b24d2bea9ce92c6d366492ad1c0497935",
+    "dashboard.py": "be1567a37dd54f1993659eca74fe3e273efeac54cd3e8498cfa91ff45a801cd7",
+    "database.py": "508ce319ec77dde4569a811ad83df8bd8ca9786ded8886a8c3e72b227e4f8704",
+    "detection.py": "4b0a2c71148925bd2d157a8df1d7b5c89aa4ed45c9ebb240f419fcadce69d834",
+    "evaluation.py": "a223c3bc90a72ebe790a4c1a5126a964ea0ad6000ccd052829e08408e8a1323d",
+    "inference.py": "07ef41c35050c3899d65c88d4476bd92184b40fad8a58e815a7ac831f2f8c278",
+    "ingestion.py": "7053debe2a6308d05a8c6d12b12b3cd1b8b446f4ad856035d2783b4e12d06672",
+    "iot23_sources.py": "3bfd55dcfb5831526e291a04e415a2279e33f743401781f3652af524c012c829",
+    "label_audit.py": "151c1c0bc4a6e9644c0524573026269ff8a49a891a9d222360c1d8051d96502c",
+    "monitoring.py": "dffcf12440253c506f74aac0c9c860c05e41f0e0dd1c9271a7f083bc6b2d3f43",
+    "monitor_capture.py": "c00b31d5b7633fa3eba8fba72bcbdaca6161916ee74cfe1419ecae10effeb423",
+    "monitor_demo.py": "8666007e42b7b77526cb2b01742639ac005cdf7aff8e8d50dff2f09a34600e4b",
+    "monitor_flows.py": "e9b8febf7a374ffb4fbe4fd5d00b1224d08435a15f3350d53157d93296e00420",
+    "monitor_process.py": "1433f7f9a5133108f6d21f2bb02e23f02a78ddc4d8bc0f093272bb97ffc56c05",
+    "monitor_rules.py": "9e0867ab6e8cd4e447940872a552fd91800531ea7f1cc62f998b9abd3fd101cd",
+    "monitor_store.py": "ae39faa9ecbc384685b794f06b94665dd91837520100f9d1d216bb7d4473fa4c",
+    "monitor_ui.py": "feb99877af6fe185519c40ab97f83607ccc5ae2ef60fb21af1c0d77b757bca8b",
+    "pcap_extract.py": "0528ed6c3f53d9f88cfcc44a267a690c2fae839757a141ba5d731390610bdd6f",
+    "pcap_reader.py": "0fd2c23a29580658834ba6dea9fe93c6ba2b42c067fd628fc47e21b195ee3f0f",
+    "pcap_schema.py": "e9add5d1d6862bbb12a3c8cb60908e55e8ce95ccefe47f34e0cbb6c9c52e68fb",
+    "preprocessing.py": "2a8adab7ddc6270970d1463bd5902cde6a8dd3ee29855f6d168e2ed64c21e198",
+    "resources.py": "ff7ea8e4eccf0e84731047b5b979cce7299dc57be9ccecfa515303a3cdb71a5d",
+    "threshold_analysis.py": "c0d46ebef09d610c81b5bee25a8e1b5f742df478282bcaa5c769d16a8dacc630",
+    "training.py": "b7196b8860be5bcba0e6b4b606e582aadb18ed2ea43dac058af4570f7561bca4",
+    "zeek_labels.py": "3ec6ae61497ea8417b12312d8488aac66d4b190eea2856945f331e7d3a16018e",
+    "__init__.py": "10f047eac019a3275680d3256ca732b9b218e30a65dced22a272b787d9e6eba6"
+  },
+  "action": "Old server absent; recycled PID belongs to Chrome, left untouched."
+}

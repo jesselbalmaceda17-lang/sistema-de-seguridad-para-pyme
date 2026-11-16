@@ -1,0 +1,2812 @@
+{
+  "case": "somfy",
+  "closed_at_utc": "2026-11-09T14:36:37.953197+00:00",
+  "status": "RECHAZADO",
+  "criteria": {
+    "integrity_and_complete_processing": true,
+    "target_coverage_at_least_80_percent": false,
+    "at_least_5_admitted_bidirectional_benign_tcp_groups": false,
+    "at_least_1_admitted_both_direction_payload_group": false
+  },
+  "counts": {
+    "complete_target_tcp_groups": 2,
+    "target_bidirectional_groups": 0,
+    "target_bidirectional_payload_groups": 0,
+    "target_non_pure_syn_groups": 2,
+    "target_established_and_data_groups": 0
+  },
+  "target_coverage": {
+    "target_references": 1,
+    "verified_and_completely_represented": 0,
+    "coverage_percent": 0.0,
+    "indeterminate": [],
+    "references": [
+      {
+        "reference_id": "d74cb5b50ed8e357fce57bde42cd2ec9c1043633e4527937ba0bb6c9355126bf",
+        "uid": "Cgrd0NaSlBrfvYz9f",
+        "reported_counts": {
+          "orig_pkts": 2702,
+          "resp_pkts": 3137
+        },
+        "observed_packet_profile_not_a_label": {
+          "packets": 5839,
+          "protocol": "tcp",
+          "canonical_endpoints": [
+            [
+              "18.195.134.106",
+              443
+            ],
+            [
+              "192.168.1.158",
+              10366
+            ]
+          ],
+          "direction_packets": [
+            3137,
+            2702
+          ],
+          "direction_payload_bytes": [
+            949928,
+            358214
+          ],
+          "bidirectional": true,
+          "payload_bidirectional": true,
+          "tcp_flag_packets": {
+            "syn": 4,
+            "ack": 5837,
+            "fin": 0,
+            "rst": 0,
+            "psh": 3134
+          },
+          "tcp_pure_syn": false,
+          "first_frame": 436,
+          "last_frame": 8274
+        },
+        "reference_state": "partial_omission_not_demonstrated",
+        "represented_in_complete_admitted_groups": false,
+        "verified": false,
+        "candidate_frame_count": 5839
+      }
+    ]
+  },
+  "audit_summary": {
+    "packets_seen": 8276,
+    "packets_accepted": 6174,
+    "packets_rejected_by_extractor": 2102,
+    "extracted_flows": 36,
+    "reference_connections": 130,
+    "admitted_flows": 21,
+    "rejected_correspondences": 0,
+    "pending_quarantined_flows": 15,
+    "flow_status_counts": {
+      "admitted_unique": 19,
+      "quarantined_partial_checksum": 1,
+      "admitted_partition": 2,
+      "counter_mismatch": 14
+    },
+    "flow_label_coverage_percent": 58.333333333333336,
+    "labeled_packets": 335,
+    "label_coverage_of_accepted_packets_percent": 5.425979915775834,
+    "label_coverage_of_all_packets_percent": 4.047849202513292,
+    "matched_reference_connections": 28,
+    "reference_coverage_percent": 21.53846153846154,
+    "reference_validation_counts": {
+      "verified": 28,
+      "unsupported": 101,
+      "partial_omission_not_demonstrated": 1
+    },
+    "accepted_packet_checksum_states": {
+      "valid": 6173,
+      "partial_pseudoheader": 1
+    },
+    "class_coverage": {
+      "Benign": {
+        "reference_connections": 130,
+        "matched_references": 28,
+        "reference_coverage_percent": 21.53846153846154,
+        "admitted_flows": 21
+      },
+      "Malicious": {
+        "reference_connections": 0,
+        "matched_references": 0,
+        "reference_coverage_percent": null,
+        "admitted_flows": 0
+      }
+    }
+  },
+  "extraction_quality": {
+    "packets_seen": 8276,
+    "packets_accepted": 6174,
+    "packets_rejected": 2102,
+    "rejections_by_reason": {
+      "unsupported_ethernet_payload": 2012,
+      "unsupported_link_layer": 85,
+      "unsupported_transport_protocol": 5
+    },
+    "rejection_examples_first_20": [
+      {
+        "frame": 1,
+        "reason": "unsupported_ethernet_payload"
+      },
+      {
+        "frame": 2,
+        "reason": "unsupported_link_layer"
+      },
+      {
+        "frame": 3,
+        "reason": "unsupported_ethernet_payload"
+      },
+      {
+        "frame": 4,
+        "reason": "unsupported_ethernet_payload"
+      },
+      {
+        "frame": 5,
+        "reason": "unsupported_ethernet_payload"
+      },
+      {
+        "frame": 6,
+        "reason": "unsupported_ethernet_payload"
+      },
+      {
+        "frame": 7,
+        "reason": "unsupported_ethernet_payload"
+      },
+      {
+        "frame": 8,
+        "reason": "unsupported_ethernet_payload"
+      },
+      {
+        "frame": 12,
+        "reason": "unsupported_link_layer"
+      },
+      {
+        "frame": 13,
+        "reason": "unsupported_ethernet_payload"
+      },
+      {
+        "frame": 16,
+        "reason": "unsupported_ethernet_payload"
+      },
+      {
+        "frame": 19,
+        "reason": "unsupported_ethernet_payload"
+      },
+      {
+        "frame": 42,
+        "reason": "unsupported_ethernet_payload"
+      },
+      {
+        "frame": 43,
+        "reason": "unsupported_ethernet_payload"
+      },
+      {
+        "frame": 44,
+        "reason": "unsupported_ethernet_payload"
+      },
+      {
+        "frame": 45,
+        "reason": "unsupported_link_layer"
+      },
+      {
+        "frame": 46,
+        "reason": "unsupported_ethernet_payload"
+      },
+      {
+        "frame": 47,
+        "reason": "unsupported_ethernet_payload"
+      },
+      {
+        "frame": 48,
+        "reason": "unsupported_ethernet_payload"
+      },
+      {
+        "frame": 49,
+        "reason": "unsupported_ethernet_payload"
+      }
+    ],
+    "flows_produced": 36,
+    "first_timestamp_epoch_ns": "1562159754654715000",
+    "last_timestamp_epoch_ns": "1562164842476426000",
+    "capture_loss": "unknown; file contents cannot prove absence of capture loss"
+  },
+  "admitted_census": {
+    "summary": {
+      "Benign": {
+        "udp_groups": 19,
+        "udp_bidirectional_packet_groups": 4,
+        "udp_bidirectional_payload_groups": 4,
+        "udp_packets": 317,
+        "tcp_groups": 2,
+        "tcp_bidirectional_packet_groups": 0,
+        "tcp_bidirectional_payload_groups": 0,
+        "tcp_packets": 18,
+        "tcp_pure_syn_groups": 0,
+        "tcp_other_pattern_groups": 2,
+        "tcp_groups_with_ack": 2,
+        "tcp_packets_with_syn": 0,
+        "tcp_packets_with_ack": 18,
+        "tcp_packets_with_fin": 18,
+        "tcp_packets_with_rst": 0,
+        "tcp_packets_with_psh": 0,
+        "tcp_packets_with_urg": 0,
+        "tcp_packets_with_ece": 0,
+        "tcp_packets_with_cwr": 0
+      }
+    },
+    "flow_counts": {
+      "Benign": {
+        "udp": 19,
+        "tcp": 2
+      }
+    },
+    "admitted_groups": 21,
+    "groups": [
+      {
+        "connection_group_id": "08ebb41fa620d535d9692ee0c30696b3f245a26c043b8f5ebdabf7a81abd7fff",
+        "capture_group_id": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "labels": [
+          "Benign"
+        ],
+        "flow_ids": [
+          "5a4e8c2e1fb70362a45842afedd889687dfe55b08a1f67ac3ba67501f1d821aa"
+        ],
+        "reference_uids": [
+          "CSvMZfoQvf7b51DHh"
+        ],
+        "direction_packets": [
+          24,
+          0
+        ],
+        "direction_payload_bytes": [
+          7200,
+          0
+        ],
+        "tcp_flag_counts": null,
+        "tcp_pure_syn_packets": 0,
+        "class": "Benign",
+        "packet_count": 24,
+        "first_frame": 1523,
+        "last_frame": 1879,
+        "bidirectional_packets": false,
+        "bidirectional_payload": false,
+        "pure_syn_without_ack": false
+      },
+      {
+        "connection_group_id": "0f9b370f7374d867b5333773398321a06134e4c837b07f555c6ec2e52a29560b",
+        "capture_group_id": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "151.80.19.218",
+            123
+          ],
+          [
+            "192.168.1.158",
+            4097
+          ]
+        ],
+        "labels": [
+          "Benign"
+        ],
+        "flow_ids": [
+          "6e42c78d55bf67cf8d2220a50f48ef4a5ae1bed0af05c928bbfa1a467dc05dbb"
+        ],
+        "reference_uids": [
+          "CYCRei2M3ufMTZcb6g"
+        ],
+        "direction_packets": [
+          2,
+          2
+        ],
+        "direction_payload_bytes": [
+          96,
+          96
+        ],
+        "tcp_flag_counts": null,
+        "tcp_pure_syn_packets": 0,
+        "class": "Benign",
+        "packet_count": 4,
+        "first_frame": 6748,
+        "last_frame": 6751,
+        "bidirectional_packets": true,
+        "bidirectional_payload": true,
+        "pure_syn_without_ack": false
+      },
+      {
+        "connection_group_id": "15fa912e492b0a78e6af5cd77a6ca8be26534edee0f5b109c3cfb0dcd6f6de00",
+        "capture_group_id": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "192.168.1.1",
+            53
+          ],
+          [
+            "192.168.1.158",
+            4096
+          ]
+        ],
+        "labels": [
+          "Benign"
+        ],
+        "flow_ids": [
+          "370e10448ccec3d04197f4877c75737b6b4e890a10dc299437255352787f9445"
+        ],
+        "reference_uids": [
+          "Cmm6Jp4Y9PM8fhUnp1"
+        ],
+        "direction_packets": [
+          4,
+          4
+        ],
+        "direction_payload_bytes": [
+          498,
+          160
+        ],
+        "tcp_flag_counts": null,
+        "tcp_pure_syn_packets": 0,
+        "class": "Benign",
+        "packet_count": 8,
+        "first_frame": 420,
+        "last_frame": 435,
+        "bidirectional_packets": true,
+        "bidirectional_payload": true,
+        "pure_syn_without_ack": false
+      },
+      {
+        "connection_group_id": "2ae67e44268b4be101696ea0645d843c97da4094ea8ffb17d087bff2c04ae231",
+        "capture_group_id": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+        "protocol": "tcp",
+        "canonical_endpoints": [
+          [
+            "192.168.4.1",
+            80
+          ],
+          [
+            "192.168.4.2",
+            41551
+          ]
+        ],
+        "labels": [
+          "Benign"
+        ],
+        "flow_ids": [
+          "6713322286d38e109561e7e067a54fa14ff0acfab421fb99ee3ad3d47ec867b2"
+        ],
+        "reference_uids": [
+          "CCc3Sy1qU7bCxK6W1g",
+          "CYbQTMGQA7PsOFk29",
+          "CiUp1B1o5zZVj9AUEb"
+        ],
+        "direction_packets": [
+          6,
+          0
+        ],
+        "direction_payload_bytes": [
+          0,
+          0
+        ],
+        "tcp_flag_counts": {
+          "syn": 0,
+          "ack": 6,
+          "fin": 6,
+          "rst": 0,
+          "psh": 0,
+          "urg": 0,
+          "ece": 0,
+          "cwr": 0
+        },
+        "tcp_pure_syn_packets": 0,
+        "class": "Benign",
+        "packet_count": 6,
+        "first_frame": 1159,
+        "last_frame": 1456,
+        "bidirectional_packets": false,
+        "bidirectional_payload": false,
+        "pure_syn_without_ack": false
+      },
+      {
+        "connection_group_id": "2b042d5662460934b3fc9c46cb01b8a0594a5f77a41933d9764af3498005ced3",
+        "capture_group_id": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "labels": [
+          "Benign"
+        ],
+        "flow_ids": [
+          "4b22e7bc50f94029b55d1d6e4c4de2f90291bafe933bcf1928dd21bda3faae9f"
+        ],
+        "reference_uids": [
+          "CbiAr234EfpzQInxbg"
+        ],
+        "direction_packets": [
+          11,
+          0
+        ],
+        "direction_payload_bytes": [
+          3300,
+          0
+        ],
+        "tcp_flag_counts": null,
+        "tcp_pure_syn_packets": 0,
+        "class": "Benign",
+        "packet_count": 11,
+        "first_frame": 8057,
+        "last_frame": 8270,
+        "bidirectional_packets": false,
+        "bidirectional_payload": false,
+        "pure_syn_without_ack": false
+      },
+      {
+        "connection_group_id": "38868d5f135ad269f3157022905f6a174f2d2d8bd1189b43a01daf86fa6d8cb2",
+        "capture_group_id": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "192.168.1.158",
+            4097
+          ],
+          [
+            "78.46.102.180",
+            123
+          ]
+        ],
+        "labels": [
+          "Benign"
+        ],
+        "flow_ids": [
+          "0cbab1f251af112ef3590d5e86830a495635d48dc43a70bd66a11954925066c7"
+        ],
+        "reference_uids": [
+          "ChvhUj1PHAT86ISTWj"
+        ],
+        "direction_packets": [
+          2,
+          2
+        ],
+        "direction_payload_bytes": [
+          96,
+          96
+        ],
+        "tcp_flag_counts": null,
+        "tcp_pure_syn_packets": 0,
+        "class": "Benign",
+        "packet_count": 4,
+        "first_frame": 426,
+        "last_frame": 429,
+        "bidirectional_packets": true,
+        "bidirectional_payload": true,
+        "pure_syn_without_ack": false
+      },
+      {
+        "connection_group_id": "3aba9fa2132f1b7562a46de48b71129f38936d155a13e025a97e74a1c2b997fa",
+        "capture_group_id": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "192.168.1.1",
+            67
+          ],
+          [
+            "255.255.255.255",
+            68
+          ]
+        ],
+        "labels": [
+          "Benign"
+        ],
+        "flow_ids": [
+          "3133e759a3f3967bfe2952b44ca37e1e078fa8729efe4cefe593e4ecb0801af9"
+        ],
+        "reference_uids": [
+          "CUpk9Y381SJuOHyK2d"
+        ],
+        "direction_packets": [
+          13,
+          0
+        ],
+        "direction_payload_bytes": [
+          3900,
+          0
+        ],
+        "tcp_flag_counts": null,
+        "tcp_pure_syn_packets": 0,
+        "class": "Benign",
+        "packet_count": 13,
+        "first_frame": 25,
+        "last_frame": 41,
+        "bidirectional_packets": false,
+        "bidirectional_payload": false,
+        "pure_syn_without_ack": false
+      },
+      {
+        "connection_group_id": "3c59f9b6783414944e851895ca919b7e45ceb1ec98c5b2889fc89754f6778c57",
+        "capture_group_id": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "labels": [
+          "Benign"
+        ],
+        "flow_ids": [
+          "3f8133188512ac653dd042371c83654b3d81f60886db741f6ea027e2259039b6"
+        ],
+        "reference_uids": [
+          "CHm9t71IV6rPSsLxOa"
+        ],
+        "direction_packets": [
+          23,
+          0
+        ],
+        "direction_payload_bytes": [
+          6900,
+          0
+        ],
+        "tcp_flag_counts": null,
+        "tcp_pure_syn_packets": 0,
+        "class": "Benign",
+        "packet_count": 23,
+        "first_frame": 4780,
+        "last_frame": 5130,
+        "bidirectional_packets": false,
+        "bidirectional_payload": false,
+        "pure_syn_without_ack": false
+      },
+      {
+        "connection_group_id": "507910cd1362ab8118b1e8000e8f8dd7da61d2ebbed965020d9824fb697c556e",
+        "capture_group_id": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+        "protocol": "tcp",
+        "canonical_endpoints": [
+          [
+            "192.168.4.1",
+            80
+          ],
+          [
+            "192.168.4.2",
+            41551
+          ]
+        ],
+        "labels": [
+          "Benign"
+        ],
+        "flow_ids": [
+          "7856db221380523f39df4bc4ef357b8820022bcca6f12c02b8dbc82451cc0f3c"
+        ],
+        "reference_uids": [
+          "C32qne49bZy0akUup",
+          "CYBMKp4pB8gSrVdQIl",
+          "CcZBV32tjGx8FDf467",
+          "CgptFR3EW8pPc4QmRi",
+          "Cth0RR1SELlqe3dVf",
+          "Cw8Fcm4zJ6K34shgb5"
+        ],
+        "direction_packets": [
+          12,
+          0
+        ],
+        "direction_payload_bytes": [
+          0,
+          0
+        ],
+        "tcp_flag_counts": {
+          "syn": 0,
+          "ack": 12,
+          "fin": 12,
+          "rst": 0,
+          "psh": 0,
+          "urg": 0,
+          "ece": 0,
+          "cwr": 0
+        },
+        "tcp_pure_syn_packets": 0,
+        "class": "Benign",
+        "packet_count": 12,
+        "first_frame": 489,
+        "last_frame": 1004,
+        "bidirectional_packets": false,
+        "bidirectional_payload": false,
+        "pure_syn_without_ack": false
+      },
+      {
+        "connection_group_id": "5567a56f24b94ea4121362a20b30392c9b55c879d20a0781c1d5770a596bd47a",
+        "capture_group_id": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "labels": [
+          "Benign"
+        ],
+        "flow_ids": [
+          "d0b6b052aa4fca9aaae206c9e9a7933949c56870446b0e72707715e2d2cdd333"
+        ],
+        "reference_uids": [
+          "CyRYguPTlFNBfo3p2"
+        ],
+        "direction_packets": [
+          22,
+          0
+        ],
+        "direction_payload_bytes": [
+          6600,
+          0
+        ],
+        "tcp_flag_counts": null,
+        "tcp_pure_syn_packets": 0,
+        "class": "Benign",
+        "packet_count": 22,
+        "first_frame": 3974,
+        "last_frame": 4280,
+        "bidirectional_packets": false,
+        "bidirectional_payload": false,
+        "pure_syn_without_ack": false
+      },
+      {
+        "connection_group_id": "570b142153a9ecc8f39dd50c836a0e911285b49bfb1a0834654891e6029844a5",
+        "capture_group_id": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "192.168.1.1",
+            67
+          ],
+          [
+            "192.168.1.158",
+            68
+          ]
+        ],
+        "labels": [
+          "Benign"
+        ],
+        "flow_ids": [
+          "5e080f6e8aa97407921dbe2f610ae7765456de4ab2d9ed72a90661dc073dde5c"
+        ],
+        "reference_uids": [
+          "CHgblw4FHCF7bzKkFa"
+        ],
+        "direction_packets": [
+          6,
+          0
+        ],
+        "direction_payload_bytes": [
+          1800,
+          0
+        ],
+        "tcp_flag_counts": null,
+        "tcp_pure_syn_packets": 0,
+        "class": "Benign",
+        "packet_count": 6,
+        "first_frame": 332,
+        "last_frame": 360,
+        "bidirectional_packets": false,
+        "bidirectional_payload": false,
+        "pure_syn_without_ack": false
+      },
+      {
+        "connection_group_id": "7006cc4420ac8e3c774efcaf213b1528fc7cadbcee851a3d2e3bc3df3ec5f961",
+        "capture_group_id": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "192.168.1.1",
+            53
+          ],
+          [
+            "192.168.1.158",
+            4096
+          ]
+        ],
+        "labels": [
+          "Benign"
+        ],
+        "flow_ids": [
+          "0119ecbf1f998481cfa94519a3ee0b981ed280da908876696507dfdb03d5a469"
+        ],
+        "reference_uids": [
+          "CQtM5g43dRYrAWVo85"
+        ],
+        "direction_packets": [
+          4,
+          4
+        ],
+        "direction_payload_bytes": [
+          412,
+          156
+        ],
+        "tcp_flag_counts": null,
+        "tcp_pure_syn_packets": 0,
+        "class": "Benign",
+        "packet_count": 8,
+        "first_frame": 6740,
+        "last_frame": 6747,
+        "bidirectional_packets": true,
+        "bidirectional_payload": true,
+        "pure_syn_without_ack": false
+      },
+      {
+        "connection_group_id": "90726535c01dec2ff4ada4c1ad9eb2ac4d4ccade9355123657e430fe5ec9e7fc",
+        "capture_group_id": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "labels": [
+          "Benign"
+        ],
+        "flow_ids": [
+          "bbf5e0635b8196c4b713ec37027ddaec572b2b219c3ff75440d82e0dda4e2f0d"
+        ],
+        "reference_uids": [
+          "C4lfT92TdIOeiebVU"
+        ],
+        "direction_packets": [
+          24,
+          0
+        ],
+        "direction_payload_bytes": [
+          7428,
+          0
+        ],
+        "tcp_flag_counts": null,
+        "tcp_pure_syn_packets": 0,
+        "class": "Benign",
+        "packet_count": 24,
+        "first_frame": 221,
+        "last_frame": 358,
+        "bidirectional_packets": false,
+        "bidirectional_payload": false,
+        "pure_syn_without_ack": false
+      },
+      {
+        "connection_group_id": "9a31c86386b1c403ce043cd726ff5bae97e385ef0555f11953ba7fbd7870bb47",
+        "capture_group_id": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "labels": [
+          "Benign"
+        ],
+        "flow_ids": [
+          "649e8c4e79fe775dfc73ea8742444792757659153d5db1708f0769230a2025d7"
+        ],
+        "reference_uids": [
+          "CIrQL81Z78mqEz7MZj"
+        ],
+        "direction_packets": [
+          24,
+          0
+        ],
+        "direction_payload_bytes": [
+          7200,
+          0
+        ],
+        "tcp_flag_counts": null,
+        "tcp_pure_syn_packets": 0,
+        "class": "Benign",
+        "packet_count": 24,
+        "first_frame": 7224,
+        "last_frame": 7579,
+        "bidirectional_packets": false,
+        "bidirectional_payload": false,
+        "pure_syn_without_ack": false
+      },
+      {
+        "connection_group_id": "a0688f5bc16250901c0cc1724d55eb9b946e3355cc0671b5c13dbcb0b2c76276",
+        "capture_group_id": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "labels": [
+          "Benign"
+        ],
+        "flow_ids": [
+          "aa3c4f773f2a107c17fa037f95796ebb208852e808c856df3e2a05443f48e1b1"
+        ],
+        "reference_uids": [
+          "C7gDkZ19d7UhgM5Rxc"
+        ],
+        "direction_packets": [
+          23,
+          0
+        ],
+        "direction_payload_bytes": [
+          6900,
+          0
+        ],
+        "tcp_flag_counts": null,
+        "tcp_pure_syn_packets": 0,
+        "class": "Benign",
+        "packet_count": 23,
+        "first_frame": 55,
+        "last_frame": 168,
+        "bidirectional_packets": false,
+        "bidirectional_payload": false,
+        "pure_syn_without_ack": false
+      },
+      {
+        "connection_group_id": "ba51de9c2ef5e7a3ecaab017f66a1d215b137c5d1526abc12adf10cff866b8ef",
+        "capture_group_id": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "labels": [
+          "Benign"
+        ],
+        "flow_ids": [
+          "3e6ffeddeb30959d4c2a6cb3780341d1b8a7601c07b1d9a195ecc422d6cf702d"
+        ],
+        "reference_uids": [
+          "C9b52A3QyHTiQGnfOe"
+        ],
+        "direction_packets": [
+          23,
+          0
+        ],
+        "direction_payload_bytes": [
+          6900,
+          0
+        ],
+        "tcp_flag_counts": null,
+        "tcp_pure_syn_packets": 0,
+        "class": "Benign",
+        "packet_count": 23,
+        "first_frame": 2348,
+        "last_frame": 2694,
+        "bidirectional_packets": false,
+        "bidirectional_payload": false,
+        "pure_syn_without_ack": false
+      },
+      {
+        "connection_group_id": "c025cc7837b39164f155697732f56e0f2e9431dc07b39577d52543eb4160ac01",
+        "capture_group_id": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "labels": [
+          "Benign"
+        ],
+        "flow_ids": [
+          "db7859373865ddaa407570201e8ba5173a93dccd23e27d995b5c7b6c28ccee3f"
+        ],
+        "reference_uids": [
+          "CUg3u41D8SwgQw1Job"
+        ],
+        "direction_packets": [
+          16,
+          0
+        ],
+        "direction_payload_bytes": [
+          8768,
+          0
+        ],
+        "tcp_flag_counts": null,
+        "tcp_pure_syn_packets": 0,
+        "class": "Benign",
+        "packet_count": 16,
+        "first_frame": 9,
+        "last_frame": 35,
+        "bidirectional_packets": false,
+        "bidirectional_payload": false,
+        "pure_syn_without_ack": false
+      },
+      {
+        "connection_group_id": "df88b0c16fcd58a95638390d226383ac709c74c4eddae6c97366e961c50fc94b",
+        "capture_group_id": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "labels": [
+          "Benign"
+        ],
+        "flow_ids": [
+          "58f9f3201b66993c4ca92968d0ea2f1102039d569af0eee6b6e5e3d0ea7abbd6"
+        ],
+        "reference_uids": [
+          "Czx62I1xWbi419lua5"
+        ],
+        "direction_packets": [
+          20,
+          0
+        ],
+        "direction_payload_bytes": [
+          6000,
+          0
+        ],
+        "tcp_flag_counts": null,
+        "tcp_pure_syn_packets": 0,
+        "class": "Benign",
+        "packet_count": 20,
+        "first_frame": 3155,
+        "last_frame": 3502,
+        "bidirectional_packets": false,
+        "bidirectional_payload": false,
+        "pure_syn_without_ack": false
+      },
+      {
+        "connection_group_id": "e43ab47758ca0b1301d81340507f5f52376a4283248bc260a187660058d40a70",
+        "capture_group_id": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "labels": [
+          "Benign"
+        ],
+        "flow_ids": [
+          "cfced9130b8a779e126e222a56b0908b74b6149c951845f425c8e7add22d5de1"
+        ],
+        "reference_uids": [
+          "CR0z9E4SyM53cXGv65"
+        ],
+        "direction_packets": [
+          20,
+          0
+        ],
+        "direction_payload_bytes": [
+          6000,
+          0
+        ],
+        "tcp_flag_counts": null,
+        "tcp_pure_syn_packets": 0,
+        "class": "Benign",
+        "packet_count": 20,
+        "first_frame": 5602,
+        "last_frame": 5915,
+        "bidirectional_packets": false,
+        "bidirectional_payload": false,
+        "pure_syn_without_ack": false
+      },
+      {
+        "connection_group_id": "f791bf12b08a16192b5a975a490aaf7c8c82861ac33f19462fc919b3bcad18f2",
+        "capture_group_id": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "labels": [
+          "Benign"
+        ],
+        "flow_ids": [
+          "8fb4d1ccce6670790f5aba52a7b481a84479d290e12157029316bfd63fa09f6f"
+        ],
+        "reference_uids": [
+          "Ci7keG3lXgguT1JF43"
+        ],
+        "direction_packets": [
+          23,
+          0
+        ],
+        "direction_payload_bytes": [
+          6900,
+          0
+        ],
+        "tcp_flag_counts": null,
+        "tcp_pure_syn_packets": 0,
+        "class": "Benign",
+        "packet_count": 23,
+        "first_frame": 699,
+        "last_frame": 1033,
+        "bidirectional_packets": false,
+        "bidirectional_payload": false,
+        "pure_syn_without_ack": false
+      },
+      {
+        "connection_group_id": "fd7906256eb2663ab0e28f3c5666830b5c4c3e0af93cda35b7000189a943d2df",
+        "capture_group_id": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "labels": [
+          "Benign"
+        ],
+        "flow_ids": [
+          "6bdc193efa755c5f32cb35d4ed37b1f0e68568e27bbf4262e8b5f34afa9769b1"
+        ],
+        "reference_uids": [
+          "CmiSMo3P0k7vUWWyTl"
+        ],
+        "direction_packets": [
+          21,
+          0
+        ],
+        "direction_payload_bytes": [
+          6300,
+          0
+        ],
+        "tcp_flag_counts": null,
+        "tcp_pure_syn_packets": 0,
+        "class": "Benign",
+        "packet_count": 21,
+        "first_frame": 6411,
+        "last_frame": 6753,
+        "bidirectional_packets": false,
+        "bidirectional_payload": false,
+        "pure_syn_without_ack": false
+      }
+    ],
+    "definitions": {
+      "direction": "lexically sorted IPv4/port endpoints across all packets, independent of per-segment orientation",
+      "bidirectional_packets": "at least one accepted labeled packet from each endpoint; not proof of application success",
+      "pure_syn_without_ack": "every TCP packet in admitted group has exactly SYN and no payload",
+      "groups": "connection groups for split isolation, not independent attacks or experiments"
+    }
+  },
+  "all_extracted_connection_groups": [
+    {
+      "connection_group_id": "c025cc7837b39164f155697732f56e0f2e9431dc07b39577d52543eb4160ac01",
+      "extracted_segments": 1,
+      "admitted_segments": 1,
+      "all_segments_admitted": true,
+      "statuses": {
+        "admitted_unique": 1
+      },
+      "admitted_binary_labels": [
+        0
+      ],
+      "all_observed_packets_unlabeled": {
+        "packets": 16,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          16,
+          0
+        ],
+        "direction_payload_bytes": [
+          8768,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 9,
+        "last_frame": 35
+      },
+      "admitted_packet_profile": {
+        "packets": 16,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          16,
+          0
+        ],
+        "direction_payload_bytes": [
+          8768,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 9,
+        "last_frame": 35
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": false
+      }
+    },
+    {
+      "connection_group_id": "3aba9fa2132f1b7562a46de48b71129f38936d155a13e025a97e74a1c2b997fa",
+      "extracted_segments": 1,
+      "admitted_segments": 1,
+      "all_segments_admitted": true,
+      "statuses": {
+        "admitted_unique": 1
+      },
+      "admitted_binary_labels": [
+        0
+      ],
+      "all_observed_packets_unlabeled": {
+        "packets": 13,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "192.168.1.1",
+            67
+          ],
+          [
+            "255.255.255.255",
+            68
+          ]
+        ],
+        "direction_packets": [
+          13,
+          0
+        ],
+        "direction_payload_bytes": [
+          3900,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 25,
+        "last_frame": 41
+      },
+      "admitted_packet_profile": {
+        "packets": 13,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "192.168.1.1",
+            67
+          ],
+          [
+            "255.255.255.255",
+            68
+          ]
+        ],
+        "direction_packets": [
+          13,
+          0
+        ],
+        "direction_payload_bytes": [
+          3900,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 25,
+        "last_frame": 41
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": false
+      }
+    },
+    {
+      "connection_group_id": "a0688f5bc16250901c0cc1724d55eb9b946e3355cc0671b5c13dbcb0b2c76276",
+      "extracted_segments": 1,
+      "admitted_segments": 1,
+      "all_segments_admitted": true,
+      "statuses": {
+        "admitted_unique": 1
+      },
+      "admitted_binary_labels": [
+        0
+      ],
+      "all_observed_packets_unlabeled": {
+        "packets": 23,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          23,
+          0
+        ],
+        "direction_payload_bytes": [
+          6900,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 55,
+        "last_frame": 168
+      },
+      "admitted_packet_profile": {
+        "packets": 23,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          23,
+          0
+        ],
+        "direction_payload_bytes": [
+          6900,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 55,
+        "last_frame": 168
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": false
+      }
+    },
+    {
+      "connection_group_id": "90726535c01dec2ff4ada4c1ad9eb2ac4d4ccade9355123657e430fe5ec9e7fc",
+      "extracted_segments": 1,
+      "admitted_segments": 1,
+      "all_segments_admitted": true,
+      "statuses": {
+        "admitted_unique": 1
+      },
+      "admitted_binary_labels": [
+        0
+      ],
+      "all_observed_packets_unlabeled": {
+        "packets": 24,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          24,
+          0
+        ],
+        "direction_payload_bytes": [
+          7428,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 221,
+        "last_frame": 358
+      },
+      "admitted_packet_profile": {
+        "packets": 24,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          24,
+          0
+        ],
+        "direction_payload_bytes": [
+          7428,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 221,
+        "last_frame": 358
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": false
+      }
+    },
+    {
+      "connection_group_id": "570b142153a9ecc8f39dd50c836a0e911285b49bfb1a0834654891e6029844a5",
+      "extracted_segments": 1,
+      "admitted_segments": 1,
+      "all_segments_admitted": true,
+      "statuses": {
+        "admitted_unique": 1
+      },
+      "admitted_binary_labels": [
+        0
+      ],
+      "all_observed_packets_unlabeled": {
+        "packets": 6,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "192.168.1.1",
+            67
+          ],
+          [
+            "192.168.1.158",
+            68
+          ]
+        ],
+        "direction_packets": [
+          6,
+          0
+        ],
+        "direction_payload_bytes": [
+          1800,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 332,
+        "last_frame": 360
+      },
+      "admitted_packet_profile": {
+        "packets": 6,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "192.168.1.1",
+            67
+          ],
+          [
+            "192.168.1.158",
+            68
+          ]
+        ],
+        "direction_packets": [
+          6,
+          0
+        ],
+        "direction_payload_bytes": [
+          1800,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 332,
+        "last_frame": 360
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": false
+      }
+    },
+    {
+      "connection_group_id": "15fa912e492b0a78e6af5cd77a6ca8be26534edee0f5b109c3cfb0dcd6f6de00",
+      "extracted_segments": 1,
+      "admitted_segments": 1,
+      "all_segments_admitted": true,
+      "statuses": {
+        "admitted_unique": 1
+      },
+      "admitted_binary_labels": [
+        0
+      ],
+      "all_observed_packets_unlabeled": {
+        "packets": 8,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "192.168.1.1",
+            53
+          ],
+          [
+            "192.168.1.158",
+            4096
+          ]
+        ],
+        "direction_packets": [
+          4,
+          4
+        ],
+        "direction_payload_bytes": [
+          498,
+          160
+        ],
+        "bidirectional": true,
+        "payload_bidirectional": true,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 420,
+        "last_frame": 435
+      },
+      "admitted_packet_profile": {
+        "packets": 8,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "192.168.1.1",
+            53
+          ],
+          [
+            "192.168.1.158",
+            4096
+          ]
+        ],
+        "direction_packets": [
+          4,
+          4
+        ],
+        "direction_payload_bytes": [
+          498,
+          160
+        ],
+        "bidirectional": true,
+        "payload_bidirectional": true,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 420,
+        "last_frame": 435
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": false
+      }
+    },
+    {
+      "connection_group_id": "38868d5f135ad269f3157022905f6a174f2d2d8bd1189b43a01daf86fa6d8cb2",
+      "extracted_segments": 1,
+      "admitted_segments": 1,
+      "all_segments_admitted": true,
+      "statuses": {
+        "admitted_unique": 1
+      },
+      "admitted_binary_labels": [
+        0
+      ],
+      "all_observed_packets_unlabeled": {
+        "packets": 4,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "192.168.1.158",
+            4097
+          ],
+          [
+            "78.46.102.180",
+            123
+          ]
+        ],
+        "direction_packets": [
+          2,
+          2
+        ],
+        "direction_payload_bytes": [
+          96,
+          96
+        ],
+        "bidirectional": true,
+        "payload_bidirectional": true,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 426,
+        "last_frame": 429
+      },
+      "admitted_packet_profile": {
+        "packets": 4,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "192.168.1.158",
+            4097
+          ],
+          [
+            "78.46.102.180",
+            123
+          ]
+        ],
+        "direction_packets": [
+          2,
+          2
+        ],
+        "direction_payload_bytes": [
+          96,
+          96
+        ],
+        "bidirectional": true,
+        "payload_bidirectional": true,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 426,
+        "last_frame": 429
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": false
+      }
+    },
+    {
+      "connection_group_id": "03559d3875a641dead2409322b7a99e57d12f69e3044b2dd32ed5afd87c77a04",
+      "extracted_segments": 15,
+      "admitted_segments": 0,
+      "all_segments_admitted": false,
+      "statuses": {
+        "quarantined_partial_checksum": 1,
+        "counter_mismatch": 14
+      },
+      "admitted_binary_labels": [],
+      "all_observed_packets_unlabeled": {
+        "packets": 5839,
+        "protocol": "tcp",
+        "canonical_endpoints": [
+          [
+            "18.195.134.106",
+            443
+          ],
+          [
+            "192.168.1.158",
+            10366
+          ]
+        ],
+        "direction_packets": [
+          3137,
+          2702
+        ],
+        "direction_payload_bytes": [
+          949928,
+          358214
+        ],
+        "bidirectional": true,
+        "payload_bidirectional": true,
+        "tcp_flag_packets": {
+          "syn": 4,
+          "ack": 5837,
+          "fin": 0,
+          "rst": 0,
+          "psh": 3134
+        },
+        "tcp_pure_syn": false,
+        "first_frame": 436,
+        "last_frame": 8274
+      },
+      "admitted_packet_profile": {
+        "packets": 0,
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_pure_syn": false
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": true,
+        "syn_frame": 437,
+        "synack_frame": 439,
+        "ack_frame": 440,
+        "subsequent_or_ack_payload_frames_first_10": [
+          440,
+          441,
+          444,
+          445,
+          446,
+          447,
+          448,
+          454,
+          455,
+          456
+        ]
+      }
+    },
+    {
+      "connection_group_id": "507910cd1362ab8118b1e8000e8f8dd7da61d2ebbed965020d9824fb697c556e",
+      "extracted_segments": 1,
+      "admitted_segments": 1,
+      "all_segments_admitted": true,
+      "statuses": {
+        "admitted_partition": 1
+      },
+      "admitted_binary_labels": [
+        0
+      ],
+      "all_observed_packets_unlabeled": {
+        "packets": 12,
+        "protocol": "tcp",
+        "canonical_endpoints": [
+          [
+            "192.168.4.1",
+            80
+          ],
+          [
+            "192.168.4.2",
+            41551
+          ]
+        ],
+        "direction_packets": [
+          12,
+          0
+        ],
+        "direction_payload_bytes": [
+          0,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {
+          "syn": 0,
+          "ack": 12,
+          "fin": 12,
+          "rst": 0,
+          "psh": 0
+        },
+        "tcp_pure_syn": false,
+        "first_frame": 489,
+        "last_frame": 1004
+      },
+      "admitted_packet_profile": {
+        "packets": 12,
+        "protocol": "tcp",
+        "canonical_endpoints": [
+          [
+            "192.168.4.1",
+            80
+          ],
+          [
+            "192.168.4.2",
+            41551
+          ]
+        ],
+        "direction_packets": [
+          12,
+          0
+        ],
+        "direction_payload_bytes": [
+          0,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {
+          "syn": 0,
+          "ack": 12,
+          "fin": 12,
+          "rst": 0,
+          "psh": 0
+        },
+        "tcp_pure_syn": false,
+        "first_frame": 489,
+        "last_frame": 1004
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": false
+      }
+    },
+    {
+      "connection_group_id": "f791bf12b08a16192b5a975a490aaf7c8c82861ac33f19462fc919b3bcad18f2",
+      "extracted_segments": 1,
+      "admitted_segments": 1,
+      "all_segments_admitted": true,
+      "statuses": {
+        "admitted_unique": 1
+      },
+      "admitted_binary_labels": [
+        0
+      ],
+      "all_observed_packets_unlabeled": {
+        "packets": 23,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          23,
+          0
+        ],
+        "direction_payload_bytes": [
+          6900,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 699,
+        "last_frame": 1033
+      },
+      "admitted_packet_profile": {
+        "packets": 23,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          23,
+          0
+        ],
+        "direction_payload_bytes": [
+          6900,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 699,
+        "last_frame": 1033
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": false
+      }
+    },
+    {
+      "connection_group_id": "2ae67e44268b4be101696ea0645d843c97da4094ea8ffb17d087bff2c04ae231",
+      "extracted_segments": 1,
+      "admitted_segments": 1,
+      "all_segments_admitted": true,
+      "statuses": {
+        "admitted_partition": 1
+      },
+      "admitted_binary_labels": [
+        0
+      ],
+      "all_observed_packets_unlabeled": {
+        "packets": 6,
+        "protocol": "tcp",
+        "canonical_endpoints": [
+          [
+            "192.168.4.1",
+            80
+          ],
+          [
+            "192.168.4.2",
+            41551
+          ]
+        ],
+        "direction_packets": [
+          6,
+          0
+        ],
+        "direction_payload_bytes": [
+          0,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {
+          "syn": 0,
+          "ack": 6,
+          "fin": 6,
+          "rst": 0,
+          "psh": 0
+        },
+        "tcp_pure_syn": false,
+        "first_frame": 1159,
+        "last_frame": 1456
+      },
+      "admitted_packet_profile": {
+        "packets": 6,
+        "protocol": "tcp",
+        "canonical_endpoints": [
+          [
+            "192.168.4.1",
+            80
+          ],
+          [
+            "192.168.4.2",
+            41551
+          ]
+        ],
+        "direction_packets": [
+          6,
+          0
+        ],
+        "direction_payload_bytes": [
+          0,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {
+          "syn": 0,
+          "ack": 6,
+          "fin": 6,
+          "rst": 0,
+          "psh": 0
+        },
+        "tcp_pure_syn": false,
+        "first_frame": 1159,
+        "last_frame": 1456
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": false
+      }
+    },
+    {
+      "connection_group_id": "08ebb41fa620d535d9692ee0c30696b3f245a26c043b8f5ebdabf7a81abd7fff",
+      "extracted_segments": 1,
+      "admitted_segments": 1,
+      "all_segments_admitted": true,
+      "statuses": {
+        "admitted_unique": 1
+      },
+      "admitted_binary_labels": [
+        0
+      ],
+      "all_observed_packets_unlabeled": {
+        "packets": 24,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          24,
+          0
+        ],
+        "direction_payload_bytes": [
+          7200,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 1523,
+        "last_frame": 1879
+      },
+      "admitted_packet_profile": {
+        "packets": 24,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          24,
+          0
+        ],
+        "direction_payload_bytes": [
+          7200,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 1523,
+        "last_frame": 1879
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": false
+      }
+    },
+    {
+      "connection_group_id": "ba51de9c2ef5e7a3ecaab017f66a1d215b137c5d1526abc12adf10cff866b8ef",
+      "extracted_segments": 1,
+      "admitted_segments": 1,
+      "all_segments_admitted": true,
+      "statuses": {
+        "admitted_unique": 1
+      },
+      "admitted_binary_labels": [
+        0
+      ],
+      "all_observed_packets_unlabeled": {
+        "packets": 23,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          23,
+          0
+        ],
+        "direction_payload_bytes": [
+          6900,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 2348,
+        "last_frame": 2694
+      },
+      "admitted_packet_profile": {
+        "packets": 23,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          23,
+          0
+        ],
+        "direction_payload_bytes": [
+          6900,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 2348,
+        "last_frame": 2694
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": false
+      }
+    },
+    {
+      "connection_group_id": "df88b0c16fcd58a95638390d226383ac709c74c4eddae6c97366e961c50fc94b",
+      "extracted_segments": 1,
+      "admitted_segments": 1,
+      "all_segments_admitted": true,
+      "statuses": {
+        "admitted_unique": 1
+      },
+      "admitted_binary_labels": [
+        0
+      ],
+      "all_observed_packets_unlabeled": {
+        "packets": 20,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          20,
+          0
+        ],
+        "direction_payload_bytes": [
+          6000,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 3155,
+        "last_frame": 3502
+      },
+      "admitted_packet_profile": {
+        "packets": 20,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          20,
+          0
+        ],
+        "direction_payload_bytes": [
+          6000,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 3155,
+        "last_frame": 3502
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": false
+      }
+    },
+    {
+      "connection_group_id": "5567a56f24b94ea4121362a20b30392c9b55c879d20a0781c1d5770a596bd47a",
+      "extracted_segments": 1,
+      "admitted_segments": 1,
+      "all_segments_admitted": true,
+      "statuses": {
+        "admitted_unique": 1
+      },
+      "admitted_binary_labels": [
+        0
+      ],
+      "all_observed_packets_unlabeled": {
+        "packets": 22,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          22,
+          0
+        ],
+        "direction_payload_bytes": [
+          6600,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 3974,
+        "last_frame": 4280
+      },
+      "admitted_packet_profile": {
+        "packets": 22,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          22,
+          0
+        ],
+        "direction_payload_bytes": [
+          6600,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 3974,
+        "last_frame": 4280
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": false
+      }
+    },
+    {
+      "connection_group_id": "3c59f9b6783414944e851895ca919b7e45ceb1ec98c5b2889fc89754f6778c57",
+      "extracted_segments": 1,
+      "admitted_segments": 1,
+      "all_segments_admitted": true,
+      "statuses": {
+        "admitted_unique": 1
+      },
+      "admitted_binary_labels": [
+        0
+      ],
+      "all_observed_packets_unlabeled": {
+        "packets": 23,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          23,
+          0
+        ],
+        "direction_payload_bytes": [
+          6900,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 4780,
+        "last_frame": 5130
+      },
+      "admitted_packet_profile": {
+        "packets": 23,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          23,
+          0
+        ],
+        "direction_payload_bytes": [
+          6900,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 4780,
+        "last_frame": 5130
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": false
+      }
+    },
+    {
+      "connection_group_id": "e43ab47758ca0b1301d81340507f5f52376a4283248bc260a187660058d40a70",
+      "extracted_segments": 1,
+      "admitted_segments": 1,
+      "all_segments_admitted": true,
+      "statuses": {
+        "admitted_unique": 1
+      },
+      "admitted_binary_labels": [
+        0
+      ],
+      "all_observed_packets_unlabeled": {
+        "packets": 20,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          20,
+          0
+        ],
+        "direction_payload_bytes": [
+          6000,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 5602,
+        "last_frame": 5915
+      },
+      "admitted_packet_profile": {
+        "packets": 20,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          20,
+          0
+        ],
+        "direction_payload_bytes": [
+          6000,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 5602,
+        "last_frame": 5915
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": false
+      }
+    },
+    {
+      "connection_group_id": "fd7906256eb2663ab0e28f3c5666830b5c4c3e0af93cda35b7000189a943d2df",
+      "extracted_segments": 1,
+      "admitted_segments": 1,
+      "all_segments_admitted": true,
+      "statuses": {
+        "admitted_unique": 1
+      },
+      "admitted_binary_labels": [
+        0
+      ],
+      "all_observed_packets_unlabeled": {
+        "packets": 21,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          21,
+          0
+        ],
+        "direction_payload_bytes": [
+          6300,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 6411,
+        "last_frame": 6753
+      },
+      "admitted_packet_profile": {
+        "packets": 21,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          21,
+          0
+        ],
+        "direction_payload_bytes": [
+          6300,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 6411,
+        "last_frame": 6753
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": false
+      }
+    },
+    {
+      "connection_group_id": "7006cc4420ac8e3c774efcaf213b1528fc7cadbcee851a3d2e3bc3df3ec5f961",
+      "extracted_segments": 1,
+      "admitted_segments": 1,
+      "all_segments_admitted": true,
+      "statuses": {
+        "admitted_unique": 1
+      },
+      "admitted_binary_labels": [
+        0
+      ],
+      "all_observed_packets_unlabeled": {
+        "packets": 8,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "192.168.1.1",
+            53
+          ],
+          [
+            "192.168.1.158",
+            4096
+          ]
+        ],
+        "direction_packets": [
+          4,
+          4
+        ],
+        "direction_payload_bytes": [
+          412,
+          156
+        ],
+        "bidirectional": true,
+        "payload_bidirectional": true,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 6740,
+        "last_frame": 6747
+      },
+      "admitted_packet_profile": {
+        "packets": 8,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "192.168.1.1",
+            53
+          ],
+          [
+            "192.168.1.158",
+            4096
+          ]
+        ],
+        "direction_packets": [
+          4,
+          4
+        ],
+        "direction_payload_bytes": [
+          412,
+          156
+        ],
+        "bidirectional": true,
+        "payload_bidirectional": true,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 6740,
+        "last_frame": 6747
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": false
+      }
+    },
+    {
+      "connection_group_id": "0f9b370f7374d867b5333773398321a06134e4c837b07f555c6ec2e52a29560b",
+      "extracted_segments": 1,
+      "admitted_segments": 1,
+      "all_segments_admitted": true,
+      "statuses": {
+        "admitted_unique": 1
+      },
+      "admitted_binary_labels": [
+        0
+      ],
+      "all_observed_packets_unlabeled": {
+        "packets": 4,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "151.80.19.218",
+            123
+          ],
+          [
+            "192.168.1.158",
+            4097
+          ]
+        ],
+        "direction_packets": [
+          2,
+          2
+        ],
+        "direction_payload_bytes": [
+          96,
+          96
+        ],
+        "bidirectional": true,
+        "payload_bidirectional": true,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 6748,
+        "last_frame": 6751
+      },
+      "admitted_packet_profile": {
+        "packets": 4,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "151.80.19.218",
+            123
+          ],
+          [
+            "192.168.1.158",
+            4097
+          ]
+        ],
+        "direction_packets": [
+          2,
+          2
+        ],
+        "direction_payload_bytes": [
+          96,
+          96
+        ],
+        "bidirectional": true,
+        "payload_bidirectional": true,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 6748,
+        "last_frame": 6751
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": false
+      }
+    },
+    {
+      "connection_group_id": "9a31c86386b1c403ce043cd726ff5bae97e385ef0555f11953ba7fbd7870bb47",
+      "extracted_segments": 1,
+      "admitted_segments": 1,
+      "all_segments_admitted": true,
+      "statuses": {
+        "admitted_unique": 1
+      },
+      "admitted_binary_labels": [
+        0
+      ],
+      "all_observed_packets_unlabeled": {
+        "packets": 24,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          24,
+          0
+        ],
+        "direction_payload_bytes": [
+          7200,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 7224,
+        "last_frame": 7579
+      },
+      "admitted_packet_profile": {
+        "packets": 24,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          24,
+          0
+        ],
+        "direction_payload_bytes": [
+          7200,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 7224,
+        "last_frame": 7579
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": false
+      }
+    },
+    {
+      "connection_group_id": "2b042d5662460934b3fc9c46cb01b8a0594a5f77a41933d9764af3498005ced3",
+      "extracted_segments": 1,
+      "admitted_segments": 1,
+      "all_segments_admitted": true,
+      "statuses": {
+        "admitted_unique": 1
+      },
+      "admitted_binary_labels": [
+        0
+      ],
+      "all_observed_packets_unlabeled": {
+        "packets": 11,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          11,
+          0
+        ],
+        "direction_payload_bytes": [
+          3300,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 8057,
+        "last_frame": 8270
+      },
+      "admitted_packet_profile": {
+        "packets": 11,
+        "protocol": "udp",
+        "canonical_endpoints": [
+          [
+            "0.0.0.0",
+            68
+          ],
+          [
+            "255.255.255.255",
+            67
+          ]
+        ],
+        "direction_packets": [
+          11,
+          0
+        ],
+        "direction_payload_bytes": [
+          3300,
+          0
+        ],
+        "bidirectional": false,
+        "payload_bidirectional": false,
+        "tcp_flag_packets": {},
+        "tcp_pure_syn": false,
+        "first_frame": 8057,
+        "last_frame": 8270
+      },
+      "admitted_handshake_and_data": {
+        "observed": false
+      },
+      "observed_handshake_and_data_not_a_label": {
+        "observed": false
+      }
+    }
+  ],
+  "unadmitted_reference_states": {
+    "unsupported": 101,
+    "partial_omission_not_demonstrated": 1
+  },
+  "references_verified_but_not_admitted": 0,
+  "input_hashes": {
+    "extraction.json": "aa12f2d5c3d85b23d621596670af816c1432fc916156142432d29ac51b63f225",
+    "label_audit.json": "f876514f4d0b4e6f6c5d77c3186c3a3b0aed31ddfbcc9d4bf6e34d3cd6cca3b1",
+    "imported_labels.json": "f2ffd5baaf63aa392511feb97054b55cb8eeb51efffdc804640220cdd0a036aa"
+  },
+  "resource_measurement": {
+    "wall_seconds": 0.19161780000013096,
+    "python_peak_working_set_bytes": 60063744
+  },
+  "corpus_rows_added": 0,
+  "definitions": {
+    "groups": "Auditor connection components; segments are not independent connections or attacks",
+    "target_coverage": "All labeled target-class bidirectional TCP references, including failed audit references; verified and represented in completely admitted groups / target references; unknown direction evidence makes the percentage indeterminate",
+    "unadmitted": "Only physical behavior and publisher reference annotation; no binary training label assigned",
+    "payload": "Observed TCP payload byte lengths; encrypted bytes count, application success not inferred"
+  }
+}

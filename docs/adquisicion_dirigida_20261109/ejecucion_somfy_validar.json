@@ -1,0 +1,19 @@
+{
+  "case": "somfy",
+  "action": "validar",
+  "started_at_utc": "2026-11-09T14:34:51.568923+00:00",
+  "configuration_changes": [],
+  "successful": true,
+  "finished_at_utc": "2026-11-09T14:34:51.878835+00:00",
+  "wall_seconds": 0.3099712999999156,
+  "python_cpu_seconds": 0.296875,
+  "memory": {
+    "sampled_python_rss_peak_bytes": 41156608,
+    "sampled_tree_rss_peak_bytes": 41156608,
+    "target_interval_seconds": 0.02,
+    "samples": 7,
+    "exact_peak": false
+  },
+  "raw_storage_bytes": 2118289,
+  "processed_storage_bytes": 0
+}

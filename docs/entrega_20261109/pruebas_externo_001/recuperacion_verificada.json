@@ -1,0 +1,20 @@
+{
+  "copies": [
+    {
+      "operation": "backup",
+      "target": "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\pruebas_externo_001\\recover_backup.sqlite3",
+      "sha256": "6c52519234bea98f55dcfa38e2971415abd62f9da82364c2a2f49191d00aab71",
+      "integrity_check": "ok",
+      "size_bytes": 36864
+    },
+    {
+      "operation": "restore",
+      "target": "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\pruebas_externo_001\\recover_restored.sqlite3",
+      "sha256": "6c52519234bea98f55dcfa38e2971415abd62f9da82364c2a2f49191d00aab71",
+      "integrity_check": "ok",
+      "size_bytes": 36864
+    }
+  ],
+  "same_runs_alerts_and_reviews": true,
+  "existing_destination_refused": true
+}

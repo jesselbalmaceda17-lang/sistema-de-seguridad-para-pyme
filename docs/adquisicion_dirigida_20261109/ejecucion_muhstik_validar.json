@@ -1,0 +1,19 @@
+{
+  "case": "muhstik",
+  "action": "validar",
+  "started_at_utc": "2026-11-09T14:38:14.294013+00:00",
+  "configuration_changes": [],
+  "successful": true,
+  "finished_at_utc": "2026-11-09T14:38:44.178121+00:00",
+  "wall_seconds": 29.884158399999933,
+  "python_cpu_seconds": 29.375,
+  "memory": {
+    "sampled_python_rss_peak_bytes": 1244536832,
+    "sampled_tree_rss_peak_bytes": 1244536832,
+    "target_interval_seconds": 0.02,
+    "samples": 673,
+    "exact_peak": false
+  },
+  "raw_storage_bytes": 82309301,
+  "processed_storage_bytes": 0
+}

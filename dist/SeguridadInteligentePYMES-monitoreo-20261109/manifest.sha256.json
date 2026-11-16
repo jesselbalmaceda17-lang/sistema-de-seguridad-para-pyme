@@ -1,0 +1,184 @@
+{
+  "manifest_version": 1,
+  "generated_at_utc": "2026-11-09T20:04:27.267060+00:00",
+  "hash_algorithm": "SHA-256",
+  "self_excluded": "manifest.sha256.json",
+  "files": [
+    {
+      "path": ".streamlit/config.toml",
+      "size_bytes": 123,
+      "sha256": "d19fbb31776a97190e3b50c5c0f9c21000f799ec126581a75aee987638c0fae8"
+    },
+    {
+      "path": "app.py",
+      "size_bytes": 716,
+      "sha256": "b6eb982e89273a7ed848cf27eddb5b2f3037a26ce548e9974ab69ab03d1949e9"
+    },
+    {
+      "path": "demo/demostracion_sintetica.csv",
+      "size_bytes": 1589,
+      "sha256": "b6bcb0c8920729d582c0698ba90e73444177893b250baaf931183a0c3499fbc3"
+    },
+    {
+      "path": "demo/laboratorio_sintetico.pcap",
+      "size_bytes": 145,
+      "sha256": "775395d2f57d22f14c168211650fb30122511dbd07d87a3b1702a98af7467757"
+    },
+    {
+      "path": "demo/resultados_esperados.json",
+      "size_bytes": 717,
+      "sha256": "cb377f34ced3a6db7030d49e5dcbfacf257cb1a3df1cdb5439f4ae3af7df4068"
+    },
+    {
+      "path": "DEPENDENCIAS_DESCARGADAS.json",
+      "size_bytes": 13111,
+      "sha256": "907f814e726d4ace954dba385fdcecf220854365f3fe0203f1e54a0c0268cdf5"
+    },
+    {
+      "path": "herramientas/sqlite_respaldo.py",
+      "size_bytes": 2089,
+      "sha256": "a0e00912b8ed2e29bfef8dd0d91b31a8626ab1d600cfe5634d0292e33dfdb686"
+    },
+    {
+      "path": "herramientas/verificar_paquete.py",
+      "size_bytes": 1175,
+      "sha256": "7543ec3994e6d9a21a83c1a6b1b0fdc1bde4879652e914fc017fc99ec50e5441"
+    },
+    {
+      "path": "iniciar.ps1",
+      "size_bytes": 1089,
+      "sha256": "102c2932308cc1af2247ad0e9917bb2712b541475ba5c953e78e4c8319393693"
+    },
+    {
+      "path": "models/unsw_nb15_random_forest.joblib",
+      "size_bytes": 38656578,
+      "sha256": "58505ee89df22c4c223b66d5e7172388d5d1fad6b7d135fce800a2765b2029e9"
+    },
+    {
+      "path": "models/unsw_nb15_random_forest.joblib.metadata.json",
+      "size_bytes": 11942,
+      "sha256": "672c4f242003664bb699a56b29cfd71cfa4add3511ba178644d981b3e43b3462"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 10097,
+      "sha256": "330bb868eebcf86440a09bcc125e170edfc413402db824e2c1fec56cd51295de"
+    },
+    {
+      "path": "RECUPERACION.md",
+      "size_bytes": 4071,
+      "sha256": "552ec76b6b1274096569b40728b132f563d138973d39dc68e3e0d2b530dc9ae4"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "size_bytes": 1340,
+      "sha256": "4acb61251446735b721b6c3501308cd166b230de76ac8d984b1ba125f82e765e"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 99,
+      "sha256": "802736171fce738b303a5f3875e715173a0a08b4dbc73178caae5e8607e74e91"
+    },
+    {
+      "path": "seguridad_pymes/__init__.py",
+      "size_bytes": 87,
+      "sha256": "10f047eac019a3275680d3256ca732b9b218e30a65dced22a272b787d9e6eba6"
+    },
+    {
+      "path": "seguridad_pymes/dashboard.py",
+      "size_bytes": 47193,
+      "sha256": "be1567a37dd54f1993659eca74fe3e273efeac54cd3e8498cfa91ff45a801cd7"
+    },
+    {
+      "path": "seguridad_pymes/database.py",
+      "size_bytes": 18523,
+      "sha256": "508ce319ec77dde4569a811ad83df8bd8ca9786ded8886a8c3e72b227e4f8704"
+    },
+    {
+      "path": "seguridad_pymes/inference.py",
+      "size_bytes": 14540,
+      "sha256": "07ef41c35050c3899d65c88d4476bd92184b40fad8a58e815a7ac831f2f8c278"
+    },
+    {
+      "path": "seguridad_pymes/ingestion.py",
+      "size_bytes": 18459,
+      "sha256": "7053debe2a6308d05a8c6d12b12b3cd1b8b446f4ad856035d2783b4e12d06672"
+    },
+    {
+      "path": "seguridad_pymes/monitor_capture.py",
+      "size_bytes": 8226,
+      "sha256": "c00b31d5b7633fa3eba8fba72bcbdaca6161916ee74cfe1419ecae10effeb423"
+    },
+    {
+      "path": "seguridad_pymes/monitor_demo.py",
+      "size_bytes": 3930,
+      "sha256": "8666007e42b7b77526cb2b01742639ac005cdf7aff8e8d50dff2f09a34600e4b"
+    },
+    {
+      "path": "seguridad_pymes/monitor_flows.py",
+      "size_bytes": 4254,
+      "sha256": "e9b8febf7a374ffb4fbe4fd5d00b1224d08435a15f3350d53157d93296e00420"
+    },
+    {
+      "path": "seguridad_pymes/monitor_process.py",
+      "size_bytes": 8477,
+      "sha256": "1433f7f9a5133108f6d21f2bb02e23f02a78ddc4d8bc0f093272bb97ffc56c05"
+    },
+    {
+      "path": "seguridad_pymes/monitor_rules.py",
+      "size_bytes": 4680,
+      "sha256": "9e0867ab6e8cd4e447940872a552fd91800531ea7f1cc62f998b9abd3fd101cd"
+    },
+    {
+      "path": "seguridad_pymes/monitor_store.py",
+      "size_bytes": 6465,
+      "sha256": "ae39faa9ecbc384685b794f06b94665dd91837520100f9d1d216bb7d4473fa4c"
+    },
+    {
+      "path": "seguridad_pymes/monitor_ui.py",
+      "size_bytes": 9561,
+      "sha256": "feb99877af6fe185519c40ab97f83607ccc5ae2ef60fb21af1c0d77b757bca8b"
+    },
+    {
+      "path": "seguridad_pymes/monitoring.py",
+      "size_bytes": 16003,
+      "sha256": "dffcf12440253c506f74aac0c9c860c05e41f0e0dd1c9271a7f083bc6b2d3f43"
+    },
+    {
+      "path": "seguridad_pymes/pcap_extract.py",
+      "size_bytes": 13851,
+      "sha256": "0528ed6c3f53d9f88cfcc44a267a690c2fae839757a141ba5d731390610bdd6f"
+    },
+    {
+      "path": "seguridad_pymes/pcap_reader.py",
+      "size_bytes": 9615,
+      "sha256": "0fd2c23a29580658834ba6dea9fe93c6ba2b42c067fd628fc47e21b195ee3f0f"
+    },
+    {
+      "path": "seguridad_pymes/pcap_schema.py",
+      "size_bytes": 2932,
+      "sha256": "e9add5d1d6862bbb12a3c8cb60908e55e8ce95ccefe47f34e0cbb6c9c52e68fb"
+    },
+    {
+      "path": "seguridad_pymes/resources.py",
+      "size_bytes": 8112,
+      "sha256": "ff7ea8e4eccf0e84731047b5b979cce7299dc57be9ccecfa515303a3cdb71a5d"
+    },
+    {
+      "path": "seguridad_pymes/training.py",
+      "size_bytes": 19511,
+      "sha256": "b7196b8860be5bcba0e6b4b606e582aadb18ed2ea43dac058af4570f7561bca4"
+    },
+    {
+      "path": "VERIFICACION.md",
+      "size_bytes": 4808,
+      "sha256": "30abeafea9e81c131a9c744f0f3db745b5fe079fc10e00fff94bdde0bcdec8fe"
+    },
+    {
+      "path": "VERSIONES.json",
+      "size_bytes": 533,
+      "sha256": "9cfa5c407822edb4e3aa42b11693d4dd71c4c31022a1d3241e11ea1cbefcfba8"
+    }
+  ],
+  "trust_notice": "Load only trusted serialized models; hashes establish integrity, not publisher identity."
+}

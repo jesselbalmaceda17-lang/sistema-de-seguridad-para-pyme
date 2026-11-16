@@ -1,0 +1,15 @@
+{
+  "started_at_utc": "2026-11-08T17:15:02.191744+00:00",
+  "finished_at_utc": "2026-11-08T17:15:25.446638+00:00",
+  "tests_run": 163,
+  "passed": 163,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "expected_failures": 0,
+  "unexpected_successes": 0,
+  "successful": true,
+  "failure_details": [],
+  "error_details": [],
+  "skipped_details": []
+}

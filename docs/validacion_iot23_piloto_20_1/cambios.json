@@ -1,0 +1,84 @@
+{
+  "baseline_files_unchanged": 69,
+  "modified_existing_files": [],
+  "deleted_existing_files": [],
+  "added_files_excluding_backup_and_this_manifest": [
+    {
+      "path": "data/processed/iot23_pilot_20_1/audit_exact/imported_labels.json",
+      "size_bytes": 4601646,
+      "sha256": "ce3090ad777a2e9af2ef40b2ecb0807302027c084b631c0c36633f86f322f46a"
+    },
+    {
+      "path": "data/processed/iot23_pilot_20_1/audit_exact/label_audit.json",
+      "size_bytes": 4342671,
+      "sha256": "4864baadcfd1240d916c8ae17bf80bb8d72425eb1515fe112c95d1783b0474cc"
+    },
+    {
+      "path": "data/processed/iot23_pilot_20_1/extraction.json",
+      "size_bytes": 22680150,
+      "sha256": "12113adbf60e0c5f3adcd493b2ab15c8e1b65cd7cf4108459f9ab04a6dbcf77b"
+    },
+    {
+      "path": "data/raw/iot23_pilot_20_1/2018-10-02-13-12-30-192.168.100.103.pcap",
+      "size_bytes": 4057401,
+      "sha256": "4d0a00c33a4bf11228158baddd47c38f702731ea8d75ef1201061fc8bbd878b9"
+    },
+    {
+      "path": "data/raw/iot23_pilot_20_1/conn.log.labeled",
+      "size_bytes": 419604,
+      "sha256": "ef48ad72f65efd13d517223e61e4d877ba53a082ddb8159324b18d3f310d0711"
+    },
+    {
+      "path": "data/raw/iot23_pilot_20_1/provenance.json",
+      "size_bytes": 4020,
+      "sha256": "6cfc865e0542733cc9cc0f54090184e231b7a78ce935e776f04a346c9f3f92e0"
+    },
+    {
+      "path": "docs/piloto_correspondencia_iot23_20_1.md",
+      "size_bytes": 18526,
+      "sha256": "1f6a008127e11c93b990566effab05b61bd688c57233d4c84962290549dff164"
+    },
+    {
+      "path": "docs/validacion_iot23_piloto_20_1/evidencia_correspondencias.json",
+      "size_bytes": 46106,
+      "sha256": "e2051d34dc4f2c9938d95a160d7136ab879aa26cc3ede56c9f61590f48bac63e"
+    },
+    {
+      "path": "docs/validacion_iot23_piloto_20_1/integridad.json",
+      "size_bytes": 14442,
+      "sha256": "787ee2f5dc6c75da88c67d89327f8403f67c360dd9ca87e141ef10c585d75b0b"
+    },
+    {
+      "path": "docs/validacion_iot23_piloto_20_1/pruebas_completas.log",
+      "size_bytes": 21929,
+      "sha256": "3a38125ea9e245107de65919b25e91c2b28586c69ef24d2ae14e81dc8764a31e"
+    },
+    {
+      "path": "docs/validacion_iot23_piloto_20_1/resultado_pruebas.json",
+      "size_bytes": 484,
+      "sha256": "6484e220460782fa5e3f50a8c167f4f6a729bea5fe1bd2fca745b538ad567841"
+    },
+    {
+      "path": "seguridad_pymes/iot23_sources.py",
+      "size_bytes": 5591,
+      "sha256": "3bfd55dcfb5831526e291a04e415a2279e33f743401781f3652af524c012c829"
+    },
+    {
+      "path": "seguridad_pymes/label_audit.py",
+      "size_bytes": 15534,
+      "sha256": "d259b5195e194cf759a94b72f4b6d7504b468a4a3328e2ca7c8d9ab369c1ddde"
+    },
+    {
+      "path": "seguridad_pymes/zeek_labels.py",
+      "size_bytes": 8729,
+      "sha256": "dbd3c141f1756e6e0819bb9f55c6f0c1ec04970e56558fa3ea88145e6a1e8de6"
+    },
+    {
+      "path": "tests/test_label_audit.py",
+      "size_bytes": 19627,
+      "sha256": "d5b9ecd8a23e0ec96d3c38968e059407e47b102809b2d13c0d15edd825e0cf4f"
+    }
+  ],
+  "backup_record": "integridad.json contains all three archive sizes, hashes and CRC results",
+  "note": "The inventory intentionally excludes its own bytes/hash and preexisting excluded virtual environment/cache directories."
+}

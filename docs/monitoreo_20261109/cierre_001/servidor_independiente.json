@@ -1,0 +1,93 @@
+{
+  "area": "C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-Le0Mxc\\Validacion monitoreo independiente seuqglmk",
+  "package": "C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-Le0Mxc\\Validacion monitoreo independiente seuqglmk\\SeguridadInteligentePYMES-monitoreo-20261109",
+  "python": "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Scripts\\python.exe",
+  "dependencies": "Reused previously verified isolated venv; lock rechecked by acceptance tests.",
+  "pid": 15216,
+  "created": 1794254343.1525097,
+  "command": [
+    "powershell.exe",
+    "-NoProfile",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-Le0Mxc\\Validacion monitoreo independiente seuqglmk\\SeguridadInteligentePYMES-monitoreo-20261109\\iniciar.ps1",
+    "-PythonPath",
+    "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Scripts\\python.exe",
+    "-Port",
+    "8531"
+  ],
+  "port": 8531,
+  "started_utc": "2026-11-09T19:59:05.435020+00:00",
+  "health_seconds": 2.284563300000059,
+  "tree": [
+    {
+      "pid": 15216,
+      "created": 1794254343.1525097,
+      "name": "powershell.exe",
+      "command": [
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-Le0Mxc\\Validacion monitoreo independiente seuqglmk\\SeguridadInteligentePYMES-monitoreo-20261109\\iniciar.ps1",
+        "-PythonPath",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Scripts\\python.exe",
+        "-Port",
+        "8531"
+      ]
+    },
+    {
+      "pid": 18892,
+      "created": 1794254343.1733136,
+      "name": "conhost.exe",
+      "command": [
+        "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+        "0x4"
+      ]
+    },
+    {
+      "pid": 21312,
+      "created": 1794254343.6775148,
+      "name": "python.exe",
+      "command": [
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Scripts\\python.exe",
+        "-B",
+        "-m",
+        "streamlit",
+        "run",
+        "app.py",
+        "--server.address",
+        "127.0.0.1",
+        "--server.port",
+        "8531",
+        "--server.headless",
+        "true",
+        "--browser.gatherUsageStats",
+        "false"
+      ]
+    },
+    {
+      "pid": 7244,
+      "created": 1794254343.695572,
+      "name": "python.exe",
+      "command": [
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Scripts\\python.exe",
+        "-B",
+        "-m",
+        "streamlit",
+        "run",
+        "app.py",
+        "--server.address",
+        "127.0.0.1",
+        "--server.port",
+        "8531",
+        "--server.headless",
+        "true",
+        "--browser.gatherUsageStats",
+        "false"
+      ]
+    }
+  ]
+}

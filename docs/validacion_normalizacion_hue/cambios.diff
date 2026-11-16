@@ -1,0 +1,95 @@
+--- before/seguridad_pymes/zeek_labels.py
++++ after/seguridad_pymes/zeek_labels.py
+@@ -8,9 +8,13 @@
+ import re
+ 
+ 
+-IMPORT_VERSION = "sipymes.zeek-labels.v1"
++IMPORT_VERSION = "sipymes.zeek-labels.v1.1"
+ REQUIRED_FIELDS = {"ts", "uid", "id.orig_h", "id.orig_p", "id.resp_h", "id.resp_p", "proto", "label"}
+ LABELS = {"Benign": 0, "Malicious": 1}
++# Exact literals verified in the retained IoT-23 20-1, 8-1 and Hue 4-1 logs.
++# Do not casefold, strip, infer from the capture, or accept undocumented aliases.
++LABEL_NORMALIZATION_VERSION = "sipymes.iot23.label-aliases.v1"
++LABEL_ALIASES = {"Benign": "Benign", "Malicious": "Malicious", "benign": "Benign"}
+ COUNT_FIELDS = ("orig_pkts", "resp_pkts", "orig_ip_bytes", "resp_ip_bytes")
+ 
+ 
+@@ -72,7 +76,8 @@
+     }
+     for name in COUNT_FIELDS:
+         record[name] = value(name, count)
+-    record["binary_label"] = LABELS.get(record["label_original"])
++    record["label_normalized"] = LABEL_ALIASES.get(record["label_original"])
++    record["binary_label"] = LABELS.get(record["label_normalized"])
+     record["contradictions"] = []
+     if record["binary_label"] is None:
+         problems["label"] = problems.get("label", "unrecognized_label")
+@@ -165,13 +170,18 @@
+         if len(labels) > 1:
+             for record in group:
+                 record["contradictions"].append("conflicting_labels_for_same_tuple_and_interval")
+-    return {"import_version": IMPORT_VERSION, "source": {"path": str(path),
++    return {"import_version": IMPORT_VERSION,
++            "label_normalization_policy": {"version": LABEL_NORMALIZATION_VERSION,
++                "exact_aliases": dict(LABEL_ALIASES),
++                "unknown": "unlisted literals remain null; originals and contradiction checks preserved"},
++            "source": {"path": str(path),
+             "sha256": source_hash, "size_bytes": len(content)},
+             "header": {"fields": fields, "types": types, "separator": separator,
+                        "unset_field": unset, "empty_field": empty, "iot23_mixed_tail": mixed_tail},
+             "quality": {"records_imported": len(records), "rows_rejected": len(rejected),
+                         "close_marker_present": close_marker,
+                         "label_distribution": dict(Counter(r["label_original"] or "unknown" for r in records)),
++                        "normalized_label_distribution": dict(Counter(r["label_normalized"] or "unknown" for r in records)),
+                         "records_with_field_problems": sum(bool(r["field_problems"]) for r in records),
+                         "records_with_contradictions": sum(bool(r["contradictions"]) for r in records)},
+             "duplicate_uids": duplicates, "rejected_rows": rejected, "records": records}
+--- before/tests/test_iot23_acquisition_compatibility.py
++++ after/tests/test_iot23_acquisition_compatibility.py
+@@ -100,7 +100,11 @@
+         self.assertEqual(len(extraction["flows"]), expected_flows)
+         imported = import_zeek_labels(raw / "conn.log.labeled")
+         report = audit_packet_correspondences(extraction, imported, read_packet_evidence(capture))
+-        saved = json.loads((processed / "audit_v2/label_audit.json").read_text(encoding="utf-8"))
++        # The original Hue report remains immutable as pre-normalization evidence.
++        # Compare current behavior with the separately stored normalized audit.
++        audit_path = (ROOT / "docs/validacion_normalizacion_hue/audit_v2_hue/label_audit.json"
++                      if key == "hue" else processed / "audit_v2/label_audit.json")
++        saved = json.loads(audit_path.read_text(encoding="utf-8"))
+         for name in ("summary", "flow_correspondences", "reference_correspondences", "packet_ledger"):
+             self.assertEqual(report[name], saved[name], name)
+         owned = [n for flow in extraction["flows"] for n in flow["packet_frames"]]
+@@ -131,19 +135,25 @@
+         self.assertEqual(len(used), len(set(used)))
+         self.assertEqual(len(used), len(references))
+ 
+-    def test_hue_unknown_lowercase_labels_remain_unlabeled_and_partials_quarantined(self):
++    def test_hue_documented_alias_recovers_only_verified_flows_and_keeps_partials_quarantined(self):
+         extraction, imported, report = self._repeat("hue", 21664, 2200,
+             "3fb775c0391b6ad313a3f7845e634a277b07c3f6377346c2486ba63e1c22e90c",
+             "aebe40ea0e03b120265a5c7bc140dd9b0d3fe2fce65559e84776b7dd5360e71e")
+         self.assertEqual(len(imported["records"]), 452)
+-        self.assertTrue(all(r["label_original"] == "benign" and r["binary_label"] is None
+-                            and r["field_problems"]["label"] == "unrecognized_label" for r in imported["records"]))
+-        self.assertEqual(report["summary"]["admitted_flows"], 0)
+-        self.assertEqual(report["summary"]["pending_quarantined_flows"], 2200)
+-        self.assertEqual(report["summary"]["flow_status_counts"], {"incomplete_reference": 2193, "quarantined_partial_checksum": 7})
++        self.assertTrue(all(r["label_original"] == "benign" and r["label_normalized"] == "Benign"
++                            and r["binary_label"] == 0 and "label" not in r["field_problems"] for r in imported["records"]))
++        self.assertEqual(report["summary"]["admitted_flows"], 2107)
++        self.assertEqual(report["summary"]["labeled_packets"], 15942)
++        self.assertEqual(report["summary"]["matched_reference_connections"], 359)
++        self.assertEqual(report["summary"]["pending_quarantined_flows"], 93)
++        self.assertEqual(report["summary"]["flow_status_counts"], {
++            "admitted_sibling_segment": 1762, "admitted_unique": 298, "admitted_tcp_closure": 47,
++            "segmentation_mismatch": 86, "quarantined_partial_checksum": 7})
+         partials = [p for p in report["packet_ledger"] if p.get("transport_checksum_status") == "partial_pseudoheader"]
+         self.assertEqual([p["frame"] for p in partials], [7755, 14676, 15673, 19636, 19642, 19690, 20640, 20954, 20955])
+-        self.assertTrue(all(not p["flow_label_admitted"] for p in report["packet_ledger"]))
++        self.assertTrue(all(not p["flow_label_admitted"] for p in partials))
++        self.assertTrue(all(f["binary_label"] is None for f in report["flow_correspondences"]
++                            if not f["status"].startswith("admitted_")))
+ 
+     def test_actual_hue_xz_matches_preserved_pcap_with_only_metadata_snaplen_discrepancy(self):
+         scenario, raw, _ = self._paths("hue")

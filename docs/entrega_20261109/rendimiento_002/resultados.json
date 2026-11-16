@@ -1,0 +1,294 @@
+{
+  "limits": {
+    "max_seconds_per_worker": 120,
+    "max_peak_rss_bytes": 1610612736,
+    "min_available_memory_bytes_before_case": 4294967296,
+    "batches": [
+      8,
+      100,
+      1000,
+      10000,
+      50000
+    ]
+  },
+  "cases": [
+    {
+      "records": 8,
+      "status": "PASSED",
+      "returncode": 0,
+      "parent_observed_peak_rss_bytes": 280141824,
+      "subprocess_total_seconds": 5.217772699999841,
+      "command": [
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\rendimiento.py",
+        "--worker",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\dist\\SeguridadInteligentePYMES-entrega-20261109",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\rendimiento_002\\synthetic_8.csv",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\rendimiento_002\\history_8.sqlite3",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\rendimiento_002\\result_8.json"
+      ],
+      "metrics": {
+        "records": 8,
+        "input_bytes": 1541,
+        "predicted_suspicious": 4,
+        "imports_and_start_seconds": 4.044721100000061,
+        "file_read_seconds": 0.0013614999998026178,
+        "csv_parse_seconds": 0.04962119999981951,
+        "csv_prepare_seconds": 0.004515700000411016,
+        "analysis_total_seconds": 0.46467980000034004,
+        "model_load_seconds": 0.14522669999951177,
+        "sqlite_initialize_seconds": 0.04835490000004938,
+        "sqlite_create_run_seconds": 0.009335099999589147,
+        "sqlite_complete_and_alerts_seconds": 0.008754399999816087,
+        "classification_including_scores_seconds": 0.08462789999975939,
+        "inference_resources": {
+          "sample_size": 8,
+          "elapsed_seconds": 0.08462789999975939,
+          "elapsed_ms_per_record": 10.578487499969924,
+          "baseline_rss_mib": 237.75,
+          "peak_rss_mib": 239.10546875,
+          "peak_rss_delta_mib": 1.35546875
+        },
+        "sqlite_query_seconds": 0.003989699999692675,
+        "report_build_and_serialization_seconds": 0.011444000000665255,
+        "sqlite_bytes": 36864,
+        "csv_export_bytes": 1166,
+        "json_export_bytes": 5617,
+        "json_alerts_returned": 4,
+        "json_alerts_truncated": false,
+        "classes_and_scores_match_oracle": true,
+        "sqlite_integrity": "ok",
+        "module_paths": [
+          "seguridad_pymes\\dashboard.py",
+          "seguridad_pymes\\inference.py"
+        ],
+        "worker_wall_seconds": 4.582677400000648
+      }
+    },
+    {
+      "records": 100,
+      "status": "PASSED",
+      "returncode": 0,
+      "parent_observed_peak_rss_bytes": 271970304,
+      "subprocess_total_seconds": 5.155524100000548,
+      "command": [
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\rendimiento.py",
+        "--worker",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\dist\\SeguridadInteligentePYMES-entrega-20261109",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\rendimiento_002\\synthetic_100.csv",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\rendimiento_002\\history_100.sqlite3",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\rendimiento_002\\result_100.json"
+      ],
+      "metrics": {
+        "records": 100,
+        "input_bytes": 14961,
+        "predicted_suspicious": 48,
+        "imports_and_start_seconds": 4.052430000000641,
+        "file_read_seconds": 0.02887250000003405,
+        "csv_parse_seconds": 0.050674599999183556,
+        "csv_prepare_seconds": 0.005396999999902619,
+        "analysis_total_seconds": 0.4076052999998865,
+        "model_load_seconds": 0.09909580000021379,
+        "sqlite_initialize_seconds": 0.04292209999948682,
+        "sqlite_create_run_seconds": 0.008733699999538658,
+        "sqlite_complete_and_alerts_seconds": 0.010237200000119628,
+        "classification_including_scores_seconds": 0.08516010000039387,
+        "inference_resources": {
+          "sample_size": 100,
+          "elapsed_seconds": 0.08516010000039387,
+          "elapsed_ms_per_record": 0.8516010000039387,
+          "baseline_rss_mib": 237.8203125,
+          "peak_rss_mib": 239.19140625,
+          "peak_rss_delta_mib": 1.37109375
+        },
+        "sqlite_query_seconds": 0.004282900000362133,
+        "report_build_and_serialization_seconds": 0.012716899999759335,
+        "sqlite_bytes": 45056,
+        "csv_export_bytes": 13198,
+        "json_export_bytes": 59224,
+        "json_alerts_returned": 48,
+        "json_alerts_truncated": false,
+        "classes_and_scores_match_oracle": true,
+        "sqlite_integrity": "ok",
+        "module_paths": [
+          "seguridad_pymes\\dashboard.py",
+          "seguridad_pymes\\inference.py"
+        ],
+        "worker_wall_seconds": 4.564361900000222
+      }
+    },
+    {
+      "records": 1000,
+      "status": "PASSED",
+      "returncode": 0,
+      "parent_observed_peak_rss_bytes": 258256896,
+      "subprocess_total_seconds": 5.286115900000368,
+      "command": [
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\rendimiento.py",
+        "--worker",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\dist\\SeguridadInteligentePYMES-entrega-20261109",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\rendimiento_002\\synthetic_1000.csv",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\rendimiento_002\\history_1000.sqlite3",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\rendimiento_002\\result_1000.json"
+      ],
+      "metrics": {
+        "records": 1000,
+        "input_bytes": 149258,
+        "predicted_suspicious": 500,
+        "imports_and_start_seconds": 4.034222799999952,
+        "file_read_seconds": 0.03596449999986362,
+        "csv_parse_seconds": 0.06159670000033657,
+        "csv_prepare_seconds": 0.0038885000003574532,
+        "analysis_total_seconds": 0.44292570000015985,
+        "model_load_seconds": 0.08648429999993823,
+        "sqlite_initialize_seconds": 0.05325300000004063,
+        "sqlite_create_run_seconds": 0.00906680000025517,
+        "sqlite_complete_and_alerts_seconds": 0.020671199999924283,
+        "classification_including_scores_seconds": 0.10749769999983982,
+        "inference_resources": {
+          "sample_size": 1000,
+          "elapsed_seconds": 0.10749769999983982,
+          "elapsed_ms_per_record": 0.10749769999983982,
+          "baseline_rss_mib": 238.43359375,
+          "peak_rss_mib": 242.1796875,
+          "peak_rss_delta_mib": 3.74609375
+        },
+        "sqlite_query_seconds": 0.007462499999746797,
+        "report_build_and_serialization_seconds": 0.04306149999956688,
+        "sqlite_bytes": 143360,
+        "csv_export_bytes": 132911,
+        "json_export_bytes": 599032,
+        "json_alerts_returned": 500,
+        "json_alerts_truncated": false,
+        "classes_and_scores_match_oracle": true,
+        "sqlite_integrity": "ok",
+        "module_paths": [
+          "seguridad_pymes\\dashboard.py",
+          "seguridad_pymes\\inference.py"
+        ],
+        "worker_wall_seconds": 4.632912600000054
+      }
+    },
+    {
+      "records": 10000,
+      "status": "PASSED",
+      "returncode": 0,
+      "parent_observed_peak_rss_bytes": 280023040,
+      "subprocess_total_seconds": 7.071921499999917,
+      "command": [
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\rendimiento.py",
+        "--worker",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\dist\\SeguridadInteligentePYMES-entrega-20261109",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\rendimiento_002\\synthetic_10000.csv",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\rendimiento_002\\history_10000.sqlite3",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\rendimiento_002\\result_10000.json"
+      ],
+      "metrics": {
+        "records": 10000,
+        "input_bytes": 1499259,
+        "predicted_suspicious": 5000,
+        "imports_and_start_seconds": 4.423623100000441,
+        "file_read_seconds": 0.03109310000036203,
+        "csv_parse_seconds": 0.13679179999962798,
+        "csv_prepare_seconds": 0.00516440000046714,
+        "analysis_total_seconds": 1.1336842000000615,
+        "model_load_seconds": 0.09192450000045937,
+        "sqlite_initialize_seconds": 0.04921889999968698,
+        "sqlite_create_run_seconds": 0.010224999999991269,
+        "sqlite_complete_and_alerts_seconds": 0.10936000000037893,
+        "classification_including_scores_seconds": 0.3832650000003923,
+        "inference_resources": {
+          "sample_size": 10000,
+          "elapsed_seconds": 0.3832650000003923,
+          "elapsed_ms_per_record": 0.03832650000003923,
+          "baseline_rss_mib": 248.265625,
+          "peak_rss_mib": 267.3515625,
+          "peak_rss_delta_mib": 19.0859375
+        },
+        "sqlite_query_seconds": 0.0870838000000731,
+        "report_build_and_serialization_seconds": 0.3893260000004375,
+        "sqlite_bytes": 1114112,
+        "csv_export_bytes": 1347787,
+        "json_export_bytes": 6016915,
+        "json_alerts_returned": 5000,
+        "json_alerts_truncated": false,
+        "classes_and_scores_match_oracle": true,
+        "sqlite_integrity": "ok",
+        "module_paths": [
+          "seguridad_pymes\\dashboard.py",
+          "seguridad_pymes\\inference.py"
+        ],
+        "worker_wall_seconds": 6.238418200000524
+      }
+    },
+    {
+      "records": 50000,
+      "status": "PASSED",
+      "returncode": 0,
+      "parent_observed_peak_rss_bytes": 398712832,
+      "subprocess_total_seconds": 11.905057200000556,
+      "command": [
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\rendimiento.py",
+        "--worker",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\dist\\SeguridadInteligentePYMES-entrega-20261109",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\rendimiento_002\\synthetic_50000.csv",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\rendimiento_002\\history_50000.sqlite3",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\rendimiento_002\\result_50000.json"
+      ],
+      "metrics": {
+        "records": 50000,
+        "input_bytes": 7539259,
+        "predicted_suspicious": 25000,
+        "imports_and_start_seconds": 4.557359899999938,
+        "file_read_seconds": 0.037621800000124495,
+        "csv_parse_seconds": 0.5527900000006412,
+        "csv_prepare_seconds": 0.013715500000216707,
+        "analysis_total_seconds": 3.878514200000609,
+        "model_load_seconds": 0.09133789999941655,
+        "sqlite_initialize_seconds": 0.0467478000000483,
+        "sqlite_create_run_seconds": 0.008801099999800499,
+        "sqlite_complete_and_alerts_seconds": 0.508867000000464,
+        "classification_including_scores_seconds": 1.8807282000007035,
+        "inference_resources": {
+          "sample_size": 50000,
+          "elapsed_seconds": 1.8807282000007035,
+          "elapsed_ms_per_record": 0.03761456400001407,
+          "baseline_rss_mib": 296.4140625,
+          "peak_rss_mib": 379.83984375,
+          "peak_rss_delta_mib": 83.42578125
+        },
+        "sqlite_query_seconds": 0.24204700000063895,
+        "report_build_and_serialization_seconds": 1.707777999999962,
+        "sqlite_bytes": 5455872,
+        "csv_export_bytes": 6782787,
+        "json_export_bytes": 21573579,
+        "json_alerts_returned": 10000,
+        "json_alerts_truncated": true,
+        "classes_and_scores_match_oracle": true,
+        "sqlite_integrity": "ok",
+        "module_paths": [
+          "seguridad_pymes\\dashboard.py",
+          "seguridad_pymes\\inference.py"
+        ],
+        "worker_wall_seconds": 11.171967199999926
+      }
+    }
+  ],
+  "all_passed": true,
+  "memory_method": "Sum of RSS over owned launcher and recursive descendants, sampled every 50 ms; conservative process-tree total, not unique physical memory.",
+  "scope": "Synthetic local software load; 10000-row reference batch, 50000-row exploratory batch. Not real traffic, accuracy, concurrency or 100-MiB certification."
+}

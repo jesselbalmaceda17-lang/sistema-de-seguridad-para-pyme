@@ -1,0 +1,30 @@
+﻿ID,Capa,Caso,Resultado,Segundos,Evidencia
+F01,AppTest/API/CLI,Streamlit_CSV_original_model_alerts_SQLite_display_exports,APROBADO,1.527427400000306,integral_run_001/resultados.json
+F02,AppTest/API/CLI,Streamlit_reject_vacio.csv,APROBADO,0.22633570000016334,integral_run_001/resultados.json
+F03,AppTest/API/CLI,Streamlit_reject_solo_encabezado.csv,APROBADO,0.23160229999939475,integral_run_001/resultados.json
+F04,AppTest/API/CLI,Streamlit_reject_columna_faltante.csv,APROBADO,0.29733179999948334,integral_run_001/resultados.json
+F05,AppTest/API/CLI,Streamlit_reject_numero_invalido.csv,APROBADO,0.5576381000000765,integral_run_001/resultados.json
+F06,AppTest/API/CLI,Streamlit_reject_no_finito.csv,APROBADO,0.4813326000003144,integral_run_001/resultados.json
+F07,AppTest/API/CLI,Streamlit_reject_faltante.csv,APROBADO,0.25557300000036776,integral_run_001/resultados.json
+F08,AppTest/API/CLI,Streamlit_reject_id_duplicado.csv,APROBADO,0.259817799999837,integral_run_001/resultados.json
+F09,AppTest/API/CLI,Streamlit_reject_codificacion_invalida.csv,APROBADO,0.2048893000001044,integral_run_001/resultados.json
+F10,AppTest/API/CLI,Streamlit_reject_campo_extra.csv,APROBADO,0.22700590000022203,integral_run_001/resultados.json
+F11,AppTest/API/CLI,Replay_SQL_parameterization_manual_review_independent_connection,APROBADO,0.5429644000005283,integral_run_001/resultados.json
+F12,AppTest/API/CLI,Existing_CSV_threshold_selector_policy_unchanged,APROBADO,0.325072700000419,integral_run_001/resultados.json
+F13,AppTest/API/CLI,Missing_model_actionable_UI_error,APROBADO,0.22317999999995664,integral_run_001/resultados.json
+F14,AppTest/API/CLI,Model_path_is_a_directory_UI_error,APROBADO,0.22015149999970163,integral_run_001/resultados.json
+F15,AppTest/API/CLI,PCAP_experiment_model_cannot_enter_CSV_detection,APROBADO,0.2359333999993396,integral_run_001/resultados.json
+F16,AppTest/API/CLI,Corrupt_SQLite_safe_UI_error,APROBADO,0.21769970000059402,integral_run_001/resultados.json
+F17,AppTest/API/CLI,Invalid_database_parent_safe_UI_error,APROBADO,0.23832300000049145,integral_run_001/resultados.json
+F18,AppTest/API/CLI,Upload_above_actual_100_MiB_guard,APROBADO,0.02746209999986604,integral_run_001/resultados.json
+F19,AppTest/API/CLI,Offline_PCAP_PCAPNG_CLI_replay_and_invalid_paths_dependency,APROBADO,3.367366200000106,integral_run_001/resultados.json
+F20,AppTest/API/CLI,Controlled_10000_row_load_and_complete_alert_persistence,APROBADO,1.0809702999995352,integral_run_001/resultados.json
+B01,Navegador real,HTTP inicio Windows 11,APROBADO,,browser_verificacion_final.json; browser_descargas_verificadas.json; browser_errores_csv.txt
+B02,Navegador real,Carga CSV e inferencia original sin mocks,APROBADO,,browser_verificacion_final.json; browser_descargas_verificadas.json; browser_errores_csv.txt
+B03,Navegador real,Métricas y alertas iguales al oráculo,APROBADO,,browser_verificacion_final.json; browser_descargas_verificadas.json; browser_errores_csv.txt
+B04,Navegador real,Revisión manual y reinicio del servidor,APROBADO,,browser_verificacion_final.json; browser_descargas_verificadas.json; browser_errores_csv.txt
+B05,Navegador real,Descargas CSV/JSON servidas por HTTP,APROBADO,,browser_verificacion_final.json; browser_descargas_verificadas.json; browser_errores_csv.txt
+B06,Navegador real,CSV vacío rechazado en navegador,APROBADO,,browser_verificacion_final.json; browser_descargas_verificadas.json; browser_errores_csv.txt
+B07,Navegador real,Columnas faltantes rechazadas en navegador,APROBADO,,browser_verificacion_final.json; browser_descargas_verificadas.json; browser_errores_csv.txt
+B08,Navegador real,Valores inválidos rechazados en navegador,APROBADO,,browser_verificacion_final.json; browser_descargas_verificadas.json; browser_errores_csv.txt
+B09,Navegador real,Límite visible 100 MB,APROBADO,,browser_verificacion_final.json; browser_descargas_verificadas.json; browser_errores_csv.txt

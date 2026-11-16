@@ -1,0 +1,3 @@
+﻿run_id,started_at,finished_at,source,model_reference,model_id,decision_rule,decision_threshold,model_sha256,status,records_processed,alerts_created,error_message
+e9fc78fc-18fa-4f17-a2ba-5408265b1c06,2026-11-09T15:20:17+00:00,2026-11-09T15:20:17+00:00,valido.csv,models\unsw_nb15_random_forest.joblib,production_random_forest,predict,,58505ee89df22c4c223b66d5e7172388d5d1fad6b7d135fce800a2765b2029e9,completed,8,4,
+d583758e-4818-4fcb-8403-4307194bd71e,2026-11-09T15:08:36+00:00,2026-11-09T15:08:36+00:00,valido.csv,models\unsw_nb15_random_forest.joblib,production_random_forest,predict,,58505ee89df22c4c223b66d5e7172388d5d1fad6b7d135fce800a2765b2029e9,completed,8,4,

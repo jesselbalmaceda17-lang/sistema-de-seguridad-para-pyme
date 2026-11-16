@@ -1,0 +1,13 @@
+{
+  "package": "dist/SeguridadInteligentePYMES-entrega-20261109",
+  "archive": "dist/SeguridadInteligentePYMES-entrega-20261109.zip",
+  "archive_bytes": 8014733,
+  "archive_sha256": "f8a481e29675f9960c707b489e65436f187327a543d212dcc5d8b2962bcc3756",
+  "manifest_sha256": "b6149f8172b870b071af1a3908a3c4cdb6e04528b361cdc013d6998f3da19a44",
+  "file_count_including_manifest": 24,
+  "external_copy": "C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-bFK4Zt\\SIPYMES entrega aislada\\SeguridadInteligentePYMES-entrega-20261109",
+  "external_to_development_folder": true,
+  "zip_crc_valid": true,
+  "all_extracted_hashes_verified": true,
+  "uncompressed_bytes": 38835165
+}

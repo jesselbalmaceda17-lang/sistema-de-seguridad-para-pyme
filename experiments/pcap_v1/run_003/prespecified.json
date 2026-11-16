@@ -1,0 +1,93 @@
+{
+  "dummy": "weighted training class prior; no dependence on evaluation labels",
+  "feature_count": 38,
+  "feature_names": [
+    "observed_duration_seconds",
+    "transport_protocol",
+    "forward_packet_count",
+    "forward_ipv4_byte_count",
+    "forward_ipv4_size_min_bytes",
+    "forward_iat_min_seconds",
+    "forward_ipv4_size_max_bytes",
+    "forward_iat_max_seconds",
+    "forward_ipv4_size_mean_bytes",
+    "forward_iat_mean_seconds",
+    "forward_ipv4_size_population_std_bytes",
+    "forward_iat_population_std_seconds",
+    "forward_tcp_fin_count",
+    "forward_tcp_syn_count",
+    "forward_tcp_rst_count",
+    "forward_tcp_psh_count",
+    "forward_tcp_ack_count",
+    "forward_tcp_urg_count",
+    "forward_tcp_ece_count",
+    "forward_tcp_cwr_count",
+    "reverse_packet_count",
+    "reverse_ipv4_byte_count",
+    "reverse_ipv4_size_min_bytes",
+    "reverse_iat_min_seconds",
+    "reverse_ipv4_size_max_bytes",
+    "reverse_iat_max_seconds",
+    "reverse_ipv4_size_mean_bytes",
+    "reverse_iat_mean_seconds",
+    "reverse_ipv4_size_population_std_bytes",
+    "reverse_iat_population_std_seconds",
+    "reverse_tcp_fin_count",
+    "reverse_tcp_syn_count",
+    "reverse_tcp_rst_count",
+    "reverse_tcp_psh_count",
+    "reverse_tcp_ack_count",
+    "reverse_tcp_urg_count",
+    "reverse_tcp_ece_count",
+    "reverse_tcp_cwr_count"
+  ],
+  "group_prediction": "arithmetic mean of all admitted segment probabilities in group, threshold >= 0.5",
+  "positive_if": "probability >= 0.5",
+  "pr_auc": "average precision (stepwise PR integral), only when both true classes exist",
+  "protocol_encoding": {
+    "tcp": 1,
+    "udp": 0
+  },
+  "protocol_encoding_version": "sipymes.protocol.tcp1-udp0.v1",
+  "protocol_rule": "Malicious iff transport_protocol == tcp",
+  "random_forest": {
+    "bootstrap": true,
+    "class_weight": null,
+    "max_depth": 8,
+    "max_features": "sqrt",
+    "min_samples_leaf": 5,
+    "n_estimators": 100,
+    "n_jobs": 1,
+    "random_state": 20261108
+  },
+  "scope": "exploratory leave-one-capture-out; no hyperparameter selection, calibration, definitive test or deployment claim",
+  "single_class_policy": "recall/F1 Malicious null if no true Malicious; precision null if no predicted Malicious; balanced accuracy/AP null unless both true classes exist",
+  "splits": [
+    {
+      "test": "torii",
+      "train": [
+        "hakai",
+        "hue"
+      ]
+    },
+    {
+      "test": "hakai",
+      "train": [
+        "torii",
+        "hue"
+      ]
+    },
+    {
+      "test": "hue",
+      "train": [
+        "torii",
+        "hakai"
+      ]
+    }
+  ],
+  "syn_rule": "Malicious iff TCP, total SYN > 0 and total ACK == 0; no evaluation tuning",
+  "threshold": 0.5,
+  "training_weights": "1 / admitted training segments in connection group, normalized to mean 1; Dummy and RF",
+  "unknowns": "empty CSV cell -> NaN; native RandomForest missing-value routing; no imputation or added predictors",
+  "version": "sipymes.pcap-experiment.v1"
+}

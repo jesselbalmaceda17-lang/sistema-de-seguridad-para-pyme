@@ -1,0 +1,506 @@
+{
+  "generated_at_utc": "2026-11-08T19:12:22.448976+00:00",
+  "scenarios": {
+    "pilot_20_1": {
+      "summary": {
+        "packets_seen": 50156,
+        "packets_accepted": 41207,
+        "packets_rejected_by_extractor": 8949,
+        "extracted_flows": 3499,
+        "reference_connections": 3209,
+        "admitted_flows": 3495,
+        "rejected_correspondences": 0,
+        "pending_quarantined_flows": 4,
+        "flow_status_counts": {
+          "admitted_unique": 3177,
+          "admitted_sibling_segment": 313,
+          "admitted_partition": 4,
+          "quarantined_partial_checksum": 3,
+          "counter_mismatch": 1,
+          "admitted_tcp_closure": 1
+        },
+        "flow_label_coverage_percent": 99.88568162332095,
+        "labeled_packets": 40921,
+        "label_coverage_of_accepted_packets_percent": 99.30594316499624,
+        "label_coverage_of_all_packets_percent": 81.58744716484568,
+        "matched_reference_connections": 3206,
+        "reference_coverage_percent": 99.9065129323777,
+        "reference_validation_counts": {
+          "verified": 3208,
+          "counter_mismatch": 1
+        },
+        "accepted_packet_checksum_states": {
+          "valid": 41203,
+          "partial_pseudoheader": 4
+        },
+        "class_coverage": {
+          "Benign": {
+            "reference_connections": 3193,
+            "matched_references": 3192,
+            "reference_coverage_percent": 99.96868149076104,
+            "admitted_flows": 3207
+          },
+          "Malicious": {
+            "reference_connections": 16,
+            "matched_references": 14,
+            "reference_coverage_percent": 87.5,
+            "admitted_flows": 288
+          }
+        }
+      },
+      "class_census": {
+        "Benign": {
+          "flow_protocol_counts": {
+            "udp": 3206,
+            "tcp": 1
+          },
+          "connection_groups": 3192,
+          "group_protocol_counts": {
+            "udp": 3191,
+            "tcp": 1
+          },
+          "packets": 5996,
+          "tcp_packets": 1,
+          "tcp_flag_packet_counts": {
+            "syn": 0,
+            "ack": 1,
+            "fin": 0,
+            "rst": 0,
+            "psh": 1,
+            "urg": 0,
+            "ece": 0,
+            "cwr": 0
+          },
+          "tcp_flag_flow_counts": {
+            "syn": 0,
+            "ack": 1,
+            "fin": 0,
+            "rst": 0,
+            "psh": 1,
+            "urg": 0,
+            "ece": 0,
+            "cwr": 0
+          },
+          "tcp_flag_combinations": {
+            "0x18": 1
+          },
+          "pure_syn_tcp_flows": 0,
+          "pure_syn_tcp_groups": 0,
+          "missing_feature_cells": {
+            "not_applicable_to_udp": 51296,
+            "no_packets_in_direction": 4268,
+            "fewer_than_two_packets_in_direction": 24436
+          },
+          "distinct_host_pairs": 39
+        },
+        "Malicious": {
+          "flow_protocol_counts": {
+            "tcp": 288
+          },
+          "connection_groups": 6,
+          "group_protocol_counts": {
+            "tcp": 6
+          },
+          "packets": 34925,
+          "tcp_packets": 34925,
+          "tcp_flag_packet_counts": {
+            "syn": 20,
+            "ack": 34905,
+            "fin": 2,
+            "rst": 0,
+            "psh": 1716,
+            "urg": 0,
+            "ece": 0,
+            "cwr": 0
+          },
+          "tcp_flag_flow_counts": {
+            "syn": 4,
+            "ack": 284,
+            "fin": 1,
+            "rst": 0,
+            "psh": 284,
+            "urg": 0,
+            "ece": 0,
+            "cwr": 0
+          },
+          "tcp_flag_combinations": {
+            "0x2": 20,
+            "0x10": 33187,
+            "0x18": 1716,
+            "0x11": 2
+          },
+          "pure_syn_tcp_flows": 4,
+          "pure_syn_tcp_groups": 4,
+          "missing_feature_cells": {
+            "no_packets_in_direction": 16,
+            "fewer_than_two_packets_in_direction": 16
+          },
+          "distinct_host_pairs": 1
+        },
+        "unlabeled": {
+          "flow_protocol_counts": {
+            "tcp": 3,
+            "udp": 1
+          },
+          "connection_groups": 4,
+          "group_protocol_counts": {
+            "tcp": 3,
+            "udp": 1
+          },
+          "packets": 286,
+          "tcp_packets": 283,
+          "tcp_flag_packet_counts": {
+            "syn": 12,
+            "ack": 274,
+            "fin": 0,
+            "rst": 1,
+            "psh": 17,
+            "urg": 0,
+            "ece": 0,
+            "cwr": 0
+          },
+          "tcp_flag_flow_counts": {
+            "syn": 3,
+            "ack": 3,
+            "fin": 0,
+            "rst": 1,
+            "psh": 3,
+            "urg": 0,
+            "ece": 0,
+            "cwr": 0
+          },
+          "tcp_flag_combinations": {
+            "0x2": 9,
+            "0x12": 3,
+            "0x10": 253,
+            "0x18": 17,
+            "0x14": 1
+          },
+          "pure_syn_tcp_flows": 0,
+          "pure_syn_tcp_groups": 0,
+          "missing_feature_cells": {
+            "not_applicable_to_udp": 16,
+            "no_packets_in_direction": 4,
+            "fewer_than_two_packets_in_direction": 4
+          },
+          "distinct_host_pairs": 2
+        }
+      }
+    },
+    "hakai": {
+      "summary": {
+        "packets_seen": 23623,
+        "packets_accepted": 16677,
+        "packets_rejected_by_extractor": 6946,
+        "extracted_flows": 4237,
+        "reference_connections": 10403,
+        "admitted_flows": 4237,
+        "rejected_correspondences": 0,
+        "pending_quarantined_flows": 0,
+        "flow_status_counts": {
+          "admitted_unique": 2181,
+          "admitted_partition": 2056
+        },
+        "flow_label_coverage_percent": 100.0,
+        "labeled_packets": 16677,
+        "label_coverage_of_accepted_packets_percent": 100.0,
+        "label_coverage_of_all_packets_percent": 70.59645260974474,
+        "matched_reference_connections": 10403,
+        "reference_coverage_percent": 100.0,
+        "reference_validation_counts": {
+          "verified": 10403
+        },
+        "accepted_packet_checksum_states": {
+          "valid": 16677
+        },
+        "class_coverage": {
+          "Benign": {
+            "reference_connections": 2181,
+            "matched_references": 2181,
+            "reference_coverage_percent": 100.0,
+            "admitted_flows": 2181
+          },
+          "Malicious": {
+            "reference_connections": 8222,
+            "matched_references": 8222,
+            "reference_coverage_percent": 100.0,
+            "admitted_flows": 2056
+          }
+        }
+      },
+      "class_census": {
+        "Benign": {
+          "flow_protocol_counts": {
+            "udp": 2179,
+            "tcp": 2
+          },
+          "connection_groups": 2181,
+          "group_protocol_counts": {
+            "udp": 2179,
+            "tcp": 2
+          },
+          "packets": 4343,
+          "tcp_packets": 2,
+          "tcp_flag_packet_counts": {
+            "syn": 0,
+            "ack": 2,
+            "fin": 0,
+            "rst": 0,
+            "psh": 2,
+            "urg": 0,
+            "ece": 0,
+            "cwr": 0
+          },
+          "tcp_flag_flow_counts": {
+            "syn": 0,
+            "ack": 2,
+            "fin": 0,
+            "rst": 0,
+            "psh": 2,
+            "urg": 0,
+            "ece": 0,
+            "cwr": 0
+          },
+          "tcp_flag_combinations": {
+            "0x18": 2
+          },
+          "pure_syn_tcp_flows": 0,
+          "pure_syn_tcp_groups": 0,
+          "missing_feature_cells": {
+            "fewer_than_two_packets_in_direction": 17448,
+            "not_applicable_to_udp": 34864,
+            "no_packets_in_direction": 76
+          },
+          "distinct_host_pairs": 7
+        },
+        "Malicious": {
+          "flow_protocol_counts": {
+            "tcp": 2056
+          },
+          "connection_groups": 2056,
+          "group_protocol_counts": {
+            "tcp": 2056
+          },
+          "packets": 12334,
+          "tcp_packets": 12334,
+          "tcp_flag_packet_counts": {
+            "syn": 12334,
+            "ack": 0,
+            "fin": 0,
+            "rst": 0,
+            "psh": 0,
+            "urg": 0,
+            "ece": 0,
+            "cwr": 0
+          },
+          "tcp_flag_flow_counts": {
+            "syn": 2056,
+            "ack": 0,
+            "fin": 0,
+            "rst": 0,
+            "psh": 0,
+            "urg": 0,
+            "ece": 0,
+            "cwr": 0
+          },
+          "tcp_flag_combinations": {
+            "0x2": 12334
+          },
+          "pure_syn_tcp_flows": 2056,
+          "pure_syn_tcp_groups": 2056,
+          "missing_feature_cells": {
+            "no_packets_in_direction": 8224,
+            "fewer_than_two_packets_in_direction": 8224
+          },
+          "distinct_host_pairs": 2
+        }
+      }
+    },
+    "hue": {
+      "summary": {
+        "packets_seen": 21664,
+        "packets_accepted": 16921,
+        "packets_rejected_by_extractor": 4743,
+        "extracted_flows": 2200,
+        "reference_connections": 452,
+        "admitted_flows": 2107,
+        "rejected_correspondences": 0,
+        "pending_quarantined_flows": 93,
+        "flow_status_counts": {
+          "admitted_sibling_segment": 1762,
+          "admitted_unique": 298,
+          "segmentation_mismatch": 86,
+          "admitted_tcp_closure": 47,
+          "quarantined_partial_checksum": 7
+        },
+        "flow_label_coverage_percent": 95.77272727272727,
+        "labeled_packets": 15942,
+        "label_coverage_of_accepted_packets_percent": 94.214289935583,
+        "label_coverage_of_all_packets_percent": 73.58751846381094,
+        "matched_reference_connections": 359,
+        "reference_coverage_percent": 79.42477876106194,
+        "reference_validation_counts": {
+          "verified": 361,
+          "counter_mismatch": 91
+        },
+        "accepted_packet_checksum_states": {
+          "valid": 16912,
+          "partial_pseudoheader": 9
+        },
+        "class_coverage": {
+          "Benign": {
+            "reference_connections": 452,
+            "matched_references": 359,
+            "reference_coverage_percent": 79.42477876106194,
+            "admitted_flows": 2107
+          },
+          "Malicious": {
+            "reference_connections": 0,
+            "matched_references": 0,
+            "reference_coverage_percent": null,
+            "admitted_flows": 0
+          }
+        }
+      },
+      "class_census": {
+        "Benign": {
+          "flow_protocol_counts": {
+            "udp": 1805,
+            "tcp": 302
+          },
+          "connection_groups": 359,
+          "group_protocol_counts": {
+            "udp": 310,
+            "tcp": 49
+          },
+          "packets": 15942,
+          "tcp_packets": 6301,
+          "tcp_flag_packet_counts": {
+            "syn": 99,
+            "ack": 6249,
+            "fin": 95,
+            "rst": 1,
+            "psh": 1330,
+            "urg": 0,
+            "ece": 0,
+            "cwr": 0
+          },
+          "tcp_flag_flow_counts": {
+            "syn": 48,
+            "ack": 302,
+            "fin": 48,
+            "rst": 1,
+            "psh": 260,
+            "urg": 0,
+            "ece": 0,
+            "cwr": 0
+          },
+          "tcp_flag_combinations": {
+            "0x10": 4776,
+            "0x18": 1330,
+            "0x2": 51,
+            "0x12": 48,
+            "0x11": 95,
+            "0x4": 1
+          },
+          "pure_syn_tcp_flows": 0,
+          "pure_syn_tcp_groups": 0,
+          "missing_feature_cells": {
+            "not_applicable_to_udp": 28880,
+            "no_packets_in_direction": 6036,
+            "fewer_than_two_packets_in_direction": 8408
+          },
+          "distinct_host_pairs": 11
+        },
+        "unlabeled": {
+          "flow_protocol_counts": {
+            "tcp": 93
+          },
+          "connection_groups": 93,
+          "group_protocol_counts": {
+            "tcp": 93
+          },
+          "packets": 979,
+          "tcp_packets": 979,
+          "tcp_flag_packet_counts": {
+            "syn": 220,
+            "ack": 886,
+            "fin": 186,
+            "rst": 0,
+            "psh": 144,
+            "urg": 0,
+            "ece": 0,
+            "cwr": 0
+          },
+          "tcp_flag_flow_counts": {
+            "syn": 93,
+            "ack": 93,
+            "fin": 93,
+            "rst": 0,
+            "psh": 48,
+            "urg": 0,
+            "ece": 0,
+            "cwr": 0
+          },
+          "tcp_flag_combinations": {
+            "0x2": 93,
+            "0x12": 127,
+            "0x10": 429,
+            "0x11": 186,
+            "0x18": 144
+          },
+          "pure_syn_tcp_flows": 0,
+          "pure_syn_tcp_groups": 0,
+          "missing_feature_cells": {},
+          "distinct_host_pairs": 7
+        }
+      }
+    }
+  },
+  "pooled_descriptive_counts": {
+    "Benign": {
+      "flow_protocol_counts": {
+        "udp": 7190,
+        "tcp": 305
+      },
+      "group_protocol_counts": {
+        "udp": 5680,
+        "tcp": 52
+      },
+      "tcp_flag_packet_counts": {
+        "syn": 99,
+        "ack": 6252,
+        "fin": 95,
+        "rst": 1,
+        "psh": 1333,
+        "urg": 0,
+        "ece": 0,
+        "cwr": 0
+      },
+      "pure_syn_tcp_flows": 0,
+      "pure_syn_tcp_groups": 0
+    },
+    "Malicious": {
+      "flow_protocol_counts": {
+        "tcp": 2344
+      },
+      "group_protocol_counts": {
+        "tcp": 2062
+      },
+      "tcp_flag_packet_counts": {
+        "syn": 12354,
+        "ack": 34905,
+        "fin": 2,
+        "rst": 0,
+        "psh": 1716,
+        "urg": 0,
+        "ece": 0,
+        "cwr": 0
+      },
+      "pure_syn_tcp_flows": 2060,
+      "pure_syn_tcp_groups": 2060
+    }
+  },
+  "not_classifier_evaluation": true,
+  "independence": "Never split connection or capture groups; counts of groups do not establish independent attacks, devices or campaigns"
+}

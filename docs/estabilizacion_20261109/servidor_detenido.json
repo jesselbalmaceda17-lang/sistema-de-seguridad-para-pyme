@@ -1,0 +1,5 @@
+{
+  "pid": 10316,
+  "stopped_after_tests": true,
+  "reason": "Freeze test-only SQLite evidence; original application history never opened by test server"
+}

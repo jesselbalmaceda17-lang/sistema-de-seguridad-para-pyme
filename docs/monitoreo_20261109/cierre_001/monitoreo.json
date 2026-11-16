@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Scripts\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "tests.test_monitoring",
+    "-v"
+  ],
+  "exit_code": 0,
+  "successful": true,
+  "tests_run": 38,
+  "wall_seconds": 26.302987700000017
+}

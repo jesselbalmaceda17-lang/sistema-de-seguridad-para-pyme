@@ -1,0 +1,20 @@
+{
+  "copies": [
+    {
+      "operation": "backup",
+      "target": "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\pruebas_reubicado_001\\recover_backup.sqlite3",
+      "sha256": "76c26777aa142f7569d55eda23a362d7bec432d7a02a82b85b6511571fe31558",
+      "integrity_check": "ok",
+      "size_bytes": 36864
+    },
+    {
+      "operation": "restore",
+      "target": "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\pruebas_reubicado_001\\recover_restored.sqlite3",
+      "sha256": "76c26777aa142f7569d55eda23a362d7bec432d7a02a82b85b6511571fe31558",
+      "integrity_check": "ok",
+      "size_bytes": 36864
+    }
+  ],
+  "same_runs_alerts_and_reviews": true,
+  "existing_destination_refused": true
+}

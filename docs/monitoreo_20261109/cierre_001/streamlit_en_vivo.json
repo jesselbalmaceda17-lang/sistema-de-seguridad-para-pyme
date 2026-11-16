@@ -1,0 +1,119 @@
+{
+  "utc": "2026-11-09T20:02:30.197914+00:00",
+  "package": "C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-Le0Mxc\\Validacion monitoreo independiente seuqglmk\\SeguridadInteligentePYMES-monitoreo-20261109",
+  "ui_url": "http://127.0.0.1:8531",
+  "interface": "\\Device\\NPF_Loopback",
+  "sessions": [
+    {
+      "session_id": "c2370b67cf47470aafaf72004918a4ad",
+      "owner_pid": 7244,
+      "owner_created": 1794254343.695572,
+      "started_at": "2026-11-09T20:00:06.458475+00:00",
+      "ended_at": "2026-11-09T20:00:44.707196+00:00",
+      "interface_id": "\\Device\\NPF_Loopback",
+      "interface_name": "Adapter for loopback traffic capture",
+      "source_kind": "live",
+      "status": "stopped",
+      "reason": "Detenido por el usuario.",
+      "config_json": "{\"duration_seconds\": 300, \"capture_memory_mib\": 256, \"storage_mib\": 128, \"max_packets\": 100000, \"max_active_flows\": 2000, \"max_flows\": 10000, \"queue_packets\": 1024, \"max_flow_packets\": 256, \"heartbeat_seconds\": 20, \"tcp_idle_seconds\": 5, \"udp_idle_seconds\": 5, \"active_seconds\": 30, \"allowed_ports\": [], \"excluded_ports\": [8531], \"rules\": {\"window_seconds\": 30, \"syn_packets\": 5, \"destination_ports\": 4, \"ipv4_bytes\": 1024, \"max_events\": 50000}}",
+      "counters_json": "{\"status\": \"stopped\", \"session_id\": \"c2370b67cf47470aafaf72004918a4ad\", \"interface\": \"Adapter for loopback traffic capture\", \"reason\": \"Detenido por el usuario.\", \"errors\": [], \"packets_seen\": 8103, \"packets_accepted\": 8103, \"packets_rejected\": 0, \"connections_observed\": 14, \"flows_closed\": 45, \"flows_persisted\": 45, \"alerts_generated\": 4, \"alerts_persisted\": 4, \"capture_rss_peak\": 136228864, \"partial\": false, \"forced_stop\": false, \"source_kind\": \"live\", \"pid\": 21204, \"rejections\": {}, \"active_flows\": 0, \"elapsed_seconds\": 38.24, \"storage_bytes\": 900753, \"diagnostics\": \"Capturing on 'Adapter for loopback traffic capture'\\n8103 packets captured\\n\", \"stop_signal\": {\"returncode\": 0, \"stderr\": \"\"}}",
+      "capture_path": "C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-Le0Mxc\\Validacion monitoreo independiente seuqglmk\\historial_monitor\\sessions\\c2370b67cf47470aafaf72004918a4ad\\capture.pcapng"
+    }
+  ],
+  "counters": {
+    "status": "stopped",
+    "session_id": "c2370b67cf47470aafaf72004918a4ad",
+    "interface": "Adapter for loopback traffic capture",
+    "reason": "Detenido por el usuario.",
+    "errors": [],
+    "packets_seen": 8103,
+    "packets_accepted": 8103,
+    "packets_rejected": 0,
+    "connections_observed": 14,
+    "flows_closed": 45,
+    "flows_persisted": 45,
+    "alerts_generated": 4,
+    "alerts_persisted": 4,
+    "capture_rss_peak": 136228864,
+    "partial": false,
+    "forced_stop": false,
+    "source_kind": "live",
+    "pid": 21204,
+    "rejections": {},
+    "active_flows": 0,
+    "elapsed_seconds": 38.24,
+    "storage_bytes": 900753,
+    "diagnostics": "Capturing on 'Adapter for loopback traffic capture'\n8103 packets captured\n",
+    "stop_signal": {
+      "returncode": 0,
+      "stderr": ""
+    }
+  },
+  "alerts": [
+    {
+      "event_id": "38af93e496fc8252376d6dbf54996e8c5ec62119898ebe5bd958469e50c2b905",
+      "session_id": "c2370b67cf47470aafaf72004918a4ad",
+      "detector": "transparent_rules_v1",
+      "rule": "ipv4_volume",
+      "source": "127.0.0.1",
+      "severity": "baja",
+      "detected_at": "2026-11-09T20:00:07.872966+00:00",
+      "message": "El volumen IPv4 observado desde este origen superó el umbral; un volumen alto puede ser legítimo. Requiere revisión; no confirma un ataque.",
+      "evidence_json": "{\"event_id\": \"38af93e496fc8252376d6dbf54996e8c5ec62119898ebe5bd958469e50c2b905\", \"session_id\": \"c2370b67cf47470aafaf72004918a4ad\", \"detector\": \"transparent_rules_v1\", \"rule\": \"ipv4_volume\", \"source\": \"127.0.0.1\", \"severity\": \"baja\", \"detected_at\": \"2026-11-09T20:00:07.872966+00:00\", \"window_start_ns\": \"1794254377872966300\", \"window_end_ns\": \"1794254407872966300\", \"window_seconds\": 30, \"threshold\": 1024, \"observed\": 1053, \"evidence\": {\"value\": 1053, \"operator\": \">=\", \"window_seconds\": 30, \"destination_ports\": [], \"visibility\": \"observed IPv4 TCP/UDP only; capture completeness not established\"}, \"message\": \"El volumen IPv4 observado desde este origen super\\u00f3 el umbral; un volumen alto puede ser leg\\u00edtimo. Requiere revisi\\u00f3n; no confirma un ataque.\", \"review_state\": \"pending\"}",
+      "review_state": "false_positive"
+    },
+    {
+      "event_id": "2b452ac6b154e0abd0309e0264dd251c4b0f5ebc39877a3b98202d0ffdc310a2",
+      "session_id": "c2370b67cf47470aafaf72004918a4ad",
+      "detector": "transparent_rules_v1",
+      "rule": "destination_ports",
+      "source": "127.0.0.1",
+      "severity": "media",
+      "detected_at": "2026-11-09T20:00:18.554208+00:00",
+      "message": "Se observaron SYN iniciales hacia numerosos puertos de destino distintos desde este origen. Requiere revisión; no confirma un ataque.",
+      "evidence_json": "{\"event_id\": \"2b452ac6b154e0abd0309e0264dd251c4b0f5ebc39877a3b98202d0ffdc310a2\", \"session_id\": \"c2370b67cf47470aafaf72004918a4ad\", \"detector\": \"transparent_rules_v1\", \"rule\": \"destination_ports\", \"source\": \"127.0.0.1\", \"severity\": \"media\", \"detected_at\": \"2026-11-09T20:00:18.554208+00:00\", \"window_start_ns\": \"1794254388554207800\", \"window_end_ns\": \"1794254418554207800\", \"window_seconds\": 30, \"threshold\": 4, \"observed\": 4, \"evidence\": {\"value\": 4, \"operator\": \">=\", \"window_seconds\": 30, \"destination_ports\": [64173, 64174, 64175, 64176], \"visibility\": \"observed IPv4 TCP/UDP only; capture completeness not established\"}, \"message\": \"Se observaron SYN iniciales hacia numerosos puertos de destino distintos desde este origen. Requiere revisi\\u00f3n; no confirma un ataque.\", \"review_state\": \"pending\"}",
+      "review_state": "pending"
+    },
+    {
+      "event_id": "dc3a7abb0828f626e870f73fad8cc5904e330af9cc2d5ff41b9b0685656a31d1",
+      "session_id": "c2370b67cf47470aafaf72004918a4ad",
+      "detector": "transparent_rules_v1",
+      "rule": "syn_observed",
+      "source": "127.0.0.1",
+      "severity": "media",
+      "detected_at": "2026-11-09T20:00:18.594364+00:00",
+      "message": "Muchos paquetes TCP SYN sin ACK observados desde este origen; pueden incluir retransmisiones. Requiere revisión; no confirma un ataque.",
+      "evidence_json": "{\"event_id\": \"dc3a7abb0828f626e870f73fad8cc5904e330af9cc2d5ff41b9b0685656a31d1\", \"session_id\": \"c2370b67cf47470aafaf72004918a4ad\", \"detector\": \"transparent_rules_v1\", \"rule\": \"syn_observed\", \"source\": \"127.0.0.1\", \"severity\": \"media\", \"detected_at\": \"2026-11-09T20:00:18.594364+00:00\", \"window_start_ns\": \"1794254388594363800\", \"window_end_ns\": \"1794254418594363800\", \"window_seconds\": 30, \"threshold\": 5, \"observed\": 5, \"evidence\": {\"value\": 5, \"operator\": \">=\", \"window_seconds\": 30, \"destination_ports\": [64173, 64174, 64175, 64176, 64177], \"visibility\": \"observed IPv4 TCP/UDP only; capture completeness not established\"}, \"message\": \"Muchos paquetes TCP SYN sin ACK observados desde este origen; pueden incluir retransmisiones. Requiere revisi\\u00f3n; no confirma un ataque.\", \"review_state\": \"pending\"}",
+      "review_state": "pending"
+    },
+    {
+      "event_id": "43c3bc172aac7d9b1ad340cdc333a69583c9306a6880470f3f9003ae8d5a4c73",
+      "session_id": "c2370b67cf47470aafaf72004918a4ad",
+      "detector": "transparent_rules_v1",
+      "rule": "ipv4_volume",
+      "source": "127.0.0.1",
+      "severity": "baja",
+      "detected_at": "2026-11-09T20:00:38.546200+00:00",
+      "message": "El volumen IPv4 observado desde este origen superó el umbral; un volumen alto puede ser legítimo. Requiere revisión; no confirma un ataque.",
+      "evidence_json": "{\"event_id\": \"43c3bc172aac7d9b1ad340cdc333a69583c9306a6880470f3f9003ae8d5a4c73\", \"session_id\": \"c2370b67cf47470aafaf72004918a4ad\", \"detector\": \"transparent_rules_v1\", \"rule\": \"ipv4_volume\", \"source\": \"127.0.0.1\", \"severity\": \"baja\", \"detected_at\": \"2026-11-09T20:00:38.546200+00:00\", \"window_start_ns\": \"1794254408546200200\", \"window_end_ns\": \"1794254438546200200\", \"window_seconds\": 30, \"threshold\": 1024, \"observed\": 262060, \"evidence\": {\"value\": 262060, \"operator\": \">=\", \"window_seconds\": 30, \"destination_ports\": [64173, 64174, 64175, 64176, 64177, 64178], \"visibility\": \"observed IPv4 TCP/UDP only; capture completeness not established\"}, \"message\": \"El volumen IPv4 observado desde este origen super\\u00f3 el umbral; un volumen alto puede ser leg\\u00edtimo. Requiere revisi\\u00f3n; no confirma un ataque.\", \"review_state\": \"pending\"}",
+      "review_state": "pending"
+    }
+  ],
+  "integrity": "ok",
+  "pcap_sha256": "31174daba1bbd740138589b653b3de1e20c6c083062b4b8d49ed97485dbc3e46",
+  "lab_flows_found": 13,
+  "no_control_port_or_non_loopback_packets": true,
+  "capture_processes_remaining": [],
+  "live_scope": "Streamlit browser buttons and actual local TCP/UDP; other local loopback background is included.",
+  "previous_integration_reused": {
+    "path": "../integracion_003/resultados.json",
+    "all_passed": true,
+    "pcap_sha256_verified": "d9680244390a9bd65865210e4df972d27e26747f506a7c064d6d83ce1b712d01",
+    "cases": [
+      "real_live_start_duplicate_start_rules_flows_sqlite_review_stop_no_orphans",
+      "complete_lab_pcap_replay_same_38_features",
+      "restart_new_session_natural_duration_no_traffic",
+      "abrupt_app_exit_job_reaps_children_and_sqlite_recovers"
+    ]
+  }
+}

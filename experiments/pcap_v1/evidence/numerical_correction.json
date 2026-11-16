@@ -1,0 +1,42 @@
+{
+  "all_flow_predictions_and_model_files_unchanged": true,
+  "canonical_run": "run_003",
+  "checks": {
+    "held_out_hakai\\dummy.joblib": true,
+    "held_out_hakai\\dummy_predictions.csv": true,
+    "held_out_hakai\\random_forest.joblib": true,
+    "held_out_hakai\\random_forest_predictions.csv": true,
+    "held_out_hakai\\syn_no_ack_rule.joblib": true,
+    "held_out_hakai\\syn_no_ack_rule_predictions.csv": true,
+    "held_out_hakai\\tcp_rule.joblib": true,
+    "held_out_hakai\\tcp_rule_predictions.csv": true,
+    "held_out_hue\\dummy.joblib": true,
+    "held_out_hue\\dummy_predictions.csv": true,
+    "held_out_hue\\random_forest.joblib": true,
+    "held_out_hue\\random_forest_predictions.csv": true,
+    "held_out_hue\\syn_no_ack_rule.joblib": true,
+    "held_out_hue\\syn_no_ack_rule_predictions.csv": true,
+    "held_out_hue\\tcp_rule.joblib": true,
+    "held_out_hue\\tcp_rule_predictions.csv": true,
+    "held_out_torii\\dummy.joblib": true,
+    "held_out_torii\\dummy_predictions.csv": true,
+    "held_out_torii\\random_forest.joblib": true,
+    "held_out_torii\\random_forest_predictions.csv": true,
+    "held_out_torii\\syn_no_ack_rule.joblib": true,
+    "held_out_torii\\syn_no_ack_rule_predictions.csv": true,
+    "held_out_torii\\tcp_rule.joblib": true,
+    "held_out_torii\\tcp_rule_predictions.csv": true
+  },
+  "corrected_torii_dummy_group_ap": 0.001876172607879925,
+  "correction": "preserve identical probabilities exactly; otherwise math.fsum / segment count; still arithmetic mean",
+  "expected_torii_group_prevalence": 0.001876172607879925,
+  "issue": "np.mean of repeated identical float priors broke group probability ties by segment count, affecting Dummy group average precision",
+  "no_parameter_threshold_or_split_changes": true,
+  "old_torii_dummy_group_ap": 0.0014077327747479096,
+  "regression_before_fix": "specific_numeric_red.json: 41 passed and 1 failed of 42",
+  "replay_run": "run_004",
+  "superseded_runs_preserved": [
+    "run_001",
+    "run_002"
+  ]
+}

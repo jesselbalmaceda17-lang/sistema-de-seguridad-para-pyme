@@ -1,0 +1,561 @@
+{
+  "census": {
+    "hakai": {
+      "admitted_flows": 4237,
+      "audit_summary": {
+        "accepted_packet_checksum_states": {
+          "valid": 16677
+        },
+        "admitted_flows": 4237,
+        "class_coverage": {
+          "Benign": {
+            "admitted_flows": 2181,
+            "matched_references": 2181,
+            "reference_connections": 2181,
+            "reference_coverage_percent": 100.0
+          },
+          "Malicious": {
+            "admitted_flows": 2056,
+            "matched_references": 8222,
+            "reference_connections": 8222,
+            "reference_coverage_percent": 100.0
+          }
+        },
+        "extracted_flows": 4237,
+        "flow_label_coverage_percent": 100.0,
+        "flow_status_counts": {
+          "admitted_partition": 2056,
+          "admitted_unique": 2181
+        },
+        "label_coverage_of_accepted_packets_percent": 100.0,
+        "label_coverage_of_all_packets_percent": 70.59645260974474,
+        "labeled_packets": 16677,
+        "matched_reference_connections": 10403,
+        "packets_accepted": 16677,
+        "packets_rejected_by_extractor": 6946,
+        "packets_seen": 23623,
+        "pending_quarantined_flows": 0,
+        "reference_connections": 10403,
+        "reference_coverage_percent": 100.0,
+        "reference_validation_counts": {
+          "verified": 10403
+        },
+        "rejected_correspondences": 0
+      },
+      "benign": 2181,
+      "fresh_audit_identical": true,
+      "groups": 4237,
+      "malicious": 2056
+    },
+    "hue": {
+      "admitted_flows": 2107,
+      "audit_summary": {
+        "accepted_packet_checksum_states": {
+          "partial_pseudoheader": 9,
+          "valid": 16912
+        },
+        "admitted_flows": 2107,
+        "class_coverage": {
+          "Benign": {
+            "admitted_flows": 2107,
+            "matched_references": 359,
+            "reference_connections": 452,
+            "reference_coverage_percent": 79.42477876106194
+          },
+          "Malicious": {
+            "admitted_flows": 0,
+            "matched_references": 0,
+            "reference_connections": 0,
+            "reference_coverage_percent": null
+          }
+        },
+        "extracted_flows": 2200,
+        "flow_label_coverage_percent": 95.77272727272727,
+        "flow_status_counts": {
+          "admitted_sibling_segment": 1762,
+          "admitted_tcp_closure": 47,
+          "admitted_unique": 298,
+          "quarantined_partial_checksum": 7,
+          "segmentation_mismatch": 86
+        },
+        "label_coverage_of_accepted_packets_percent": 94.214289935583,
+        "label_coverage_of_all_packets_percent": 73.58751846381094,
+        "labeled_packets": 15942,
+        "matched_reference_connections": 359,
+        "packets_accepted": 16921,
+        "packets_rejected_by_extractor": 4743,
+        "packets_seen": 21664,
+        "pending_quarantined_flows": 93,
+        "reference_connections": 452,
+        "reference_coverage_percent": 79.42477876106194,
+        "reference_validation_counts": {
+          "counter_mismatch": 91,
+          "verified": 361
+        },
+        "rejected_correspondences": 0
+      },
+      "benign": 2107,
+      "fresh_audit_identical": true,
+      "groups": 359,
+      "malicious": 0
+    },
+    "torii": {
+      "admitted_flows": 3495,
+      "audit_summary": {
+        "accepted_packet_checksum_states": {
+          "partial_pseudoheader": 4,
+          "valid": 41203
+        },
+        "admitted_flows": 3495,
+        "class_coverage": {
+          "Benign": {
+            "admitted_flows": 3207,
+            "matched_references": 3192,
+            "reference_connections": 3193,
+            "reference_coverage_percent": 99.96868149076104
+          },
+          "Malicious": {
+            "admitted_flows": 288,
+            "matched_references": 14,
+            "reference_connections": 16,
+            "reference_coverage_percent": 87.5
+          }
+        },
+        "extracted_flows": 3499,
+        "flow_label_coverage_percent": 99.88568162332095,
+        "flow_status_counts": {
+          "admitted_partition": 4,
+          "admitted_sibling_segment": 313,
+          "admitted_tcp_closure": 1,
+          "admitted_unique": 3177,
+          "counter_mismatch": 1,
+          "quarantined_partial_checksum": 3
+        },
+        "label_coverage_of_accepted_packets_percent": 99.30594316499624,
+        "label_coverage_of_all_packets_percent": 81.58744716484568,
+        "labeled_packets": 40921,
+        "matched_reference_connections": 3206,
+        "packets_accepted": 41207,
+        "packets_rejected_by_extractor": 8949,
+        "packets_seen": 50156,
+        "pending_quarantined_flows": 4,
+        "reference_connections": 3209,
+        "reference_coverage_percent": 99.9065129323777,
+        "reference_validation_counts": {
+          "counter_mismatch": 1,
+          "verified": 3208
+        },
+        "rejected_correspondences": 0
+      },
+      "benign": 3207,
+      "fresh_audit_identical": true,
+      "groups": 3198,
+      "malicious": 288
+    }
+  },
+  "dataset_version": "sipymes.pcap-table.v1",
+  "excluded": {
+    "hue": 93,
+    "torii": 4,
+    "trojan_42_1": "entire capture; zero rows"
+  },
+  "extractor_version": "1.0.1",
+  "feature_unknown_counts": {
+    "forward_iat_max_seconds": 5428,
+    "forward_iat_mean_seconds": 5428,
+    "forward_iat_min_seconds": 5428,
+    "forward_iat_population_std_seconds": 5428,
+    "forward_tcp_ack_count": 7190,
+    "forward_tcp_cwr_count": 7190,
+    "forward_tcp_ece_count": 7190,
+    "forward_tcp_fin_count": 7190,
+    "forward_tcp_psh_count": 7190,
+    "forward_tcp_rst_count": 7190,
+    "forward_tcp_syn_count": 7190,
+    "forward_tcp_urg_count": 7190,
+    "reverse_iat_max_seconds": 9205,
+    "reverse_iat_mean_seconds": 9205,
+    "reverse_iat_min_seconds": 9205,
+    "reverse_iat_population_std_seconds": 9205,
+    "reverse_ipv4_size_max_bytes": 4655,
+    "reverse_ipv4_size_mean_bytes": 4655,
+    "reverse_ipv4_size_min_bytes": 4655,
+    "reverse_ipv4_size_population_std_bytes": 4655,
+    "reverse_tcp_ack_count": 7190,
+    "reverse_tcp_cwr_count": 7190,
+    "reverse_tcp_ece_count": 7190,
+    "reverse_tcp_fin_count": 7190,
+    "reverse_tcp_psh_count": 7190,
+    "reverse_tcp_rst_count": 7190,
+    "reverse_tcp_syn_count": 7190,
+    "reverse_tcp_urg_count": 7190
+  },
+  "files_sha256": {
+    "features.csv": "c390f8b51e6ead1ad8bfce4e91fe67b47ff52459a2f361e7bf198c85de7b30b8",
+    "metadata.jsonl": "578c0fefe641bbf9dc24e60191b8056c28e434f729589358ff5176a4bf062f09",
+    "targets.csv": "aeeed540063139d2b68cd5c66f5be65fcc328bfc239ac4e902bf2b4c9ee3c6a3"
+  },
+  "groups": 7794,
+  "missing": "empty cells, no invented zeros; reasons in metadata; model consumes NaN",
+  "predictor_count": 38,
+  "predictors": [
+    "observed_duration_seconds",
+    "transport_protocol",
+    "forward_packet_count",
+    "forward_ipv4_byte_count",
+    "forward_ipv4_size_min_bytes",
+    "forward_iat_min_seconds",
+    "forward_ipv4_size_max_bytes",
+    "forward_iat_max_seconds",
+    "forward_ipv4_size_mean_bytes",
+    "forward_iat_mean_seconds",
+    "forward_ipv4_size_population_std_bytes",
+    "forward_iat_population_std_seconds",
+    "forward_tcp_fin_count",
+    "forward_tcp_syn_count",
+    "forward_tcp_rst_count",
+    "forward_tcp_psh_count",
+    "forward_tcp_ack_count",
+    "forward_tcp_urg_count",
+    "forward_tcp_ece_count",
+    "forward_tcp_cwr_count",
+    "reverse_packet_count",
+    "reverse_ipv4_byte_count",
+    "reverse_ipv4_size_min_bytes",
+    "reverse_iat_min_seconds",
+    "reverse_ipv4_size_max_bytes",
+    "reverse_iat_max_seconds",
+    "reverse_ipv4_size_mean_bytes",
+    "reverse_iat_mean_seconds",
+    "reverse_ipv4_size_population_std_bytes",
+    "reverse_iat_population_std_seconds",
+    "reverse_tcp_fin_count",
+    "reverse_tcp_syn_count",
+    "reverse_tcp_rst_count",
+    "reverse_tcp_psh_count",
+    "reverse_tcp_ack_count",
+    "reverse_tcp_urg_count",
+    "reverse_tcp_ece_count",
+    "reverse_tcp_cwr_count"
+  ],
+  "protocol_encoding": {
+    "tcp": 1,
+    "udp": 0
+  },
+  "protocol_encoding_version": "sipymes.protocol.tcp1-udp0.v1",
+  "rows": 9839,
+  "schema_version": "sipymes.offline.ipv4.v1",
+  "sources": [
+    {
+      "capture": "torii",
+      "files": [
+        {
+          "path": "data/raw/iot23_pilot_20_1/2018-10-02-13-12-30-192.168.100.103.pcap",
+          "role": "pcap",
+          "sha256": "4d0a00c33a4bf11228158baddd47c38f702731ea8d75ef1201061fc8bbd878b9",
+          "size_bytes": 4057401
+        },
+        {
+          "path": "data/raw/iot23_pilot_20_1/conn.log.labeled",
+          "role": "labels",
+          "sha256": "ef48ad72f65efd13d517223e61e4d877ba53a082ddb8159324b18d3f310d0711",
+          "size_bytes": 419604
+        },
+        {
+          "path": "data/raw/iot23_pilot_20_1/provenance.json",
+          "role": "provenance",
+          "sha256": "6cfc865e0542733cc9cc0f54090184e231b7a78ce935e776f04a346c9f3f92e0",
+          "size_bytes": 4020
+        },
+        {
+          "path": "data/processed/iot23_pilot_20_1/extraction.json",
+          "role": "extraction",
+          "sha256": "12113adbf60e0c5f3adcd493b2ab15c8e1b65cd7cf4108459f9ab04a6dbcf77b",
+          "size_bytes": 22680150
+        },
+        {
+          "path": "docs/validacion_reconciliacion_iot23_20_1/audit_v2/label_audit.json",
+          "role": "audit",
+          "sha256": "614b80b18b349962e5aaad4cb3f8752f8ec380bf4aa9f7ef769234e972abd361",
+          "size_bytes": 71245827
+        }
+      ],
+      "provenance": {
+        "archive_byte_identity": "Not verified against the full Zenodo archive; archive intentionally not downloaded",
+        "dataset_release": "IoT-23 v1 (publisher release 1.0.0); official IndividualScenarios snapshot",
+        "files": [
+          {
+            "headers": {
+              "content-length": "4057401",
+              "content-type": "application/vnd.tcpdump.pcap",
+              "etag": "\"3de939-580af8ba48380\"",
+              "last-modified": "Wed, 30 Jan 2019 16:38:54 GMT"
+            },
+            "local_name": "2018-10-02-13-12-30-192.168.100.103.pcap",
+            "obtained_at_utc": "2026-11-08T15:52:19.097606+00:00",
+            "role": "pcap",
+            "sha256": "4d0a00c33a4bf11228158baddd47c38f702731ea8d75ef1201061fc8bbd878b9",
+            "size_bytes": 4057401,
+            "tls_verification": "enabled; Windows curl/Schannel",
+            "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-20-1/2018-10-02-13-12-30-192.168.100.103.pcap"
+          },
+          {
+            "headers": {
+              "content-length": "419604",
+              "etag": "\"66714-59a7b573fb0c0\"",
+              "last-modified": "Tue, 24 Dec 2019 23:16:59 GMT"
+            },
+            "local_name": "conn.log.labeled",
+            "obtained_at_utc": "2026-11-08T15:52:22.736652+00:00",
+            "role": "labels",
+            "sha256": "ef48ad72f65efd13d517223e61e4d877ba53a082ddb8159324b18d3f310d0711",
+            "size_bytes": 419604,
+            "tls_verification": "enabled; Windows curl/Schannel",
+            "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-20-1/bro/conn.log.labeled"
+          }
+        ],
+        "manifest_version": "sipymes.iot23.sources.v1",
+        "metadata_evidence": [
+          {
+            "headers": {
+              "content-type": "text/html;charset=UTF-8"
+            },
+            "kind": "release_index",
+            "obtained_at_utc": "2026-11-08T15:52:04.237943+00:00",
+            "sha256": "2e4ff9e54be4bcb35a554c56f51d941c086ef81a356e15e59bd14cb042b29cd0",
+            "size_bytes": 9177,
+            "tls_verification": "enabled; Windows curl/Schannel",
+            "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/"
+          },
+          {
+            "headers": {
+              "content-length": "1696",
+              "content-type": "text/html;charset=UTF-8"
+            },
+            "kind": "scenario_index",
+            "obtained_at_utc": "2026-11-08T15:52:05.226657+00:00",
+            "sha256": "278d9659efe927bb2439af96cc3db130d24fc7cd5d9074f1847896c37f73385a",
+            "size_bytes": 1696,
+            "tls_verification": "enabled; Windows curl/Schannel",
+            "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-20-1/"
+          },
+          {
+            "headers": {
+              "content-length": "1297",
+              "content-type": "text/html;charset=UTF-8"
+            },
+            "kind": "labels_index",
+            "obtained_at_utc": "2026-11-08T15:52:06.254679+00:00",
+            "sha256": "dfb53ac4f1f91ab921b6c54339b9771d88f2baef535134c293701f054b492b4e",
+            "size_bytes": 1297,
+            "tls_verification": "enabled; Windows curl/Schannel",
+            "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-20-1/bro/"
+          },
+          {
+            "headers": {
+              "content-length": "1786",
+              "content-type": "text/markdown",
+              "etag": "\"6fa-58faf98e8ddc0\"",
+              "last-modified": "Fri, 09 Aug 2019 14:00:31 GMT"
+            },
+            "kind": "scenario_readme",
+            "obtained_at_utc": "2026-11-08T15:52:07.278450+00:00",
+            "sha256": "67a196f4c4203865df1e5ffe767551590d611d60aaab1b2df0ff865cfaee3e3c",
+            "size_bytes": 1786,
+            "tls_verification": "enabled; Windows curl/Schannel",
+            "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-20-1/README.md"
+          }
+        ],
+        "pair_verification": "Both files linked under the same official v1 scenario directory; README confirms scenario, date and host",
+        "release_citation": "https://zenodo.org/records/4743746",
+        "scenario": "CTU-IoT-Malware-Capture-20-1"
+      }
+    },
+    {
+      "capture": "hakai",
+      "files": [
+        {
+          "path": "data/raw/iot23_hakai_8_1/2018-07-31-15-15-09-192.168.100.113.pcap",
+          "role": "pcap",
+          "sha256": "80dcc2602519479ddcde889fa902fee19a76696630811452f8df38888af894f2",
+          "size_bytes": 2098362
+        },
+        {
+          "path": "data/raw/iot23_hakai_8_1/conn.log.labeled",
+          "role": "labels",
+          "sha256": "4877ca8f0f01902fbd18d28b7d06cb3d0be082355b7f2c8862c9deef1782eb8a",
+          "size_bytes": 1431000
+        },
+        {
+          "path": "data/raw/iot23_hakai_8_1/provenance.json",
+          "role": "provenance",
+          "sha256": "3d61f9d8c4dfa1dad99abb8cd5f34125d8ec84f9fef2aab37fb8e694871890fa",
+          "size_bytes": 1978
+        },
+        {
+          "path": "data/processed/iot23_hakai_8_1/extraction.json",
+          "role": "extraction",
+          "sha256": "02ba168c4a0db067e813e9dc129d45689f3b88c51eefaf66c4a1c44c54437b99",
+          "size_bytes": 26974848
+        },
+        {
+          "path": "data/processed/iot23_hakai_8_1/audit_v2/label_audit.json",
+          "role": "audit",
+          "sha256": "dbd8f3c9e4de69ad5b6a0920ef84bc6796ccc11bd640c9c83a81c341709ee90c",
+          "size_bytes": 44269419
+        }
+      ],
+      "provenance": {
+        "acquisition_elapsed_seconds": 6.682659600000989,
+        "archive_byte_identity": "not checked; full archive not acquired",
+        "dataset_release": "IoT-23 1.0.0; official IndividualScenarios snapshot",
+        "files": [
+          {
+            "headers": {
+              "content-length": "2098362",
+              "content-type": "application/vnd.tcpdump.pcap",
+              "etag": "\"2004ba-580b085445280\"",
+              "last-modified": "Wed, 30 Jan 2019 17:48:42 GMT"
+            },
+            "local_name": "2018-07-31-15-15-09-192.168.100.113.pcap",
+            "obtained_at_utc": "2026-11-08T17:59:47.780618+00:00",
+            "role": "pcap",
+            "sha256": "80dcc2602519479ddcde889fa902fee19a76696630811452f8df38888af894f2",
+            "size_bytes": 2098362,
+            "tls_verification": "enabled; Windows curl/Schannel",
+            "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-8-1/2018-07-31-15-15-09-192.168.100.113.pcap"
+          },
+          {
+            "headers": {
+              "content-length": "1431000",
+              "etag": "\"15d5d8-59a7e45504ac0\"",
+              "last-modified": "Wed, 25 Dec 2019 02:46:43 GMT"
+            },
+            "local_name": "conn.log.labeled",
+            "obtained_at_utc": "2026-11-08T17:59:50.285257+00:00",
+            "role": "labels",
+            "sha256": "4877ca8f0f01902fbd18d28b7d06cb3d0be082355b7f2c8862c9deef1782eb8a",
+            "size_bytes": 1431000,
+            "tls_verification": "enabled; Windows curl/Schannel",
+            "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-8-1/bro/conn.log.labeled"
+          }
+        ],
+        "manifest_version": "sipymes.iot23.sources.v1",
+        "obtained_at_utc": "2026-11-08T17:59:50.288064+00:00",
+        "pair_verification": "Official scenario and bro indices, README and capinfos preserved in preflight; actual correspondence separately audited",
+        "preflight_sha256": "897d937697f5ae61e1eefa21a48c9cf0dbc22e0b4acae47c833d251554b08058",
+        "scenario": "CTU-IoT-Malware-Capture-8-1"
+      }
+    },
+    {
+      "capture": "hue",
+      "files": [
+        {
+          "path": "data/raw/iot23_hue_4_1/2018-10-25-14-06-32-192.168.1.132.pcap",
+          "role": "pcap",
+          "sha256": "3fb775c0391b6ad313a3f7845e634a277b07c3f6377346c2486ba63e1c22e90c",
+          "size_bytes": 4594492
+        },
+        {
+          "path": "data/raw/iot23_hue_4_1/conn.log.labeled",
+          "role": "labels",
+          "sha256": "aebe40ea0e03b120265a5c7bc140dd9b0d3fe2fce65559e84776b7dd5360e71e",
+          "size_bytes": 61653
+        },
+        {
+          "path": "data/raw/iot23_hue_4_1/provenance.json",
+          "role": "provenance",
+          "sha256": "231471e18d54ca396c3b0eaf5e09726708a9af8c74062730f6b2dbb04e19f268",
+          "size_bytes": 3754
+        },
+        {
+          "path": "data/processed/iot23_hue_4_1/extraction.json",
+          "role": "extraction",
+          "sha256": "2843833f1842f8a915a5aabeed9b244d44dd9262e155ac4774ee747aaf3e341c",
+          "size_bytes": 14414973
+        },
+        {
+          "path": "docs/validacion_normalizacion_hue/audit_v2_hue/label_audit.json",
+          "role": "audit",
+          "sha256": "d980f72bbbbb08073bd33ab95e54d64bfce6e6026283b2872576be877fa3a7d5",
+          "size_bytes": 29717227
+        }
+      ],
+      "provenance": {
+        "archive_byte_identity": "not checked; full archive not acquired",
+        "dataset_release": "IoT-23 1.0.0; official IndividualScenarios snapshot",
+        "decompression_elapsed_seconds": 0.05337539999891305,
+        "files": [
+          {
+            "headers": {
+              "content-length": "376840",
+              "content-type": "application/x-xz",
+              "etag": "\"5c008-5bd1d7dd7223d\"",
+              "last-modified": "Tue, 09 Mar 2021 17:00:46 GMT"
+            },
+            "initial_local_file_mtime_utc": "2026-11-08T17:59:52.420376+00:00",
+            "local_name": "2018-10-25-14-06-32-192.168.1.132.pcap.xz",
+            "obtained_at_utc": "2026-11-08T18:01:41.249093+00:00",
+            "role": "pcap_xz",
+            "sha256": "bc5a57306d9a5f614b09d9c0976f007667fee5b6de3427fbab094fa3084b9b64",
+            "size_bytes": 376840,
+            "tls_verification": "enabled; Windows curl/Schannel",
+            "transport_metadata_note": "Same official URL retrieved again and byte equality verified; original file retained",
+            "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-4-1/2018-10-25-14-06-32-192.168.1.132.pcap.xz"
+          },
+          {
+            "headers": {
+              "content-length": "61653",
+              "etag": "\"f0d5-598f8e3efacc0\"",
+              "last-modified": "Thu, 05 Dec 2019 18:13:47 GMT"
+            },
+            "initial_local_file_mtime_utc": "2026-11-08T17:59:53.775479+00:00",
+            "local_name": "conn.log.labeled",
+            "obtained_at_utc": "2026-11-08T18:01:42.715528+00:00",
+            "role": "labels",
+            "sha256": "aebe40ea0e03b120265a5c7bc140dd9b0d3fe2fce65559e84776b7dd5360e71e",
+            "size_bytes": 61653,
+            "tls_verification": "enabled; Windows curl/Schannel",
+            "transport_metadata_note": "Same official URL retrieved again and byte equality verified; original file retained",
+            "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-4-1/bro/conn.log.labeled"
+          },
+          {
+            "derivation": "lossless XZ decompression",
+            "derived_at_utc": "2026-11-08T18:03:29.467570+00:00",
+            "expected_sha256_verified": true,
+            "local_name": "2018-10-25-14-06-32-192.168.1.132.pcap",
+            "lzma_memlimit_bytes": 100663296,
+            "output_limit_bytes": 16777216,
+            "publisher_header_verification": {
+              "actual_byte_identity": false,
+              "diagnostic_probe_sha256": "f770897e6cc3fa45857aee25ef7d3ab39dba39127b5bb813e0e0d48d3b905347",
+              "observed_snaplen": 65535,
+              "only_difference": "global PCAP header snaplen at offsets 16..19",
+              "packet_records_identical_to_published_digest": true,
+              "probe_written_to_disk": false,
+              "published_sha256": "f770897e6cc3fa45857aee25ef7d3ab39dba39127b5bb813e0e0d48d3b905347",
+              "publisher_snaplen": 262144
+            },
+            "role": "pcap",
+            "sha256": "3fb775c0391b6ad313a3f7845e634a277b07c3f6377346c2486ba63e1c22e90c",
+            "size_bytes": 4594492,
+            "source_xz_sha256": "bc5a57306d9a5f614b09d9c0976f007667fee5b6de3427fbab094fa3084b9b64",
+            "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-4-1/2018-10-25-14-06-32-192.168.1.132.pcap.xz"
+          }
+        ],
+        "manifest_version": "sipymes.iot23.sources.v1",
+        "obtained_at_utc": "2026-11-08T18:03:29.467608+00:00",
+        "pair_verification": "Official indices, README and capinfos in preflight; publisher digest discrepancy proven limited to global snaplen header; actual label correspondence separately audited",
+        "preflight_sha256": "897d937697f5ae61e1eefa21a48c9cf0dbc22e0b4acae47c833d251554b08058",
+        "recovery_elapsed_seconds": 0.0743784999995114,
+        "recovery_python_peak_working_set_bytes": 42553344,
+        "scenario": "CTU-Honeypot-Capture-4-1"
+      }
+    }
+  ],
+  "unknown_reason_counts": {
+    "fewer_than_two_packets_in_direction": 58532,
+    "no_packets_in_direction": 18620,
+    "not_applicable_to_udp": 115040
+  }
+}

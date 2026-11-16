@@ -1,0 +1,301 @@
+{
+  "schema_version": "sipymes.offline.ipv4.v1",
+  "extractor_version": "1.0.1",
+  "source": {
+    "path": "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\estabilizacion_20261109\\integral_run_001\\controlled.pcapng",
+    "format": "pcapng",
+    "sha256": "d30b5767517f5549e7202fb87140add10d00cc17933be2d21ccd524aa7ac750f",
+    "size_bytes": 204
+  },
+  "backend": {
+    "name": "tshark",
+    "executable": "C:\\Program Files\\Wireshark\\tshark.exe",
+    "version": "TShark (Wireshark) 4.6.9 (v4.6.9-0-g2d548b197c75).",
+    "diagnostics_first_4000_bytes": "",
+    "profile": "isolated_empty_configuration",
+    "name_resolution": false,
+    "ip_reassembly": false,
+    "tcp_reassembly": false
+  },
+  "configuration": {
+    "tcp_idle_seconds": 120.0,
+    "udp_idle_seconds": 30.0,
+    "active_timeout_seconds": 300.0,
+    "tshark_timeout_seconds": 120.0,
+    "max_packets": 1000000,
+    "max_active_flows": 50000,
+    "max_flows": 100000
+  },
+  "configuration_sha256": "9c920efa446e24683afd3b6b4c87fe21d6d2b75656bd9991061478b79a837187",
+  "orientation": "source of first accepted packet is forward; no client/server inference",
+  "feature_definitions": {
+    "observed_duration_seconds": "last observed timestamp minus first; singleton = 0",
+    "transport_protocol": "IPv4 protocol: tcp or udp",
+    "forward_packet_count": "number of accepted captured packets (including retransmissions)",
+    "forward_ipv4_byte_count": "sum of IPv4 total lengths; includes IPv4 and transport headers, excludes Ethernet",
+    "forward_ipv4_size_min_bytes": "min of IPv4 total lengths; unavailable without packets",
+    "forward_iat_min_seconds": "min of consecutive same-direction timestamp differences; requires two packets",
+    "forward_ipv4_size_max_bytes": "max of IPv4 total lengths; unavailable without packets",
+    "forward_iat_max_seconds": "max of consecutive same-direction timestamp differences; requires two packets",
+    "forward_ipv4_size_mean_bytes": "mean of IPv4 total lengths; unavailable without packets",
+    "forward_iat_mean_seconds": "mean of consecutive same-direction timestamp differences; requires two packets",
+    "forward_ipv4_size_population_std_bytes": "population_std of IPv4 total lengths; unavailable without packets",
+    "forward_iat_population_std_seconds": "population_std of consecutive same-direction timestamp differences; requires two packets",
+    "forward_tcp_fin_count": "captured TCP packets with FIN set; unavailable for UDP",
+    "forward_tcp_syn_count": "captured TCP packets with SYN set; unavailable for UDP",
+    "forward_tcp_rst_count": "captured TCP packets with RST set; unavailable for UDP",
+    "forward_tcp_psh_count": "captured TCP packets with PSH set; unavailable for UDP",
+    "forward_tcp_ack_count": "captured TCP packets with ACK set; unavailable for UDP",
+    "forward_tcp_urg_count": "captured TCP packets with URG set; unavailable for UDP",
+    "forward_tcp_ece_count": "captured TCP packets with ECE set; unavailable for UDP",
+    "forward_tcp_cwr_count": "captured TCP packets with CWR set; unavailable for UDP",
+    "reverse_packet_count": "number of accepted captured packets (including retransmissions)",
+    "reverse_ipv4_byte_count": "sum of IPv4 total lengths; includes IPv4 and transport headers, excludes Ethernet",
+    "reverse_ipv4_size_min_bytes": "min of IPv4 total lengths; unavailable without packets",
+    "reverse_iat_min_seconds": "min of consecutive same-direction timestamp differences; requires two packets",
+    "reverse_ipv4_size_max_bytes": "max of IPv4 total lengths; unavailable without packets",
+    "reverse_iat_max_seconds": "max of consecutive same-direction timestamp differences; requires two packets",
+    "reverse_ipv4_size_mean_bytes": "mean of IPv4 total lengths; unavailable without packets",
+    "reverse_iat_mean_seconds": "mean of consecutive same-direction timestamp differences; requires two packets",
+    "reverse_ipv4_size_population_std_bytes": "population_std of IPv4 total lengths; unavailable without packets",
+    "reverse_iat_population_std_seconds": "population_std of consecutive same-direction timestamp differences; requires two packets",
+    "reverse_tcp_fin_count": "captured TCP packets with FIN set; unavailable for UDP",
+    "reverse_tcp_syn_count": "captured TCP packets with SYN set; unavailable for UDP",
+    "reverse_tcp_rst_count": "captured TCP packets with RST set; unavailable for UDP",
+    "reverse_tcp_psh_count": "captured TCP packets with PSH set; unavailable for UDP",
+    "reverse_tcp_ack_count": "captured TCP packets with ACK set; unavailable for UDP",
+    "reverse_tcp_urg_count": "captured TCP packets with URG set; unavailable for UDP",
+    "reverse_tcp_ece_count": "captured TCP packets with ECE set; unavailable for UDP",
+    "reverse_tcp_cwr_count": "captured TCP packets with CWR set; unavailable for UDP"
+  },
+  "quality": {
+    "packets_seen": 2,
+    "packets_accepted": 2,
+    "packets_rejected": 0,
+    "rejections_by_reason": {},
+    "rejection_examples_first_20": [],
+    "flows_produced": 1,
+    "first_timestamp_epoch_ns": "1000000000",
+    "last_timestamp_epoch_ns": "2000000000",
+    "capture_loss": "unknown; file contents cannot prove absence of capture loss"
+  },
+  "flows": [
+    {
+      "flow_id": "a04b574c825e70ad344706f527a8efef13bb10442f39d4279452ef188fe4f846",
+      "ordinal": 1,
+      "interface_id": "0",
+      "forward_endpoint": {
+        "ipv4": "10.0.0.1",
+        "port": 40000
+      },
+      "reverse_endpoint": {
+        "ipv4": "10.0.0.2",
+        "port": 8080
+      },
+      "first_timestamp_epoch_ns": "1000000000",
+      "last_timestamp_epoch_ns": "2000000000",
+      "packet_frames": [
+        1,
+        2
+      ],
+      "close_reason": "end_of_capture",
+      "quality": {
+        "start_observation": "udp_session_start_not_observable",
+        "end_observation": "udp_session_end_not_observable",
+        "capture_completeness": "not_provable_from_pcap"
+      },
+      "features": {
+        "observed_duration_seconds": {
+          "value": 1.0,
+          "status": "ok",
+          "reason": null
+        },
+        "transport_protocol": {
+          "value": "udp",
+          "status": "ok",
+          "reason": null
+        },
+        "forward_packet_count": {
+          "value": 1,
+          "status": "ok",
+          "reason": null
+        },
+        "forward_ipv4_byte_count": {
+          "value": 31,
+          "status": "ok",
+          "reason": null
+        },
+        "forward_ipv4_size_min_bytes": {
+          "value": 31,
+          "status": "ok",
+          "reason": null
+        },
+        "forward_ipv4_size_max_bytes": {
+          "value": 31,
+          "status": "ok",
+          "reason": null
+        },
+        "forward_ipv4_size_mean_bytes": {
+          "value": 31.0,
+          "status": "ok",
+          "reason": null
+        },
+        "forward_ipv4_size_population_std_bytes": {
+          "value": 0.0,
+          "status": "ok",
+          "reason": null
+        },
+        "forward_iat_min_seconds": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "fewer_than_two_packets_in_direction"
+        },
+        "forward_iat_max_seconds": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "fewer_than_two_packets_in_direction"
+        },
+        "forward_iat_mean_seconds": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "fewer_than_two_packets_in_direction"
+        },
+        "forward_iat_population_std_seconds": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "fewer_than_two_packets_in_direction"
+        },
+        "forward_tcp_fin_count": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "not_applicable_to_udp"
+        },
+        "forward_tcp_syn_count": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "not_applicable_to_udp"
+        },
+        "forward_tcp_rst_count": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "not_applicable_to_udp"
+        },
+        "forward_tcp_psh_count": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "not_applicable_to_udp"
+        },
+        "forward_tcp_ack_count": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "not_applicable_to_udp"
+        },
+        "forward_tcp_urg_count": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "not_applicable_to_udp"
+        },
+        "forward_tcp_ece_count": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "not_applicable_to_udp"
+        },
+        "forward_tcp_cwr_count": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "not_applicable_to_udp"
+        },
+        "reverse_packet_count": {
+          "value": 1,
+          "status": "ok",
+          "reason": null
+        },
+        "reverse_ipv4_byte_count": {
+          "value": 30,
+          "status": "ok",
+          "reason": null
+        },
+        "reverse_ipv4_size_min_bytes": {
+          "value": 30,
+          "status": "ok",
+          "reason": null
+        },
+        "reverse_ipv4_size_max_bytes": {
+          "value": 30,
+          "status": "ok",
+          "reason": null
+        },
+        "reverse_ipv4_size_mean_bytes": {
+          "value": 30.0,
+          "status": "ok",
+          "reason": null
+        },
+        "reverse_ipv4_size_population_std_bytes": {
+          "value": 0.0,
+          "status": "ok",
+          "reason": null
+        },
+        "reverse_iat_min_seconds": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "fewer_than_two_packets_in_direction"
+        },
+        "reverse_iat_max_seconds": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "fewer_than_two_packets_in_direction"
+        },
+        "reverse_iat_mean_seconds": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "fewer_than_two_packets_in_direction"
+        },
+        "reverse_iat_population_std_seconds": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "fewer_than_two_packets_in_direction"
+        },
+        "reverse_tcp_fin_count": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "not_applicable_to_udp"
+        },
+        "reverse_tcp_syn_count": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "not_applicable_to_udp"
+        },
+        "reverse_tcp_rst_count": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "not_applicable_to_udp"
+        },
+        "reverse_tcp_psh_count": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "not_applicable_to_udp"
+        },
+        "reverse_tcp_ack_count": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "not_applicable_to_udp"
+        },
+        "reverse_tcp_urg_count": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "not_applicable_to_udp"
+        },
+        "reverse_tcp_ece_count": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "not_applicable_to_udp"
+        },
+        "reverse_tcp_cwr_count": {
+          "value": null,
+          "status": "unavailable",
+          "reason": "not_applicable_to_udp"
+        }
+      }
+    }
+  ]
+}

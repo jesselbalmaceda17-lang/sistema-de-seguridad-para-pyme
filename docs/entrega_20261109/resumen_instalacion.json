@@ -1,0 +1,17 @@
+{
+  "downloaded_artifacts": 41,
+  "no_cache_dir": true,
+  "system_site_packages": false,
+  "user_site_disabled_during_tests": true,
+  "created_from_base_launcher": "py -3.14 -m venv _delivery_validation/venv_entrega",
+  "requirements_source": "The two byte-identical requirement files inside the delivery package",
+  "internet_dependencies": [
+    "pypi.org",
+    "files.pythonhosted.org"
+  ],
+  "pip_install_log_elapsed_seconds_approx": 274.0,
+  "virtual_environment_size_bytes": 540648730,
+  "disk_free_bytes_after_tests": 286095560704,
+  "preliminary_environment": "_delivery_validation/venv_clean was a separate preliminary install, not the environment used for final package verification; final environment was independently created by the base Python launcher.",
+  "another_physical_machine": false
+}

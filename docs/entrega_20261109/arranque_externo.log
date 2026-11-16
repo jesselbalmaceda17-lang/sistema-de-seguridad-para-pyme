@@ -1,0 +1,7 @@
+{"files_verified": 23, "status": "ok", "notice": "Hashes check integrity, not publisher identity. Only load trusted models."}
+2026-11-09 10:27:18.390 Uvicorn server started on 127.0.0.1:8528
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://127.0.0.1:8528
+

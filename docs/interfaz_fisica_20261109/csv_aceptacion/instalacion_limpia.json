@@ -1,0 +1,234 @@
+{
+  "versions": [
+    {
+      "name": "joblib",
+      "expected": "1.6.0",
+      "installed": "1.6.0"
+    },
+    {
+      "name": "numpy",
+      "expected": "2.5.4",
+      "installed": "2.5.4"
+    },
+    {
+      "name": "pandas",
+      "expected": "3.0.6",
+      "installed": "3.0.6"
+    },
+    {
+      "name": "psutil",
+      "expected": "7.2.2",
+      "installed": "7.2.2"
+    },
+    {
+      "name": "scikit-learn",
+      "expected": "1.9.1",
+      "installed": "1.9.1"
+    },
+    {
+      "name": "streamlit",
+      "expected": "1.66.0",
+      "installed": "1.66.0"
+    },
+    {
+      "name": "altair",
+      "expected": "6.3.0",
+      "installed": "6.3.0"
+    },
+    {
+      "name": "anyio",
+      "expected": "4.15.1",
+      "installed": "4.15.1"
+    },
+    {
+      "name": "attrs",
+      "expected": "26.1.0",
+      "installed": "26.1.0"
+    },
+    {
+      "name": "certifi",
+      "expected": "2026.7.22",
+      "installed": "2026.7.22"
+    },
+    {
+      "name": "charset-normalizer",
+      "expected": "3.5.2",
+      "installed": "3.5.2"
+    },
+    {
+      "name": "click",
+      "expected": "8.5.0",
+      "installed": "8.5.0"
+    },
+    {
+      "name": "cloudpickle",
+      "expected": "3.1.2",
+      "installed": "3.1.2"
+    },
+    {
+      "name": "h11",
+      "expected": "0.16.0",
+      "installed": "0.16.0"
+    },
+    {
+      "name": "idna",
+      "expected": "3.20",
+      "installed": "3.20"
+    },
+    {
+      "name": "itsdangerous",
+      "expected": "2.2.0",
+      "installed": "2.2.0"
+    },
+    {
+      "name": "Jinja2",
+      "expected": "3.1.6",
+      "installed": "3.1.6"
+    },
+    {
+      "name": "jsonschema",
+      "expected": "4.26.0",
+      "installed": "4.26.0"
+    },
+    {
+      "name": "jsonschema-specifications",
+      "expected": "2025.9.1",
+      "installed": "2025.9.1"
+    },
+    {
+      "name": "MarkupSafe",
+      "expected": "3.0.4",
+      "installed": "3.0.4"
+    },
+    {
+      "name": "narwhals",
+      "expected": "2.27.1",
+      "installed": "2.27.1"
+    },
+    {
+      "name": "packaging",
+      "expected": "26.3",
+      "installed": "26.3"
+    },
+    {
+      "name": "pillow",
+      "expected": "12.3.0",
+      "installed": "12.3.0"
+    },
+    {
+      "name": "protobuf",
+      "expected": "7.36.2",
+      "installed": "7.36.2"
+    },
+    {
+      "name": "pyarrow",
+      "expected": "26.0.0",
+      "installed": "26.0.0"
+    },
+    {
+      "name": "pydeck",
+      "expected": "0.9.3",
+      "installed": "0.9.3"
+    },
+    {
+      "name": "python-dateutil",
+      "expected": "2.9.0.post0",
+      "installed": "2.9.0.post0"
+    },
+    {
+      "name": "python-multipart",
+      "expected": "0.0.32",
+      "installed": "0.0.32"
+    },
+    {
+      "name": "referencing",
+      "expected": "0.37.0",
+      "installed": "0.37.0"
+    },
+    {
+      "name": "requests",
+      "expected": "2.34.2",
+      "installed": "2.34.2"
+    },
+    {
+      "name": "rpds-py",
+      "expected": "2026.9.1",
+      "installed": "2026.9.1"
+    },
+    {
+      "name": "scipy",
+      "expected": "1.18.1",
+      "installed": "1.18.1"
+    },
+    {
+      "name": "six",
+      "expected": "1.17.0",
+      "installed": "1.17.0"
+    },
+    {
+      "name": "starlette",
+      "expected": "1.8.0",
+      "installed": "1.8.0"
+    },
+    {
+      "name": "threadpoolctl",
+      "expected": "3.7.0",
+      "installed": "3.7.0"
+    },
+    {
+      "name": "typing_extensions",
+      "expected": "4.16.0",
+      "installed": "4.16.0"
+    },
+    {
+      "name": "tzdata",
+      "expected": "2026.5",
+      "installed": "2026.5"
+    },
+    {
+      "name": "urllib3",
+      "expected": "2.8.0",
+      "installed": "2.8.0"
+    },
+    {
+      "name": "uvicorn",
+      "expected": "0.54.0",
+      "installed": "0.54.0"
+    },
+    {
+      "name": "watchdog",
+      "expected": "6.0.0",
+      "installed": "6.0.0"
+    },
+    {
+      "name": "websockets",
+      "expected": "17.2",
+      "installed": "17.2"
+    }
+  ],
+  "all_41_versions_match": true,
+  "pip_check": "No broken requirements found.",
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "prefix": "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega",
+  "base_prefix": "C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Programs\\Python\\Python314",
+  "user_site_enabled": false,
+  "isolated_flag": 1,
+  "sys_path": [
+    "C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-Le0Mxc\\Validacion monitoreo independiente seuqglmk\\ZIP final con espacios\\SeguridadInteligentePYMES-monitoreo-20261109",
+    "C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Programs\\Python\\Python314\\python314.zip",
+    "C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Programs\\Python\\Python314\\DLLs",
+    "C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Programs\\Python\\Python314\\Lib",
+    "C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Programs\\Python\\Python314",
+    "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega",
+    "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Lib\\site-packages"
+  ],
+  "package_modules": {
+    "dashboard": "seguridad_pymes\\dashboard.py",
+    "database": "seguridad_pymes\\database.py",
+    "inference": "seguridad_pymes\\inference.py",
+    "resources": "seguridad_pymes\\resources.py",
+    "training": "seguridad_pymes\\training.py",
+    "ingestion": "seguridad_pymes\\ingestion.py"
+  },
+  "pyvenv_cfg": "home = C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Programs\\Python\\Python314\ninclude-system-site-packages = false\nversion = 3.14.6\nexecutable = C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Programs\\Python\\Python314\\python.exe\ncommand = C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Programs\\Python\\Python314\\python.exe -m venv C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\n"
+}

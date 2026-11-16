@@ -1,0 +1,145 @@
+{
+  "checked_at_utc": "2026-11-08T19:21:24.793634+00:00",
+  "baseline_files": 143,
+  "protected_unchanged": 141,
+  "modified_existing_files": [
+    {
+      "path": "seguridad_pymes/zeek_labels.py",
+      "before_sha256": "dbd3c141f1756e6e0819bb9f55c6f0c1ec04970e56558fa3ea88145e6a1e8de6",
+      "after_sha256": "3ec6ae61497ea8417b12312d8488aac66d4b190eea2856945f331e7d3a16018e"
+    },
+    {
+      "path": "tests/test_iot23_acquisition_compatibility.py",
+      "before_sha256": "66ab929799f5edc3a59b5e72e1db4b3c4f8de4e28785740ac2d155eaa3334160",
+      "after_sha256": "f16d7e1d7ab6a318304573d7c9a3a4f432007d2292debd29d7021b00fbd852ea"
+    }
+  ],
+  "deleted_existing_files": [],
+  "added_files_excluding_this_inventory": [
+    {
+      "path": "_backups/pre-hue-normalization-20261108T190312Z-008f13fb.zip",
+      "size_bytes": 46417122,
+      "sha256": "238d0306c576b5edfd8b87cb0aae857388f6a0fa85abf7ae87d35d9e9c45bd0e"
+    },
+    {
+      "path": "docs/normalizacion_etiquetas_hue.md",
+      "size_bytes": 24173,
+      "sha256": "f76b2190104eaf390d1e43ba42356570bb39d285a55aa43f200400d30008c1a6"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/audit_v2_hue/imported_labels.json",
+      "size_bytes": 665170,
+      "sha256": "c759d673af70f1d2b670c99eef9150ad17a94c488167999d8d065db2c8a898a7"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/audit_v2_hue/label_audit.json",
+      "size_bytes": 29717227,
+      "sha256": "d980f72bbbbb08073bd33ab95e54d64bfce6e6026283b2872576be877fa3a7d5"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/cambios.diff",
+      "size_bytes": 6569,
+      "sha256": "f561f9f7851cbe4362900de1801295b852194b4c8875c79c8d0c5a337cde2e11"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/censar_y_revalidar.py",
+      "size_bytes": 8910,
+      "sha256": "1b5eb223420ff7f979920f840f208532177fdd7a356409a5d0bd91caff593de1"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/censo_comparativo.json",
+      "size_bytes": 14376,
+      "sha256": "aed6c70e808f22a322c329c146cfb23aa1d5adf3cdd825d275e20637ced98b19"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/diagnosticar.py",
+      "size_bytes": 6185,
+      "sha256": "1635f09837ae04a1202a6ca897fb41619a10878bce404a8ad0396b1364ee338f"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/diagnostico_93.json",
+      "size_bytes": 1623595,
+      "sha256": "e0c575bb6e7843f60a9bf1605d07135b15307d20d380da33aff7299c8601a36c"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/ejecucion_hue.json",
+      "size_bytes": 1634,
+      "sha256": "f6004cb6f685bcbce92577119330eab724bd0efa719210a687cc4e47754f06a7"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/integridad.json",
+      "size_bytes": 41076,
+      "sha256": "d253228f3b87fb02c855c18aa5da23316ca94b66dac42ba04d8dd4ee21dbf01d"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/pruebas.py",
+      "size_bytes": 2131,
+      "sha256": "366cb12069f2888f59adf4dcf776f7728b15ba93b4a92e56e5359eb82d8c6f04"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/pruebas_completas.log",
+      "size_bytes": 31344,
+      "sha256": "4f4c432564a539dd078741b61154ae7e11c6ee65a9d6b756ddb90c904f0381e3"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/pruebas_especificas.log",
+      "size_bytes": 15259,
+      "sha256": "8eda7dfd8a7c15a563b72b7d6379eca18ce347e6a874b64323fcad8b447ac6b5"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/referencias_hue.json",
+      "size_bytes": 1489523,
+      "sha256": "96f5a60f47e9480426518b470d3d39a6e7b062230cdf1ea98989675e8b7cd00d"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/regresiones.json",
+      "size_bytes": 1477,
+      "sha256": "33e39b124344d0010d1efa000ebdd0e51672944300dc09d6890da871ed00c8d7"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/respaldo.json",
+      "size_bytes": 1799,
+      "sha256": "658416a9e046011e401f51760966cb54a439501361daade8b9fe468f05ec1518"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/resultado_completas.json",
+      "size_bytes": 423,
+      "sha256": "6657a94d6119a7e1537ce2f704c231d47f1925a227253938a6c3b6ba226a304d"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/resultado_especificas.json",
+      "size_bytes": 421,
+      "sha256": "6935067dcda7fe491e79955c8c146c0b8b548d5790730d3e959c35a4d7ae1728"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/variantes_originales.json",
+      "size_bytes": 2099,
+      "sha256": "2b38fa4dff0b843ab640162507cf8a8c09a0592dc51ac28d75e89222946de366"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/verificar_integridad.py",
+      "size_bytes": 3399,
+      "sha256": "759cbca25da6e67555bb02e8f654f03582d980ab6950c8f85ad5c03686e5f414"
+    },
+    {
+      "path": "tests/test_zeek_label_normalization.py",
+      "size_bytes": 7951,
+      "sha256": "ceb5f32de332518d7c66f356e2fec70dab740b86cc6fc6c7318c52509c54e552"
+    }
+  ],
+  "added_files_count_excluding_this_inventory": 22,
+  "added_storage_bytes_excluding_this_inventory": 80081863,
+  "previous_backups_preserved": [
+    "_backups/pre-controlled-iot23-20261108T175432Z-c9e45e9c.zip",
+    "_backups/pre-iot23-pilot-20261108T154817Z-558de56f.zip",
+    "_backups/pre-pcap-20261108T145704Z-c78b980b.zip",
+    "_backups/pre-real-pcap-validation-20261108T151858Z-da1e2f71.zip",
+    "_backups/pre-reconciliation-20261108T165622Z-fb48e1bc.zip"
+  ],
+  "excluded": [
+    ".venv",
+    "__pycache__",
+    ".pytest_cache",
+    ".git"
+  ]
+}

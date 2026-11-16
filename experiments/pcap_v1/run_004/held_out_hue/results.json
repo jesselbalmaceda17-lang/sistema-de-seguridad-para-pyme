@@ -1,0 +1,1370 @@
+{
+  "models": {
+    "dummy": {
+      "inference": {
+        "cpu_seconds": 0.0,
+        "memory_method": "sampled Python process working set; includes resident data and previous fits; not an exact per-model allocation peak",
+        "rss_baseline_bytes": 305893376,
+        "sampled_rss_increase_bytes": 0,
+        "sampled_rss_peak_bytes": 305893376,
+        "samples": 1,
+        "sampling_interval_seconds": 0.01,
+        "wall_seconds": 0.0030307999986689538
+      },
+      "metrics": {
+        "flow": {
+          "all": {
+            "balanced_accuracy": null,
+            "benign": 2107,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                2107,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.0,
+            "malicious": 0,
+            "n": 2107,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp": {
+            "balanced_accuracy": null,
+            "benign": 302,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                302,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.0,
+            "malicious": 0,
+            "n": 302,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp_other": {
+            "balanced_accuracy": null,
+            "benign": 302,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                302,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.0,
+            "malicious": 0,
+            "n": 302,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp_pure_syn": {
+            "balanced_accuracy": null,
+            "benign": 0,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": null,
+            "malicious": 0,
+            "n": 0,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "false_positive_rate": "no_true_benign",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "udp": {
+            "balanced_accuracy": null,
+            "benign": 1805,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                1805,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.0,
+            "malicious": 0,
+            "n": 1805,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          }
+        },
+        "group": {
+          "all": {
+            "balanced_accuracy": null,
+            "benign": 359,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                359,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.0,
+            "malicious": 0,
+            "n": 359,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp": {
+            "balanced_accuracy": null,
+            "benign": 49,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                49,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.0,
+            "malicious": 0,
+            "n": 49,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp_other": {
+            "balanced_accuracy": null,
+            "benign": 49,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                49,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.0,
+            "malicious": 0,
+            "n": 49,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp_pure_syn": {
+            "balanced_accuracy": null,
+            "benign": 0,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": null,
+            "malicious": 0,
+            "n": 0,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "false_positive_rate": "no_true_benign",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "udp": {
+            "balanced_accuracy": null,
+            "benign": 310,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                310,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.0,
+            "malicious": 0,
+            "n": 310,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          }
+        }
+      },
+      "model": {
+        "path": "held_out_hue/dummy.joblib",
+        "sha256": "1c43af2b3a1f62acbb3101ac3434e4c8ee85d556cad77bbdfed78e9abd7c07fa",
+        "size_bytes": 489,
+        "training_captures": [
+          "torii",
+          "hakai"
+        ]
+      },
+      "native_missing_values": false,
+      "training": {
+        "cpu_seconds": 0.0,
+        "memory_method": "sampled Python process working set; includes resident data and previous fits; not an exact per-model allocation peak",
+        "rss_baseline_bytes": 305893376,
+        "sampled_rss_increase_bytes": 0,
+        "sampled_rss_peak_bytes": 305893376,
+        "samples": 1,
+        "sampling_interval_seconds": 0.01,
+        "wall_seconds": 0.006835500000306638
+      }
+    },
+    "random_forest": {
+      "importance_protocol": 0.009998921848247003,
+      "importance_tcp_flags_sum": 0.43983282674546875,
+      "impurity_importance_not_causal": {
+        "forward_iat_max_seconds": 0.08003518221762143,
+        "forward_iat_mean_seconds": 1.1453224051993535e-05,
+        "forward_iat_min_seconds": 1.7653595443278077e-05,
+        "forward_iat_population_std_seconds": 0.10002206857422528,
+        "forward_ipv4_byte_count": 1.491618701240299e-05,
+        "forward_ipv4_size_max_bytes": 0.07995107402529805,
+        "forward_ipv4_size_mean_bytes": 0.1500023792062043,
+        "forward_ipv4_size_min_bytes": 0.10000171623700657,
+        "forward_ipv4_size_population_std_bytes": 0.0,
+        "forward_packet_count": 3.2301122648764586e-05,
+        "forward_tcp_ack_count": 0.0599899409786742,
+        "forward_tcp_cwr_count": 0.02998908330061199,
+        "forward_tcp_ece_count": 0.01999680114484738,
+        "forward_tcp_fin_count": 0.03999793503054046,
+        "forward_tcp_psh_count": 0.0399745537701631,
+        "forward_tcp_rst_count": 0.0,
+        "forward_tcp_syn_count": 0.09000173863613335,
+        "forward_tcp_urg_count": 0.039958263097155174,
+        "observed_duration_seconds": 0.04003585658189459,
+        "reverse_iat_max_seconds": 1.5369342969727896e-06,
+        "reverse_iat_mean_seconds": 2.2341927686056708e-05,
+        "reverse_iat_min_seconds": 1.5286735955524392e-06,
+        "reverse_iat_population_std_seconds": 3.65918416230477e-06,
+        "reverse_ipv4_byte_count": 4.23556652298376e-09,
+        "reverse_ipv4_size_max_bytes": 0.0,
+        "reverse_ipv4_size_mean_bytes": 0.0,
+        "reverse_ipv4_size_min_bytes": 1.4579479570149418e-05,
+        "reverse_ipv4_size_population_std_bytes": 0.0,
+        "reverse_packet_count": 0.0,
+        "reverse_tcp_ack_count": 0.010005108538633978,
+        "reverse_tcp_cwr_count": 0.01,
+        "reverse_tcp_ece_count": 0.03993667054322139,
+        "reverse_tcp_fin_count": 0.0,
+        "reverse_tcp_psh_count": 0.02998696144157157,
+        "reverse_tcp_rst_count": 0.0,
+        "reverse_tcp_syn_count": 0.00999155767877259,
+        "reverse_tcp_urg_count": 0.0200042125851436,
+        "transport_protocol": 0.009998921848247003
+      },
+      "inference": {
+        "cpu_seconds": 0.015625,
+        "memory_method": "sampled Python process working set; includes resident data and previous fits; not an exact per-model allocation peak",
+        "rss_baseline_bytes": 305913856,
+        "sampled_rss_increase_bytes": 344064,
+        "sampled_rss_peak_bytes": 306257920,
+        "samples": 2,
+        "sampling_interval_seconds": 0.01,
+        "wall_seconds": 0.0182795000000624
+      },
+      "metrics": {
+        "flow": {
+          "all": {
+            "balanced_accuracy": null,
+            "benign": 2107,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                1810,
+                297
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.14095870906502136,
+            "malicious": 0,
+            "n": 2107,
+            "pr_auc_average_precision": null,
+            "precision_malicious": 0.0,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp": {
+            "balanced_accuracy": null,
+            "benign": 302,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                5,
+                297
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.9834437086092715,
+            "malicious": 0,
+            "n": 302,
+            "pr_auc_average_precision": null,
+            "precision_malicious": 0.0,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp_other": {
+            "balanced_accuracy": null,
+            "benign": 302,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                5,
+                297
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.9834437086092715,
+            "malicious": 0,
+            "n": 302,
+            "pr_auc_average_precision": null,
+            "precision_malicious": 0.0,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp_pure_syn": {
+            "balanced_accuracy": null,
+            "benign": 0,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": null,
+            "malicious": 0,
+            "n": 0,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "false_positive_rate": "no_true_benign",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "udp": {
+            "balanced_accuracy": null,
+            "benign": 1805,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                1805,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.0,
+            "malicious": 0,
+            "n": 1805,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          }
+        },
+        "group": {
+          "all": {
+            "balanced_accuracy": null,
+            "benign": 359,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                315,
+                44
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.12256267409470752,
+            "malicious": 0,
+            "n": 359,
+            "pr_auc_average_precision": null,
+            "precision_malicious": 0.0,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp": {
+            "balanced_accuracy": null,
+            "benign": 49,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                5,
+                44
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.8979591836734694,
+            "malicious": 0,
+            "n": 49,
+            "pr_auc_average_precision": null,
+            "precision_malicious": 0.0,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp_other": {
+            "balanced_accuracy": null,
+            "benign": 49,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                5,
+                44
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.8979591836734694,
+            "malicious": 0,
+            "n": 49,
+            "pr_auc_average_precision": null,
+            "precision_malicious": 0.0,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp_pure_syn": {
+            "balanced_accuracy": null,
+            "benign": 0,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": null,
+            "malicious": 0,
+            "n": 0,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "false_positive_rate": "no_true_benign",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "udp": {
+            "balanced_accuracy": null,
+            "benign": 310,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                310,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.0,
+            "malicious": 0,
+            "n": 310,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          }
+        }
+      },
+      "model": {
+        "path": "held_out_hue/random_forest.joblib",
+        "sha256": "4503ecd7f8f94bd08578530dd287e27aee94443456fdb5bf162bcfb5f038ae09",
+        "size_bytes": 11922,
+        "training_captures": [
+          "torii",
+          "hakai"
+        ]
+      },
+      "native_missing_values": true,
+      "training": {
+        "cpu_seconds": 0.640625,
+        "memory_method": "sampled Python process working set; includes resident data and previous fits; not an exact per-model allocation peak",
+        "rss_baseline_bytes": 305913856,
+        "sampled_rss_increase_bytes": 3551232,
+        "sampled_rss_peak_bytes": 309465088,
+        "samples": 39,
+        "sampling_interval_seconds": 0.01,
+        "wall_seconds": 0.6577139000000898
+      }
+    },
+    "syn_no_ack_rule": {
+      "inference": {
+        "cpu_seconds": 0.0,
+        "memory_method": "sampled Python process working set; includes resident data and previous fits; not an exact per-model allocation peak",
+        "rss_baseline_bytes": 305901568,
+        "sampled_rss_increase_bytes": 0,
+        "sampled_rss_peak_bytes": 305901568,
+        "samples": 1,
+        "sampling_interval_seconds": 0.01,
+        "wall_seconds": 0.0014051999969524331
+      },
+      "metrics": {
+        "flow": {
+          "all": {
+            "balanced_accuracy": null,
+            "benign": 2107,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                2107,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.0,
+            "malicious": 0,
+            "n": 2107,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp": {
+            "balanced_accuracy": null,
+            "benign": 302,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                302,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.0,
+            "malicious": 0,
+            "n": 302,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp_other": {
+            "balanced_accuracy": null,
+            "benign": 302,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                302,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.0,
+            "malicious": 0,
+            "n": 302,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp_pure_syn": {
+            "balanced_accuracy": null,
+            "benign": 0,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": null,
+            "malicious": 0,
+            "n": 0,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "false_positive_rate": "no_true_benign",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "udp": {
+            "balanced_accuracy": null,
+            "benign": 1805,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                1805,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.0,
+            "malicious": 0,
+            "n": 1805,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          }
+        },
+        "group": {
+          "all": {
+            "balanced_accuracy": null,
+            "benign": 359,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                359,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.0,
+            "malicious": 0,
+            "n": 359,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp": {
+            "balanced_accuracy": null,
+            "benign": 49,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                49,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.0,
+            "malicious": 0,
+            "n": 49,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp_other": {
+            "balanced_accuracy": null,
+            "benign": 49,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                49,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.0,
+            "malicious": 0,
+            "n": 49,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp_pure_syn": {
+            "balanced_accuracy": null,
+            "benign": 0,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": null,
+            "malicious": 0,
+            "n": 0,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "false_positive_rate": "no_true_benign",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "udp": {
+            "balanced_accuracy": null,
+            "benign": 310,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                310,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.0,
+            "malicious": 0,
+            "n": 310,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          }
+        }
+      },
+      "model": {
+        "path": "held_out_hue/syn_no_ack_rule.joblib",
+        "sha256": "5200ca79777f34161b34489f680fd82ef04c3b9e79e3094b8c25284f4c72756f",
+        "size_bytes": 358,
+        "training_captures": [
+          "torii",
+          "hakai"
+        ]
+      },
+      "native_missing_values": false,
+      "training": {
+        "cpu_seconds": 0.0,
+        "memory_method": "sampled Python process working set; includes resident data and previous fits; not an exact per-model allocation peak",
+        "rss_baseline_bytes": 305901568,
+        "sampled_rss_increase_bytes": 0,
+        "sampled_rss_peak_bytes": 305901568,
+        "samples": 1,
+        "sampling_interval_seconds": 0.01,
+        "wall_seconds": 0.002204399999754969
+      }
+    },
+    "tcp_rule": {
+      "inference": {
+        "cpu_seconds": 0.0,
+        "memory_method": "sampled Python process working set; includes resident data and previous fits; not an exact per-model allocation peak",
+        "rss_baseline_bytes": 305901568,
+        "sampled_rss_increase_bytes": 0,
+        "sampled_rss_peak_bytes": 305901568,
+        "samples": 1,
+        "sampling_interval_seconds": 0.01,
+        "wall_seconds": 0.0021987000000081025
+      },
+      "metrics": {
+        "flow": {
+          "all": {
+            "balanced_accuracy": null,
+            "benign": 2107,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                1805,
+                302
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.14333175130517323,
+            "malicious": 0,
+            "n": 2107,
+            "pr_auc_average_precision": null,
+            "precision_malicious": 0.0,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp": {
+            "balanced_accuracy": null,
+            "benign": 302,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                0,
+                302
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 1.0,
+            "malicious": 0,
+            "n": 302,
+            "pr_auc_average_precision": null,
+            "precision_malicious": 0.0,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp_other": {
+            "balanced_accuracy": null,
+            "benign": 302,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                0,
+                302
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 1.0,
+            "malicious": 0,
+            "n": 302,
+            "pr_auc_average_precision": null,
+            "precision_malicious": 0.0,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp_pure_syn": {
+            "balanced_accuracy": null,
+            "benign": 0,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": null,
+            "malicious": 0,
+            "n": 0,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "false_positive_rate": "no_true_benign",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "udp": {
+            "balanced_accuracy": null,
+            "benign": 1805,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                1805,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.0,
+            "malicious": 0,
+            "n": 1805,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          }
+        },
+        "group": {
+          "all": {
+            "balanced_accuracy": null,
+            "benign": 359,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                310,
+                49
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.13649025069637882,
+            "malicious": 0,
+            "n": 359,
+            "pr_auc_average_precision": null,
+            "precision_malicious": 0.0,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp": {
+            "balanced_accuracy": null,
+            "benign": 49,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                0,
+                49
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 1.0,
+            "malicious": 0,
+            "n": 49,
+            "pr_auc_average_precision": null,
+            "precision_malicious": 0.0,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp_other": {
+            "balanced_accuracy": null,
+            "benign": 49,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                0,
+                49
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 1.0,
+            "malicious": 0,
+            "n": 49,
+            "pr_auc_average_precision": null,
+            "precision_malicious": 0.0,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "tcp_pure_syn": {
+            "balanced_accuracy": null,
+            "benign": 0,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": null,
+            "malicious": 0,
+            "n": 0,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "false_positive_rate": "no_true_benign",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          },
+          "udp": {
+            "balanced_accuracy": null,
+            "benign": 310,
+            "confusion_matrix_true_rows_predicted_columns_B_M": [
+              [
+                310,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "f1_malicious": null,
+            "false_positive_rate": 0.0,
+            "malicious": 0,
+            "n": 310,
+            "pr_auc_average_precision": null,
+            "precision_malicious": null,
+            "recall_malicious": null,
+            "undefined_reasons": {
+              "balanced_accuracy": "both_true_classes_required",
+              "f1_malicious": "no_true_malicious",
+              "pr_auc_average_precision": "both_true_classes_required",
+              "precision_malicious": "no_predicted_malicious",
+              "recall_malicious": "no_true_malicious"
+            }
+          }
+        }
+      },
+      "model": {
+        "path": "held_out_hue/tcp_rule.joblib",
+        "sha256": "a98cd6f484ec8135a3bb507b6f3af13cf169370710897303d2fbc745ef37fd42",
+        "size_bytes": 351,
+        "training_captures": [
+          "torii",
+          "hakai"
+        ]
+      },
+      "native_missing_values": false,
+      "training": {
+        "cpu_seconds": 0.015625,
+        "memory_method": "sampled Python process working set; includes resident data and previous fits; not an exact per-model allocation peak",
+        "rss_baseline_bytes": 305901568,
+        "sampled_rss_increase_bytes": 0,
+        "sampled_rss_peak_bytes": 305901568,
+        "samples": 1,
+        "sampling_interval_seconds": 0.01,
+        "wall_seconds": 0.005458999999973457
+      }
+    }
+  },
+  "paired_rf_comparisons": {
+    "dummy": {
+      "flow": {
+        "baseline_only_correct": 297,
+        "both_correct": 1810,
+        "both_wrong": 0,
+        "n": 2107,
+        "prediction_agreement": 0.8590412909349786,
+        "rf_only_correct": 0
+      },
+      "group": {
+        "baseline_only_correct": 44,
+        "both_correct": 315,
+        "both_wrong": 0,
+        "n": 359,
+        "prediction_agreement": 0.8774373259052924,
+        "rf_only_correct": 0
+      }
+    },
+    "syn_no_ack_rule": {
+      "flow": {
+        "baseline_only_correct": 297,
+        "both_correct": 1810,
+        "both_wrong": 0,
+        "n": 2107,
+        "prediction_agreement": 0.8590412909349786,
+        "rf_only_correct": 0
+      },
+      "group": {
+        "baseline_only_correct": 44,
+        "both_correct": 315,
+        "both_wrong": 0,
+        "n": 359,
+        "prediction_agreement": 0.8774373259052924,
+        "rf_only_correct": 0
+      }
+    },
+    "tcp_rule": {
+      "flow": {
+        "baseline_only_correct": 0,
+        "both_correct": 1805,
+        "both_wrong": 297,
+        "n": 2107,
+        "prediction_agreement": 0.9976269577598481,
+        "rf_only_correct": 5
+      },
+      "group": {
+        "baseline_only_correct": 0,
+        "both_correct": 310,
+        "both_wrong": 44,
+        "n": 359,
+        "prediction_agreement": 0.9860724233983287,
+        "rf_only_correct": 5
+      }
+    }
+  }
+}

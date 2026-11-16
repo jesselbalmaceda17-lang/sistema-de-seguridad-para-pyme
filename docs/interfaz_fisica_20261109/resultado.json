@@ -1,0 +1,75 @@
+{
+  "utc": "2026-11-09T20:16:31.457728+00:00",
+  "passed": true,
+  "interface_name": "Wi-Fi",
+  "interface_description": "Intel(R) Wi-Fi 6 AX201 160MHz",
+  "interface_id": "\\Device\\NPF_{014603EF-B8E8-4F1A-9B1B-535F0D5E99D3}",
+  "type": "Physical Native 802.11, managed mode",
+  "sessions": [
+    {
+      "session_id": "2501d69b2aeb47259b36a101ba9d1d9d",
+      "owner_pid": 1404,
+      "owner_created": 1794255319.824193,
+      "started_at": "2026-11-09T20:15:55.769771+00:00",
+      "ended_at": "2026-11-09T20:16:14.063626+00:00",
+      "interface_id": "\\Device\\NPF_{014603EF-B8E8-4F1A-9B1B-535F0D5E99D3}",
+      "interface_name": "Wi-Fi",
+      "source_kind": "live",
+      "status": "stopped",
+      "reason": "Detenido por el usuario.",
+      "config_json": "{\"duration_seconds\": 25, \"capture_memory_mib\": 256, \"storage_mib\": 128, \"max_packets\": 100000, \"max_active_flows\": 2000, \"max_flows\": 10000, \"queue_packets\": 1024, \"max_flow_packets\": 256, \"heartbeat_seconds\": 20, \"tcp_idle_seconds\": 5, \"udp_idle_seconds\": 5, \"active_seconds\": 30, \"allowed_ports\": [], \"excluded_ports\": [8533], \"rules\": {\"window_seconds\": 30, \"syn_packets\": 100, \"destination_ports\": 30, \"ipv4_bytes\": 10485760, \"max_events\": 50000}}",
+      "counters_json": "{\"status\": \"stopped\", \"session_id\": \"2501d69b2aeb47259b36a101ba9d1d9d\", \"interface\": \"Wi-Fi\", \"reason\": \"Detenido por el usuario.\", \"errors\": [], \"packets_seen\": 315, \"packets_accepted\": 315, \"packets_rejected\": 0, \"connections_observed\": 23, \"flows_closed\": 24, \"flows_persisted\": 24, \"alerts_generated\": 0, \"alerts_persisted\": 0, \"capture_rss_peak\": 136585216, \"partial\": false, \"forced_stop\": false, \"source_kind\": \"live\", \"pid\": 5292, \"rejections\": {}, \"active_flows\": 0, \"elapsed_seconds\": 18.28, \"storage_bytes\": 341887, \"diagnostics\": \"Capturing on 'Wi-Fi'\\n315 packets captured\\n\", \"stop_signal\": {\"returncode\": 0, \"stderr\": \"\"}}",
+      "capture_path": "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\interfaz_fisica_20261109\\monitor\\sessions\\2501d69b2aeb47259b36a101ba9d1d9d\\capture.pcapng"
+    }
+  ],
+  "counters": {
+    "status": "stopped",
+    "session_id": "2501d69b2aeb47259b36a101ba9d1d9d",
+    "interface": "Wi-Fi",
+    "reason": "Detenido por el usuario.",
+    "errors": [],
+    "packets_seen": 315,
+    "packets_accepted": 315,
+    "packets_rejected": 0,
+    "connections_observed": 23,
+    "flows_closed": 24,
+    "flows_persisted": 24,
+    "alerts_generated": 0,
+    "alerts_persisted": 0,
+    "capture_rss_peak": 136585216,
+    "partial": false,
+    "forced_stop": false,
+    "source_kind": "live",
+    "pid": 5292,
+    "rejections": {},
+    "active_flows": 0,
+    "elapsed_seconds": 18.28,
+    "storage_bytes": 341887,
+    "diagnostics": "Capturing on 'Wi-Fi'\n315 packets captured\n",
+    "stop_signal": {
+      "returncode": 0,
+      "stderr": ""
+    }
+  },
+  "alerts": [],
+  "sqlite_integrity": "ok",
+  "pcap_sha256": "66fab4794a82b7008219a51434536cd23af575a2c5ef9d0f42b3c93ebf6374e2",
+  "link_encapsulations": [
+    "1"
+  ],
+  "protocols": [
+    "tcp",
+    "udp"
+  ],
+  "all_38_features_recomputed_for_flows": 24,
+  "https_requests_successful": 2,
+  "https_remote_ips_observed": [
+    "104.20.23.154"
+  ],
+  "duplicate_alert_ids": 0,
+  "capture_processes_remaining": [],
+  "original_models_and_databases_verified": 8,
+  "source_changes": [],
+  "old_zip_unchanged": true,
+  "scope_limit": "Only traffic visible to this computer on its authorized physical NIC; not evidence of security for an entire business."
+}

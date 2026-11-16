@@ -1,0 +1,59 @@
+{
+  "checked_at_utc": "2026-11-09T14:34:51.870375+00:00",
+  "complete_container_valid": true,
+  "format": "classic Ethernet PCAP 2.4",
+  "source": {
+    "path": "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\data\\raw\\iot23_somfy_7_1_01\\2019-07-03-15-15-47-first_start_somfy_gateway.pcap",
+    "sha256": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+    "size_bytes": 2094105,
+    "format": "pcap"
+  },
+  "limits": {
+    "max_bytes": 134217728,
+    "max_frames": 1000000
+  },
+  "frames": 8276,
+  "auditable_packets": 6174,
+  "raw_protocol_packets": {
+    "udp": 317,
+    "tcp": 5857
+  },
+  "raw_tcp_flag_packets": {
+    "syn": 4,
+    "ack": 5855,
+    "fin": 18,
+    "rst": 0
+  },
+  "raw_canonical_tuples": 8,
+  "import_quality": {
+    "records_imported": 130,
+    "rows_rejected": 0,
+    "close_marker_present": true,
+    "label_distribution": {
+      "benign": 130
+    },
+    "normalized_label_distribution": {
+      "Benign": 130
+    },
+    "records_with_field_problems": 130,
+    "records_with_contradictions": 0
+  },
+  "zeek_references": 130,
+  "zeek_target_bidirectional_tcp_references_by_reported_counters": 1,
+  "checksum_states": {
+    "outside_ethernet_ipv4_scope": 2097,
+    "valid": 6173,
+    "unsupported_or_incomplete_packet": 5,
+    "partial_pseudoheader": 1
+  },
+  "extractor_configuration": {
+    "tcp_idle_seconds": 120.0,
+    "udp_idle_seconds": 30.0,
+    "active_timeout_seconds": 300.0,
+    "tshark_timeout_seconds": 120.0,
+    "max_packets": 1000000,
+    "max_active_flows": 50000,
+    "max_flows": 100000
+  },
+  "note": "Header tuple counts and Zeek references are not extractor flows; no labels assigned by this validation"
+}

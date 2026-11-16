@@ -1,0 +1,9 @@
+{
+  "original_models_and_databases_verified": 8,
+  "unchanged_application_source_modules": 26,
+  "capture_processes": [],
+  "test_server_listeners": [],
+  "final_zip_sha256": "de8a93645612531928b1d08159289e55297dc03dbc7888b2fe6a475a6ec63c48",
+  "old_zip_unchanged": true,
+  "pcap_sha256": "66fab4794a82b7008219a51434536cd23af575a2c5ef9d0f42b3c93ebf6374e2"
+}

@@ -1,0 +1,126 @@
+{
+  "manifest_version": 1,
+  "delivery_id": "entrega-tecnica-20261109",
+  "generated_at_utc": "2026-11-09T16:11:27.760968+00:00",
+  "hash_algorithm": "SHA-256",
+  "self_excluded": "manifest.sha256.json",
+  "files": [
+    {
+      "path": ".streamlit/config.toml",
+      "size_bytes": 123,
+      "sha256": "d19fbb31776a97190e3b50c5c0f9c21000f799ec126581a75aee987638c0fae8"
+    },
+    {
+      "path": "app.py",
+      "size_bytes": 716,
+      "sha256": "b6eb982e89273a7ed848cf27eddb5b2f3037a26ce548e9974ab69ab03d1949e9"
+    },
+    {
+      "path": "demo/demostracion_sintetica.csv",
+      "size_bytes": 1589,
+      "sha256": "b6bcb0c8920729d582c0698ba90e73444177893b250baaf931183a0c3499fbc3"
+    },
+    {
+      "path": "demo/resultados_esperados.json",
+      "size_bytes": 717,
+      "sha256": "cb377f34ced3a6db7030d49e5dcbfacf257cb1a3df1cdb5439f4ae3af7df4068"
+    },
+    {
+      "path": "herramientas/sqlite_respaldo.py",
+      "size_bytes": 2089,
+      "sha256": "a0e00912b8ed2e29bfef8dd0d91b31a8626ab1d600cfe5634d0292e33dfdb686"
+    },
+    {
+      "path": "herramientas/verificar_paquete.py",
+      "size_bytes": 1175,
+      "sha256": "7543ec3994e6d9a21a83c1a6b1b0fdc1bde4879652e914fc017fc99ec50e5441"
+    },
+    {
+      "path": "iniciar.ps1",
+      "size_bytes": 1089,
+      "sha256": "102c2932308cc1af2247ad0e9917bb2712b541475ba5c953e78e4c8319393693"
+    },
+    {
+      "path": "models/unsw_nb15_random_forest.joblib",
+      "size_bytes": 38656578,
+      "sha256": "58505ee89df22c4c223b66d5e7172388d5d1fad6b7d135fce800a2765b2029e9"
+    },
+    {
+      "path": "models/unsw_nb15_random_forest.joblib.metadata.json",
+      "size_bytes": 11942,
+      "sha256": "672c4f242003664bb699a56b29cfd71cfa4add3511ba178644d981b3e43b3462"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 6017,
+      "sha256": "257ad25bac4dd38b7242f1af49b110be3b28ef44deb15f60fc4b34e7fd366f58"
+    },
+    {
+      "path": "RECUPERACION.md",
+      "size_bytes": 4018,
+      "sha256": "1ec631610f9f378da14cad65089d130d6fe6a1cea1ed5629e009baa681ba5c8d"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "size_bytes": 1340,
+      "sha256": "4acb61251446735b721b6c3501308cd166b230de76ac8d984b1ba125f82e765e"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 99,
+      "sha256": "802736171fce738b303a5f3875e715173a0a08b4dbc73178caae5e8607e74e91"
+    },
+    {
+      "path": "seguridad_pymes/__init__.py",
+      "size_bytes": 87,
+      "sha256": "10f047eac019a3275680d3256ca732b9b218e30a65dced22a272b787d9e6eba6"
+    },
+    {
+      "path": "seguridad_pymes/dashboard.py",
+      "size_bytes": 46942,
+      "sha256": "9b607859208e7441146f3d297c2f8a511f3b47a546ccd733ee8adc13ebab549c"
+    },
+    {
+      "path": "seguridad_pymes/database.py",
+      "size_bytes": 18523,
+      "sha256": "508ce319ec77dde4569a811ad83df8bd8ca9786ded8886a8c3e72b227e4f8704"
+    },
+    {
+      "path": "seguridad_pymes/inference.py",
+      "size_bytes": 14540,
+      "sha256": "07ef41c35050c3899d65c88d4476bd92184b40fad8a58e815a7ac831f2f8c278"
+    },
+    {
+      "path": "seguridad_pymes/ingestion.py",
+      "size_bytes": 18459,
+      "sha256": "7053debe2a6308d05a8c6d12b12b3cd1b8b446f4ad856035d2783b4e12d06672"
+    },
+    {
+      "path": "seguridad_pymes/resources.py",
+      "size_bytes": 8112,
+      "sha256": "ff7ea8e4eccf0e84731047b5b979cce7299dc57be9ccecfa515303a3cdb71a5d"
+    },
+    {
+      "path": "seguridad_pymes/training.py",
+      "size_bytes": 19511,
+      "sha256": "b7196b8860be5bcba0e6b4b606e582aadb18ed2ea43dac058af4570f7561bca4"
+    },
+    {
+      "path": "VERIFICACION.md",
+      "size_bytes": 841,
+      "sha256": "297e0d8455542bf41ab0b8ace2c465feca46abd21de2959c0a176aef272b824e"
+    },
+    {
+      "path": "VERSIONES.json",
+      "size_bytes": 793,
+      "sha256": "d3109a52cb4ad225aa649a9571b01f7f4f434fc0cdc65d7dd861eed629927407"
+    }
+  ],
+  "runtime_generated_excluded": [
+    ".venv/",
+    "__pycache__/",
+    "data/processed/*.sqlite3",
+    "respaldos_locales/"
+  ],
+  "trust_notice": "Manifest detects changes; it does not authenticate its publisher. Load only trusted joblib models."
+}

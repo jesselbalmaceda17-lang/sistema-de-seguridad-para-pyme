@@ -1,0 +1,23 @@
+{
+  "pid": 10040,
+  "command": [
+    "powershell.exe",
+    "-NoProfile",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\Copia independiente con espacios\\iniciar.ps1",
+    "-PythonPath",
+    "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Scripts\\python.exe",
+    "-Port",
+    "8527"
+  ],
+  "cwd": "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\launcher_fuera_del_paquete",
+  "package": "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\Copia independiente con espacios",
+  "port": 8527,
+  "startup_health_seconds": 2.8014038000001165,
+  "default_database": "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\Copia independiente con espacios\\data\\processed\\security_analysis.sqlite3",
+  "new_sqlite_default": true,
+  "source_manifest_sha256": "3184f9620e2a7860d375931002c0d61cfea5ea9f65dbdd823323519864b00bb9",
+  "relocated_copy_manifest_sha256": "3184f9620e2a7860d375931002c0d61cfea5ea9f65dbdd823323519864b00bb9"
+}

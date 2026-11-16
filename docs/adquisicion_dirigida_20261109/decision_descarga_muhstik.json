@@ -1,0 +1,59 @@
+{
+  "decided_at_utc": "2026-11-09T14:36:50.892360+00:00",
+  "resources": {
+    "ram_available_bytes": 11558948864,
+    "disk_free_bytes": 296674320384
+  },
+  "authorized_pair": [
+    {
+      "role": "pcap",
+      "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-3-1/2018-05-21_capture.pcap",
+      "checked_at_utc": "2026-11-09T14:36:50.170323+00:00",
+      "method": "HEAD",
+      "headers": {
+        "date": "Mon, 09 Nov 2026 14:36:50 GMT",
+        "server": "Apache/2.4.69",
+        "last-modified": "Wed, 30 Jan 2019 16:51:28 GMT",
+        "etag": "\"373c91c-580afb895a400\"",
+        "accept-ranges": "bytes",
+        "content-length": "57919772",
+        "content-type": "application/vnd.tcpdump.pcap"
+      },
+      "size_bytes": 57919772,
+      "body_bytes_downloaded": 0
+    },
+    {
+      "role": "labels",
+      "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-3-1/bro/conn.log.labeled",
+      "checked_at_utc": "2026-11-09T14:36:50.892316+00:00",
+      "method": "HEAD",
+      "headers": {
+        "date": "Mon, 09 Nov 2026 14:36:50 GMT",
+        "server": "Apache/2.4.69",
+        "last-modified": "Wed, 25 Dec 2019 10:41:17 GMT",
+        "etag": "\"1741031-59a84e67f0d40\"",
+        "accept-ranges": "bytes",
+        "content-length": "24383537"
+      },
+      "size_bytes": 24383537,
+      "body_bytes_downloaded": 0
+    }
+  ],
+  "configuration": {
+    "tcp_idle_seconds": 120.0,
+    "udp_idle_seconds": 30.0,
+    "active_timeout_seconds": 300.0,
+    "tshark_timeout_seconds": 120.0,
+    "max_packets": 1000000,
+    "max_active_flows": 50000,
+    "max_flows": 100000
+  },
+  "audit_max_bytes": 134217728,
+  "audit_max_frames": 1000000,
+  "reserved_not_requested": [
+    "Mirai 34-1",
+    "Amazon Echo 5-1"
+  ],
+  "previous_somfy_closed": true,
+  "source": "official IndividualScenarios snapshot; full Zenodo archive byte identity unverified"
+}

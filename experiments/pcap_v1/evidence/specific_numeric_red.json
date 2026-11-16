@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-11-08T20:47:58.939696+00:00",
+  "error_details": [],
+  "errors": 0,
+  "expected_failures": 0,
+  "failure_details": [
+    [
+      "test_constant_probability_remains_identical_across_segment_counts (tests.test_pcap_experiment.PartitionAndGroupTests.test_constant_probability_remains_identical_across_segment_counts)",
+      "Traceback (most recent call last):\n  File \"C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\tests\\test_pcap_experiment.py\", line 147, in test_constant_probability_remains_identical_across_segment_counts\n    self.assertTrue(all(r[\"probability_malicious\"] == probability for r in result))\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: False is not true\n"
+    ]
+  ],
+  "failures": 1,
+  "log_sha256": "57acc63d0a7b6a4e31508497d7daaf762fb08c7a3d20643e97880b6148788132",
+  "passed": 41,
+  "scope": "specific",
+  "skipped": 0,
+  "skipped_details": [],
+  "successful": false,
+  "tests_run": 42,
+  "unexpected_successes": 0,
+  "wall_seconds": 4.520174200002657
+}

@@ -1,0 +1,16 @@
+{
+  "started_at_utc": "2026-11-08T16:07:48.845582+00:00",
+  "finished_at_utc": "2026-11-08T16:08:08.612094+00:00",
+  "tests_run": 134,
+  "passed": 134,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "expected_failures": 0,
+  "unexpected_successes": 0,
+  "successful": true,
+  "command": ".venv/Scripts/python.exe -B -m unittest discover -s tests -v (equivalent TextTestRunner, log retained)",
+  "failure_details": [],
+  "error_details": [],
+  "skipped_details": []
+}

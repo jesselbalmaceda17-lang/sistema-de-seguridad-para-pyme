@@ -1,0 +1,12 @@
+{
+  "max_seconds_per_worker": 120,
+  "max_peak_rss_bytes": 1610612736,
+  "min_available_memory_bytes_before_case": 4294967296,
+  "batches": [
+    8,
+    100,
+    1000,
+    10000,
+    50000
+  ]
+}

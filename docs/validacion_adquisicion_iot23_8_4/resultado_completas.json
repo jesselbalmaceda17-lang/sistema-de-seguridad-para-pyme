@@ -1,0 +1,17 @@
+{
+  "started_at_utc": "2026-11-08T18:12:24.328692+00:00",
+  "finished_at_utc": "2026-11-08T18:13:04.771641+00:00",
+  "wall_seconds": 40.44294850000006,
+  "pattern": "test*.py",
+  "tests_run": 172,
+  "passed": 172,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "expected_failures": 0,
+  "unexpected_successes": 0,
+  "successful": true,
+  "failure_details": [],
+  "error_details": [],
+  "skipped_details": []
+}

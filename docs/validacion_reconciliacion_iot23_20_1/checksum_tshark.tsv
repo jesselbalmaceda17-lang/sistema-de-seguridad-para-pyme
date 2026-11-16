@@ -1,0 +1,5 @@
+frame.number	frame.time_epoch	ip.len	ip.checksum.status	tcp.checksum	tcp.checksum_calculated	tcp.checksum.status	_ws.expert.message
+266	1538479310.188926000	1619	1	0x0b05	0x0975	1	Partial (pseudo header) checksum (likely caused by "TCP checksum offload")
+24789	1538520739.742815000	1622	1	0x0b08	0x4c26	1	Partial (pseudo header) checksum (likely caused by "TCP checksum offload")
+24825	1538520822.957747000	1620	1	0x0b06	0x40a7	1	Partial (pseudo header) checksum (likely caused by "TCP checksum offload")
+24828	1538520823.657618000	2960	1	0x1042	0xe348	1	Partial (pseudo header) checksum (likely caused by "TCP checksum offload")

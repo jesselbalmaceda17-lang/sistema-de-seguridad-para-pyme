@@ -1,0 +1,137 @@
+{
+  "checked_at_utc": "2026-11-08T17:59:43.600240+00:00",
+  "files": [
+    {
+      "scenario": "CTU-IoT-Malware-Capture-8-1",
+      "role": "pcap",
+      "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-8-1/2018-07-31-15-15-09-192.168.100.113.pcap",
+      "size_bytes": 2098362,
+      "checked_at_utc": "2026-11-08T17:59:36.428318+00:00",
+      "raw_headers": "HTTP/1.1 200 OK\r\nDate: Sun, 08 Nov 2026 17:59:35 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Wed, 30 Jan 2019 17:48:42 GMT\r\nETag: \"2004ba-580b085445280\"\r\nAccept-Ranges: bytes\r\nContent-Length: 2098362\r\nContent-Type: application/vnd.tcpdump.pcap\r\n\r\n"
+    },
+    {
+      "scenario": "CTU-IoT-Malware-Capture-8-1",
+      "role": "labels",
+      "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-8-1/bro/conn.log.labeled",
+      "size_bytes": 1431000,
+      "checked_at_utc": "2026-11-08T17:59:37.354804+00:00",
+      "raw_headers": "HTTP/1.1 200 OK\r\nDate: Sun, 08 Nov 2026 17:59:36 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Wed, 25 Dec 2019 02:46:43 GMT\r\nETag: \"15d5d8-59a7e45504ac0\"\r\nAccept-Ranges: bytes\r\nContent-Length: 1431000\r\n\r\n"
+    },
+    {
+      "scenario": "CTU-Honeypot-Capture-4-1",
+      "role": "pcap_xz",
+      "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-4-1/2018-10-25-14-06-32-192.168.1.132.pcap.xz",
+      "size_bytes": 376840,
+      "checked_at_utc": "2026-11-08T17:59:42.674564+00:00",
+      "raw_headers": "HTTP/1.1 200 OK\r\nDate: Sun, 08 Nov 2026 17:59:42 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Tue, 09 Mar 2021 17:00:46 GMT\r\nETag: \"5c008-5bd1d7dd7223d\"\r\nAccept-Ranges: bytes\r\nContent-Length: 376840\r\nContent-Type: application/x-xz\r\n\r\n"
+    },
+    {
+      "scenario": "CTU-Honeypot-Capture-4-1",
+      "role": "labels",
+      "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-4-1/bro/conn.log.labeled",
+      "size_bytes": 61653,
+      "checked_at_utc": "2026-11-08T17:59:43.600014+00:00",
+      "raw_headers": "HTTP/1.1 200 OK\r\nDate: Sun, 08 Nov 2026 17:59:43 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Thu, 05 Dec 2019 18:13:47 GMT\r\nETag: \"f0d5-598f8e3efacc0\"\r\nAccept-Ranges: bytes\r\nContent-Length: 61653\r\n\r\n"
+    }
+  ],
+  "download_total_bytes": 3967855,
+  "free_bytes_before_download": 297975226368,
+  "required_headroom_bytes": 536870912,
+  "metadata": {
+    "hakai": {
+      "scenario_index": {
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-8-1</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-8-1</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-07-31-15-15-09-192.168.100.113.pcap\">2018-07-31-15-15-09-192.168.100.113.pcap</a></td><td align=\"right\">2019-01-30 18:48  </td><td align=\"right\">2.0M</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/text.gif\" alt=\"[TXT]\" /></td><td><a href=\"README.md\">README.md</a></td><td align=\"right\">2019-08-20 18:26  </td><td align=\"right\">1.6K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"bro/\">bro/</a></td><td align=\"right\">2021-07-10 22:23  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n",
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-8-1/",
+        "obtained_at_utc": "2026-11-08T17:59:18.973504+00:00",
+        "size_bytes": 1694,
+        "sha256": "5946fec8bece4a6853537e57efab57df154948b7861a2f89f0ad82e614ef0c62",
+        "headers": {
+          "content-length": "1694",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel"
+      },
+      "labels_index": {
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-8-1/bro</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-8-1/bro</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-8-1/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"conn.log.labeled\">conn.log.labeled</a></td><td align=\"right\">2019-12-25 03:46  </td><td align=\"right\">1.4M</td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n",
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-8-1/bro/",
+        "obtained_at_utc": "2026-11-08T17:59:34.830964+00:00",
+        "size_bytes": 1294,
+        "sha256": "618fd146d6ada16b6fb2db8d79852371a9287e1d5ca38bbd0042249631649b02",
+        "headers": {
+          "content-length": "1294",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel"
+      },
+      "readme": {
+        "text": "# IoT Lab Capture\n- Description: \n- Probable Malware Name: Hakai\n- MD5: 6b33af4e1b87eaa160c23cf26da327ba\n- SHA1: c6794c922375175d6271f8a9fe75ad26b29096cf\n- SHA256: f05e731a3dca8868af3a05ae4867a39f397e0d54221229c0be74c8a20d00e364\n- Password of zip file: infected\n- Duration: \n\n- [VirusTotal](https://www.virustotal.com/en/file/f05e731a3dca8868af3a05ae4867a39f397e0d54221229c0be74c8a20d00e364/analysis/)\n- [HybridAnalysis](https://www.hybrid-analysis.com/sample/f05e731a3dca8868af3a05ae4867a39f397e0d54221229c0be74c8a20d00e364?environmentId=2)\n- RobotHash\n\n[![](https://robohash.org/6b33af4e1b87eaa160c23cf26da327ba)](https://robohash.org)\n\n# Description of Files\n\n- .capinfos\n    - Capinfos file\n- .dnstop\n    - DNS top file\n- .passivedns\n    - Passive DNS file\n- .pcap\n    - Original pcap file\n- .weblogng\n    - WEB log of http traffic only. Generated with justsniffer\n- bro\n    - Folder with all the bro output files\n- .biargus\n    - Argus binary file. Bidirectional flows, 3600s of report time.\n- .binetflow\n    - Argus text file with bidirectional flows. Report time 3600 secs.\n\n# IP Addresses\n    - Infected device: 192.168.100.113\n    - Default GW: 192.168.100.1\n\n# Timeline\n\n## Tue Jul 31 16:27:14 CEST 2018\nMalware executed.\n\n# Disclaimer \nThese files were generated in the Stratosphere Laboratory as part of the Aposemat Project for collecting IoT malware captures Done in the CVUT University, Prague, Czech Republic.\nThe goal is to store long-lived real iot malware traffic and to generate labeled netflows files.\nAny question feel free to contact us at:\nSebastian Garcia: sebastian.garcia@agents.fel.cvut.cz\n\nYou need authorization from the Stratosphere Lab to use these files.\n",
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-8-1/README.md",
+        "obtained_at_utc": "2026-11-08T17:59:35.647334+00:00",
+        "size_bytes": 1688,
+        "sha256": "1788755a075f580c3628e4698ba4dad699f91c058dede73bae3f480bb5cba840",
+        "headers": {
+          "last-modified": "Tue, 20 Aug 2019 16:26:17 GMT",
+          "etag": "\"698-5908eea775c40\"",
+          "content-length": "1688",
+          "content-type": "text/markdown"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel"
+      }
+    },
+    "hue": {
+      "scenario_index": {
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-4-1</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-4-1</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-10-25-14-06-32-192.168.1.132.capinfos\">2018-10-25-14-06-32-192.168.1.132.capinfos</a></td><td align=\"right\">2021-01-18 20:33  </td><td align=\"right\">1.1K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-10-25-14-06-32-192.168.1.132.dnstop\">2018-10-25-14-06-32-192.168.1.132.dnstop</a></td><td align=\"right\">2021-01-18 20:33  </td><td align=\"right\">2.5K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-10-25-14-06-32-192.168.1.132.passivedns\">2018-10-25-14-06-32-192.168.1.132.passivedns</a></td><td align=\"right\">2021-01-18 20:33  </td><td align=\"right\">4.0K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-10-25-14-06-32-192.168.1.132.pcap.xz\">2018-10-25-14-06-32-192.168.1.132.pcap.xz</a></td><td align=\"right\">2021-03-09 18:00  </td><td align=\"right\">368K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/text.gif\" alt=\"[TXT]\" /></td><td><a href=\"README.html\">README.html</a></td><td align=\"right\">2022-03-30 10:54  </td><td align=\"right\">3.5K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"README.json\">README.json</a></td><td align=\"right\">2022-03-27 05:49  </td><td align=\"right\"> 13K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/text.gif\" alt=\"[TXT]\" /></td><td><a href=\"README.md\">README.md</a></td><td align=\"right\">2022-03-30 10:54  </td><td align=\"right\">2.8K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"bro/\">bro/</a></td><td align=\"right\">2022-03-30 10:40  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"suricata/\">suricata/</a></td><td align=\"right\">2022-01-30 12:27  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n<h1 id=\"iot-lab-capture\">IoT Lab Capture</h1>\n<ul>\n<li>Description: This is network traffic capture for the honeypot device Philips hue Bridge. This is a capture renamed 4-1, but the original capture is still also named “CTU-Honeypot-Bridge-Philips-Hue-1-2018-10-25”</li>\n<li>Model: Philips hue Bridge</li>\n<li>Duration:</li>\n</ul>\n<h1 id=\"descripttion-of-files\">Descripttion of Files</h1>\n<ul>\n<li>.capinfos\n<ul>\n<li>Capinfos file</li>\n</ul></li>\n<li>.dnstop\n<ul>\n<li>DNS top file</li>\n</ul></li>\n<li>mitm.out\n<ul>\n<li>Mitm proxy interception file of http and https</li>\n</ul></li>\n<li>.mitm.weblog\n<ul>\n<li>This is the HTTP and HTTPS web log that includes Labels. This is the preferred file for web analysis.</li>\n<li>This file includes a header with the columns names. There are two new columns defined by us:\n<ul>\n<li>Column id: This number is unique for all the weblogs generated <strong>inside</strong> the same TCP connection. When a TCP connection is opened and several GET/POST, etc., requests are made inside it, all of them are assigned the same Id in this file.</li>\n<li>Column timestamp_end: This is the timestamp when the weblog ended. If you use this with the id column you can compute the total duration of the TCP connection that generated <strong>all</strong> the weblogs. Similar to the duration of a hypothetical CONNECT request if this would have been done using a proxy.</li>\n</ul></li>\n</ul></li>\n<li>.passivedns\n<ul>\n<li>Passive DNS file</li>\n</ul></li>\n<li>.pcap\n<ul>\n<li>Original pcap file</li>\n</ul></li>\n<li>.rrd\n<ul>\n<li>RRD file for graphs</li>\n</ul></li>\n<li>.weblogng\n<ul>\n<li>WEB log of http traffic only. Generated with justsniffer</li>\n</ul></li>\n<li>.exe.zip\n<ul>\n<li>Original malware file</li>\n</ul></li>\n<li>bro\n<ul>\n<li>Folder with all the bro output files</li>\n</ul></li>\n<li>.biargus\n<ul>\n<li>Argus binary file. Bidirectional flows, 3600s of report time.</li>\n</ul></li>\n<li>.binetflow\n<ul>\n<li>Argus text file with bidirectional flows. Report time 3600 secs.</li>\n</ul></li>\n<li>.uniargus\n<ul>\n<li>Argus binary file. Unidirectional flows, 5s of report time.</li>\n</ul></li>\n<li>.uninetflow\n<ul>\n<li>Argus text file with unidirectional flows. Report time 5 secs. TAB as column separator.</li>\n</ul></li>\n</ul>\n<h1 id=\"ip-addresses\">IP Addresses</h1>\n<pre><code>- Infected device: 192.168.1.132\n- Default GW: 192.168.1.1\n- Public IP: 147.32.82.200</code></pre>\n<h1 id=\"generic-dataset-name-ctu-honeypot-capture-4-1\">Generic Dataset name: CTU-Honeypot-Capture-4-1</h1>\n<h1 id=\"origin-device-philips-hue\">Origin device: Philips Hue</h1>\n<h1 id=\"timeline\">Timeline</h1>\n<h2 id=\"start.-20181025\">Start. 2018/10/25</h2>\n<h2 id=\"thu-oct-25-141600-cest-2018\">Thu Oct 25 14:16:00 CEST 2018</h2>\n<p>Capturing traffic again. The camera has new IP address</p>\n<p>##Mon Dec 14 19:19:28 CET 2020 Stop for maintenace</p>\n<p>##Tue Dec 15 17:41:39 CET 2020 Power on again</p>\n<p>##Thu Jan 14 15:27:44 CET 2021 Network restored</p>\n<h1 id=\"disclaimer\">Disclaimer</h1>\n<p>These files were generated in the Stratosphere Laboratory as part of the Aposemat Project for collecting IoT malware captures with the support of Avast Software.Done in the CVUT University, Prague, Czech Republic. The goal is to store long-lived real iot malware traffic and to generate labeled netflows files. Any question feel free to contact us at: Sebastian Garcia: sebastian.garcia@agents.fel.cvut.cz</p>\n<p>You need authorization from the Stratosphere Lab to use these files.</p>\n<h1 id=\"suricata-run-with-rules-updated-on-2021-03-09\">Suricata run with rules updated on 2021-03-09</h1>\n</body></html>\n",
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-4-1/",
+        "obtained_at_utc": "2026-11-08T17:59:38.301774+00:00",
+        "size_bytes": 6688,
+        "sha256": "ed8994521f9fd69d978474a2de111393ddd01d52b1b1bb5047aefa458e87a8b1",
+        "headers": {
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel"
+      },
+      "labels_index": {
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-4-1/bro</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-4-1/bro</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-4-1/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"capture_loss.log\">capture_loss.log</a></td><td align=\"right\">2021-01-18 20:33  </td><td align=\"right\">3.7K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"conn.log\">conn.log</a></td><td align=\"right\">2021-01-18 20:33  </td><td align=\"right\"> 54K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"conn.log.labeled\">conn.log.labeled</a></td><td align=\"right\">2019-12-05 19:13  </td><td align=\"right\"> 60K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"dhcp.log\">dhcp.log</a></td><td align=\"right\">2021-01-18 20:33  </td><td align=\"right\">716 </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"dns.log\">dns.log</a></td><td align=\"right\">2021-01-18 20:33  </td><td align=\"right\"> 47K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"files.log\">files.log</a></td><td align=\"right\">2021-01-18 20:33  </td><td align=\"right\"> 24K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"http.log\">http.log</a></td><td align=\"right\">2021-01-18 20:33  </td><td align=\"right\"> 16K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"loaded_scripts.log\">loaded_scripts.log</a></td><td align=\"right\">2021-01-18 20:33  </td><td align=\"right\"> 26K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"packet_filter.log\">packet_filter.log</a></td><td align=\"right\">2021-01-18 20:33  </td><td align=\"right\">253 </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"stats.log\">stats.log</a></td><td align=\"right\">2021-01-18 20:33  </td><td align=\"right\"> 21K</td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n",
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-4-1/bro/",
+        "obtained_at_utc": "2026-11-08T17:59:39.131624+00:00",
+        "size_bytes": 3132,
+        "sha256": "92c0849baf09019792057d9259d4bbeac35c10b1983f769b6bbec4091aa163d6",
+        "headers": {
+          "content-length": "3132",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel"
+      },
+      "readme": {
+        "text": "# IoT Lab Capture\n- Description: This is network traffic capture for the honeypot device Philips hue Bridge. This is a capture renamed 4-1, but the original capture is still also named \"CTU-Honeypot-Bridge-Philips-Hue-1-2018-10-25\"\n- Model: Philips hue Bridge\n- Duration: \n\n# Descripttion of Files\n\n- .capinfos\n    - Capinfos file\n- .dnstop\n    - DNS top file\n- mitm.out\n    - Mitm proxy interception file of http and https\n- .mitm.weblog\n    - This is the HTTP and HTTPS web log that includes Labels. This is the preferred file for web analysis.\n    - This file includes a header with the columns names. There are two new columns defined by us:\n        - Column id: This number is unique for all the weblogs generated __inside__ the same TCP connection. When a TCP connection is opened and several GET/POST, etc., requests are made inside it, all of them are assigned the same Id in this file.\n        - Column timestamp_end: This is the timestamp when the weblog ended. If you use this with the id column you can compute the total duration of the TCP connection that generated __all__ the weblogs. Similar to the duration of a hypothetical CONNECT request if this would have been done using a proxy.\n- .passivedns\n    - Passive DNS file\n- .pcap\n    - Original pcap file\n- .rrd\n    - RRD file for graphs\n- .weblogng\n    - WEB log of http traffic only. Generated with justsniffer\n- .exe.zip\n    - Original malware file\n- bro\n    - Folder with all the bro output files\n- .biargus\n    - Argus binary file. Bidirectional flows, 3600s of report time.\n- .binetflow\n    - Argus text file with bidirectional flows. Report time 3600 secs.\n- .uniargus\n    - Argus binary file. Unidirectional flows, 5s of report time.\n- .uninetflow\n    - Argus text file with unidirectional flows. Report time 5 secs. TAB as column separator.\n\n# IP Addresses\n    - Infected device: 192.168.1.132\n    - Default GW: 192.168.1.1\n    - Public IP: 147.32.82.200\n\n# Generic Dataset name: CTU-Honeypot-Capture-4-1\n# Origin device: Philips Hue\n\n# Timeline\n\n## Start. 2018/10/25\n\n## Thu Oct 25 14:16:00 CEST 2018\nCapturing traffic again. The camera has new IP address\n\n##Mon Dec 14 19:19:28 CET 2020\nStop for maintenace\n\n##Tue Dec 15 17:41:39 CET 2020\nPower on again\n\n##Thu Jan 14 15:27:44 CET 2021\nNetwork restored\n\n# Disclaimer \nThese files were generated in the Stratosphere Laboratory as part of the Aposemat Project for collecting IoT malware captures with the support of Avast Software.Done in the CVUT University, Prague, Czech Republic.\nThe goal is to store long-lived real iot malware traffic and to generate labeled netflows files.\nAny question feel free to contact us at:\nSebastian Garcia: sebastian.garcia@agents.fel.cvut.cz\n\nYou need authorization from the Stratosphere Lab to use these files.\n\n# Suricata run with rules updated on 2021-03-09\n",
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-4-1/README.md",
+        "obtained_at_utc": "2026-11-08T17:59:40.053638+00:00",
+        "size_bytes": 2821,
+        "sha256": "640e713a2864cd3c6b0343518375fde49fed0b10f266c939cc96c1b81e3c0a30",
+        "headers": {
+          "last-modified": "Wed, 30 Mar 2022 08:54:05 GMT",
+          "etag": "\"b05-5db6bb0122988\"",
+          "content-length": "2821",
+          "content-type": "text/markdown"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel"
+      },
+      "capinfos": {
+        "text": "File name:           2018-10-25-14-06-32-192.168.1.132.pcap\nFile type:           Wireshark/tcpdump/... - pcap\nFile encapsulation:  Ethernet\nFile timestamp precision:  microseconds (6)\nPacket size limit:   file hdr: 262144 bytes\nNumber of packets:   21 k\nFile size:           4,594 kB\nData size:           4,247 kB\nCapture duration:    78846.399363 seconds\nFirst packet time:   2018-10-25 14:06:37.400159\nLast packet time:    2018-10-26 12:00:43.799522\nData byte rate:      53 bytes/s\nData bit rate:       430 bits/s\nAverage packet size: 196.08 bytes\nAverage packet rate: 0 packets/s\nSHA256:              f770897e6cc3fa45857aee25ef7d3ab39dba39127b5bb813e0e0d48d3b905347\nRIPEMD160:           9364befdec626f26b942a7ba8a47e8ecf4dac1b3\nSHA1:                3b9e2f89fb7670864fb26350a3ff1a373d483f7a\nStrict time order:   True\nNumber of interfaces in file: 1\nInterface #0 info:\n                     Encapsulation = Ethernet (1 - ether)\n                     Capture length = 262144\n                     Time precision = microseconds (6)\n                     Time ticks per second = 1000000\n                     Number of stat entries = 0\n                     Number of packets = 21664\n",
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-4-1/2018-10-25-14-06-32-192.168.1.132.capinfos",
+        "obtained_at_utc": "2026-11-08T17:59:41.818428+00:00",
+        "size_bytes": 1176,
+        "sha256": "3f2ee5ca9c8e13aa676d58d98470dab536c2c1392a68bd66af6d17483014c90f",
+        "headers": {
+          "last-modified": "Mon, 18 Jan 2021 19:33:57 GMT",
+          "etag": "\"498-5b931cd986c26\"",
+          "content-length": "1176"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel"
+      }
+    }
+  },
+  "release": "IoT-23 1.0.0 official IndividualScenarios snapshot; archive byte identity not claimed",
+  "official_documentation": "https://www.stratosphereips.org/datasets-iot23",
+  "release_citation": "https://zenodo.org/records/4743746"
+}

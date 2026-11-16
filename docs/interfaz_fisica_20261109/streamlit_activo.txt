@@ -1,0 +1,252 @@
+Page Title: Seguridad Inteligente PYMES
+URL: http://127.0.0.1:8533/
+Snapshot: 
+- generic [active]:
+  - generic [ref=e304]:
+    - log
+    - log
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#stMain"
+    - region "Sidebar":
+      - generic [ref=e8]:
+        - heading "Estado del sistema" [level=2] [ref=e12]
+        - status [ref=e15]:
+          - generic:
+            - generic:
+              - generic:
+                - paragraph: "SIPYMES_MODEL_PATH está definido: el selector está deshabilitado y se usa el artefacto indicado."
+        - status [ref=e18]:
+          - generic:
+            - generic:
+              - generic:
+                - paragraph: Modelo cargado y listo.
+        - paragraph [ref=e23]: "Modelo seleccionado: Definitivo — clasificación predeterminada"
+        - paragraph [ref=e28]:
+          - text: "Artefacto:"
+          - code [ref=e29]: models\unsw_nb15_random_forest.joblib
+        - paragraph [ref=e34]: "Características requeridas: 42"
+        - paragraph [ref=e39]:
+          - text: "Regla:"
+          - code [ref=e40]: predict
+        - paragraph [ref=e45]: "Umbral: clasificación predeterminada"
+        - paragraph [ref=e50]:
+          - text: "Base SQLite:"
+          - code [ref=e51]: C:\Users\Ideapad15-itl6\Desktop\SeguridadInteligentePYMES\docs\interfaz_fisica_20261109\csv_prueba.sqlite3
+        - paragraph [ref=e56]: "Clasificación: normal (0) / sospechoso (1)"
+    - generic [ref=e4]:
+      - banner [ref=e59]:
+        - generic [ref=e61]:
+          - button "Expand sidebar" [ref=e64] [cursor=pointer]:
+            - generic [ref=e66]: keyboard_double_arrow_right
+          - generic [ref=e67]:
+            - button "Deploy" [ref=e69] [cursor=pointer]:
+              - generic [ref=e71]: Deploy
+            - button "Main menu" [ref=e73] [cursor=pointer]:
+              - img [ref=e74]
+      - main [ref=e5]:
+        - generic [ref=e77]:
+          - heading "Seguridad Inteligente PYMES" [level=1] [ref=e82]:
+            - text: Seguridad Inteligente PYMES
+            - generic [ref=e83]:
+              - link "Link to heading":
+                - /url: "#seguridad-inteligente-pymes"
+                - img
+          - paragraph [ref=e88]: Monitoreo autorizado por reglas y análisis independiente de archivos CSV.
+          - generic [ref=e90]:
+            - heading "Monitoreo de red" [level=2] [ref=e95]:
+              - text: Monitoreo de red
+              - generic [ref=e96]:
+                - link "Link to heading":
+                  - /url: "#monitoreo-de-red"
+                  - img
+            - paragraph [ref=e101]: "Detección: reglas transparentes sobre tráfico observado. No utiliza Random Forest ni confirma ataques."
+            - paragraph [ref=e106]: Solo se observa el tráfico accesible desde la interfaz seleccionada. Ver toda una LAN puede requerir un puerto espejo, TAP u otra infraestructura autorizada. Loopback observa comunicaciones locales de este equipo.
+            - generic [ref=e108]:
+              - paragraph [ref=e112]: Interfaz autorizada
+              - group [ref=e114]:
+                - combobox "Interfaz autorizada" [disabled] [ref=e115]: Wi-Fi
+                - button "Open" [disabled] [ref=e116]:
+                  - img [ref=e117]
+            - generic [ref=e122]:
+              - checkbox "Estoy autorizado para monitorear esta interfaz y conservar los paquetes observados." [checked] [disabled] [ref=e124]
+              - img [ref=e441]
+              - paragraph [ref=e130]: Estoy autorizado para monitorear esta interfaz y conservar los paquetes observados.
+            - group [ref=e133]:
+              - generic "Configuración y límites del monitoreo" [ref=e134] [cursor=pointer]:
+                - generic [ref=e135]:
+                  - generic [ref=e311]: keyboard_arrow_down
+                  - paragraph [ref=e140]: Configuración y límites del monitoreo
+              - generic [ref=e313]:
+                - paragraph [ref=e318]: Configuraciones operativas de partida; los umbrales no están científicamente validados para todas las PYMES. Al cambiar un valor se aplica a la próxima sesión.
+                - generic [ref=e320]:
+                  - paragraph [ref=e324]: Duración máxima (segundos)
+                  - generic [ref=e326]:
+                    - spinbutton "Duración máxima (segundos)" [disabled] [ref=e327]: "25"
+                    - generic [ref=e328]:
+                      - button "Decrement" [disabled] [ref=e329]:
+                        - img [ref=e330]
+                      - button "Increment" [disabled] [ref=e332]:
+                        - img [ref=e333]
+                - generic [ref=e336]:
+                  - paragraph [ref=e340]: Memoria máxima de captura (MiB)
+                  - generic [ref=e342]:
+                    - spinbutton "Memoria máxima de captura (MiB)" [disabled] [ref=e343]: "256"
+                    - generic [ref=e344]:
+                      - button "Decrement" [disabled] [ref=e345]:
+                        - img [ref=e346]
+                      - button "Increment" [disabled] [ref=e348]:
+                        - img [ref=e349]
+                - generic [ref=e352]:
+                  - paragraph [ref=e356]: Presupuesto total de historial y capturas (MiB)
+                  - generic [ref=e358]:
+                    - spinbutton "Presupuesto total de historial y capturas (MiB)" [disabled] [ref=e359]: "128"
+                    - generic [ref=e360]:
+                      - button "Decrement" [disabled] [ref=e361]:
+                        - img [ref=e362]
+                      - button "Increment" [disabled] [ref=e364]:
+                        - img [ref=e365]
+                - generic [ref=e368]:
+                  - paragraph [ref=e372]: Ventana de observación (segundos)
+                  - generic [ref=e374]:
+                    - spinbutton "Ventana de observación (segundos)" [disabled] [ref=e375]: "30"
+                    - generic [ref=e376]:
+                      - button "Decrement" [disabled] [ref=e377]:
+                        - img [ref=e378]
+                      - button "Increment" [disabled] [ref=e380]:
+                        - img [ref=e381]
+                - generic [ref=e384]:
+                  - paragraph [ref=e388]: Umbral de paquetes SYN sin ACK por origen
+                  - generic [ref=e390]:
+                    - spinbutton "Umbral de paquetes SYN sin ACK por origen" [disabled] [ref=e391]: "100"
+                    - generic [ref=e392]:
+                      - button "Decrement" [disabled] [ref=e393]:
+                        - img [ref=e394]
+                      - button "Increment" [disabled] [ref=e396]:
+                        - img [ref=e397]
+                - generic [ref=e400]:
+                  - paragraph [ref=e404]: Umbral de puertos destino distintos en SYN por origen
+                  - generic [ref=e406]:
+                    - spinbutton "Umbral de puertos destino distintos en SYN por origen" [disabled] [ref=e407]: "30"
+                    - generic [ref=e408]:
+                      - button "Decrement" [disabled] [ref=e409]:
+                        - img [ref=e410]
+                      - button "Increment" [disabled] [ref=e412]:
+                        - img [ref=e413]
+                - generic [ref=e416]:
+                  - paragraph [ref=e420]: Umbral de volumen IPv4 por origen (KiB)
+                  - generic [ref=e422]:
+                    - spinbutton "Umbral de volumen IPv4 por origen (KiB)" [disabled] [ref=e423]: "10240"
+                    - generic [ref=e424]:
+                      - button "Decrement" [disabled] [ref=e425]:
+                        - img [ref=e426]
+                      - button "Increment" [disabled] [ref=e428]:
+                        - img [ref=e429]
+                - paragraph [ref=e435]: "Captura pasiva, sin modo promiscuo: solo IPv4 TCP/UDP. Se excluye el puerto del servidor Streamlit para evitar medir su propio canal de control. No se analiza IPv6, fragmentación ni payload de aplicación. SYN incluye retransmisiones; ausencia de respuesta no se etiqueta como fallo. Se conservan PCAPNG locales, que pueden contener información sensible."
+                - paragraph [ref=e440]: Máximo 100.000 paquetes, 2.000 flujos activos, 10.000 segmentos; colas y ventanas acotadas. Sin señal de la pestaña durante 20 s se detiene la captura. El presupuesto incluye sesiones anteriores; no se eliminan automáticamente.
+            - generic [ref=e142]:
+              - button "Iniciar monitoreo" [disabled] [ref=e147]:
+                - paragraph [ref=e152]: Iniciar monitoreo
+              - button "Detener monitoreo" [ref=e157] [cursor=pointer]:
+                - paragraph [ref=e162]: Detener monitoreo
+            - paragraph [ref=e167]:
+              - text: "Estado:"
+              - strong [ref=e168]: Monitoreo activo
+            - generic [ref=e444]:
+              - generic [ref=e449]:
+                - paragraph [ref=e453]: Paquetes observados
+                - paragraph [ref=e456]: "242"
+              - generic [ref=e461]:
+                - paragraph [ref=e465]: Conexiones observadas
+                - paragraph [ref=e468]: "20"
+              - generic [ref=e473]:
+                - paragraph [ref=e477]: Segmentos guardados
+                - paragraph [ref=e480]: "16"
+              - generic [ref=e485]:
+                - paragraph [ref=e489]: Alertas por reglas guardadas
+                - paragraph [ref=e492]: "0"
+            - paragraph [ref=e496]: "Paquetes admitidos: 242 · excluidos: 0. Conexiones cuenta tuplas de direcciones, puertos y protocolo; una conexión puede producir varios segmentos temporales."
+            - group [ref=e499]:
+              - generic "Conexiones procesadas recientemente" [ref=e500] [cursor=pointer]:
+                - generic [ref=e501]:
+                  - generic [ref=e503]: keyboard_arrow_right
+                  - paragraph [ref=e506]: Conexiones procesadas recientemente
+            - group [ref=e509]:
+              - generic "Calidad y recursos de esta sesión" [ref=e510] [cursor=pointer]:
+                - generic [ref=e511]:
+                  - generic [ref=e513]: keyboard_arrow_right
+                  - paragraph [ref=e516]: Calidad y recursos de esta sesión
+            - heading "Alertas e historial del monitoreo" [level=3] [ref=e521]:
+              - text: Alertas e historial del monitoreo
+              - generic [ref=e522]:
+                - link "Link to heading":
+                  - /url: "#alertas-e-historial-del-monitoreo"
+                  - img
+            - status [ref=e525]:
+              - paragraph [ref=e529]: No hay alertas por reglas registradas. Esto no certifica que el tráfico sea seguro.
+            - group [ref=e532]:
+              - generic "Historial de sesiones de monitoreo" [ref=e533] [cursor=pointer]:
+                - generic [ref=e534]:
+                  - generic [ref=e536]: keyboard_arrow_right
+                  - paragraph [ref=e539]: Historial de sesiones de monitoreo
+          - separator [ref=e193]
+          - heading "Análisis CSV con aprendizaje automático" [level=2] [ref=e198]:
+            - text: Análisis CSV con aprendizaje automático
+            - generic [ref=e199]:
+              - link "Link to heading":
+                - /url: "#analisis-csv-con-aprendizaje-automatico"
+                - img
+          - alert [ref=e202]:
+            - generic [ref=e204]:
+              - generic [ref=e207]: ⚠️
+              - paragraph [ref=e209]:
+                - strong [ref=e210]: "Esta sección: análisis por archivo, no monitoreo en tiempo real."
+                - text: Procesa un CSV con el modelo original UNSW-NB15. El monitoreo de la interfaz seleccionada se controla en la sección superior y utiliza reglas, no este modelo.
+          - heading "Analizar un archivo" [level=2] [ref=e215]:
+            - text: Analizar un archivo
+            - generic [ref=e216]:
+              - link "Link to heading":
+                - /url: "#analizar-un-archivo"
+                - img
+          - paragraph [ref=e221]:
+            - text: Seleccione un CSV que contenga las características requeridas por el modelo. Puede incluir
+            - code [ref=e222]: id
+            - text: para identificar filas;
+            - code [ref=e223]: label
+            - text: "y"
+            - code [ref=e224]: attack_cat
+            - text: se ignoran y nunca se utilizan para predecir.
+          - generic [ref=e226]:
+            - generic [ref=e227]:
+              - paragraph [ref=e230]: Archivo CSV de registros
+              - button "Help for Archivo CSV de registros" [ref=e234] [cursor=pointer]:
+                - img [ref=e235]
+            - region "Archivo CSV de registros" [ref=e238] [cursor=pointer]:
+              - button "file upload"
+              - button "Upload" [ref=e240]:
+                - generic [ref=e242]:
+                  - generic [ref=e244]: upload
+                  - paragraph [ref=e247]: Upload
+              - generic [ref=e250]: 100MB per file • CSV
+          - separator [ref=e255]
+          - heading "Historial de análisis" [level=2] [ref=e260]:
+            - text: Historial de análisis
+            - generic [ref=e261]:
+              - link "Link to heading":
+                - /url: "#historial-de-analisis"
+                - img
+          - status [ref=e264]:
+            - paragraph [ref=e268]: Este historial consulta como máximo las 100 ejecuciones más recientes y las 10,000 alertas más recientes. Los filtros, la búsqueda y «Todas» se aplican solo a las alertas cargadas; si se alcanza el límite, puede haber registros anteriores que no estén incluidos.
+          - status [ref=e271]:
+            - paragraph [ref=e275]: Todavía no hay ejecuciones guardadas en la base local.
+          - heading "Gestión de alertas" [level=2] [ref=e280]:
+            - text: Gestión de alertas
+            - generic [ref=e281]:
+              - link "Link to heading":
+                - /url: "#gestion-de-alertas"
+                - img
+          - paragraph [ref=e286]: "La revisión manual: marcar una alerta como confirmada no modifica la predicción del modelo ni significa por sí solo que sea un ataque real."
+          - paragraph [ref=e291]: La fecha indica cuándo se registró la alerta en SQLite, no necesariamente cuándo ocurrió el evento de red.
+          - paragraph [ref=e296]: El score del modelo (clase 1) no es necesariamente una probabilidad calibrada y no confirma por sí solo un ataque.
+          - status [ref=e299]:
+            - paragraph [ref=e303]: El historial no contiene alertas predichas.

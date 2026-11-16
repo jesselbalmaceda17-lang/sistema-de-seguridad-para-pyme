@@ -1,0 +1,140 @@
+{
+  "manifest_version": 1,
+  "generated_at_utc": "2026-11-05T19:54:08Z",
+  "project_identification": {
+    "git_repository_present": false,
+    "git_commit": null,
+    "note": "The workspace is not a Git repository; this manifest does not identify a source commit."
+  },
+  "reproducibility": {
+    "operating_system_target": "Windows 11 64-bit",
+    "python_version_verified": "3.14.6",
+    "requirements_file": "requirements.txt",
+    "requirements_sha256": "802736171fce738b303a5f3875e715173a0a08b4dbc73178caae5e8607e74e91",
+    "lock_file": "requirements-lock.txt",
+    "lock_sha256": "4acb61251446735b721b6c3501308cd166b230de76ac8d984b1ba125f82e765e",
+    "dependency_status": "Six direct and 35 additional installed application distributions are exactly pinned from the current .venv; the lock has no artifact hashes and has not been tested in a clean installation. pip is not an application dependency.",
+    "clean_checkout_note": "Data and model artifacts listed below are excluded by .gitignore and must be staged separately for a reproducible package."
+  },
+  "artifacts": [
+    {
+      "path": "models/unsw_nb15_random_forest.joblib",
+      "size_bytes": 38656578,
+      "sha256": "58505ee89df22c4c223b66d5e7172388d5d1fad6b7d135fce800a2765b2029e9",
+      "role": "Definitive model; default classification uses predict().",
+      "delivery_status": "Required runtime artifact; present locally, excluded from a clean checkout."
+    },
+    {
+      "path": "models/unsw_nb15_random_forest.joblib.metadata.json",
+      "size_bytes": 11942,
+      "sha256": "672c4f242003664bb699a56b29cfd71cfa4add3511ba178644d981b3e43b3462",
+      "role": "Metadata for the definitive model.",
+      "delivery_status": "Required runtime companion; present locally, excluded from a clean checkout."
+    },
+    {
+      "path": "data/processed/threshold_study/threshold_study_random_forest.joblib",
+      "size_bytes": 33152242,
+      "sha256": "69a4e781d99cd5aaec0898bbb8815796a8d53b1a37711f073c6de0750384a6b8",
+      "role": "Experimental Pipeline; classification uses predict_proba class 1 >= 0.65.",
+      "delivery_status": "Required only when offering the experimental selector option; present locally, excluded from a clean checkout."
+    },
+    {
+      "path": "data/processed/threshold_study/threshold_study_random_forest.joblib.metadata.json",
+      "size_bytes": 3286,
+      "sha256": "fb09fb8d2c622b632f67df933605a6eb81efa619063cd565db0822012d091261",
+      "role": "Metadata for the experimental model.",
+      "delivery_status": "Required companion for the experimental model; present locally, excluded from a clean checkout."
+    },
+    {
+      "path": "data/processed/evaluation/metrics.json",
+      "size_bytes": 16111,
+      "sha256": "15a8f24449b5c09366593ffbf7831bec80ed5a39054dca5c2fa444da5df99c98",
+      "role": "Stored official holdout benchmark report for the definitive model.",
+      "delivery_status": "Required report artifact; present locally, excluded from a clean checkout."
+    },
+    {
+      "path": "data/processed/evaluation/confusion_matrix.csv",
+      "size_bytes": 92,
+      "sha256": "1b59603ff83558a967404a6247244ce8ff26bcaac16190567c87b15b170423ae",
+      "role": "Confusion matrix output from the stored official benchmark.",
+      "delivery_status": "Report companion; present locally, excluded from a clean checkout."
+    },
+    {
+      "path": "data/processed/evaluation/confusion_matrix.svg",
+      "size_bytes": 1780,
+      "sha256": "68a2d04d71402b02c388cd14e58e3cddf632dbb7dcc97531faf2fceea59d3695",
+      "role": "Confusion matrix visualization from the stored official benchmark.",
+      "delivery_status": "Report companion; present locally, excluded from a clean checkout."
+    },
+    {
+      "path": "data/processed/evaluation/classification_metrics.svg",
+      "size_bytes": 2366,
+      "sha256": "bee988167689b8085611550a8e5f5f17a54b8ed63867266075c4d71b8e485678",
+      "role": "Metrics visualization from the stored official benchmark.",
+      "delivery_status": "Report companion; present locally, excluded from a clean checkout."
+    },
+    {
+      "path": "data/processed/threshold_study/threshold_study_report.json",
+      "size_bytes": 4725,
+      "sha256": "69fd11cfc006682cc5717c0f50ce6fc1fb13b9d562dafe0cdab9471fd31b5be2",
+      "role": "Experimental threshold study report; selection and metrics use the same validation partition.",
+      "delivery_status": "Required report artifact; present locally, excluded from a clean checkout."
+    },
+    {
+      "path": "data/processed/threshold_study/threshold_metrics.csv",
+      "size_bytes": 1120,
+      "sha256": "a24beac92d6a9740ca99ac8ca1a1761eb7092a08adfbcf3463fe324aae850fd5",
+      "role": "Threshold sweep metrics for the experimental study.",
+      "delivery_status": "Report companion; present locally, excluded from a clean checkout."
+    },
+    {
+      "path": "data/processed/demo_20_registros.csv",
+      "size_bytes": 4492,
+      "sha256": "34a73c1455ea9b6288c8c943b1e296354ed8fd87212466f8577aa820c64f0ae6",
+      "role": "20-row demonstration CSV derived from training data; not suitable for estimating generalization.",
+      "delivery_status": "Optional demonstration artifact; present locally, excluded from a clean checkout."
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 99,
+      "sha256": "802736171fce738b303a5f3875e715173a0a08b4dbc73178caae5e8607e74e91",
+      "role": "Pinned direct Python dependencies.",
+      "delivery_status": "Source file; included in a clean checkout."
+    },
+    {
+      "path": "requirements-lock.txt",
+      "size_bytes": 1340,
+      "sha256": "4acb61251446735b721b6c3501308cd166b230de76ac8d984b1ba125f82e765e",
+      "role": "Exact versions for the six direct and 35 additional installed application distributions in the inspected Windows/Python 3.14.6 environment; does not include hashes.",
+      "delivery_status": "Reproducibility file; syntax and environment consistency checked, clean installation not tested."
+    },
+    {
+      "path": "data/raw/UNSW_NB15_training-set.csv",
+      "size_bytes": 32293018,
+      "sha256": "bec7dd5ec88dc2a0ccc7a07879d338395ed7421750f675fd0339e07dfe0648fa",
+      "role": "Training data provenance reference for the stored model artifacts and experimental study.",
+      "delivery_status": "Local-only reference; excluded from a clean checkout and not approved for redistribution by this manifest."
+    },
+    {
+      "path": "data/raw/UNSW_NB15_testing-set.csv",
+      "size_bytes": 15380800,
+      "sha256": "734fe6642edf758f7c94d7d9149426b49d202fe8e7bf0bef47392489c3c0a559",
+      "role": "Official holdout provenance reference for the stored definitive-model evaluation report.",
+      "delivery_status": "Local-only reference; excluded from a clean checkout and not approved for redistribution by this manifest."
+    }
+  ],
+  "excluded_local_data": [
+    {
+      "path": "data/processed/security_analysis.sqlite3",
+      "reason": "Contains local analysis history and manual review states; exclude from a general delivery package."
+    },
+    {
+      "path": "data/processed/security_analysis.backup-20261105T193153Z-e296f770.sqlite3",
+      "reason": "Verified operational backup; maintain separately and do not alter or package with general artifacts."
+    },
+    {
+      "path": "models/unsw_nb15_random_forest_pilot.joblib",
+      "reason": "Development-only model; not required by the runtime model selector."
+    }
+  ]
+}

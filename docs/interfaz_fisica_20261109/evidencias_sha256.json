@@ -1,0 +1,212 @@
+[
+  {
+    "path": "adaptadores_windows.json",
+    "size_bytes": 1088,
+    "sha256": "29ddd32c80476caa7d97b24c615a39a4e609aa34f025f058d8e3a93eb678a063"
+  },
+  {
+    "path": "cerrar_paquete_wifi.py",
+    "size_bytes": 7840,
+    "sha256": "0bd2a90ad58ba612e8c4f90a6bf0707c723ff647b9432bd972787d1568873f8d"
+  },
+  {
+    "path": "configuracion_ip.json",
+    "size_bytes": 498,
+    "sha256": "d6bdc718253341e319f769d46acbed2308bd512414cda3ed621041c09be9a1b0"
+  },
+  {
+    "path": "csv_aceptacion/api.sqlite3",
+    "size_bytes": 36864,
+    "sha256": "88ee133227b7385019e9d7689dd870460f12724815b2f4e7fc5573944ca0e22e"
+  },
+  {
+    "path": "csv_aceptacion/corrupt.sqlite3",
+    "size_bytes": 14,
+    "sha256": "9eaed1a500d1c88f2a68f5ca13875fe38fc1b5f9b394555c8d34618d634f6586"
+  },
+  {
+    "path": "csv_aceptacion/instalacion_limpia.json",
+    "size_bytes": 6158,
+    "sha256": "693b78caa08278571eb35adb6500e10c850ffb75fc77233eb0d3fe0d67b35f04"
+  },
+  {
+    "path": "csv_aceptacion/invalid_0.sqlite3",
+    "size_bytes": 36864,
+    "sha256": "76558c6355b0b352466c2a5bc6ed2735934f79d5263da188b19ab9cf5bfe60eb"
+  },
+  {
+    "path": "csv_aceptacion/invalid_1.sqlite3",
+    "size_bytes": 36864,
+    "sha256": "76558c6355b0b352466c2a5bc6ed2735934f79d5263da188b19ab9cf5bfe60eb"
+  },
+  {
+    "path": "csv_aceptacion/invalid_2.sqlite3",
+    "size_bytes": 36864,
+    "sha256": "76558c6355b0b352466c2a5bc6ed2735934f79d5263da188b19ab9cf5bfe60eb"
+  },
+  {
+    "path": "csv_aceptacion/recover_backup.sqlite3",
+    "size_bytes": 36864,
+    "sha256": "0f75fb870c0b34ee7f9ece35936f2e4f3f5a3b3ec514fd8c2b041e31c41eeb57"
+  },
+  {
+    "path": "csv_aceptacion/recover_restored.sqlite3",
+    "size_bytes": 36864,
+    "sha256": "0f75fb870c0b34ee7f9ece35936f2e4f3f5a3b3ec514fd8c2b041e31c41eeb57"
+  },
+  {
+    "path": "csv_aceptacion/recover_source.sqlite3",
+    "size_bytes": 36864,
+    "sha256": "4d1e0b3e06ae6233e4a68689f7bf2ee044c737e0f29f18af52857696fc265b50"
+  },
+  {
+    "path": "csv_aceptacion/recuperacion_verificada.json",
+    "size_bytes": 794,
+    "sha256": "8382c49100b3614faee31cbc7b425f6ff0293e4dfa6a2b9f93a8758f4e8e3db4"
+  },
+  {
+    "path": "csv_aceptacion/resultados.json",
+    "size_bytes": 541,
+    "sha256": "4ba22062ff7d78a14d72c64a96d5dd426aa1786d9ed09146707b2050278aca44"
+  },
+  {
+    "path": "csv_aceptacion/tampered_package/herramientas/verificar_paquete.py",
+    "size_bytes": 1175,
+    "sha256": "7543ec3994e6d9a21a83c1a6b1b0fdc1bde4879652e914fc017fc99ec50e5441"
+  },
+  {
+    "path": "csv_aceptacion/tampered_package/manifest.sha256.json",
+    "size_bytes": 130,
+    "sha256": "b9d0b3a8f3660f029f47ac935ce5474aa0629ef3f9356229cdffc4f612880606"
+  },
+  {
+    "path": "csv_aceptacion/tampered_package/sample.txt",
+    "size_bytes": 7,
+    "sha256": "d67e2e944994496c8d8ec76eed0cf9f09679448d584b532bebf941852a37f5ed"
+  },
+  {
+    "path": "csv_aceptacion/ui.sqlite3",
+    "size_bytes": 36864,
+    "sha256": "1b97bdd75e3d909288d2fd2b446f4e90a39b77aac1daddbb80c0e1886eb5fdcd"
+  },
+  {
+    "path": "csv_aceptacion/ui_predicciones.csv",
+    "size_bytes": 1302,
+    "sha256": "666e39eafdde81d19acdc50e386ec8b44702c1a8d6fb16240d61f78377f1ea1d"
+  },
+  {
+    "path": "csv_aceptacion/ui_reporte.json",
+    "size_bytes": 6896,
+    "sha256": "8f0cbe25a5393d645e80ffe33bc347b7aa1bed8647f2efc93bd30ad2926b35ae"
+  },
+  {
+    "path": "csv_actual.log",
+    "size_bytes": 1579,
+    "sha256": "cbe89f2eb86e915eac2b4f882fde516d633365f63148cf84c3489ddc2b2cf312"
+  },
+  {
+    "path": "csv_prueba.sqlite3",
+    "size_bytes": 36864,
+    "sha256": "76558c6355b0b352466c2a5bc6ed2735934f79d5263da188b19ab9cf5bfe60eb"
+  },
+  {
+    "path": "estadisticas_antes.json",
+    "size_bytes": 169,
+    "sha256": "80d8b6cb777dcd84be1b41f37d4b8c572a3054d3e88db3f1ad33548960f20f11"
+  },
+  {
+    "path": "estadisticas_despues.json",
+    "size_bytes": 169,
+    "sha256": "9a03d2a95845127e1f212ef4aac2cd0bf65d83633e79512aeff0ba9866782fb5"
+  },
+  {
+    "path": "integridad_cierre.json",
+    "size_bytes": 365,
+    "sha256": "d3ac4706f3c188eb4db653e169fb2f0822f76ffe5f8f9910442bb6747923d022"
+  },
+  {
+    "path": "monitor/history.sqlite3",
+    "size_bytes": 159744,
+    "sha256": "e4788ae9670b6626ecfbb0be1ea6fccdeb0bd789fb080b5dbe7cd064d4c02847"
+  },
+  {
+    "path": "monitor/sessions/2501d69b2aeb47259b36a101ba9d1d9d/capture.pcapng",
+    "size_bytes": 210276,
+    "sha256": "66fab4794a82b7008219a51434536cd23af575a2c5ef9d0f42b3c93ebf6374e2"
+  },
+  {
+    "path": "monitor/sessions/2501d69b2aeb47259b36a101ba9d1d9d/config.json",
+    "size_bytes": 539,
+    "sha256": "f417629e733df8e8a5dc3bf960217d8ba89c4b004c490042799489de3bfb4664"
+  },
+  {
+    "path": "monitoreo_actual.log",
+    "size_bytes": 5472,
+    "sha256": "d1f1166ed623d2b46035f7722d9c3e7011431e21785e527eaf10ce3f1a8d84bd"
+  },
+  {
+    "path": "paquete_final.json",
+    "size_bytes": 2260,
+    "sha256": "35135f771fc80f61859538f3edb85d65525cbcbef356202ae2be6085994edd66"
+  },
+  {
+    "path": "regresiones.json",
+    "size_bytes": 990,
+    "sha256": "80b920be768a9b4333c454bce33891ecb211fd586be7988871f7c1d977a3a9ad"
+  },
+  {
+    "path": "resultado.json",
+    "size_bytes": 3689,
+    "sha256": "e7b92daffc7e5fa0f1a6a5ff1993d01cf60c7598b639553163ea6f15ea8e13ac"
+  },
+  {
+    "path": "servidor.json",
+    "size_bytes": 4441,
+    "sha256": "bd447794975c8b0901149ae4833a4e03709526fe69a83b704e6977469146e58b"
+  },
+  {
+    "path": "servidor.log",
+    "size_bytes": 285,
+    "sha256": "cfa2f1a210ab821c9a93ecb37b9652132d9536df6d189be38c6bbda4d99c4e62"
+  },
+  {
+    "path": "servidor_detenido.json",
+    "size_bytes": 82,
+    "sha256": "ff151bf2ac215575ba93d9871b61a2e1664f6c1fd8ea3981dcb798711e4eac59"
+  },
+  {
+    "path": "streamlit_activo.txt",
+    "size_bytes": 14649,
+    "sha256": "50de506d83381b190254e1e603ca61aaea2d53b4f63e2ca476a1d5281814e24a"
+  },
+  {
+    "path": "streamlit_detenido.txt",
+    "size_bytes": 14754,
+    "sha256": "d7dfcc716785b8f39797dd4a8608fc2035a3f9ff1de1d9bc3e5ddcd62656ca75"
+  },
+  {
+    "path": "trafico_https.json",
+    "size_bytes": 4889,
+    "sha256": "a9f7a3bdfa961acbf194a462a23db8f8c634bd78fb6039cf4e9972a780b9ed24"
+  },
+  {
+    "path": "tshark_interfaces.txt",
+    "size_bytes": 784,
+    "sha256": "31718909ae02064199ea142602845d70cfa0e708b72cfb15aabba2bbbb3bdf8a"
+  },
+  {
+    "path": "validacion_wifi.json",
+    "size_bytes": 1126,
+    "sha256": "b16970ecd800721ad5283a81bb4de50f7cf432ec2e5806b245706cade71daf75"
+  },
+  {
+    "path": "VERIFICACION_WIFI.md",
+    "size_bytes": 4024,
+    "sha256": "9b69933b0dd8c6f00122cdc3f7a26696f14344a73ac020d97c20221dbb65ae15"
+  },
+  {
+    "path": "verificar_fisica.py",
+    "size_bytes": 11286,
+    "sha256": "360f77d02762418c6f90a0fd2aae47d10907c693f622620078d5f2004cd13e4a"
+  }
+]

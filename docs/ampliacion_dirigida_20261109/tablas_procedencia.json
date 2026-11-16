@@ -1,0 +1,26 @@
+[
+  {
+    "table": 2,
+    "url": "https://images.squarespace-cdn.com/content/v1/5a01100f692ebe0459a1859f/1579635449690-12KYOUEH050HMAU4SDCY/image-asset.png",
+    "path": "tabla_oficial_2.png",
+    "size_bytes": 14786,
+    "sha256": "2fbed553739bf794a01c064a9184c77ac4c1a375d376b40eea87e0b8ed48848b",
+    "obtained_at_utc": "2026-11-09T14:17:52.435387+00:00"
+  },
+  {
+    "table": 3,
+    "url": "https://images.squarespace-cdn.com/content/v1/5a01100f692ebe0459a1859f/1620490324777-7GBV1N5OW1N3DAX7F6IZ/Screenshot+2021-05-08+at+17.17.58.png",
+    "path": "tabla_oficial_3.png",
+    "size_bytes": 76546,
+    "sha256": "a3f000c686c368d466c230d201717e1b9bd162876c1067d1d96fdcdf13f81cac",
+    "obtained_at_utc": "2026-11-09T14:17:37.212842+00:00"
+  },
+  {
+    "table": 4,
+    "url": "https://images.squarespace-cdn.com/content/v1/5a01100f692ebe0459a1859f/1579639657226-NVDX437OKF2D1XQ72404/Screenshot_20200121_174544.jpg",
+    "path": "tabla_oficial_4.jpg",
+    "size_bytes": 52560,
+    "sha256": "e23ac7eed0b1f615792244cc88f0314f65e45f59f63e8ec0107be3a1bfc061a6",
+    "obtained_at_utc": "2026-11-09T14:17:37.246245+00:00"
+  }
+]

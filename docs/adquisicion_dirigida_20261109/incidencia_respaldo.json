@@ -1,0 +1,8 @@
+{
+  "stage": "temporary SQLite snapshot cleanup before restoration",
+  "error": "PermissionError WinError 32; sqlite context manager did not close connections",
+  "helper_before_fix_sha256": "7b69df3a44ae7ac1ca49285394fe5e2447b50435aa33462183776ff38f516aad",
+  "original_software_changed": false,
+  "download_started": false,
+  "resolution": "close evidence-only connections explicitly; resume CRC/hash/restoration of the already completed archive"
+}

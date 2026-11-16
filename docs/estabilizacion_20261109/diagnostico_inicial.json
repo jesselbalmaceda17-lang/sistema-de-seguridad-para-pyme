@@ -1,0 +1,60 @@
+{
+  "malformed_csv": [
+    {
+      "payload": "a,b\n1,2,3\n",
+      "accepted": true,
+      "index_type": "Index",
+      "index": [
+        "1"
+      ],
+      "records": [
+        {
+          "a": "2",
+          "b": "3"
+        }
+      ]
+    },
+    {
+      "payload": "a,b\n0,2,3\n1,4,5\n",
+      "accepted": true,
+      "index_type": "Index",
+      "index": [
+        "0",
+        "1"
+      ],
+      "records": [
+        {
+          "a": "2",
+          "b": "3"
+        },
+        {
+          "a": "4",
+          "b": "5"
+        }
+      ]
+    },
+    {
+      "payload": "a,b\n1,2\n3,4,5\n",
+      "accepted": false,
+      "error": "ValueError: No se pudo interpretar el CSV: Error tokenizing data. C error: Expected 2 fields in line 3, saw 3\n"
+    }
+  ],
+  "corrupt_model_errors": [
+    {
+      "exception": "ValueError",
+      "message": "invalid literal for int() with base 10: b'NVALID'"
+    },
+    {
+      "exception": "OverflowError",
+      "message": "byte string is too large"
+    },
+    {
+      "exception": "KeyError",
+      "message": "90"
+    },
+    {
+      "exception": "EOFError",
+      "message": ""
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "checked_at_utc": "2026-11-08T19:48:00.606830+00:00",
+  "method": "Fresh import and packet audit using original complete captures/extractions; compare every auditor core field and canonicalized group census with preserved reports",
+  "auditor_module_sha256": "151c1c0bc4a6e9644c0524573026269ff8a49a891a9d222360c1d8051d96502c",
+  "results": [
+    {
+      "scenario": "pilot_20_1",
+      "expected_report": "docs/validacion_reconciliacion_iot23_20_1/audit_v2/label_audit.json",
+      "auditor_core_fields_compared": [
+        "audit_version",
+        "baseline_summary",
+        "extraction_source",
+        "flow_correspondences",
+        "label_source",
+        "packet_evidence_source",
+        "packet_ledger",
+        "packet_reader",
+        "packet_reader_limits",
+        "policy",
+        "reference_correspondences",
+        "summary"
+      ],
+      "all_auditor_core_fields_identical": true,
+      "descriptive_groups_identical": true,
+      "extractor_report_sha256": "12113adbf60e0c5f3adcd493b2ab15c8e1b65cd7cf4108459f9ab04a6dbcf77b",
+      "pcap_sha256": "4d0a00c33a4bf11228158baddd47c38f702731ea8d75ef1201061fc8bbd878b9",
+      "label_sha256": "ef48ad72f65efd13d517223e61e4d877ba53a082ddb8159324b18d3f310d0711",
+      "summary": {
+        "packets_seen": 50156,
+        "packets_accepted": 41207,
+        "packets_rejected_by_extractor": 8949,
+        "extracted_flows": 3499,
+        "reference_connections": 3209,
+        "admitted_flows": 3495,
+        "rejected_correspondences": 0,
+        "pending_quarantined_flows": 4,
+        "flow_status_counts": {
+          "admitted_unique": 3177,
+          "admitted_sibling_segment": 313,
+          "admitted_partition": 4,
+          "quarantined_partial_checksum": 3,
+          "counter_mismatch": 1,
+          "admitted_tcp_closure": 1
+        },
+        "flow_label_coverage_percent": 99.88568162332095,
+        "labeled_packets": 40921,
+        "label_coverage_of_accepted_packets_percent": 99.30594316499624,
+        "label_coverage_of_all_packets_percent": 81.58744716484568,
+        "matched_reference_connections": 3206,
+        "reference_coverage_percent": 99.9065129323777,
+        "reference_validation_counts": {
+          "verified": 3208,
+          "counter_mismatch": 1
+        },
+        "accepted_packet_checksum_states": {
+          "valid": 41203,
+          "partial_pseudoheader": 4
+        },
+        "class_coverage": {
+          "Benign": {
+            "reference_connections": 3193,
+            "matched_references": 3192,
+            "reference_coverage_percent": 99.96868149076104,
+            "admitted_flows": 3207
+          },
+          "Malicious": {
+            "reference_connections": 16,
+            "matched_references": 14,
+            "reference_coverage_percent": 87.5,
+            "admitted_flows": 288
+          }
+        }
+      },
+      "group_summary": {
+        "Benign": {
+          "udp_groups": 3191,
+          "udp_bidirectional_packet_groups": 2130,
+          "udp_bidirectional_payload_groups": 2130,
+          "udp_packets": 5995,
+          "tcp_groups": 1,
+          "tcp_bidirectional_packet_groups": 0,
+          "tcp_bidirectional_payload_groups": 0,
+          "tcp_packets": 1,
+          "tcp_pure_syn_groups": 0,
+          "tcp_other_pattern_groups": 1,
+          "tcp_groups_with_ack": 1,
+          "tcp_packets_with_syn": 0,
+          "tcp_packets_with_ack": 1,
+          "tcp_packets_with_fin": 0,
+          "tcp_packets_with_rst": 0,
+          "tcp_packets_with_psh": 1,
+          "tcp_packets_with_urg": 0,
+          "tcp_packets_with_ece": 0,
+          "tcp_packets_with_cwr": 0
+        },
+        "Malicious": {
+          "tcp_groups": 6,
+          "tcp_bidirectional_packet_groups": 2,
+          "tcp_bidirectional_payload_groups": 2,
+          "tcp_packets": 34925,
+          "tcp_pure_syn_groups": 4,
+          "tcp_other_pattern_groups": 2,
+          "tcp_groups_with_ack": 2,
+          "tcp_packets_with_syn": 20,
+          "tcp_packets_with_ack": 34905,
+          "tcp_packets_with_fin": 2,
+          "tcp_packets_with_rst": 0,
+          "tcp_packets_with_psh": 1716,
+          "tcp_packets_with_urg": 0,
+          "tcp_packets_with_ece": 0,
+          "tcp_packets_with_cwr": 0
+        }
+      },
+      "wall_seconds": 7.7704339000010805
+    },
+    {
+      "scenario": "hakai",
+      "expected_report": "data/processed/iot23_hakai_8_1/audit_v2/label_audit.json",
+      "auditor_core_fields_compared": [
+        "audit_version",
+        "baseline_summary",
+        "extraction_source",
+        "flow_correspondences",
+        "label_source",
+        "packet_evidence_source",
+        "packet_ledger",
+        "packet_reader",
+        "packet_reader_limits",
+        "policy",
+        "reference_correspondences",
+        "summary"
+      ],
+      "all_auditor_core_fields_identical": true,
+      "descriptive_groups_identical": true,
+      "extractor_report_sha256": "02ba168c4a0db067e813e9dc129d45689f3b88c51eefaf66c4a1c44c54437b99",
+      "pcap_sha256": "80dcc2602519479ddcde889fa902fee19a76696630811452f8df38888af894f2",
+      "label_sha256": "4877ca8f0f01902fbd18d28b7d06cb3d0be082355b7f2c8862c9deef1782eb8a",
+      "summary": {
+        "packets_seen": 23623,
+        "packets_accepted": 16677,
+        "packets_rejected_by_extractor": 6946,
+        "extracted_flows": 4237,
+        "reference_connections": 10403,
+        "admitted_flows": 4237,
+        "rejected_correspondences": 0,
+        "pending_quarantined_flows": 0,
+        "flow_status_counts": {
+          "admitted_unique": 2181,
+          "admitted_partition": 2056
+        },
+        "flow_label_coverage_percent": 100.0,
+        "labeled_packets": 16677,
+        "label_coverage_of_accepted_packets_percent": 100.0,
+        "label_coverage_of_all_packets_percent": 70.59645260974474,
+        "matched_reference_connections": 10403,
+        "reference_coverage_percent": 100.0,
+        "reference_validation_counts": {
+          "verified": 10403
+        },
+        "accepted_packet_checksum_states": {
+          "valid": 16677
+        },
+        "class_coverage": {
+          "Benign": {
+            "reference_connections": 2181,
+            "matched_references": 2181,
+            "reference_coverage_percent": 100.0,
+            "admitted_flows": 2181
+          },
+          "Malicious": {
+            "reference_connections": 8222,
+            "matched_references": 8222,
+            "reference_coverage_percent": 100.0,
+            "admitted_flows": 2056
+          }
+        }
+      },
+      "group_summary": {
+        "Benign": {
+          "udp_groups": 2179,
+          "udp_bidirectional_packet_groups": 2162,
+          "udp_bidirectional_payload_groups": 2162,
+          "udp_packets": 4341,
+          "tcp_groups": 2,
+          "tcp_bidirectional_packet_groups": 0,
+          "tcp_bidirectional_payload_groups": 0,
+          "tcp_packets": 2,
+          "tcp_pure_syn_groups": 0,
+          "tcp_other_pattern_groups": 2,
+          "tcp_groups_with_ack": 2,
+          "tcp_packets_with_syn": 0,
+          "tcp_packets_with_ack": 2,
+          "tcp_packets_with_fin": 0,
+          "tcp_packets_with_rst": 0,
+          "tcp_packets_with_psh": 2,
+          "tcp_packets_with_urg": 0,
+          "tcp_packets_with_ece": 0,
+          "tcp_packets_with_cwr": 0
+        },
+        "Malicious": {
+          "tcp_groups": 2056,
+          "tcp_bidirectional_packet_groups": 0,
+          "tcp_bidirectional_payload_groups": 0,
+          "tcp_packets": 12334,
+          "tcp_pure_syn_groups": 2056,
+          "tcp_other_pattern_groups": 0,
+          "tcp_groups_with_ack": 0,
+          "tcp_packets_with_syn": 12334,
+          "tcp_packets_with_ack": 0,
+          "tcp_packets_with_fin": 0,
+          "tcp_packets_with_rst": 0,
+          "tcp_packets_with_psh": 0,
+          "tcp_packets_with_urg": 0,
+          "tcp_packets_with_ece": 0,
+          "tcp_packets_with_cwr": 0
+        }
+      },
+      "wall_seconds": 6.902429800000391
+    },
+    {
+      "scenario": "hue",
+      "expected_report": "docs/validacion_normalizacion_hue/audit_v2_hue/label_audit.json",
+      "auditor_core_fields_compared": [
+        "audit_version",
+        "baseline_summary",
+        "extraction_source",
+        "flow_correspondences",
+        "label_source",
+        "packet_evidence_source",
+        "packet_ledger",
+        "packet_reader",
+        "packet_reader_limits",
+        "policy",
+        "reference_correspondences",
+        "summary"
+      ],
+      "all_auditor_core_fields_identical": true,
+      "descriptive_groups_identical": true,
+      "extractor_report_sha256": "2843833f1842f8a915a5aabeed9b244d44dd9262e155ac4774ee747aaf3e341c",
+      "pcap_sha256": "3fb775c0391b6ad313a3f7845e634a277b07c3f6377346c2486ba63e1c22e90c",
+      "label_sha256": "aebe40ea0e03b120265a5c7bc140dd9b0d3fe2fce65559e84776b7dd5360e71e",
+      "summary": {
+        "packets_seen": 21664,
+        "packets_accepted": 16921,
+        "packets_rejected_by_extractor": 4743,
+        "extracted_flows": 2200,
+        "reference_connections": 452,
+        "admitted_flows": 2107,
+        "rejected_correspondences": 0,
+        "pending_quarantined_flows": 93,
+        "flow_status_counts": {
+          "admitted_sibling_segment": 1762,
+          "admitted_unique": 298,
+          "segmentation_mismatch": 86,
+          "admitted_tcp_closure": 47,
+          "quarantined_partial_checksum": 7
+        },
+        "flow_label_coverage_percent": 95.77272727272727,
+        "labeled_packets": 15942,
+        "label_coverage_of_accepted_packets_percent": 94.214289935583,
+        "label_coverage_of_all_packets_percent": 73.58751846381094,
+        "matched_reference_connections": 359,
+        "reference_coverage_percent": 79.42477876106194,
+        "reference_validation_counts": {
+          "verified": 361,
+          "counter_mismatch": 91
+        },
+        "accepted_packet_checksum_states": {
+          "valid": 16912,
+          "partial_pseudoheader": 9
+        },
+        "class_coverage": {
+          "Benign": {
+            "reference_connections": 452,
+            "matched_references": 359,
+            "reference_coverage_percent": 79.42477876106194,
+            "admitted_flows": 2107
+          },
+          "Malicious": {
+            "reference_connections": 0,
+            "matched_references": 0,
+            "reference_coverage_percent": null,
+            "admitted_flows": 0
+          }
+        }
+      },
+      "group_summary": {
+        "Benign": {
+          "udp_groups": 310,
+          "udp_bidirectional_packet_groups": 296,
+          "udp_bidirectional_payload_groups": 296,
+          "udp_packets": 9641,
+          "tcp_groups": 49,
+          "tcp_bidirectional_packet_groups": 49,
+          "tcp_bidirectional_payload_groups": 7,
+          "tcp_packets": 6301,
+          "tcp_pure_syn_groups": 0,
+          "tcp_other_pattern_groups": 49,
+          "tcp_groups_with_ack": 49,
+          "tcp_packets_with_syn": 99,
+          "tcp_packets_with_ack": 6249,
+          "tcp_packets_with_fin": 95,
+          "tcp_packets_with_rst": 1,
+          "tcp_packets_with_psh": 1330,
+          "tcp_packets_with_urg": 0,
+          "tcp_packets_with_ece": 0,
+          "tcp_packets_with_cwr": 0
+        }
+      },
+      "wall_seconds": 4.527856799999427
+    }
+  ],
+  "hue_pending_93_unchanged": true
+}

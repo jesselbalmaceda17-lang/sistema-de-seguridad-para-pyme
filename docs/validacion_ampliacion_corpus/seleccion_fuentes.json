@@ -1,0 +1,539 @@
+{
+  "checked_at_utc": "2026-11-08T19:29:29.912443+00:00",
+  "metadata_only": true,
+  "reserved_not_requested": [
+    "CTU-IoT-Malware-Capture-34-1",
+    "CTU-Honeypot-Capture-5-1"
+  ],
+  "scenarios": [
+    {
+      "scenario": "CTU-IoT-Malware-Capture-1-1",
+      "index": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-1-1/",
+        "obtained_at_utc": "2026-11-08T19:29:04.112219+00:00",
+        "size_bytes": 1676,
+        "sha256": "7feabc11ad4ef76bfe7cdb225ff9385417dd8d562320e01e645a2c09a9579a5a",
+        "headers": {
+          "content-length": "1676",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-1-1</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-1-1</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-05-09-192.168.100.103.pcap\">2018-05-09-192.168.100.103.pcap</a></td><td align=\"right\">2019-01-30 16:43  </td><td align=\"right\">139M</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/text.gif\" alt=\"[TXT]\" /></td><td><a href=\"README.md\">README.md</a></td><td align=\"right\">2019-07-31 17:20  </td><td align=\"right\">1.7K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"bro/\">bro/</a></td><td align=\"right\">2023-12-12 17:48  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n"
+      },
+      "published_file_rows": [
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-05-09-192.168.100.103.pcap\">2018-05-09-192.168.100.103.pcap</a></td><td align=\"right\">2019-01-30 16:43  </td><td align=\"right\">139M</td><td>&nbsp;</td></tr>"
+      ]
+    },
+    {
+      "scenario": "CTU-IoT-Malware-Capture-3-1",
+      "index": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-3-1/",
+        "obtained_at_utc": "2026-11-08T19:29:05.027726+00:00",
+        "size_bytes": 1861,
+        "sha256": "50435e30ea47d2359b9cc155e6988d9011e5e3de30f058d7a22df55cf40858a5",
+        "headers": {
+          "content-length": "1861",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-3-1</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-3-1</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-05-21_capture.pcap\">2018-05-21_capture.pcap</a></td><td align=\"right\">2019-01-30 17:51  </td><td align=\"right\"> 55M</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/text.gif\" alt=\"[TXT]\" /></td><td><a href=\"README.md\">README.md</a></td><td align=\"right\">2019-08-23 19:42  </td><td align=\"right\">3.6K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"bro/\">bro/</a></td><td align=\"right\">2021-07-10 22:07  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"test.pcap\">test.pcap</a></td><td align=\"right\">2019-05-17 14:48  </td><td align=\"right\">961K</td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n"
+      },
+      "published_file_rows": [
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-05-21_capture.pcap\">2018-05-21_capture.pcap</a></td><td align=\"right\">2019-01-30 17:51  </td><td align=\"right\"> 55M</td><td>&nbsp;</td></tr>",
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"test.pcap\">test.pcap</a></td><td align=\"right\">2019-05-17 14:48  </td><td align=\"right\">961K</td><td>&nbsp;</td></tr>"
+      ],
+      "readme": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-3-1/README.md",
+        "obtained_at_utc": "2026-11-08T19:29:05.941501+00:00",
+        "size_bytes": 3663,
+        "sha256": "426f8ce8680c2593815f6d8bdc4f1f9cf183210a26d9459f135d4d100e91558f",
+        "headers": {
+          "last-modified": "Fri, 23 Aug 2019 17:42:22 GMT",
+          "etag": "\"e4f-590cc5415db80\"",
+          "content-length": "3663",
+          "content-type": "text/markdown"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "# Description\n- Probable Name: Muhstik\n- MD5: b8849fe97e39ae3afd6def618568bb09\n- SHA1: b7e73f425b410112acc1c110af0a5d7ba1d3b49e\n- SHA256: 5ce13670bc875e913e6f087a4ac0a9e343347d5babb3b5c63e1d1b199371f69a\n- Password of zip file: infected\n- Duration: \n- Proxy Usage: This capture did not use an intermediate proxy.\n\n- [VirusTotal](https://www.virustotal.com/en/file/5ce13670bc875e913e6f087a4ac0a9e343347d5babb3b5c63e1d1b199371f69a/analysis/)\n- [HybridAnalysis](https://www.hybrid-analysis.com/sample/5ce13670bc875e913e6f087a4ac0a9e343347d5babb3b5c63e1d1b199371f69a?environmentId=2)\n- RobotHash\n\n[![](https://robohash.org/b8849fe97e39ae3afd6def618568bb09)](https://robohash.org)\n\n# Description of Files\n\n- .capinfos\n    - Capinfos file\n- .dnstop\n    - DNS top file\n- .passivedns\n    - Passive DNS file\n- .pcap\n    - Original pcap file\n- .weblogng\n    - WEB log of http traffic only. Generated with justsniffer\n- bro\n    - Folder with all the bro output files\n- .biargus\n    - Argus binary file. Bidirectional flows, 3600s of report time.\n- .binetflow\n    - Argus text file with bidirectional flows. Report time 3600 secs.\n- .uniargus\n    - Argus binary file. Unidirectional flows, 5s of report time.\n- .uninetflow\n    - Argus text file with unidirectional flows. Report time 5 secs. TAB as column separator.\n\n# IP Addresses\n    - Infected host: 192.168.2.5\n    - Default GW: 192.168.2.1\n\n# Timeline\n\n## Sat May 19 20:56:36 CEST 2018\nStarted rpi\n\n## Sat May 19 20:57:40 CEST 2018\nInfected\n\n# Analysis\nMuhstik is a variant of the Tsunami botnet\n\nThe IRC channel was connected.\n\nWhich seems to be related with Muhstik botnet\nhttp://blog.netlab.360.com/botnet-muhstik-is-actively-exploiting-drupal-cve-2018-7600-in-a-worm-style-en/\nhttps://exchange.xforce.ibmcloud.com/collection/Muhstik-Botnet-Actively-Exploiting-CVE-2018-7600-0547cbc8eb2dc52c344b5da2b7c4063f\n\nThe malware infected the Rpi permanently.\n- modified the cron\n    $ crontab -l\n    */5 * * * * /tmp/fce7b8bbd1c1fba1d75b9dc1a60b25f49f68c9ec16b3656b52ed28290fc93c72 > /dev/null 2>&1 &\n    */5 * * * * /dev/shm/fce7b8bbd1c1fba1d75b9dc1a60b25f49f68c9ec16b3656b52ed28290fc93c72 > /dev/null 2>&1 &\n    */5 * * * * /var/tmp/fce7b8bbd1c1fba1d75b9dc1a60b25f49f68c9ec16b3656b52ed28290fc93c72 > /dev/null 2>&1 &\n    */5 * * * * /var/lock/fce7b8bbd1c1fba1d75b9dc1a60b25f49f68c9ec16b3656b52ed28290fc93c72 > /dev/null 2>&1 &\n\n- Installed files on\n    - /tmp/fce7b8bbd1c1fba1d75b9dc1a60b25f49f68c9ec16b3656b52ed28290fc93c72\n        - does not exist\n    - /dev/shm/fce7b8bbd1c1fba1d75b9dc1a60b25f49f68c9ec16b3656b52ed28290fc93c72 \n        - md5 39051f30c7fe57342ad15921a611b665\n    - /var/tmp/fce7b8bbd1c1fba1d75b9dc1a60b25f49f68c9ec16b3656b52ed28290fc93c72 \n        - md5 39051f30c7fe57342ad15921a611b665\n    - /var/lock/fce7b8bbd1c1fba1d75b9dc1a60b25f49f68c9ec16b3656b52ed28290fc93c72\n        - md5 39051f30c7fe57342ad15921a611b665\n\nListens in port\nProto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name\ntcp        0      0 127.0.0.1:61000         0.0.0.0:*               LISTEN      584/eth0\n\n\n\n## Mon May 21 09:05:05 CEST 2018\npoweroff\n\n# Disclaimer \nThese files were generated in the Stratosphere Lab as part of the Malware Capture Facility Project in the CVUT University, Prague, Czech Republic.\nThe goal is to store long-lived real botnet traffic and to generate labeled netflows files.\nAny question feel free to contact us:\nSebastian Garcia: sebastian.garcia@agents.fel.cvut.cz\n\nYou are free to use these files as long as you reference this project and the authors as follows:\nGarcia, Sebastian. Malware Capture Facility Project. Retrieved from https://stratosphereips.org\n"
+      },
+      "labels_index": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-3-1/bro/",
+        "obtained_at_utc": "2026-11-08T19:29:06.768602+00:00",
+        "size_bytes": 1294,
+        "sha256": "b9d12bea1d19eaad025acbc439fe57ab131b0abdd06d220cc5180c1639fe5b0b",
+        "headers": {
+          "content-length": "1294",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-3-1/bro</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-3-1/bro</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-3-1/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"conn.log.labeled\">conn.log.labeled</a></td><td align=\"right\">2019-12-25 11:41  </td><td align=\"right\"> 23M</td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n"
+      },
+      "files_head": [
+        {
+          "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-3-1/2018-05-21_capture.pcap",
+          "checked_at_utc": "2026-11-08T19:29:07.652633+00:00",
+          "size_bytes": 57919772,
+          "headers": {
+            "date": "Sun, 08 Nov 2026 19:29:07 GMT",
+            "server": "Apache/2.4.69",
+            "last-modified": "Wed, 30 Jan 2019 16:51:28 GMT",
+            "etag": "\"373c91c-580afb895a400\"",
+            "accept-ranges": "bytes",
+            "content-length": "57919772",
+            "content-type": "application/vnd.tcpdump.pcap"
+          },
+          "raw_headers": "HTTP/1.1 200 OK\r\nDate: Sun, 08 Nov 2026 19:29:07 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Wed, 30 Jan 2019 16:51:28 GMT\r\nETag: \"373c91c-580afb895a400\"\r\nAccept-Ranges: bytes\r\nContent-Length: 57919772\r\nContent-Type: application/vnd.tcpdump.pcap\r\n\r\n"
+        },
+        {
+          "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-3-1/bro/conn.log.labeled",
+          "checked_at_utc": "2026-11-08T19:29:08.572708+00:00",
+          "size_bytes": 24383537,
+          "headers": {
+            "date": "Sun, 08 Nov 2026 19:29:08 GMT",
+            "server": "Apache/2.4.69",
+            "last-modified": "Wed, 25 Dec 2019 10:41:17 GMT",
+            "etag": "\"1741031-59a84e67f0d40\"",
+            "accept-ranges": "bytes",
+            "content-length": "24383537"
+          },
+          "raw_headers": "HTTP/1.1 200 OK\r\nDate: Sun, 08 Nov 2026 19:29:08 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Wed, 25 Dec 2019 10:41:17 GMT\r\nETag: \"1741031-59a84e67f0d40\"\r\nAccept-Ranges: bytes\r\nContent-Length: 24383537\r\n\r\n"
+        }
+      ]
+    },
+    {
+      "scenario": "CTU-IoT-Malware-Capture-7-1",
+      "index": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-7-1/",
+        "obtained_at_utc": "2026-11-08T19:29:09.427065+00:00",
+        "size_bytes": 1694,
+        "sha256": "adce23b18df89a1e4b34e4d8c7dedfac3bad52114d3b3638fad98fe8fe438989",
+        "headers": {
+          "content-length": "1694",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-7-1</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-7-1</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-07-20-17-31-20-192.168.100.108.pcap\">2018-07-20-17-31-20-192.168.100.108.pcap</a></td><td align=\"right\">2019-01-30 18:44  </td><td align=\"right\">897M</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/text.gif\" alt=\"[TXT]\" /></td><td><a href=\"README.md\">README.md</a></td><td align=\"right\">2019-01-30 18:45  </td><td align=\"right\">2.7K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"bro/\">bro/</a></td><td align=\"right\">2021-07-10 22:22  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n"
+      },
+      "published_file_rows": [
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-07-20-17-31-20-192.168.100.108.pcap\">2018-07-20-17-31-20-192.168.100.108.pcap</a></td><td align=\"right\">2019-01-30 18:44  </td><td align=\"right\">897M</td><td>&nbsp;</td></tr>"
+      ]
+    },
+    {
+      "scenario": "CTU-IoT-Malware-Capture-9-1",
+      "index": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-9-1/",
+        "obtained_at_utc": "2026-11-08T19:29:10.254315+00:00",
+        "size_bytes": 2180,
+        "sha256": "deee5f01a081ac95a99dc25013aceda336953097927f16c61d2daa81b2b3bc4c",
+        "headers": {
+          "content-length": "2180",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-9-1</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-9-1</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-07-25-10-53-16-192.168.100.111-only5000.pcap\">2018-07-25-10-53-16-192.168.100.111-only5000.pcap</a></td><td align=\"right\">2022-11-16 10:24  </td><td align=\"right\">539K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-07-25-10-53-16-192.168.100.111.pcap\">2018-07-25-10-53-16-192.168.100.111.pcap</a></td><td align=\"right\">2019-01-30 18:48  </td><td align=\"right\">472M</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/text.gif\" alt=\"[TXT]\" /></td><td><a href=\"README.md\">README.md</a></td><td align=\"right\">2019-08-23 19:12  </td><td align=\"right\">1.8K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"bro/\">bro/</a></td><td align=\"right\">2021-07-10 22:23  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"telnet.pcap\">telnet.pcap</a></td><td align=\"right\">2019-01-30 18:49  </td><td align=\"right\">275M</td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n"
+      },
+      "published_file_rows": [
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-07-25-10-53-16-192.168.100.111-only5000.pcap\">2018-07-25-10-53-16-192.168.100.111-only5000.pcap</a></td><td align=\"right\">2022-11-16 10:24  </td><td align=\"right\">539K</td><td>&nbsp;</td></tr>",
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-07-25-10-53-16-192.168.100.111.pcap\">2018-07-25-10-53-16-192.168.100.111.pcap</a></td><td align=\"right\">2019-01-30 18:48  </td><td align=\"right\">472M</td><td>&nbsp;</td></tr>",
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"telnet.pcap\">telnet.pcap</a></td><td align=\"right\">2019-01-30 18:49  </td><td align=\"right\">275M</td><td>&nbsp;</td></tr>"
+      ]
+    },
+    {
+      "scenario": "CTU-IoT-Malware-Capture-17-1",
+      "index": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-17-1/",
+        "obtained_at_utc": "2026-11-08T19:29:11.269989+00:00",
+        "size_bytes": 1985,
+        "sha256": "80193cc250898b33ed6ff3adcf225afdf615a1f3c52a73ff9a19a464f4c20578",
+        "headers": {
+          "content-length": "1985",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-17-1</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-17-1</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-09-06-11-43-12-192.168.100.111.only15000000.pcap\">2018-09-06-11-43-12-192.168.100.111.only15000000.pcap</a></td><td align=\"right\">2019-01-30 17:32  </td><td align=\"right\">1.1G</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-09-06-11-43-12-192.168.100.111.pcap\">2018-09-06-11-43-12-192.168.100.111.pcap</a></td><td align=\"right\">2019-01-30 17:32  </td><td align=\"right\">7.7G</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/text.gif\" alt=\"[TXT]\" /></td><td><a href=\"README.md\">README.md</a></td><td align=\"right\">2019-08-16 17:44  </td><td align=\"right\">2.0K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"bro/\">bro/</a></td><td align=\"right\">2021-07-10 22:05  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n"
+      },
+      "published_file_rows": [
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-09-06-11-43-12-192.168.100.111.only15000000.pcap\">2018-09-06-11-43-12-192.168.100.111.only15000000.pcap</a></td><td align=\"right\">2019-01-30 17:32  </td><td align=\"right\">1.1G</td><td>&nbsp;</td></tr>",
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-09-06-11-43-12-192.168.100.111.pcap\">2018-09-06-11-43-12-192.168.100.111.pcap</a></td><td align=\"right\">2019-01-30 17:32  </td><td align=\"right\">7.7G</td><td>&nbsp;</td></tr>"
+      ]
+    },
+    {
+      "scenario": "CTU-IoT-Malware-Capture-21-1",
+      "index": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-21-1/",
+        "obtained_at_utc": "2026-11-08T19:29:12.032664+00:00",
+        "size_bytes": 1696,
+        "sha256": "f4626051882e8998b175490897fa5afa05a831f7434ec00e70dd122792b8f676",
+        "headers": {
+          "content-length": "1696",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-21-1</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-21-1</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-10-03-15-22-32-192.168.100.113.pcap\">2018-10-03-15-22-32-192.168.100.113.pcap</a></td><td align=\"right\">2019-01-30 17:39  </td><td align=\"right\">3.9M</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/text.gif\" alt=\"[TXT]\" /></td><td><a href=\"README.md\">README.md</a></td><td align=\"right\">2019-08-09 20:07  </td><td align=\"right\">1.7K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"bro/\">bro/</a></td><td align=\"right\">2021-07-10 22:07  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n"
+      },
+      "published_file_rows": [
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-10-03-15-22-32-192.168.100.113.pcap\">2018-10-03-15-22-32-192.168.100.113.pcap</a></td><td align=\"right\">2019-01-30 17:39  </td><td align=\"right\">3.9M</td><td>&nbsp;</td></tr>"
+      ],
+      "readme": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-21-1/README.md",
+        "obtained_at_utc": "2026-11-08T19:29:12.803990+00:00",
+        "size_bytes": 1787,
+        "sha256": "bfbafe60b85f7425f888ebfb5a2c37cc5beb9eb2a98cb76bc17e4f5b52143c0b",
+        "headers": {
+          "last-modified": "Fri, 09 Aug 2019 18:07:37 GMT",
+          "etag": "\"6fb-58fb30c9bac40\"",
+          "content-length": "1787",
+          "content-type": "text/markdown"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "# IoT Lab Capture\n- Description: \n- Probable Malware Name: Torii\n- MD5: 18ba1f3696c5b675d2d2155970256696\n- SHA1: a627702a4240647dbdfb5658124a2603b6327e4d\n- SHA256: 8e3a282bf25e767dc97b3f8b5d85130d90ffe7cc398904a51f5b3a2a92515e4f\n- Password of zip file: infected\n- Duration: \n\n- [VirusTotal](https://www.virustotal.com/en/file/8e3a282bf25e767dc97b3f8b5d85130d90ffe7cc398904a51f5b3a2a92515e4f/analysis/)\n- [HybridAnalysis](https://www.hybrid-analysis.com/sample/8e3a282bf25e767dc97b3f8b5d85130d90ffe7cc398904a51f5b3a2a92515e4f?environmentId=2)\n- RobotHash\n\n[![](https://robohash.org/18ba1f3696c5b675d2d2155970256696)](https://robohash.org)\n\n# Descripttion of Files\n\n- .capinfos\n    - Capinfos file\n- .dnstop\n    - DNS top file\n- .passivedns\n    - Passive DNS file\n- .pcap\n    - Original pcap file\n- .weblogng\n    - WEB log of http traffic only. Generated with justsniffer\n- bro\n    - Folder with all the bro output files\n- .biargus\n    - Argus binary file. Bidirectional flows, 3600s of report time.\n- .binetflow\n    - Argus text file with bidirectional flows. Report time 3600 secs.\n\n# IP Addresses\n    - Infected device: 192.168.100.113\n    - Default GW: 192.168.100.1\n\n# Generic Dataset name: CTU-IoT-Malware-Capture-21\n# Origin device: RPi-05\n\n# Timeline\n\n## Start. 2018/10/03\n\n## Wed Oct  3 15:25:38 CEST 2018\nMalware executed.\n\n# Disclaimer \nThese files were generated in the Stratosphere Laboratory as part of the Aposemat Project for collecting IoT malware captures Done in the CVUT University, Prague, Czech Republic.\nThe goal is to store long-lived real iot malware traffic and to generate labeled netflows files.\nAny question feel free to contact us at:\nSebastian Garcia: sebastian.garcia@agents.fel.cvut.cz\n\nYou need authorization from the Stratosphere Lab to use these files.\n"
+      },
+      "labels_index": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-21-1/bro/",
+        "obtained_at_utc": "2026-11-08T19:29:13.632101+00:00",
+        "size_bytes": 1297,
+        "sha256": "3c2a7ed4cfaa567c37a31936d3312bc2bf6c40061ea1ee4e31549667fd375db8",
+        "headers": {
+          "content-length": "1297",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-21-1/bro</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-21-1/bro</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-21-1/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"conn.log.labeled\">conn.log.labeled</a></td><td align=\"right\">2019-12-25 00:17  </td><td align=\"right\">419K</td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n"
+      },
+      "files_head": [
+        {
+          "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-21-1/2018-10-03-15-22-32-192.168.100.113.pcap",
+          "checked_at_utc": "2026-11-08T19:29:14.512862+00:00",
+          "size_bytes": 4063997,
+          "headers": {
+            "date": "Sun, 08 Nov 2026 19:29:14 GMT",
+            "server": "Apache/2.4.69",
+            "last-modified": "Wed, 30 Jan 2019 16:39:06 GMT",
+            "etag": "\"3e02fd-580af8c5b9e80\"",
+            "accept-ranges": "bytes",
+            "content-length": "4063997",
+            "content-type": "application/vnd.tcpdump.pcap"
+          },
+          "raw_headers": "HTTP/1.1 200 OK\r\nDate: Sun, 08 Nov 2026 19:29:14 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Wed, 30 Jan 2019 16:39:06 GMT\r\nETag: \"3e02fd-580af8c5b9e80\"\r\nAccept-Ranges: bytes\r\nContent-Length: 4063997\r\nContent-Type: application/vnd.tcpdump.pcap\r\n\r\n"
+        },
+        {
+          "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-21-1/bro/conn.log.labeled",
+          "checked_at_utc": "2026-11-08T19:29:15.260180+00:00",
+          "size_bytes": 428943,
+          "headers": {
+            "date": "Sun, 08 Nov 2026 19:29:14 GMT",
+            "server": "Apache/2.4.69",
+            "last-modified": "Tue, 24 Dec 2019 23:17:00 GMT",
+            "etag": "\"68b8f-59a7b574ef300\"",
+            "accept-ranges": "bytes",
+            "content-length": "428943"
+          },
+          "raw_headers": "HTTP/1.1 200 OK\r\nDate: Sun, 08 Nov 2026 19:29:14 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Tue, 24 Dec 2019 23:17:00 GMT\r\nETag: \"68b8f-59a7b574ef300\"\r\nAccept-Ranges: bytes\r\nContent-Length: 428943\r\n\r\n"
+        }
+      ]
+    },
+    {
+      "scenario": "CTU-IoT-Malware-Capture-33-1",
+      "index": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-33-1/",
+        "obtained_at_utc": "2026-11-08T19:29:16.190645+00:00",
+        "size_bytes": 1692,
+        "sha256": "9900c8635b6e5d0419bdd827c35f14ddd4b06428e57a3049fdbc31be49a5d5d6",
+        "headers": {
+          "content-length": "1692",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-33-1</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-33-1</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-12-20-21-10-00-192.168.1.197.pcap\">2018-12-20-21-10-00-192.168.1.197.pcap</a></td><td align=\"right\">2019-01-30 17:52  </td><td align=\"right\">3.9G</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/text.gif\" alt=\"[TXT]\" /></td><td><a href=\"README.md\">README.md</a></td><td align=\"right\">2019-11-05 00:01  </td><td align=\"right\">1.5K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"bro/\">bro/</a></td><td align=\"right\">2021-07-10 22:07  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n"
+      },
+      "published_file_rows": [
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-12-20-21-10-00-192.168.1.197.pcap\">2018-12-20-21-10-00-192.168.1.197.pcap</a></td><td align=\"right\">2019-01-30 17:52  </td><td align=\"right\">3.9G</td><td>&nbsp;</td></tr>"
+      ]
+    },
+    {
+      "scenario": "CTU-IoT-Malware-Capture-35-1",
+      "index": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-35-1/",
+        "obtained_at_utc": "2026-11-08T19:29:17.109485+00:00",
+        "size_bytes": 3104,
+        "sha256": "e4f680f3857907af0f977c0d54e93efbe68b2359595661d251f4012520ec2b0b",
+        "headers": {
+          "content-length": "3104",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-35-1</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-35-1</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"85.217.225.181.23.pcap\">85.217.225.181.23.pcap</a></td><td align=\"right\">2019-03-08 16:27  </td><td align=\"right\">8.6K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"104.248.160.24-23.pcap\">104.248.160.24-23.pcap</a></td><td align=\"right\">2019-02-22 16:35  </td><td align=\"right\">758K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"104.248.160.24-80.pcap\">104.248.160.24-80.pcap</a></td><td align=\"right\">2019-02-22 16:56  </td><td align=\"right\">307M</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"104.248.160.24.port80TCP.pcap\">104.248.160.24.port80TCP.pcap</a></td><td align=\"right\">2019-03-15 16:49  </td><td align=\"right\">1.2M</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"104.248.160.24.port80UDP.pcap\">104.248.160.24.port80UDP.pcap</a></td><td align=\"right\">2019-03-15 16:32  </td><td align=\"right\">306M</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-12-21-15-33-59-192.168.1.196.pcap\">2018-12-21-15-33-59-192.168.1.196.pcap</a></td><td align=\"right\">2019-01-30 17:59  </td><td align=\"right\">3.5G</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/text.gif\" alt=\"[TXT]\" /></td><td><a href=\"README.md\">README.md</a></td><td align=\"right\">2019-07-12 14:23  </td><td align=\"right\">1.5K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"bro/\">bro/</a></td><td align=\"right\">2022-12-08 14:32  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"malware-capture-35-1-port-23.pcap\">malware-capture-35-1-port-23.pcap</a></td><td align=\"right\">2019-03-08 16:01  </td><td align=\"right\">1.4G</td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n"
+      },
+      "published_file_rows": [
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"85.217.225.181.23.pcap\">85.217.225.181.23.pcap</a></td><td align=\"right\">2019-03-08 16:27  </td><td align=\"right\">8.6K</td><td>&nbsp;</td></tr>",
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"104.248.160.24-23.pcap\">104.248.160.24-23.pcap</a></td><td align=\"right\">2019-02-22 16:35  </td><td align=\"right\">758K</td><td>&nbsp;</td></tr>",
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"104.248.160.24-80.pcap\">104.248.160.24-80.pcap</a></td><td align=\"right\">2019-02-22 16:56  </td><td align=\"right\">307M</td><td>&nbsp;</td></tr>",
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"104.248.160.24.port80TCP.pcap\">104.248.160.24.port80TCP.pcap</a></td><td align=\"right\">2019-03-15 16:49  </td><td align=\"right\">1.2M</td><td>&nbsp;</td></tr>",
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"104.248.160.24.port80UDP.pcap\">104.248.160.24.port80UDP.pcap</a></td><td align=\"right\">2019-03-15 16:32  </td><td align=\"right\">306M</td><td>&nbsp;</td></tr>",
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-12-21-15-33-59-192.168.1.196.pcap\">2018-12-21-15-33-59-192.168.1.196.pcap</a></td><td align=\"right\">2019-01-30 17:59  </td><td align=\"right\">3.5G</td><td>&nbsp;</td></tr>",
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"malware-capture-35-1-port-23.pcap\">malware-capture-35-1-port-23.pcap</a></td><td align=\"right\">2019-03-08 16:01  </td><td align=\"right\">1.4G</td><td>&nbsp;</td></tr>"
+      ]
+    },
+    {
+      "scenario": "CTU-IoT-Malware-Capture-36-1",
+      "index": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-36-1/",
+        "obtained_at_utc": "2026-11-08T19:29:18.033245+00:00",
+        "size_bytes": 1692,
+        "sha256": "2d6833c14a1e95516824d389963fbcafba9ba114af6afb28e41c501b06e37533",
+        "headers": {
+          "content-length": "1692",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-36-1</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-36-1</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-12-21-13-36-41-192.168.1.198.pcap\">2018-12-21-13-36-41-192.168.1.198.pcap</a></td><td align=\"right\">2019-01-30 18:00  </td><td align=\"right\">1.0G</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/text.gif\" alt=\"[TXT]\" /></td><td><a href=\"README.md\">README.md</a></td><td align=\"right\">2019-11-25 17:38  </td><td align=\"right\">1.5K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"bro/\">bro/</a></td><td align=\"right\">2021-07-10 22:10  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n"
+      },
+      "published_file_rows": [
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2018-12-21-13-36-41-192.168.1.198.pcap\">2018-12-21-13-36-41-192.168.1.198.pcap</a></td><td align=\"right\">2019-01-30 18:00  </td><td align=\"right\">1.0G</td><td>&nbsp;</td></tr>"
+      ]
+    },
+    {
+      "scenario": "CTU-IoT-Malware-Capture-39-1",
+      "index": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-39-1/",
+        "obtained_at_utc": "2026-11-08T19:29:18.946507+00:00",
+        "size_bytes": 1692,
+        "sha256": "9e53e593adba8604e1acb6379b65d45d5941465747ec86a4857fbe0b19da854b",
+        "headers": {
+          "content-length": "1692",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-39-1</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-39-1</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2019-01-09-21-25-11-192.168.1.194.pcap\">2019-01-09-21-25-11-192.168.1.194.pcap</a></td><td align=\"right\">2019-01-30 18:03  </td><td align=\"right\">5.2G</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/text.gif\" alt=\"[TXT]\" /></td><td><a href=\"README.md\">README.md</a></td><td align=\"right\">2019-07-15 13:58  </td><td align=\"right\">1.5K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"bro/\">bro/</a></td><td align=\"right\">2021-07-10 22:11  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n"
+      },
+      "published_file_rows": [
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2019-01-09-21-25-11-192.168.1.194.pcap\">2019-01-09-21-25-11-192.168.1.194.pcap</a></td><td align=\"right\">2019-01-30 18:03  </td><td align=\"right\">5.2G</td><td>&nbsp;</td></tr>"
+      ]
+    },
+    {
+      "scenario": "CTU-IoT-Malware-Capture-42-1",
+      "index": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-42-1/",
+        "obtained_at_utc": "2026-11-08T19:29:19.773890+00:00",
+        "size_bytes": 1692,
+        "sha256": "be84c7d35b408577161b5b040b140e20d4179658e99cb90554c968f599b59222",
+        "headers": {
+          "content-length": "1692",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-42-1</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-42-1</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2019-01-10-14-34-38-192.168.1.197.pcap\">2019-01-10-14-34-38-192.168.1.197.pcap</a></td><td align=\"right\">2019-01-30 18:23  </td><td align=\"right\">2.8M</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/text.gif\" alt=\"[TXT]\" /></td><td><a href=\"README.md\">README.md</a></td><td align=\"right\">2019-07-15 15:05  </td><td align=\"right\">1.5K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"bro/\">bro/</a></td><td align=\"right\">2021-07-10 22:13  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n"
+      },
+      "published_file_rows": [
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2019-01-10-14-34-38-192.168.1.197.pcap\">2019-01-10-14-34-38-192.168.1.197.pcap</a></td><td align=\"right\">2019-01-30 18:23  </td><td align=\"right\">2.8M</td><td>&nbsp;</td></tr>"
+      ],
+      "readme": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-42-1/README.md",
+        "obtained_at_utc": "2026-11-08T19:29:20.693090+00:00",
+        "size_bytes": 1528,
+        "sha256": "3b3ca5b655db82a93e7f69fcbba76bb9de3f4fff3ea2938726062abe4ff889b3",
+        "headers": {
+          "last-modified": "Mon, 15 Jul 2019 13:05:34 GMT",
+          "etag": "\"5f8-58db7ea5c4380\"",
+          "content-length": "1528",
+          "content-type": "text/markdown"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "# IoT Lab Capture\n- Description: \n- Probable Malware Name: Trojan\n- MD5: 96c52607ceab90bdd3b783ed442f123e \n- SHA1: a02bea9ca625a192e7bf02a92b2d2fe8bb8cbda2 \n- SHA256: eff4251be3096d09c22400e60da5c2400ad7e3d37a4feb8b75426e9979eca4e8 \n- Password of zip file: infected\n- Duration: \n\n- [VirusTotal](https://www.virustotal.com/en/file/eff4251be3096d09c22400e60da5c2400ad7e3d37a4feb8b75426e9979eca4e8/analysis/)\n- [HybridAnalysis](https://www.hybrid-analysis.com/sample/eff4251be3096d09c22400e60da5c2400ad7e3d37a4feb8b75426e9979eca4e8?environmentId=2)\n- RobotHash\n\n[![](https://robohash.org/96c52607ceab90bdd3b783ed442f123e)](https://robohash.org)\n\n# Description of Files\n\n- .capinfos\n    - Capinfos file\n- .dnstop\n    - DNS top file\n- .passivedns\n    - Passive DNS file\n- .pcap\n    - Original pcap file\n- bro\n    - Folder with all the bro output files\n\n# IP Addresses\n    - Infected device: 192.168.1.197\n    - Default GW: 192.168.1.1\n\n# Generic Dataset name: CTU-IoT-Malware-Capture-41\n# Origin device: RPi-04\n\n# Timeline\n\n## Start. 2018/01/10\n## Thu Jan 10 14:31:39 CET 2019\n\n# Disclaimer \nThese files were generated in the Stratosphere Laboratory as part of the Aposemat Project for collecting IoT malware captures Done in the CVUT University, Prague, Czech Republic.\nThe goal is to store long-lived real iot malware traffic and to generate labeled netflows files.\nAny question feel free to contact us at:\nSebastian Garcia: sebastian.garcia@agents.fel.cvut.cz\n\nYou need authorization from the Stratosphere Lab to use these files.\n"
+      },
+      "labels_index": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-42-1/bro/",
+        "obtained_at_utc": "2026-11-08T19:29:21.513646+00:00",
+        "size_bytes": 1297,
+        "sha256": "5b1475def217575b13672d43a9897f6c6a03c3bc598906a7b9223e44ff715cf5",
+        "headers": {
+          "content-length": "1297",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-42-1/bro</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-42-1/bro</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-42-1/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"conn.log.labeled\">conn.log.labeled</a></td><td align=\"right\">2019-12-25 00:17  </td><td align=\"right\">572K</td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n"
+      },
+      "files_head": [
+        {
+          "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-42-1/2019-01-10-14-34-38-192.168.1.197.pcap",
+          "checked_at_utc": "2026-11-08T19:29:22.394722+00:00",
+          "size_bytes": 2908160,
+          "headers": {
+            "date": "Sun, 08 Nov 2026 19:29:21 GMT",
+            "server": "Apache/2.4.69",
+            "last-modified": "Wed, 30 Jan 2019 17:23:41 GMT",
+            "etag": "\"2c6000-580b02bcce140\"",
+            "accept-ranges": "bytes",
+            "content-length": "2908160",
+            "content-type": "application/vnd.tcpdump.pcap"
+          },
+          "raw_headers": "HTTP/1.1 200 OK\r\nDate: Sun, 08 Nov 2026 19:29:21 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Wed, 30 Jan 2019 17:23:41 GMT\r\nETag: \"2c6000-580b02bcce140\"\r\nAccept-Ranges: bytes\r\nContent-Length: 2908160\r\nContent-Type: application/vnd.tcpdump.pcap\r\n\r\n"
+        },
+        {
+          "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-42-1/bro/conn.log.labeled",
+          "checked_at_utc": "2026-11-08T19:29:23.319058+00:00",
+          "size_bytes": 585829,
+          "headers": {
+            "date": "Sun, 08 Nov 2026 19:29:22 GMT",
+            "server": "Apache/2.4.69",
+            "last-modified": "Tue, 24 Dec 2019 23:17:01 GMT",
+            "etag": "\"8f065-59a7b575e3540\"",
+            "accept-ranges": "bytes",
+            "content-length": "585829"
+          },
+          "raw_headers": "HTTP/1.1 200 OK\r\nDate: Sun, 08 Nov 2026 19:29:22 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Tue, 24 Dec 2019 23:17:01 GMT\r\nETag: \"8f065-59a7b575e3540\"\r\nAccept-Ranges: bytes\r\nContent-Length: 585829\r\n\r\n"
+        }
+      ]
+    },
+    {
+      "scenario": "CTU-IoT-Malware-Capture-43-1",
+      "index": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-43-1/",
+        "obtained_at_utc": "2026-11-08T19:29:24.287143+00:00",
+        "size_bytes": 5133,
+        "sha256": "1c74997a36473af57d104fc88b7d99df28d183088aeaea4cbae7e9ea730d8931",
+        "headers": {
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-43-1</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-43-1</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2019-01-10-19-22-51-192.168.1.198.capinfos\">2019-01-10-19-22-51-192.168.1.198.capinfos</a></td><td align=\"right\">2022-07-16 11:51  </td><td align=\"right\">1.1K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2019-01-10-19-22-51-192.168.1.198.dnstop\">2019-01-10-19-22-51-192.168.1.198.dnstop</a></td><td align=\"right\">2022-07-16 11:38  </td><td align=\"right\">1.6K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2019-01-10-19-22-51-192.168.1.198.pcap\">2019-01-10-19-22-51-192.168.1.198.pcap</a></td><td align=\"right\">2019-01-30 18:28  </td><td align=\"right\">5.9G</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/text.gif\" alt=\"[TXT]\" /></td><td><a href=\"README.html\">README.html</a></td><td align=\"right\">2022-07-16 13:02  </td><td align=\"right\">2.3K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/text.gif\" alt=\"[TXT]\" /></td><td><a href=\"README.md\">README.md</a></td><td align=\"right\">2022-07-16 11:49  </td><td align=\"right\">1.6K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"bro/\">bro/</a></td><td align=\"right\">2022-07-16 13:02  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"labeled/\">labeled/</a></td><td align=\"right\">2021-07-10 22:13  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"suricata/\">suricata/</a></td><td align=\"right\">2022-07-16 11:49  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n<h1 id=\"iot-lab-capture\">IoT Lab Capture</h1>\n<ul>\n<li><p>Description:</p></li>\n<li><p>Probable Malware Name: Mirai</p></li>\n<li><p>MD5: 6d2fa0dc9836cf1944a925c6aa77519d</p></li>\n<li><p>SHA1: f1259f9b01b82cd754a48c47bd765656fa47b009</p></li>\n<li><p>SHA256: 9d5374b9f13ed32baf68aae86d88f44b2d2a58400e1dce276b317d7b43abbd08</p></li>\n<li><p>Password of zip file: infected</p></li>\n<li><p>Duration: 3930.459239 seconds</p></li>\n<li><p><a href=\"https://www.virustotal.com/en/file/9d5374b9f13ed32baf68aae86d88f44b2d2a58400e1dce276b317d7b43abbd08/analysis/\">VirusTotal</a></p></li>\n<li><p><a href=\"https://www.hybrid-analysis.com/sample/9d5374b9f13ed32baf68aae86d88f44b2d2a58400e1dce276b317d7b43abbd08?environmentId=2\">HybridAnalysis</a></p></li>\n<li><p>RobotHash</p></li>\n</ul>\n<p><a href=\"https://robohash.org\"><img src=\"https://robohash.org/6d2fa0dc9836cf1944a925c6aa77519d\" /></a></p>\n<h1 id=\"description-of-files\">Description of Files</h1>\n<ul>\n<li>.capinfos\n<ul>\n<li>Capinfos file</li>\n</ul></li>\n<li>.dnstop\n<ul>\n<li>DNS top file</li>\n</ul></li>\n<li>.passivedns\n<ul>\n<li>Passive DNS file</li>\n</ul></li>\n<li>.pcap\n<ul>\n<li>Original pcap file</li>\n</ul></li>\n<li>bro\n<ul>\n<li>Folder with all the bro output files</li>\n</ul></li>\n</ul>\n<h1 id=\"ip-addresses\">IP Addresses</h1>\n<pre><code>- Infected device: 192.168.1.198\n- Default GW: 192.168.1.1</code></pre>\n<h1 id=\"generic-dataset-name-ctu-iot-malware-capture-43\">Generic Dataset name: CTU-IoT-Malware-Capture-43</h1>\n<h1 id=\"origin-device-rpi-05\">Origin device: RPi-05</h1>\n<h1 id=\"timeline\">Timeline</h1>\n<h2 id=\"start.-20180110\">Start. 2018/01/10</h2>\n<p>## Thu Jan 10 19:22:33 CET 2019</p>\n<h2 id=\"poweroff\">Poweroff</h2>\n<p>##Thu Jan 10 20:27:33 CET 2019</p>\n<h1 id=\"disclaimer\">Disclaimer</h1>\n<p>These files were generated in the Stratosphere Laboratory as part of the Aposemat Project for collecting IoT malware captures Done in the CVUT University, Prague, Czech Republic. The goal is to store long-lived real iot malware traffic and to generate labeled netflows files. Any question feel free to contact us at: Sebastian Garcia: sebastian.garcia@agents.fel.cvut.cz</p>\n<p>You need authorization from the Stratosphere Lab to use these files.</p>\n<h1 id=\"suricata-run-with-rules-updated-on-2022-07-16\">Suricata run with rules updated on 2022-07-16</h1>\n</body></html>\n"
+      },
+      "published_file_rows": [
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2019-01-10-19-22-51-192.168.1.198.pcap\">2019-01-10-19-22-51-192.168.1.198.pcap</a></td><td align=\"right\">2019-01-30 18:28  </td><td align=\"right\">5.9G</td><td>&nbsp;</td></tr>",
+        "<li>.pcap"
+      ]
+    },
+    {
+      "scenario": "CTU-IoT-Malware-Capture-44-1",
+      "index": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-44-1/",
+        "obtained_at_utc": "2026-11-08T19:29:25.302896+00:00",
+        "size_bytes": 1692,
+        "sha256": "1b145241e3c8dc5b3adb52440aef869116acf05015dd8d6690c1b16f4e01c8a0",
+        "headers": {
+          "content-length": "1692",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-44-1</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-44-1</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2019-01-10-21-06-26-192.168.1.199.pcap\">2019-01-10-21-06-26-192.168.1.199.pcap</a></td><td align=\"right\">2019-01-30 18:35  </td><td align=\"right\">1.7G</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/text.gif\" alt=\"[TXT]\" /></td><td><a href=\"README.md\">README.md</a></td><td align=\"right\">2019-07-15 15:16  </td><td align=\"right\">1.5K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"bro/\">bro/</a></td><td align=\"right\">2021-07-10 22:16  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n"
+      },
+      "published_file_rows": [
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2019-01-10-21-06-26-192.168.1.199.pcap\">2019-01-10-21-06-26-192.168.1.199.pcap</a></td><td align=\"right\">2019-01-30 18:35  </td><td align=\"right\">1.7G</td><td>&nbsp;</td></tr>"
+      ]
+    },
+    {
+      "scenario": "CTU-IoT-Malware-Capture-48-1",
+      "index": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-48-1/",
+        "obtained_at_utc": "2026-11-08T19:29:26.321929+00:00",
+        "size_bytes": 1692,
+        "sha256": "940aaad2936046092c8e12e03c9b57d547dae92c2fb7deb50729139b02c5d5da",
+        "headers": {
+          "content-length": "1692",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-48-1</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-48-1</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2019-02-28-19-15-13-192.168.1.200.pcap\">2019-02-28-19-15-13-192.168.1.200.pcap</a></td><td align=\"right\">2019-03-01 05:03  </td><td align=\"right\">1.1G</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/text.gif\" alt=\"[TXT]\" /></td><td><a href=\"README.md\">README.md</a></td><td align=\"right\">2019-08-05 13:55  </td><td align=\"right\">1.5K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"bro/\">bro/</a></td><td align=\"right\">2021-07-10 22:16  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n"
+      },
+      "published_file_rows": [
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2019-02-28-19-15-13-192.168.1.200.pcap\">2019-02-28-19-15-13-192.168.1.200.pcap</a></td><td align=\"right\">2019-03-01 05:03  </td><td align=\"right\">1.1G</td><td>&nbsp;</td></tr>"
+      ]
+    },
+    {
+      "scenario": "CTU-IoT-Malware-Capture-49-1",
+      "index": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-49-1/",
+        "obtained_at_utc": "2026-11-08T19:29:27.259170+00:00",
+        "size_bytes": 1692,
+        "sha256": "b754abfdee67f4aa918800e916ededdbbaadf9e3ad34eb1a0f33f27cd5409b16",
+        "headers": {
+          "content-length": "1692",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-49-1</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-49-1</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2019-02-28-20-50-15-192.168.1.193.pcap\">2019-02-28-20-50-15-192.168.1.193.pcap</a></td><td align=\"right\">2019-03-01 05:01  </td><td align=\"right\">1.3G</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/text.gif\" alt=\"[TXT]\" /></td><td><a href=\"README.md\">README.md</a></td><td align=\"right\">2019-08-05 14:07  </td><td align=\"right\">1.5K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"bro/\">bro/</a></td><td align=\"right\">2021-07-10 22:16  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n"
+      },
+      "published_file_rows": [
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2019-02-28-20-50-15-192.168.1.193.pcap\">2019-02-28-20-50-15-192.168.1.193.pcap</a></td><td align=\"right\">2019-03-01 05:01  </td><td align=\"right\">1.3G</td><td>&nbsp;</td></tr>"
+      ]
+    },
+    {
+      "scenario": "CTU-IoT-Malware-Capture-52-1",
+      "index": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-52-1/",
+        "obtained_at_utc": "2026-11-08T19:29:28.162621+00:00",
+        "size_bytes": 1692,
+        "sha256": "8abb19db4d281482504c7557ab536eaaec9e544606fcb974f96ae88eb8204175",
+        "headers": {
+          "content-length": "1692",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-52-1</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-52-1</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2019-03-08-13-24-30-192.168.1.197.pcap\">2019-03-08-13-24-30-192.168.1.197.pcap</a></td><td align=\"right\">2019-03-27 18:36  </td><td align=\"right\">4.6G</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/text.gif\" alt=\"[TXT]\" /></td><td><a href=\"README.md\">README.md</a></td><td align=\"right\">2019-11-04 16:11  </td><td align=\"right\">1.5K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"bro/\">bro/</a></td><td align=\"right\">2021-07-10 22:17  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n"
+      },
+      "published_file_rows": [
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2019-03-08-13-24-30-192.168.1.197.pcap\">2019-03-08-13-24-30-192.168.1.197.pcap</a></td><td align=\"right\">2019-03-27 18:36  </td><td align=\"right\">4.6G</td><td>&nbsp;</td></tr>"
+      ]
+    },
+    {
+      "scenario": "CTU-IoT-Malware-Capture-60-1",
+      "index": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-60-1/",
+        "obtained_at_utc": "2026-11-08T19:29:28.983598+00:00",
+        "size_bytes": 1692,
+        "sha256": "8916c474cc2a8340598d4928c879b016f2a284104561624af38ac175e67e4763",
+        "headers": {
+          "content-length": "1692",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-60-1</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-60-1</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2019-09-20-02-40-32-192.168.1.195.pcap\">2019-09-20-02-40-32-192.168.1.195.pcap</a></td><td align=\"right\">2019-10-19 05:20  </td><td align=\"right\"> 21G</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/text.gif\" alt=\"[TXT]\" /></td><td><a href=\"README.md\">README.md</a></td><td align=\"right\">2019-10-19 05:00  </td><td align=\"right\">1.8K</td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"bro/\">bro/</a></td><td align=\"right\">2021-07-10 22:18  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n"
+      },
+      "published_file_rows": [
+        "<tr><td valign=\"top\"><img src=\"/icons/unknown.gif\" alt=\"[   ]\" /></td><td><a href=\"2019-09-20-02-40-32-192.168.1.195.pcap\">2019-09-20-02-40-32-192.168.1.195.pcap</a></td><td align=\"right\">2019-10-19 05:20  </td><td align=\"right\"> 21G</td><td>&nbsp;</td></tr>"
+      ]
+    },
+    {
+      "scenario": "CTU-Honeypot-Capture-7-1",
+      "index": {
+        "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-7-1/",
+        "obtained_at_utc": "2026-11-08T19:29:29.912271+00:00",
+        "size_bytes": 2237,
+        "sha256": "a71a987b456ce0cf73ad43d0e85fb5016ea86a8d3a07bf705d8d29f7f878dbe0",
+        "headers": {
+          "content-length": "2237",
+          "content-type": "text/html;charset=UTF-8"
+        },
+        "tls_verification": "enabled; Windows curl/Schannel",
+        "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n <head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <title>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-7-1</title>\n </head>\n <body>\n<h1>Index of /publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-7-1</h1>\n  <table>\n   <tr><th valign=\"top\"><img src=\"/icons/blank.gif\" alt=\"[ICO]\" /></th><th><a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a></th><th><a href=\"?C=S;O=A\">Size</a></th><th><a href=\"?C=D;O=A\">Description</a></th></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n<tr><td valign=\"top\"><img src=\"/icons/back.gif\" alt=\"[PARENTDIR]\" /></td><td><a href=\"/publicDatasets/IoT-23-Dataset/IndividualScenarios/\">Parent Directory</a></td><td>&nbsp;</td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"Somfy-01/\">Somfy-01/</a></td><td align=\"right\">2021-07-10 22:23  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"Somfy-02/\">Somfy-02/</a></td><td align=\"right\">2021-07-10 22:23  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"Somfy-03/\">Somfy-03/</a></td><td align=\"right\">2021-07-10 22:23  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"Somfy-04/\">Somfy-04/</a></td><td align=\"right\">2021-07-10 22:23  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"Somfy-05/\">Somfy-05/</a></td><td align=\"right\">2021-07-10 22:23  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"Somfy-06/\">Somfy-06/</a></td><td align=\"right\">2021-07-10 22:23  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>\n   <tr><th colspan=\"5\"><hr /></th></tr>\n</table>\n</body></html>\n"
+      },
+      "published_file_rows": [
+        "<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"Somfy-01/\">Somfy-01/</a></td><td align=\"right\">2021-07-10 22:23  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>",
+        "<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"Somfy-02/\">Somfy-02/</a></td><td align=\"right\">2021-07-10 22:23  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>",
+        "<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"Somfy-03/\">Somfy-03/</a></td><td align=\"right\">2021-07-10 22:23  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>",
+        "<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"Somfy-04/\">Somfy-04/</a></td><td align=\"right\">2021-07-10 22:23  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>",
+        "<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"Somfy-05/\">Somfy-05/</a></td><td align=\"right\">2021-07-10 22:23  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>",
+        "<tr><td valign=\"top\"><img src=\"/icons/folder.gif\" alt=\"[DIR]\" /></td><td><a href=\"Somfy-06/\">Somfy-06/</a></td><td align=\"right\">2021-07-10 22:23  </td><td align=\"right\">  - </td><td>&nbsp;</td></tr>"
+      ]
+    }
+  ],
+  "official_labels_summary": {
+    "source": "https://www.stratosphereips.org/datasets-iot23",
+    "3-1": {
+      "Attack": 5962,
+      "Benign": 4536,
+      "C&C": 8,
+      "PartOfAHorizontalPortScan": 145597
+    },
+    "42-1": {
+      "Benign": 4420,
+      "C&C-FileDownload": 3,
+      "FileDownload": 3
+    },
+    "21-1": {
+      "Benign": 3272,
+      "C&C-Torii": 14
+    }
+  },
+  "warning": "Published reference counts and detailed labels do not establish extractor flow counts, admitted coverage, TCP bidirectionality or independent attacks"
+}

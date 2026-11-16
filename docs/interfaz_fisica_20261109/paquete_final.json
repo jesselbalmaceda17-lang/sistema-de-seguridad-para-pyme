@@ -1,0 +1,51 @@
+{
+  "zip": "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\dist\\SeguridadInteligentePYMES-monitoreo-wifi-verificado-20261109.zip",
+  "bytes": 8053674,
+  "sha256": "de8a93645612531928b1d08159289e55297dc03dbc7888b2fe6a475a6ec63c48",
+  "crc_ok": true,
+  "independent_extraction": "C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-Le0Mxc\\wifi-final\\SeguridadInteligentePYMES-monitoreo-wifi-verificado-20261109",
+  "manifest": {
+    "files_verified": 37,
+    "status": "ok",
+    "notice": "Hashes check integrity, not publisher identity. Only load trusted models."
+  },
+  "application_and_model_byte_identical_to_tested_package": true,
+  "old_zip_unchanged": true,
+  "old_zip_sha256": "e83267ecf1d6bd43f0bdafd77b27c4cfdcbd434e20d254aefc7fb564f2e33259",
+  "capture_processes_remaining": [],
+  "documentation_only_update": true,
+  "physical_result": {
+    "utc": "2026-11-09T20:16:31.457728+00:00",
+    "passed": true,
+    "interface_name": "Wi-Fi",
+    "interface_description": "Intel(R) Wi-Fi 6 AX201 160MHz",
+    "interface_id": "\\Device\\NPF_{014603EF-B8E8-4F1A-9B1B-535F0D5E99D3}",
+    "type": "Physical Native 802.11, managed mode",
+    "sqlite_integrity": "ok",
+    "pcap_sha256": "66fab4794a82b7008219a51434536cd23af575a2c5ef9d0f42b3c93ebf6374e2",
+    "link_encapsulations": [
+      "1"
+    ],
+    "protocols": [
+      "tcp",
+      "udp"
+    ],
+    "all_38_features_recomputed_for_flows": 24,
+    "https_requests_successful": 2,
+    "duplicate_alert_ids": 0,
+    "capture_processes_remaining": [],
+    "original_models_and_databases_verified": 8,
+    "source_changes": [],
+    "scope_limit": "Only traffic visible to this computer on its authorized physical NIC; not evidence of security for an entire business.",
+    "duration_seconds": 18.28,
+    "packets": 315,
+    "connections": 23,
+    "segments": 24,
+    "alerts": 0,
+    "current_monitoring_tests": 38,
+    "current_csv_acceptance_tests": 7,
+    "previous_complete_suite_tests": 273,
+    "complete_suite_reused_with_identical_code": true
+  },
+  "validation_harness_note": "Initial extraction path exceeded Windows MAX_PATH; repeated in a shorter independent location without changing application code."
+}

@@ -1,0 +1,950 @@
+{
+  "checked_at_utc": "2026-11-08T19:49:55.970845+00:00",
+  "git": "not a Git repository",
+  "baseline_file_count": 165,
+  "unchanged_files": [
+    {
+      "path": ".gitignore",
+      "before_sha256": "a7ea574d003f42fffcaaf2650b742c6448fa7040fc0062f358fa20f233bae2fd",
+      "after_sha256": "a7ea574d003f42fffcaaf2650b742c6448fa7040fc0062f358fa20f233bae2fd"
+    },
+    {
+      "path": ".vscode/settings.json",
+      "before_sha256": "b3f38d5469db454a51c0c705ae9160a4e133df1f23c19f7086cce7169a544aa9",
+      "after_sha256": "b3f38d5469db454a51c0c705ae9160a4e133df1f23c19f7086cce7169a544aa9"
+    },
+    {
+      "path": "app.py",
+      "before_sha256": "b6eb982e89273a7ed848cf27eddb5b2f3037a26ce548e9974ab69ab03d1949e9",
+      "after_sha256": "b6eb982e89273a7ed848cf27eddb5b2f3037a26ce548e9974ab69ab03d1949e9"
+    },
+    {
+      "path": "comprobar_bibliotecas.py",
+      "before_sha256": "a034486984df80bf7d2806c53efd2e1605abae7434262328847f4887a62eba9c",
+      "after_sha256": "a034486984df80bf7d2806c53efd2e1605abae7434262328847f4887a62eba9c"
+    },
+    {
+      "path": "data/processed/demo_20_registros.csv",
+      "before_sha256": "34a73c1455ea9b6288c8c943b1e296354ed8fd87212466f8577aa820c64f0ae6",
+      "after_sha256": "34a73c1455ea9b6288c8c943b1e296354ed8fd87212466f8577aa820c64f0ae6"
+    },
+    {
+      "path": "data/processed/evaluation/classification_metrics.svg",
+      "before_sha256": "bee988167689b8085611550a8e5f5f17a54b8ed63867266075c4d71b8e485678",
+      "after_sha256": "bee988167689b8085611550a8e5f5f17a54b8ed63867266075c4d71b8e485678"
+    },
+    {
+      "path": "data/processed/evaluation/confusion_matrix.csv",
+      "before_sha256": "1b59603ff83558a967404a6247244ce8ff26bcaac16190567c87b15b170423ae",
+      "after_sha256": "1b59603ff83558a967404a6247244ce8ff26bcaac16190567c87b15b170423ae"
+    },
+    {
+      "path": "data/processed/evaluation/confusion_matrix.svg",
+      "before_sha256": "68a2d04d71402b02c388cd14e58e3cddf632dbb7dcc97531faf2fceea59d3695",
+      "after_sha256": "68a2d04d71402b02c388cd14e58e3cddf632dbb7dcc97531faf2fceea59d3695"
+    },
+    {
+      "path": "data/processed/evaluation/metrics.json",
+      "before_sha256": "15a8f24449b5c09366593ffbf7831bec80ed5a39054dca5c2fa444da5df99c98",
+      "after_sha256": "15a8f24449b5c09366593ffbf7831bec80ed5a39054dca5c2fa444da5df99c98"
+    },
+    {
+      "path": "data/processed/iot23_hakai_8_1/audit_v2/imported_labels.json",
+      "before_sha256": "68eb41d9f429bec266b67cd9b2a8bcf0caa5a24748153805194daa66a9457e03",
+      "after_sha256": "68eb41d9f429bec266b67cd9b2a8bcf0caa5a24748153805194daa66a9457e03"
+    },
+    {
+      "path": "data/processed/iot23_hakai_8_1/audit_v2/label_audit.json",
+      "before_sha256": "dbd8f3c9e4de69ad5b6a0920ef84bc6796ccc11bd640c9c83a81c341709ee90c",
+      "after_sha256": "dbd8f3c9e4de69ad5b6a0920ef84bc6796ccc11bd640c9c83a81c341709ee90c"
+    },
+    {
+      "path": "data/processed/iot23_hakai_8_1/extraction.json",
+      "before_sha256": "02ba168c4a0db067e813e9dc129d45689f3b88c51eefaf66c4a1c44c54437b99",
+      "after_sha256": "02ba168c4a0db067e813e9dc129d45689f3b88c51eefaf66c4a1c44c54437b99"
+    },
+    {
+      "path": "data/processed/iot23_hue_4_1/audit_v2/imported_labels.json",
+      "before_sha256": "cf98311fae844b16a4a58b0638b291414665a15752f09a3d0e1ed16d72e527e7",
+      "after_sha256": "cf98311fae844b16a4a58b0638b291414665a15752f09a3d0e1ed16d72e527e7"
+    },
+    {
+      "path": "data/processed/iot23_hue_4_1/audit_v2/label_audit.json",
+      "before_sha256": "f5e8e001666280bbafa5d3cf60f35382b5d228a1bb273a7f0ecb3ba5b7d9b41c",
+      "after_sha256": "f5e8e001666280bbafa5d3cf60f35382b5d228a1bb273a7f0ecb3ba5b7d9b41c"
+    },
+    {
+      "path": "data/processed/iot23_hue_4_1/extraction.json",
+      "before_sha256": "2843833f1842f8a915a5aabeed9b244d44dd9262e155ac4774ee747aaf3e341c",
+      "after_sha256": "2843833f1842f8a915a5aabeed9b244d44dd9262e155ac4774ee747aaf3e341c"
+    },
+    {
+      "path": "data/processed/iot23_pilot_20_1/audit_exact/imported_labels.json",
+      "before_sha256": "ce3090ad777a2e9af2ef40b2ecb0807302027c084b631c0c36633f86f322f46a",
+      "after_sha256": "ce3090ad777a2e9af2ef40b2ecb0807302027c084b631c0c36633f86f322f46a"
+    },
+    {
+      "path": "data/processed/iot23_pilot_20_1/audit_exact/label_audit.json",
+      "before_sha256": "4864baadcfd1240d916c8ae17bf80bb8d72425eb1515fe112c95d1783b0474cc",
+      "after_sha256": "4864baadcfd1240d916c8ae17bf80bb8d72425eb1515fe112c95d1783b0474cc"
+    },
+    {
+      "path": "data/processed/iot23_pilot_20_1/extraction.json",
+      "before_sha256": "12113adbf60e0c5f3adcd493b2ab15c8e1b65cd7cf4108459f9ab04a6dbcf77b",
+      "after_sha256": "12113adbf60e0c5f3adcd493b2ab15c8e1b65cd7cf4108459f9ab04a6dbcf77b"
+    },
+    {
+      "path": "data/processed/README.md",
+      "before_sha256": "4ff47816ffee2bc6afe5cea90d5a4cfedf85f672c1b71839d3540c43485d6fa5",
+      "after_sha256": "4ff47816ffee2bc6afe5cea90d5a4cfedf85f672c1b71839d3540c43485d6fa5"
+    },
+    {
+      "path": "data/processed/security_analysis.backup-20261105T193153Z-e296f770.sqlite3",
+      "before_sha256": "d7f5b0bf09409e72a957f9b1fd0498e70d01e67fdd4ffc6cb0eb93878c83e7c2",
+      "after_sha256": "d7f5b0bf09409e72a957f9b1fd0498e70d01e67fdd4ffc6cb0eb93878c83e7c2"
+    },
+    {
+      "path": "data/processed/security_analysis.pre-model-selector-20261103-0833.sqlite3",
+      "before_sha256": "17f66a73d34177e89fd3dca2896fd1c642d6d6806fe375737baa6662ef500734",
+      "after_sha256": "17f66a73d34177e89fd3dca2896fd1c642d6d6806fe375737baa6662ef500734"
+    },
+    {
+      "path": "data/processed/security_analysis.sqlite3",
+      "before_sha256": "1b92777bc6857daffa11aadb57da49e897fdaaea0aac06bdf972009b884db225",
+      "after_sha256": "1b92777bc6857daffa11aadb57da49e897fdaaea0aac06bdf972009b884db225"
+    },
+    {
+      "path": "data/processed/threshold_study/threshold_metrics.csv",
+      "before_sha256": "a24beac92d6a9740ca99ac8ca1a1761eb7092a08adfbcf3463fe324aae850fd5",
+      "after_sha256": "a24beac92d6a9740ca99ac8ca1a1761eb7092a08adfbcf3463fe324aae850fd5"
+    },
+    {
+      "path": "data/processed/threshold_study/threshold_study_random_forest.joblib",
+      "before_sha256": "69a4e781d99cd5aaec0898bbb8815796a8d53b1a37711f073c6de0750384a6b8",
+      "after_sha256": "69a4e781d99cd5aaec0898bbb8815796a8d53b1a37711f073c6de0750384a6b8"
+    },
+    {
+      "path": "data/processed/threshold_study/threshold_study_random_forest.joblib.metadata.json",
+      "before_sha256": "fb09fb8d2c622b632f67df933605a6eb81efa619063cd565db0822012d091261",
+      "after_sha256": "fb09fb8d2c622b632f67df933605a6eb81efa619063cd565db0822012d091261"
+    },
+    {
+      "path": "data/processed/threshold_study/threshold_study_report.json",
+      "before_sha256": "69fd11cfc006682cc5717c0f50ce6fc1fb13b9d562dafe0cdab9471fd31b5be2",
+      "after_sha256": "69fd11cfc006682cc5717c0f50ce6fc1fb13b9d562dafe0cdab9471fd31b5be2"
+    },
+    {
+      "path": "data/raw/iot23_hakai_8_1/2018-07-31-15-15-09-192.168.100.113.pcap",
+      "before_sha256": "80dcc2602519479ddcde889fa902fee19a76696630811452f8df38888af894f2",
+      "after_sha256": "80dcc2602519479ddcde889fa902fee19a76696630811452f8df38888af894f2"
+    },
+    {
+      "path": "data/raw/iot23_hakai_8_1/conn.log.labeled",
+      "before_sha256": "4877ca8f0f01902fbd18d28b7d06cb3d0be082355b7f2c8862c9deef1782eb8a",
+      "after_sha256": "4877ca8f0f01902fbd18d28b7d06cb3d0be082355b7f2c8862c9deef1782eb8a"
+    },
+    {
+      "path": "data/raw/iot23_hakai_8_1/provenance.json",
+      "before_sha256": "3d61f9d8c4dfa1dad99abb8cd5f34125d8ec84f9fef2aab37fb8e694871890fa",
+      "after_sha256": "3d61f9d8c4dfa1dad99abb8cd5f34125d8ec84f9fef2aab37fb8e694871890fa"
+    },
+    {
+      "path": "data/raw/iot23_hue_4_1/2018-10-25-14-06-32-192.168.1.132.pcap",
+      "before_sha256": "3fb775c0391b6ad313a3f7845e634a277b07c3f6377346c2486ba63e1c22e90c",
+      "after_sha256": "3fb775c0391b6ad313a3f7845e634a277b07c3f6377346c2486ba63e1c22e90c"
+    },
+    {
+      "path": "data/raw/iot23_hue_4_1/2018-10-25-14-06-32-192.168.1.132.pcap.xz",
+      "before_sha256": "bc5a57306d9a5f614b09d9c0976f007667fee5b6de3427fbab094fa3084b9b64",
+      "after_sha256": "bc5a57306d9a5f614b09d9c0976f007667fee5b6de3427fbab094fa3084b9b64"
+    },
+    {
+      "path": "data/raw/iot23_hue_4_1/acquisition_transport.json",
+      "before_sha256": "5c2ba6dc6529b69a3437579e53fcd1a3572f4930465eadb843617cf7709d7187",
+      "after_sha256": "5c2ba6dc6529b69a3437579e53fcd1a3572f4930465eadb843617cf7709d7187"
+    },
+    {
+      "path": "data/raw/iot23_hue_4_1/conn.log.labeled",
+      "before_sha256": "aebe40ea0e03b120265a5c7bc140dd9b0d3fe2fce65559e84776b7dd5360e71e",
+      "after_sha256": "aebe40ea0e03b120265a5c7bc140dd9b0d3fe2fce65559e84776b7dd5360e71e"
+    },
+    {
+      "path": "data/raw/iot23_hue_4_1/provenance.json",
+      "before_sha256": "231471e18d54ca396c3b0eaf5e09726708a9af8c74062730f6b2dbb04e19f268",
+      "after_sha256": "231471e18d54ca396c3b0eaf5e09726708a9af8c74062730f6b2dbb04e19f268"
+    },
+    {
+      "path": "data/raw/iot23_pilot_20_1/2018-10-02-13-12-30-192.168.100.103.pcap",
+      "before_sha256": "4d0a00c33a4bf11228158baddd47c38f702731ea8d75ef1201061fc8bbd878b9",
+      "after_sha256": "4d0a00c33a4bf11228158baddd47c38f702731ea8d75ef1201061fc8bbd878b9"
+    },
+    {
+      "path": "data/raw/iot23_pilot_20_1/conn.log.labeled",
+      "before_sha256": "ef48ad72f65efd13d517223e61e4d877ba53a082ddb8159324b18d3f310d0711",
+      "after_sha256": "ef48ad72f65efd13d517223e61e4d877ba53a082ddb8159324b18d3f310d0711"
+    },
+    {
+      "path": "data/raw/iot23_pilot_20_1/provenance.json",
+      "before_sha256": "6cfc865e0542733cc9cc0f54090184e231b7a78ce935e776f04a346c9f3f92e0",
+      "after_sha256": "6cfc865e0542733cc9cc0f54090184e231b7a78ce935e776f04a346c9f3f92e0"
+    },
+    {
+      "path": "data/raw/README.md",
+      "before_sha256": "9c7533456f003b0bb1de3a7e0ffeb761b084c7244e513aba726b96c0572fefde",
+      "after_sha256": "9c7533456f003b0bb1de3a7e0ffeb761b084c7244e513aba726b96c0572fefde"
+    },
+    {
+      "path": "data/raw/UNSW_NB15_testing-set.csv",
+      "before_sha256": "734fe6642edf758f7c94d7d9149426b49d202fe8e7bf0bef47392489c3c0a559",
+      "after_sha256": "734fe6642edf758f7c94d7d9149426b49d202fe8e7bf0bef47392489c3c0a559"
+    },
+    {
+      "path": "data/raw/UNSW_NB15_training-set.csv",
+      "before_sha256": "bec7dd5ec88dc2a0ccc7a07879d338395ed7421750f675fd0339e07dfe0648fa",
+      "after_sha256": "bec7dd5ec88dc2a0ccc7a07879d338395ed7421750f675fd0339e07dfe0648fa"
+    },
+    {
+      "path": "delivery-manifest.json",
+      "before_sha256": "4879000a4eb1431787f63eae5a75964784a27fc38bb536f64bc023bc0094bcdc",
+      "after_sha256": "4879000a4eb1431787f63eae5a75964784a27fc38bb536f64bc023bc0094bcdc"
+    },
+    {
+      "path": "docs/adquisicion_controlada_iot23_8_4.md",
+      "before_sha256": "7d63c58a9914c6405344deff9829055aae8ca0a9e1f0c4d2a3f52122e9cbafe4",
+      "after_sha256": "7d63c58a9914c6405344deff9829055aae8ca0a9e1f0c4d2a3f52122e9cbafe4"
+    },
+    {
+      "path": "docs/arquitectura.md",
+      "before_sha256": "821684ab9a51b46024986051cc7b497cd8fc91a40c16ba1929a2bff0c5531220",
+      "after_sha256": "821684ab9a51b46024986051cc7b497cd8fc91a40c16ba1929a2bff0c5531220"
+    },
+    {
+      "path": "docs/extractor_pcap.md",
+      "before_sha256": "750256670430005911c4447fe49ae4bc7a9bc76c84fbe172a75b922c7b156557",
+      "after_sha256": "750256670430005911c4447fe49ae4bc7a9bc76c84fbe172a75b922c7b156557"
+    },
+    {
+      "path": "docs/informe_fase1_pcap.md",
+      "before_sha256": "971ad8a64122d520c23ab66039107f518dc96bf43e3c66e718a9b18bab3958cf",
+      "after_sha256": "971ad8a64122d520c23ab66039107f518dc96bf43e3c66e718a9b18bab3958cf"
+    },
+    {
+      "path": "docs/normalizacion_etiquetas_hue.md",
+      "before_sha256": "f76b2190104eaf390d1e43ba42356570bb39d285a55aa43f200400d30008c1a6",
+      "after_sha256": "f76b2190104eaf390d1e43ba42356570bb39d285a55aa43f200400d30008c1a6"
+    },
+    {
+      "path": "docs/piloto_correspondencia_iot23_20_1.md",
+      "before_sha256": "1f6a008127e11c93b990566effab05b61bd688c57233d4c84962290549dff164",
+      "after_sha256": "1f6a008127e11c93b990566effab05b61bd688c57233d4c84962290549dff164"
+    },
+    {
+      "path": "docs/reconciliacion_conservadora_iot23_20_1.md",
+      "before_sha256": "ed3c4681f1a73a2f066afa9685bbb8522c1499980107858d97dd6fafedac8114",
+      "after_sha256": "ed3c4681f1a73a2f066afa9685bbb8522c1499980107858d97dd6fafedac8114"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/censar.py",
+      "before_sha256": "5a2f879ca7494e959aa074ea320a3e4006cfb8f5fbcc38cdccdb23a8533959b3",
+      "after_sha256": "5a2f879ca7494e959aa074ea320a3e4006cfb8f5fbcc38cdccdb23a8533959b3"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/censo.json",
+      "before_sha256": "e75542d0716afcc8f19dbc342332701538c3ab28b9efe9677371fe829b804f5e",
+      "after_sha256": "e75542d0716afcc8f19dbc342332701538c3ab28b9efe9677371fe829b804f5e"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/cerrar_evidencias.py",
+      "before_sha256": "c37f1999a2d75ee06992bcc39fad3d14083b0bd80003fff74771200c213a40d0",
+      "after_sha256": "c37f1999a2d75ee06992bcc39fad3d14083b0bd80003fff74771200c213a40d0"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/diagnostico_hue.json",
+      "before_sha256": "37e93a05ce2360987a3e768e5cd7a7bc6c836b92e9434e82006455a5a3feb902",
+      "after_sha256": "37e93a05ce2360987a3e768e5cd7a7bc6c836b92e9434e82006455a5a3feb902"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/diagnostico_hue_tcp.json",
+      "before_sha256": "28309a80af284a10d4654e106342fa1f18f1ce91d1a25f86c2f38480c5de8eab",
+      "after_sha256": "28309a80af284a10d4654e106342fa1f18f1ce91d1a25f86c2f38480c5de8eab"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/diversidad.json",
+      "before_sha256": "d6a6799426b23df33702f6ba8d256f6a50585fbb8a0ae49dfd3b135afa6f1e37",
+      "after_sha256": "d6a6799426b23df33702f6ba8d256f6a50585fbb8a0ae49dfd3b135afa6f1e37"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/ejecutar_etapa.py",
+      "before_sha256": "45edacd1aa82115005db98a9be18bf1a0e68ad5177da254787ccf10003bbb4b5",
+      "after_sha256": "45edacd1aa82115005db98a9be18bf1a0e68ad5177da254787ccf10003bbb4b5"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/entorno.json",
+      "before_sha256": "beb7d7fd28e0bcf7ae30c9de36fc38cb7a78e5730fdf33ccb7af4fe3a256d837",
+      "after_sha256": "beb7d7fd28e0bcf7ae30c9de36fc38cb7a78e5730fdf33ccb7af4fe3a256d837"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/hakai_ejecucion.json",
+      "before_sha256": "bd6b64ef436e4b7900257e484dfd1d381600e16bd89c1163a93614502b760f57",
+      "after_sha256": "bd6b64ef436e4b7900257e484dfd1d381600e16bd89c1163a93614502b760f57"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/hue_ejecucion.json",
+      "before_sha256": "c6fa27671c83095663ab9f2a8f157fee7fb80a7357b0ba0893a8d318901c96b0",
+      "after_sha256": "c6fa27671c83095663ab9f2a8f157fee7fb80a7357b0ba0893a8d318901c96b0"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/incidencias.json",
+      "before_sha256": "8c22934a082b0d2ab7d08ad14c70413375fdd3f106048db5a3234560c30f8c02",
+      "after_sha256": "8c22934a082b0d2ab7d08ad14c70413375fdd3f106048db5a3234560c30f8c02"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/integridad.json",
+      "before_sha256": "1052878b12c4c3c45ecd5211a0cd765402f77558fb8b8403c5551e232c861ee6",
+      "after_sha256": "1052878b12c4c3c45ecd5211a0cd765402f77558fb8b8403c5551e232c861ee6"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/inventario_final.json",
+      "before_sha256": "71ea69fdd19b1326182f486cece928b93faf89193075d1068bda73385326b740",
+      "after_sha256": "71ea69fdd19b1326182f486cece928b93faf89193075d1068bda73385326b740"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/preflight.json",
+      "before_sha256": "897d937697f5ae61e1eefa21a48c9cf0dbc22e0b4acae47c833d251554b08058",
+      "after_sha256": "897d937697f5ae61e1eefa21a48c9cf0dbc22e0b4acae47c833d251554b08058"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/pruebas.py",
+      "before_sha256": "2d69501ddf3e98e86e0865376fe278e1169f1ced21602878656abd6022aefea5",
+      "after_sha256": "2d69501ddf3e98e86e0865376fe278e1169f1ced21602878656abd6022aefea5"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/pruebas_completas.log",
+      "before_sha256": "008dd979649d3ce00bf9a2023110f000e136c812f62ebed2acf27420633ccc8d",
+      "after_sha256": "008dd979649d3ce00bf9a2023110f000e136c812f62ebed2acf27420633ccc8d"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/pruebas_especificas.log",
+      "before_sha256": "44308e5f5b35deb87efaa9ea91f6251bcc5780b524bb32a1ff55b0c59fc0c958",
+      "after_sha256": "44308e5f5b35deb87efaa9ea91f6251bcc5780b524bb32a1ff55b0c59fc0c958"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/respaldo.json",
+      "before_sha256": "cde78791f3a1184a2e0ae2672250e98fa557b04ecb7b70192fc3f29463cd0c8c",
+      "after_sha256": "cde78791f3a1184a2e0ae2672250e98fa557b04ecb7b70192fc3f29463cd0c8c"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/restauracion_sqlite_logica.json",
+      "before_sha256": "05da5a9d5c378aeebd328bf94bc76efff236c4892d7c5ba15122e33815b895be",
+      "after_sha256": "05da5a9d5c378aeebd328bf94bc76efff236c4892d7c5ba15122e33815b895be"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/resultado_completas.json",
+      "before_sha256": "e9a370542c2195d911f1965e2252d3f76913a017205704564530c5ff2850165d",
+      "after_sha256": "e9a370542c2195d911f1965e2252d3f76913a017205704564530c5ff2850165d"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/resultado_especificas.json",
+      "before_sha256": "b61e55258280ae0cefd9f15d188eb89538d05441f9ca1f658e0b3c76f440033e",
+      "after_sha256": "b61e55258280ae0cefd9f15d188eb89538d05441f9ca1f658e0b3c76f440033e"
+    },
+    {
+      "path": "docs/validacion_iot23_piloto_20_1/cambios.json",
+      "before_sha256": "e6f5ba4fadcfe2920f43fb74a2d04036a4e79d0d5407d5156a8ce6e9b0e7f053",
+      "after_sha256": "e6f5ba4fadcfe2920f43fb74a2d04036a4e79d0d5407d5156a8ce6e9b0e7f053"
+    },
+    {
+      "path": "docs/validacion_iot23_piloto_20_1/evidencia_correspondencias.json",
+      "before_sha256": "e2051d34dc4f2c9938d95a160d7136ab879aa26cc3ede56c9f61590f48bac63e",
+      "after_sha256": "e2051d34dc4f2c9938d95a160d7136ab879aa26cc3ede56c9f61590f48bac63e"
+    },
+    {
+      "path": "docs/validacion_iot23_piloto_20_1/integridad.json",
+      "before_sha256": "787ee2f5dc6c75da88c67d89327f8403f67c360dd9ca87e141ef10c585d75b0b",
+      "after_sha256": "787ee2f5dc6c75da88c67d89327f8403f67c360dd9ca87e141ef10c585d75b0b"
+    },
+    {
+      "path": "docs/validacion_iot23_piloto_20_1/pruebas_completas.log",
+      "before_sha256": "3a38125ea9e245107de65919b25e91c2b28586c69ef24d2ae14e81dc8764a31e",
+      "after_sha256": "3a38125ea9e245107de65919b25e91c2b28586c69ef24d2ae14e81dc8764a31e"
+    },
+    {
+      "path": "docs/validacion_iot23_piloto_20_1/resultado_pruebas.json",
+      "before_sha256": "6484e220460782fa5e3f50a8c167f4f6a729bea5fe1bd2fca745b538ad567841",
+      "after_sha256": "6484e220460782fa5e3f50a8c167f4f6a729bea5fe1bd2fca745b538ad567841"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/audit_v2_hue/imported_labels.json",
+      "before_sha256": "c759d673af70f1d2b670c99eef9150ad17a94c488167999d8d065db2c8a898a7",
+      "after_sha256": "c759d673af70f1d2b670c99eef9150ad17a94c488167999d8d065db2c8a898a7"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/audit_v2_hue/label_audit.json",
+      "before_sha256": "d980f72bbbbb08073bd33ab95e54d64bfce6e6026283b2872576be877fa3a7d5",
+      "after_sha256": "d980f72bbbbb08073bd33ab95e54d64bfce6e6026283b2872576be877fa3a7d5"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/cambios.diff",
+      "before_sha256": "f561f9f7851cbe4362900de1801295b852194b4c8875c79c8d0c5a337cde2e11",
+      "after_sha256": "f561f9f7851cbe4362900de1801295b852194b4c8875c79c8d0c5a337cde2e11"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/censar_y_revalidar.py",
+      "before_sha256": "1b5eb223420ff7f979920f840f208532177fdd7a356409a5d0bd91caff593de1",
+      "after_sha256": "1b5eb223420ff7f979920f840f208532177fdd7a356409a5d0bd91caff593de1"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/censo_comparativo.json",
+      "before_sha256": "aed6c70e808f22a322c329c146cfb23aa1d5adf3cdd825d275e20637ced98b19",
+      "after_sha256": "aed6c70e808f22a322c329c146cfb23aa1d5adf3cdd825d275e20637ced98b19"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/diagnosticar.py",
+      "before_sha256": "1635f09837ae04a1202a6ca897fb41619a10878bce404a8ad0396b1364ee338f",
+      "after_sha256": "1635f09837ae04a1202a6ca897fb41619a10878bce404a8ad0396b1364ee338f"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/diagnostico_93.json",
+      "before_sha256": "e0c575bb6e7843f60a9bf1605d07135b15307d20d380da33aff7299c8601a36c",
+      "after_sha256": "e0c575bb6e7843f60a9bf1605d07135b15307d20d380da33aff7299c8601a36c"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/ejecucion_hue.json",
+      "before_sha256": "f6004cb6f685bcbce92577119330eab724bd0efa719210a687cc4e47754f06a7",
+      "after_sha256": "f6004cb6f685bcbce92577119330eab724bd0efa719210a687cc4e47754f06a7"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/integridad.json",
+      "before_sha256": "d253228f3b87fb02c855c18aa5da23316ca94b66dac42ba04d8dd4ee21dbf01d",
+      "after_sha256": "d253228f3b87fb02c855c18aa5da23316ca94b66dac42ba04d8dd4ee21dbf01d"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/inventario_final.json",
+      "before_sha256": "0346b1bebff4b50fbc89467a7ef93b021c99a22ba80dc0820a6ba87b5a6963ca",
+      "after_sha256": "0346b1bebff4b50fbc89467a7ef93b021c99a22ba80dc0820a6ba87b5a6963ca"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/pruebas.py",
+      "before_sha256": "366cb12069f2888f59adf4dcf776f7728b15ba93b4a92e56e5359eb82d8c6f04",
+      "after_sha256": "366cb12069f2888f59adf4dcf776f7728b15ba93b4a92e56e5359eb82d8c6f04"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/pruebas_completas.log",
+      "before_sha256": "4f4c432564a539dd078741b61154ae7e11c6ee65a9d6b756ddb90c904f0381e3",
+      "after_sha256": "4f4c432564a539dd078741b61154ae7e11c6ee65a9d6b756ddb90c904f0381e3"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/pruebas_especificas.log",
+      "before_sha256": "8eda7dfd8a7c15a563b72b7d6379eca18ce347e6a874b64323fcad8b447ac6b5",
+      "after_sha256": "8eda7dfd8a7c15a563b72b7d6379eca18ce347e6a874b64323fcad8b447ac6b5"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/referencias_hue.json",
+      "before_sha256": "96f5a60f47e9480426518b470d3d39a6e7b062230cdf1ea98989675e8b7cd00d",
+      "after_sha256": "96f5a60f47e9480426518b470d3d39a6e7b062230cdf1ea98989675e8b7cd00d"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/regresiones.json",
+      "before_sha256": "33e39b124344d0010d1efa000ebdd0e51672944300dc09d6890da871ed00c8d7",
+      "after_sha256": "33e39b124344d0010d1efa000ebdd0e51672944300dc09d6890da871ed00c8d7"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/respaldo.json",
+      "before_sha256": "658416a9e046011e401f51760966cb54a439501361daade8b9fe468f05ec1518",
+      "after_sha256": "658416a9e046011e401f51760966cb54a439501361daade8b9fe468f05ec1518"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/resultado_completas.json",
+      "before_sha256": "6657a94d6119a7e1537ce2f704c231d47f1925a227253938a6c3b6ba226a304d",
+      "after_sha256": "6657a94d6119a7e1537ce2f704c231d47f1925a227253938a6c3b6ba226a304d"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/resultado_especificas.json",
+      "before_sha256": "6935067dcda7fe491e79955c8c146c0b8b548d5790730d3e959c35a4d7ae1728",
+      "after_sha256": "6935067dcda7fe491e79955c8c146c0b8b548d5790730d3e959c35a4d7ae1728"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/variantes_originales.json",
+      "before_sha256": "2b38fa4dff0b843ab640162507cf8a8c09a0592dc51ac28d75e89222946de366",
+      "after_sha256": "2b38fa4dff0b843ab640162507cf8a8c09a0592dc51ac28d75e89222946de366"
+    },
+    {
+      "path": "docs/validacion_normalizacion_hue/verificar_integridad.py",
+      "before_sha256": "759cbca25da6e67555bb02e8f654f03582d980ab6950c8f85ad5c03686e5f414",
+      "after_sha256": "759cbca25da6e67555bb02e8f654f03582d980ab6950c8f85ad5c03686e5f414"
+    },
+    {
+      "path": "docs/validacion_pcap_20261108/cli_evidencia.json",
+      "before_sha256": "b506c5c226295b94bb6dae92cf00cc07c25206a5cb38d6cccfcf9ce543808f8d",
+      "after_sha256": "b506c5c226295b94bb6dae92cf00cc07c25206a5cb38d6cccfcf9ce543808f8d"
+    },
+    {
+      "path": "docs/validacion_pcap_20261108/integridad.json",
+      "before_sha256": "0e0ef2e68e41af8de57fc629870a8a058f5fcd93cc9d0910444ca4f2fe95a448",
+      "after_sha256": "0e0ef2e68e41af8de57fc629870a8a058f5fcd93cc9d0910444ca4f2fe95a448"
+    },
+    {
+      "path": "docs/validacion_pcap_20261108/resultado_pruebas.json",
+      "before_sha256": "b1760c13d5b66d0ad01e0113316f10b41d9456d8bfab15e0d51e5a86a7ab9172",
+      "after_sha256": "b1760c13d5b66d0ad01e0113316f10b41d9456d8bfab15e0d51e5a86a7ab9172"
+    },
+    {
+      "path": "docs/validacion_pcap_20261108/tcp_control.pcapng",
+      "before_sha256": "4f72ea165556aeb2792d54b24822a5c26fbe0f5c918ce093add28debb8bbfcb6",
+      "after_sha256": "4f72ea165556aeb2792d54b24822a5c26fbe0f5c918ce093add28debb8bbfcb6"
+    },
+    {
+      "path": "docs/validacion_pcap_20261108/tcp_control.pcapng.flujos.json",
+      "before_sha256": "13dd1b5c2adcc74f6a812618cb2c9552d04c7d7fd99a619dbfce61f2afe873fa",
+      "after_sha256": "13dd1b5c2adcc74f6a812618cb2c9552d04c7d7fd99a619dbfce61f2afe873fa"
+    },
+    {
+      "path": "docs/validacion_pcap_20261108/tshark_version.txt",
+      "before_sha256": "5e0aea4eb97a21f93fa48466ab46748dfcb6002b2c705abe8dabfc440fc4a7a1",
+      "after_sha256": "5e0aea4eb97a21f93fa48466ab46748dfcb6002b2c705abe8dabfc440fc4a7a1"
+    },
+    {
+      "path": "docs/validacion_pcap_20261108/udp_control.pcap",
+      "before_sha256": "27a8ec2098710de4eadaa353bf9c32a1ca8e441c7ce15d5f9caef64a4c6f30ce",
+      "after_sha256": "27a8ec2098710de4eadaa353bf9c32a1ca8e441c7ce15d5f9caef64a4c6f30ce"
+    },
+    {
+      "path": "docs/validacion_pcap_20261108/udp_control.pcap.flujos.json",
+      "before_sha256": "50b212368f264f68b222dc0538a9905a121293582b5dfd96e0ff877b5435ebfb",
+      "after_sha256": "50b212368f264f68b222dc0538a9905a121293582b5dfd96e0ff877b5435ebfb"
+    },
+    {
+      "path": "docs/validacion_pcap_20261108/unittest_completo.log",
+      "before_sha256": "b29017d09d6b9f95484377ab4b116457af4249dfd752000f2100c09ad67784db",
+      "after_sha256": "b29017d09d6b9f95484377ab4b116457af4249dfd752000f2100c09ad67784db"
+    },
+    {
+      "path": "docs/validacion_real_fase1_pcap.md",
+      "before_sha256": "4d98631c8b93c36ca646fef2a7f1f54abe7a0960c045dac964cb8e2161f8b0a8",
+      "after_sha256": "4d98631c8b93c36ca646fef2a7f1f54abe7a0960c045dac964cb8e2161f8b0a8"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/audit_v2/imported_labels.json",
+      "before_sha256": "ce3090ad777a2e9af2ef40b2ecb0807302027c084b631c0c36633f86f322f46a",
+      "after_sha256": "ce3090ad777a2e9af2ef40b2ecb0807302027c084b631c0c36633f86f322f46a"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/audit_v2/label_audit.json",
+      "before_sha256": "614b80b18b349962e5aaad4cb3f8752f8ec380bf4aa9f7ef769234e972abd361",
+      "after_sha256": "614b80b18b349962e5aaad4cb3f8752f8ec380bf4aa9f7ef769234e972abd361"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/cambios.json",
+      "before_sha256": "946d7774686c69ef712655b9dec8c7896b106ac079806441fed0099e5787f6ec",
+      "after_sha256": "946d7774686c69ef712655b9dec8c7896b106ac079806441fed0099e5787f6ec"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/checksum_tshark.tsv",
+      "before_sha256": "7801f7d53c1342bba3b01d7f03f3f05e3334c61f953cfa5956a9eec1f4f9f7a9",
+      "after_sha256": "7801f7d53c1342bba3b01d7f03f3f05e3334c61f953cfa5956a9eec1f4f9f7a9"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/checksum_tshark_comando.json",
+      "before_sha256": "cdb804e3119e77723744a1b39296b62f0d8a5fef7b7a8323021647cf15b175bf",
+      "after_sha256": "cdb804e3119e77723744a1b39296b62f0d8a5fef7b7a8323021647cf15b175bf"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/ejecucion_piloto.json",
+      "before_sha256": "a19db178ac3d02b7529ce4e6a0a2c7e06bdc2cc7f466b1591671a1c88332724a",
+      "after_sha256": "a19db178ac3d02b7529ce4e6a0a2c7e06bdc2cc7f466b1591671a1c88332724a"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/evidencia_compacta.json",
+      "before_sha256": "444772bf14410f82735e294d3e46844cce2c7ad65d6daaaee9fa2183ba14e799",
+      "after_sha256": "444772bf14410f82735e294d3e46844cce2c7ad65d6daaaee9fa2183ba14e799"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/extraccion_repetida.json",
+      "before_sha256": "12113adbf60e0c5f3adcd493b2ab15c8e1b65cd7cf4108459f9ab04a6dbcf77b",
+      "after_sha256": "12113adbf60e0c5f3adcd493b2ab15c8e1b65cd7cf4108459f9ab04a6dbcf77b"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/integridad.json",
+      "before_sha256": "29dd7417918a6974ab337edd81fd8130b5faf15e9bf1b0e1269d1e1c1d7d9291",
+      "after_sha256": "29dd7417918a6974ab337edd81fd8130b5faf15e9bf1b0e1269d1e1c1d7d9291"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/pruebas_completas.log",
+      "before_sha256": "e0f6f9a07c878ab0f840a3d6edf101df86598ab9751f9585cc5038c0bc6fd073",
+      "after_sha256": "e0f6f9a07c878ab0f840a3d6edf101df86598ab9751f9585cc5038c0bc6fd073"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/pruebas_completas_finales.log",
+      "before_sha256": "2239e05ab70b365daf2cfd9f00c150af6fd647d1c195209c9ab88f4243a06ebc",
+      "after_sha256": "2239e05ab70b365daf2cfd9f00c150af6fd647d1c195209c9ab88f4243a06ebc"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/pruebas_especificas.log",
+      "before_sha256": "40c2c20af7974c26ae979cfd9a06488a706e0f1a3b7527778d3be1db6a9e1f46",
+      "after_sha256": "40c2c20af7974c26ae979cfd9a06488a706e0f1a3b7527778d3be1db6a9e1f46"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/pruebas_especificas_finales.log",
+      "before_sha256": "e647b2deb016d2dc345ab572d73ecb0f3ba703dca600819a48119ff30b1ff41e",
+      "after_sha256": "e647b2deb016d2dc345ab572d73ecb0f3ba703dca600819a48119ff30b1ff41e"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/pruebas_especificas_iniciales.log",
+      "before_sha256": "d47488dfb4261b82a152e29bffa37f189a3f6acad24ba50f8969b2619e722775",
+      "after_sha256": "d47488dfb4261b82a152e29bffa37f189a3f6acad24ba50f8969b2619e722775"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/resultado_completas.json",
+      "before_sha256": "a8470b46495f4073bf26d395a681fedfd8865088b554377f283c414f9ee6f209",
+      "after_sha256": "a8470b46495f4073bf26d395a681fedfd8865088b554377f283c414f9ee6f209"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/resultado_completas_finales.json",
+      "before_sha256": "652c7a8049227b011fad67fdfd3bec18c264a059ee48e4c4ada4296abf397146",
+      "after_sha256": "652c7a8049227b011fad67fdfd3bec18c264a059ee48e4c4ada4296abf397146"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/resultado_especificas.json",
+      "before_sha256": "ac2a543e94f1475b4cdf16dc95260d0be0114279e3f193c37fe902df88c34400",
+      "after_sha256": "ac2a543e94f1475b4cdf16dc95260d0be0114279e3f193c37fe902df88c34400"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/resultado_especificas_finales.json",
+      "before_sha256": "2e729078827f7d5c97f3ab48f1b6e49fa071cc0119950f80883c924db597c5d5",
+      "after_sha256": "2e729078827f7d5c97f3ab48f1b6e49fa071cc0119950f80883c924db597c5d5"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/resultado_especificas_iniciales.json",
+      "before_sha256": "bd7d6c5d63e5008f74ff4c67aa58d867e18b419689729f27a9edff638ffe0b94",
+      "after_sha256": "bd7d6c5d63e5008f74ff4c67aa58d867e18b419689729f27a9edff638ffe0b94"
+    },
+    {
+      "path": "models/README.md",
+      "before_sha256": "61551eae1e94b07d472a54a094256c9c3e60b4018df08ab3eaad5269105edfea",
+      "after_sha256": "61551eae1e94b07d472a54a094256c9c3e60b4018df08ab3eaad5269105edfea"
+    },
+    {
+      "path": "models/unsw_nb15_random_forest.joblib",
+      "before_sha256": "58505ee89df22c4c223b66d5e7172388d5d1fad6b7d135fce800a2765b2029e9",
+      "after_sha256": "58505ee89df22c4c223b66d5e7172388d5d1fad6b7d135fce800a2765b2029e9"
+    },
+    {
+      "path": "models/unsw_nb15_random_forest.joblib.metadata.json",
+      "before_sha256": "672c4f242003664bb699a56b29cfd71cfa4add3511ba178644d981b3e43b3462",
+      "after_sha256": "672c4f242003664bb699a56b29cfd71cfa4add3511ba178644d981b3e43b3462"
+    },
+    {
+      "path": "models/unsw_nb15_random_forest_pilot.joblib",
+      "before_sha256": "5b4ca721478d8d949aa61bf381b2ca7becc0633436d9ff0038c11059d090f0c0",
+      "after_sha256": "5b4ca721478d8d949aa61bf381b2ca7becc0633436d9ff0038c11059d090f0c0"
+    },
+    {
+      "path": "models/unsw_nb15_random_forest_pilot.joblib.metadata.json",
+      "before_sha256": "792a25389ae32448f04b484f9b1fa0604abaa65fcd9ea1253e0cdcb533ec98ad",
+      "after_sha256": "792a25389ae32448f04b484f9b1fa0604abaa65fcd9ea1253e0cdcb533ec98ad"
+    },
+    {
+      "path": "README.md",
+      "before_sha256": "dd3ff2b38e11d6920d7b45375ef78cd1c8e374aaa655b37e1066b24c5b35d199",
+      "after_sha256": "dd3ff2b38e11d6920d7b45375ef78cd1c8e374aaa655b37e1066b24c5b35d199"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "before_sha256": "4acb61251446735b721b6c3501308cd166b230de76ac8d984b1ba125f82e765e",
+      "after_sha256": "4acb61251446735b721b6c3501308cd166b230de76ac8d984b1ba125f82e765e"
+    },
+    {
+      "path": "requirements.txt",
+      "before_sha256": "802736171fce738b303a5f3875e715173a0a08b4dbc73178caae5e8607e74e91",
+      "after_sha256": "802736171fce738b303a5f3875e715173a0a08b4dbc73178caae5e8607e74e91"
+    },
+    {
+      "path": "seguridad_pymes/__init__.py",
+      "before_sha256": "10f047eac019a3275680d3256ca732b9b218e30a65dced22a272b787d9e6eba6",
+      "after_sha256": "10f047eac019a3275680d3256ca732b9b218e30a65dced22a272b787d9e6eba6"
+    },
+    {
+      "path": "seguridad_pymes/alerts.py",
+      "before_sha256": "af68dbfbfc5435be441f6a078a46874b24d2bea9ce92c6d366492ad1c0497935",
+      "after_sha256": "af68dbfbfc5435be441f6a078a46874b24d2bea9ce92c6d366492ad1c0497935"
+    },
+    {
+      "path": "seguridad_pymes/dashboard.py",
+      "before_sha256": "9d374995ce5a7cb9e4e179cf0702e54f9211b9f223ece316b54dffd06b1ee265",
+      "after_sha256": "9d374995ce5a7cb9e4e179cf0702e54f9211b9f223ece316b54dffd06b1ee265"
+    },
+    {
+      "path": "seguridad_pymes/database.py",
+      "before_sha256": "508ce319ec77dde4569a811ad83df8bd8ca9786ded8886a8c3e72b227e4f8704",
+      "after_sha256": "508ce319ec77dde4569a811ad83df8bd8ca9786ded8886a8c3e72b227e4f8704"
+    },
+    {
+      "path": "seguridad_pymes/detection.py",
+      "before_sha256": "4b0a2c71148925bd2d157a8df1d7b5c89aa4ed45c9ebb240f419fcadce69d834",
+      "after_sha256": "4b0a2c71148925bd2d157a8df1d7b5c89aa4ed45c9ebb240f419fcadce69d834"
+    },
+    {
+      "path": "seguridad_pymes/evaluation.py",
+      "before_sha256": "a223c3bc90a72ebe790a4c1a5126a964ea0ad6000ccd052829e08408e8a1323d",
+      "after_sha256": "a223c3bc90a72ebe790a4c1a5126a964ea0ad6000ccd052829e08408e8a1323d"
+    },
+    {
+      "path": "seguridad_pymes/inference.py",
+      "before_sha256": "07ef41c35050c3899d65c88d4476bd92184b40fad8a58e815a7ac831f2f8c278",
+      "after_sha256": "07ef41c35050c3899d65c88d4476bd92184b40fad8a58e815a7ac831f2f8c278"
+    },
+    {
+      "path": "seguridad_pymes/ingestion.py",
+      "before_sha256": "7053debe2a6308d05a8c6d12b12b3cd1b8b446f4ad856035d2783b4e12d06672",
+      "after_sha256": "7053debe2a6308d05a8c6d12b12b3cd1b8b446f4ad856035d2783b4e12d06672"
+    },
+    {
+      "path": "seguridad_pymes/iot23_sources.py",
+      "before_sha256": "3bfd55dcfb5831526e291a04e415a2279e33f743401781f3652af524c012c829",
+      "after_sha256": "3bfd55dcfb5831526e291a04e415a2279e33f743401781f3652af524c012c829"
+    },
+    {
+      "path": "seguridad_pymes/label_audit.py",
+      "before_sha256": "151c1c0bc4a6e9644c0524573026269ff8a49a891a9d222360c1d8051d96502c",
+      "after_sha256": "151c1c0bc4a6e9644c0524573026269ff8a49a891a9d222360c1d8051d96502c"
+    },
+    {
+      "path": "seguridad_pymes/pcap_extract.py",
+      "before_sha256": "0528ed6c3f53d9f88cfcc44a267a690c2fae839757a141ba5d731390610bdd6f",
+      "after_sha256": "0528ed6c3f53d9f88cfcc44a267a690c2fae839757a141ba5d731390610bdd6f"
+    },
+    {
+      "path": "seguridad_pymes/pcap_reader.py",
+      "before_sha256": "0fd2c23a29580658834ba6dea9fe93c6ba2b42c067fd628fc47e21b195ee3f0f",
+      "after_sha256": "0fd2c23a29580658834ba6dea9fe93c6ba2b42c067fd628fc47e21b195ee3f0f"
+    },
+    {
+      "path": "seguridad_pymes/pcap_schema.py",
+      "before_sha256": "e9add5d1d6862bbb12a3c8cb60908e55e8ce95ccefe47f34e0cbb6c9c52e68fb",
+      "after_sha256": "e9add5d1d6862bbb12a3c8cb60908e55e8ce95ccefe47f34e0cbb6c9c52e68fb"
+    },
+    {
+      "path": "seguridad_pymes/preprocessing.py",
+      "before_sha256": "2a8adab7ddc6270970d1463bd5902cde6a8dd3ee29855f6d168e2ed64c21e198",
+      "after_sha256": "2a8adab7ddc6270970d1463bd5902cde6a8dd3ee29855f6d168e2ed64c21e198"
+    },
+    {
+      "path": "seguridad_pymes/resources.py",
+      "before_sha256": "ff7ea8e4eccf0e84731047b5b979cce7299dc57be9ccecfa515303a3cdb71a5d",
+      "after_sha256": "ff7ea8e4eccf0e84731047b5b979cce7299dc57be9ccecfa515303a3cdb71a5d"
+    },
+    {
+      "path": "seguridad_pymes/threshold_analysis.py",
+      "before_sha256": "c0d46ebef09d610c81b5bee25a8e1b5f742df478282bcaa5c769d16a8dacc630",
+      "after_sha256": "c0d46ebef09d610c81b5bee25a8e1b5f742df478282bcaa5c769d16a8dacc630"
+    },
+    {
+      "path": "seguridad_pymes/training.py",
+      "before_sha256": "b7196b8860be5bcba0e6b4b606e582aadb18ed2ea43dac058af4570f7561bca4",
+      "after_sha256": "b7196b8860be5bcba0e6b4b606e582aadb18ed2ea43dac058af4570f7561bca4"
+    },
+    {
+      "path": "seguridad_pymes/zeek_labels.py",
+      "before_sha256": "3ec6ae61497ea8417b12312d8488aac66d4b190eea2856945f331e7d3a16018e",
+      "after_sha256": "3ec6ae61497ea8417b12312d8488aac66d4b190eea2856945f331e7d3a16018e"
+    },
+    {
+      "path": "tests/__init__.py",
+      "before_sha256": "60925840e508f34f2b5f2560ab6ff961931b87e10bd43e5b46b89261242198eb",
+      "after_sha256": "60925840e508f34f2b5f2560ab6ff961931b87e10bd43e5b46b89261242198eb"
+    },
+    {
+      "path": "tests/pcap_fixtures.py",
+      "before_sha256": "45e088ad25d9031c7704ac8fa6e59d9b3fdfe8538db257efc36289586fc6f488",
+      "after_sha256": "45e088ad25d9031c7704ac8fa6e59d9b3fdfe8538db257efc36289586fc6f488"
+    },
+    {
+      "path": "tests/README.md",
+      "before_sha256": "c7d37603d84444302aee520d6d095d330d249cff129273ec914589617b2c1dc9",
+      "after_sha256": "c7d37603d84444302aee520d6d095d330d249cff129273ec914589617b2c1dc9"
+    },
+    {
+      "path": "tests/test_dashboard.py",
+      "before_sha256": "8dc02f96f08d83cefcb4070b3bfb461c6043b481d45bdbef4abf713af5efa6a0",
+      "after_sha256": "8dc02f96f08d83cefcb4070b3bfb461c6043b481d45bdbef4abf713af5efa6a0"
+    },
+    {
+      "path": "tests/test_database.py",
+      "before_sha256": "81994b098cba5d375f1472b21f412209766ae922851a1aad942ac1c6418cf198",
+      "after_sha256": "81994b098cba5d375f1472b21f412209766ae922851a1aad942ac1c6418cf198"
+    },
+    {
+      "path": "tests/test_evaluation.py",
+      "before_sha256": "be9363496b70385d78d3dfed947132a9908ea99c5544a89e5b30f6f595d35d7c",
+      "after_sha256": "be9363496b70385d78d3dfed947132a9908ea99c5544a89e5b30f6f595d35d7c"
+    },
+    {
+      "path": "tests/test_inference_persistence.py",
+      "before_sha256": "16f7634773fad126c22b13cfde6b960b53ad46c3c3f653f4d72ed2ffb31d7aae",
+      "after_sha256": "16f7634773fad126c22b13cfde6b960b53ad46c3c3f653f4d72ed2ffb31d7aae"
+    },
+    {
+      "path": "tests/test_ingestion.py",
+      "before_sha256": "5fcd1b8d57a8c259d7ad0523661fc7c0127e69e80b879f44628bcb5b7284c0df",
+      "after_sha256": "5fcd1b8d57a8c259d7ad0523661fc7c0127e69e80b879f44628bcb5b7284c0df"
+    },
+    {
+      "path": "tests/test_iot23_acquisition_compatibility.py",
+      "before_sha256": "f16d7e1d7ab6a318304573d7c9a3a4f432007d2292debd29d7021b00fbd852ea",
+      "after_sha256": "f16d7e1d7ab6a318304573d7c9a3a4f432007d2292debd29d7021b00fbd852ea"
+    },
+    {
+      "path": "tests/test_label_audit.py",
+      "before_sha256": "d5b9ecd8a23e0ec96d3c38968e059407e47b102809b2d13c0d15edd825e0cf4f",
+      "after_sha256": "d5b9ecd8a23e0ec96d3c38968e059407e47b102809b2d13c0d15edd825e0cf4f"
+    },
+    {
+      "path": "tests/test_label_reconciliation.py",
+      "before_sha256": "55b92a4c0b7798025387d8f9efcdfbb72e4728ceea0a47f750ee107543843fb1",
+      "after_sha256": "55b92a4c0b7798025387d8f9efcdfbb72e4728ceea0a47f750ee107543843fb1"
+    },
+    {
+      "path": "tests/test_pcap_extraction.py",
+      "before_sha256": "04bdbecfb94a21eadaa9c2c4343b24091f48314240f793c528f49dd69b25f00e",
+      "after_sha256": "04bdbecfb94a21eadaa9c2c4343b24091f48314240f793c528f49dd69b25f00e"
+    },
+    {
+      "path": "tests/test_threshold_analysis.py",
+      "before_sha256": "59e87791800dc77c776887fc3bec02e6ca5340ff4d551786feb0306c04af24c3",
+      "after_sha256": "59e87791800dc77c776887fc3bec02e6ca5340ff4d551786feb0306c04af24c3"
+    },
+    {
+      "path": "tests/test_training.py",
+      "before_sha256": "66e44f554cdb98eee2d3423d026cf211811ef61c306957f08f608d169af43110",
+      "after_sha256": "66e44f554cdb98eee2d3423d026cf211811ef61c306957f08f608d169af43110"
+    },
+    {
+      "path": "tests/test_zeek_label_normalization.py",
+      "before_sha256": "ceb5f32de332518d7c66f356e2fec70dab740b86cc6fc6c7318c52509c54e552",
+      "after_sha256": "ceb5f32de332518d7c66f356e2fec70dab740b86cc6fc6c7318c52509c54e552"
+    },
+    {
+      "path": "verificacion.py",
+      "before_sha256": "6da4d8a270f99573f65929d74fcf20ccb7c5e183c9bab57281f07367333c9490",
+      "after_sha256": "6da4d8a270f99573f65929d74fcf20ccb7c5e183c9bab57281f07367333c9490"
+    }
+  ],
+  "modified_preexisting_files": [],
+  "deleted_files": [],
+  "stage_files_modified_after_resumption": [
+    {
+      "path": "docs/validacion_ampliacion_corpus/pruebas.py",
+      "before_sha256": "926809942054dbf089be54a1f1644c58a7b968de9b0a3ff7a5ffad49fea1fd14",
+      "after_sha256": "71d18b5d67b0704f587a2bb095d6d93a1de91a3ae26dd28fadbd84c73dfa5f5a"
+    }
+  ],
+  "reason_for_stage_runner_change": "Include tests.test_corpus_expansion and retain old logs by writing *_cierre outputs",
+  "sqlite_integrity": [
+    {
+      "path": "data/processed/security_analysis.backup-20261105T193153Z-e296f770.sqlite3",
+      "integrity_check": "ok",
+      "sha256_unchanged": true,
+      "sha256": "d7f5b0bf09409e72a957f9b1fd0498e70d01e67fdd4ffc6cb0eb93878c83e7c2"
+    },
+    {
+      "path": "data/processed/security_analysis.pre-model-selector-20261103-0833.sqlite3",
+      "integrity_check": "ok",
+      "sha256_unchanged": true,
+      "sha256": "17f66a73d34177e89fd3dca2896fd1c642d6d6806fe375737baa6662ef500734"
+    },
+    {
+      "path": "data/processed/security_analysis.sqlite3",
+      "integrity_check": "ok",
+      "sha256_unchanged": true,
+      "sha256": "1b92777bc6857daffa11aadb57da49e897fdaaea0aac06bdf972009b884db225"
+    }
+  ],
+  "new_backup": {
+    "checked_at_utc": "2026-11-08T19:26:37.596116+00:00",
+    "git": "not a Git repository",
+    "backup": "_backups/pre-corpus-expansion-20261108T192626Z-3cdf2ed2.zip",
+    "sha256": "05194834818c97ae65d07c43eac9980fd060607b33cb6444d975933b955a4a2c",
+    "size_bytes": 48589785,
+    "restored_files_verified": 165,
+    "crc_valid": true,
+    "restored_sqlite_logically_identical": [
+      {
+        "path": "data/processed/security_analysis.backup-20261105T193153Z-e296f770.sqlite3",
+        "logical_dump_sha256": "33899e78e545dfb21e579079a2c1ed6ad74b1a1227700e907b6e5411597b22e8",
+        "integrity": "ok"
+      },
+      {
+        "path": "data/processed/security_analysis.pre-model-selector-20261103-0833.sqlite3",
+        "logical_dump_sha256": "c44318cea860d651133d80bca567a7767cf4a5da505fcb9b9b2941ca0962257c",
+        "integrity": "ok"
+      },
+      {
+        "path": "data/processed/security_analysis.sqlite3",
+        "logical_dump_sha256": "33899e78e545dfb21e579079a2c1ed6ad74b1a1227700e907b6e5411597b22e8",
+        "integrity": "ok"
+      }
+    ],
+    "previous_tests": {
+      "started_at_utc": "2026-11-08T19:11:48.885383+00:00",
+      "finished_at_utc": "2026-11-08T19:12:35.798889+00:00",
+      "wall_seconds_including_discovery": 46.913541499998246,
+      "tests_run": 182,
+      "passed": 182,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "expected_failures": 0,
+      "unexpected_successes": 0,
+      "successful": true,
+      "failure_details": [],
+      "error_details": [],
+      "skipped_details": []
+    },
+    "previous_inventory_sha256": "0346b1bebff4b50fbc89467a7ef93b021c99a22ba80dc0820a6ba87b5a6963ca"
+  },
+  "preserved_previous_backups": [
+    {
+      "path": "_backups/pre-controlled-iot23-20261108T175432Z-c9e45e9c.zip",
+      "size_bytes": 36572246,
+      "sha256": "42945a50a04a92813311795561e9bb84901e8f6b26bf626af95bd7e773976606"
+    },
+    {
+      "path": "_backups/pre-hue-normalization-20261108T190312Z-008f13fb.zip",
+      "size_bytes": 46417122,
+      "sha256": "238d0306c576b5edfd8b87cb0aae857388f6a0fa85abf7ae87d35d9e9c45bd0e"
+    },
+    {
+      "path": "_backups/pre-iot23-pilot-20261108T154817Z-558de56f.zip",
+      "size_bytes": 28480877,
+      "sha256": "c0b4eddf3cfe19a9b25c91853cb34ce2846c797a29b99b31e72344bf21a0883d"
+    },
+    {
+      "path": "_backups/pre-pcap-20261108T145704Z-c78b980b.zip",
+      "size_bytes": 28435071,
+      "sha256": "3aff30183919e6cbb976229282943392b26f83f3109a4d6102f7018dd3c71936"
+    },
+    {
+      "path": "_backups/pre-real-pcap-validation-20261108T151858Z-da1e2f71.zip",
+      "size_bytes": 28459350,
+      "sha256": "724a8c1236377dd66b8ebc8cbc44a4f0f79841b1cd0b669ab0944ded3ba5d295"
+    },
+    {
+      "path": "_backups/pre-reconciliation-20261108T165622Z-fb48e1bc.zip",
+      "size_bytes": 31176226,
+      "sha256": "b010da149e8cce78847b27467bb4b797638367128bb2b3abe7e7c174de9608d6"
+    }
+  ],
+  "quarantined_sources_unchanged": [
+    {
+      "path": "data/raw/iot23_trojan_42_1/2019-01-10-14-34-38-192.168.1.197.pcap",
+      "sha256": "7573797f17aae96e3804a3cfb22d531b74c17bbae740de1e14048f89130fba37",
+      "size_bytes": 2908160
+    },
+    {
+      "path": "data/raw/iot23_trojan_42_1/conn.log.labeled",
+      "sha256": "269fa1b22d9a37e159cf41b81a213a0032d21306f5d39b4c20cb0d211b04e8aa",
+      "size_bytes": 585829
+    }
+  ],
+  "protected_schema": "sipymes.offline.ipv4.v1; 38 features, extractor 1.0.1; original configuration unchanged"
+}

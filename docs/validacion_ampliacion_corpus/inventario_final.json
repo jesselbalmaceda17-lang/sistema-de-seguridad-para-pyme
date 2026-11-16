@@ -1,0 +1,194 @@
+{
+  "checked_at_utc": "2026-11-08T19:55:41.110846+00:00",
+  "baseline_files": 165,
+  "all_baseline_files_unchanged": true,
+  "modified_preexisting_files": [],
+  "deleted_files": [],
+  "stage_files_modified_since_resumption": [
+    {
+      "path": "docs/validacion_ampliacion_corpus/pruebas.py",
+      "before_sha256": "926809942054dbf089be54a1f1644c58a7b968de9b0a3ff7a5ffad49fea1fd14",
+      "after_sha256": "71d18b5d67b0704f587a2bb095d6d93a1de91a3ae26dd28fadbd84c73dfa5f5a"
+    }
+  ],
+  "files_added_by_stage_at_resumption": 21,
+  "added_files_excluding_this_inventory": [
+    {
+      "path": "_backups/pre-corpus-expansion-20261108T192626Z-3cdf2ed2.zip",
+      "size_bytes": 48589785,
+      "sha256": "05194834818c97ae65d07c43eac9980fd060607b33cb6444d975933b955a4a2c"
+    },
+    {
+      "path": "data/raw/iot23_trojan_42_1/2019-01-10-14-34-38-192.168.1.197.pcap",
+      "size_bytes": 2908160,
+      "sha256": "7573797f17aae96e3804a3cfb22d531b74c17bbae740de1e14048f89130fba37"
+    },
+    {
+      "path": "data/raw/iot23_trojan_42_1/conn.log.labeled",
+      "size_bytes": 585829,
+      "sha256": "269fa1b22d9a37e159cf41b81a213a0032d21306f5d39b4c20cb0d211b04e8aa"
+    },
+    {
+      "path": "data/raw/iot23_trojan_42_1/labels_transport.json",
+      "size_bytes": 572,
+      "sha256": "b00d866356a7b1ed34c6676314f946ae52de93aae890feebb7e47c2454b91251"
+    },
+    {
+      "path": "data/raw/iot23_trojan_42_1/pcap_transport.json",
+      "size_bytes": 666,
+      "sha256": "fe3019ebb617e74e737f6fb74ac712c5db6f3398bbb888419f51bc9c01424ff3"
+    },
+    {
+      "path": "data/raw/iot23_trojan_42_1/provenance.json",
+      "size_bytes": 2464,
+      "sha256": "3dde0aade07a439921c9d830061d4c1716caa96d3c172581ab5af512137ccf33"
+    },
+    {
+      "path": "docs/cierre_ampliacion_corpus_iot23.md",
+      "size_bytes": 22833,
+      "sha256": "a4a8b712edec07cb107991a0fcb42d2af91b96851d6288097d8619dca22d4424"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/analizar_grupos.py",
+      "size_bytes": 6436,
+      "sha256": "b0e1f5f25a2e22044702efca0c53821f5aadb53ef31aa40e258ccb451f062f09"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/auditorias_previas_cierre.json",
+      "size_bytes": 11584,
+      "sha256": "3faa0986fcca168f864fa30bacb5999ae783808424bab5abfe54c30c7135b45e"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/censo_inicial_grupos.json",
+      "size_bytes": 9586056,
+      "sha256": "ae7d50cb12b46357d6a33937746ae7396ed0c94c678de0bb301d25c8577edc0d"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/confirmacion_servidor.json",
+      "size_bytes": 1062,
+      "sha256": "18353fbda5e0cb027aded18a79cf64615f4abbd2d3a2eab16d9aa92e5e1090c1"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/contrato_protegido_cierre.json",
+      "size_bytes": 2340,
+      "sha256": "5810a18fee811316126aee8cdd810d951da399a0a039a77adf18fbb21d1ca3de"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/cuarentena_42_1.json",
+      "size_bytes": 1839,
+      "sha256": "d251ab7f260e47127e4ee5fdc9a10e2e8710eafcb52e426e190ce2b4fe278b29"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/decision_previa.json",
+      "size_bytes": 3593,
+      "sha256": "6db526253c2dcabc328740e59f005fd655adc93493339039491da5b321dd6d82"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/diagnostico_truncamiento.json",
+      "size_bytes": 2292,
+      "sha256": "19489ea8a9117aa76f19bda431dabc160a7c45e2d8c26f3fc4660051880dbfe2"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/ejecucion_trojan_42_1.json",
+      "size_bytes": 262768,
+      "sha256": "ad21c061ed6d5cb94a9424aacdf572dbc6272fe2f6684cf94d6b6304caf7397c"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/ejecutar_42.py",
+      "size_bytes": 10473,
+      "sha256": "069e47e050239fd815c4886d89bf33a89a9742a3487ff59cc74d66d1e6b50827"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/estado_reanudacion.json",
+      "size_bytes": 5075,
+      "sha256": "f31b939f27655939d96ef6fe72f8d4e50c03abc79736af1ac26da7e9ce632bbc"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/etiquetas_importadas_42_sin_correspondencia.json",
+      "size_bytes": 6512460,
+      "sha256": "f3e26f61945642d47979ba4128613ca1c855058b04aa8ae6144d0089f6749566"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/integridad_cierre.json",
+      "size_bytes": 48235,
+      "sha256": "38636a7015e1bfd3ecf5dbed0c815ea4c5f642cba1441834e31b969894ceaf54"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/pruebas.py",
+      "size_bytes": 2210,
+      "sha256": "71d18b5d67b0704f587a2bb095d6d93a1de91a3ae26dd28fadbd84c73dfa5f5a"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/pruebas_completas_cierre.log",
+      "size_bytes": 32294,
+      "sha256": "a3ec93acc1a9557427f6951e40022dc33ec690681a085fa2b97f688260cd8e1f"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/pruebas_especificas.log",
+      "size_bytes": 15259,
+      "sha256": "08e80994cb2a04229aae4de9f02d611df987bcb3f9750213f4ac9f51d53f4722"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/pruebas_especificas_cierre.log",
+      "size_bytes": 16239,
+      "sha256": "b9201aebf80b1e92d4728ba60a8f71dc8478ec0c92967bc76cca9d37017cd178"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/respaldo.json",
+      "size_bytes": 1617,
+      "sha256": "32fc9ddacb5e7f4f97611e247eeb47ff00700cab76bb38ed709ea0e7676375c3"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/resultado_completas_cierre.json",
+      "size_bytes": 422,
+      "sha256": "8776846e820964a4030b8e2db0fcae1ec4e41bc596c3fd4a63ff64c5b835408b"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/resultado_especificas.json",
+      "size_bytes": 419,
+      "sha256": "354795507b1d0eb3ec16bf02f84fc0bed96814f8244bd4f1a6a9d10c141965db"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/resultado_especificas_cierre.json",
+      "size_bytes": 420,
+      "sha256": "d69748555732b69eb856a8d421d20998a3131da2571203ea2120ea5bd9d8254e"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/seleccion_fuentes.json",
+      "size_bytes": 80272,
+      "sha256": "234358c6776782c3d0addbf3e1e4d808b8e43befc1d7b7c895ad4d142bfb6149"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/seleccionar.py",
+      "size_bytes": 3756,
+      "sha256": "a0843da5bbf0dfa5a4bcfa30a3cb59d5a8db4534775a364209f843b141e700ff"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/verificacion_respaldo_cierre.json",
+      "size_bytes": 29883,
+      "sha256": "9ac76a2690ab650f51e9800411fb6b9ccefaad8c98b235894fe8c26f9dfc23f1"
+    },
+    {
+      "path": "tests/test_corpus_expansion.py",
+      "size_bytes": 5472,
+      "sha256": "a5dcf5a09b405b91d57c7f07bcd85006aed4b0883efa893c999dbf4946a51717"
+    }
+  ],
+  "added_file_count_excluding_this_inventory": 32,
+  "added_storage_bytes_excluding_this_inventory": 68752785,
+  "previous_backups_preserved": [
+    "_backups/pre-controlled-iot23-20261108T175432Z-c9e45e9c.zip",
+    "_backups/pre-hue-normalization-20261108T190312Z-008f13fb.zip",
+    "_backups/pre-iot23-pilot-20261108T154817Z-558de56f.zip",
+    "_backups/pre-pcap-20261108T145704Z-c78b980b.zip",
+    "_backups/pre-real-pcap-validation-20261108T151858Z-da1e2f71.zip",
+    "_backups/pre-reconciliation-20261108T165622Z-fb48e1bc.zip"
+  ],
+  "exclusions": [
+    ".venv",
+    "__pycache__",
+    ".pytest_cache",
+    ".git"
+  ],
+  "quarantine_record": "docs/validacion_ampliacion_corpus/cuarentena_42_1.json"
+}

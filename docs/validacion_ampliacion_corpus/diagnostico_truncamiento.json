@@ -1,0 +1,59 @@
+{
+  "checked_at_utc": "2026-11-08T19:36:24.460240+00:00",
+  "source_sha256": "7573797f17aae96e3804a3cfb22d531b74c17bbae740de1e14048f89130fba37",
+  "source_size_bytes": 2908160,
+  "global_header_hex": "d4c3b2a10200040000000000000000000000040001000000",
+  "complete_packet_records_before_failure": 24484,
+  "first_complete_timestamp_epoch_ns": "1547127281032585000",
+  "last_complete_timestamp_epoch_ns": "1547157358211193000",
+  "last_complete_record_header_offset": 2908005,
+  "truncation": {
+    "frame": 24485,
+    "record_header_offset": 2908099,
+    "packet_data_offset": 2908115,
+    "declared_captured_bytes": 91,
+    "declared_wire_bytes": 91,
+    "available_packet_bytes": 45,
+    "missing_packet_bytes": 46,
+    "timestamp_epoch_ns": "1547157358547251000",
+    "kind": "incomplete_packet_body"
+  },
+  "physical_parse_only_not_an_extraction": true,
+  "protected_components_rejection": {
+    "extractor": {
+      "exception_type": "CaptureError",
+      "message": "TShark failed (14): tshark: The file \"C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\data\\raw\\iot23_trojan_42_1\\2019-01-10-14-34-38-192.168.1.197.pcap\" appears to have been cut short in the middle of a packet.",
+      "result": "full input rejected; no successful extraction/audit report"
+    },
+    "auditor_packet_reader": {
+      "exception_type": "ValueError",
+      "message": "Invalid, truncated or unordered PCAP record",
+      "result": "full input rejected; no successful extraction/audit report"
+    }
+  },
+  "reference_import_quality": {
+    "records_imported": 4426,
+    "rows_rejected": 0,
+    "close_marker_present": true,
+    "label_distribution": {
+      "Malicious": 6,
+      "Benign": 4420
+    },
+    "normalized_label_distribution": {
+      "Malicious": 6,
+      "Benign": 4420
+    },
+    "records_with_field_problems": 4420,
+    "records_with_contradictions": 0
+  },
+  "reference_label_normalization_policy": {
+    "version": "sipymes.iot23.label-aliases.v1",
+    "exact_aliases": {
+      "Benign": "Benign",
+      "Malicious": "Malicious",
+      "benign": "Benign"
+    },
+    "unknown": "unlisted literals remain null; originals and contradiction checks preserved"
+  },
+  "reference_import_is_not_correspondence": true
+}

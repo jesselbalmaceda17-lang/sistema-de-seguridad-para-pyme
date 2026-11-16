@@ -1,0 +1,7 @@
+{
+  "exception_count": 0,
+  "run_alerts_created": 10001,
+  "exported_alerts": 10000,
+  "truncation_explicit": false,
+  "uploader_declared_limit_mb": 200
+}

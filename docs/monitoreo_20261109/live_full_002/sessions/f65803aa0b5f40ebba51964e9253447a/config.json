@@ -1,0 +1,30 @@
+{
+  "duration_seconds": 30,
+  "capture_memory_mib": 256,
+  "storage_mib": 128,
+  "max_packets": 100000,
+  "max_active_flows": 2000,
+  "max_flows": 10000,
+  "queue_packets": 1024,
+  "max_flow_packets": 256,
+  "heartbeat_seconds": 20,
+  "tcp_idle_seconds": 5,
+  "udp_idle_seconds": 5,
+  "active_seconds": 30,
+  "allowed_ports": [
+    57843,
+    57844,
+    57845,
+    57846,
+    57848,
+    57849,
+    64608
+  ],
+  "rules": {
+    "window_seconds": 30,
+    "syn_packets": 5,
+    "destination_ports": 4,
+    "ipv4_bytes": 1024,
+    "max_events": 50000
+  }
+}

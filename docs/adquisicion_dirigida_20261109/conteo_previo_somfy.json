@@ -1,0 +1,46 @@
+{
+  "complete_trace_counted": true,
+  "source_sha256": "0ec756ff0e26fc6c7d985178a35206bd7bc5b8a33cc5c7a23d6bb0b103db2a2a",
+  "frames": 8276,
+  "accepted_packet_count": 6174,
+  "rejection_counts": {
+    "unsupported_ethernet_payload": 2012,
+    "unsupported_link_layer": 85,
+    "unsupported_transport_protocol": 5
+  },
+  "estimated_total_flows": 36,
+  "maximum_simultaneously_active_flows": 6,
+  "configuration": {
+    "tcp_idle_seconds": 120.0,
+    "udp_idle_seconds": 30.0,
+    "active_timeout_seconds": 300.0,
+    "tshark_timeout_seconds": 120.0,
+    "max_packets": 1000000,
+    "max_active_flows": 50000,
+    "max_flows": 100000
+  },
+  "tshark_version": "TShark (Wireshark) 4.6.9 (v4.6.9-0-g2d548b197c75).",
+  "note": "Counting simulation of unchanged segmentation conditions; no feature extraction output or label admission",
+  "validated_against_completed_somfy_extraction": true,
+  "checked_at_utc": "2026-11-09T14:39:59.680695+00:00",
+  "guards": {
+    "within_packet_limit": true,
+    "within_total_flow_limit": true,
+    "within_active_flow_limit": true,
+    "within_audit_byte_limit": true,
+    "ram_headroom": true,
+    "disk_headroom": true
+  },
+  "full_processing_viable": true,
+  "resources": {
+    "available_ram_bytes": 11362181120,
+    "free_disk_bytes": 296360022016,
+    "estimated_processing_ram_bytes": 3221225472,
+    "reserved_processing_disk_bytes": 6442450944,
+    "estimate_basis": "Planning envelope 24 KB/flow + 8 KB/reference + 4.5 KB/frame; not a measured future peak",
+    "counting_process_peak_working_set_bytes": 30760960,
+    "wall_seconds": 0.9055513000000701
+  },
+  "configuration_changes": [],
+  "qualification": "Limits checked before expensive feature serialization/audit. Original TShark timeout still enforced during actual extraction; any failure stops with no usable dataset."
+}

@@ -1,0 +1,9 @@
+﻿identificador_registro,clasificacion_predicha,Score del modelo (clase 1),archivo_origen,id_ejecucion,modelo,regla_decision,umbral_decision
+controlled-1,Normal,0.13562021881150815,valido.csv,7528655c-d28f-478e-a66e-4a02b8bdffe2,production_random_forest,predict,
+controlled-2,Normal,0.28785357145945006,valido.csv,7528655c-d28f-478e-a66e-4a02b8bdffe2,production_random_forest,predict,
+controlled-3,Normal,0.1360016302413029,valido.csv,7528655c-d28f-478e-a66e-4a02b8bdffe2,production_random_forest,predict,
+controlled-4,Normal,0.34023129352794346,valido.csv,7528655c-d28f-478e-a66e-4a02b8bdffe2,production_random_forest,predict,
+controlled-5,Sospechoso (ataque),0.5565356529209622,valido.csv,7528655c-d28f-478e-a66e-4a02b8bdffe2,production_random_forest,predict,
+controlled-6,Sospechoso (ataque),0.5363438539791632,valido.csv,7528655c-d28f-478e-a66e-4a02b8bdffe2,production_random_forest,predict,
+controlled-7,Sospechoso (ataque),0.6615425973654065,valido.csv,7528655c-d28f-478e-a66e-4a02b8bdffe2,production_random_forest,predict,
+controlled-8,Sospechoso (ataque),0.6415065396730989,valido.csv,7528655c-d28f-478e-a66e-4a02b8bdffe2,production_random_forest,predict,

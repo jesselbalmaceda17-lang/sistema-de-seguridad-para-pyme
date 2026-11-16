@@ -1,0 +1,17 @@
+{
+  "scope": "full",
+  "finished_at_utc": "2026-11-09T14:49:37.487787+00:00",
+  "tests_run": 229,
+  "passed": 229,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "expected_failures": 0,
+  "unexpected_successes": 0,
+  "successful": true,
+  "wall_seconds": 62.32396309999967,
+  "failure_details": [],
+  "error_details": [],
+  "log_sha256": "020aec6d0188698307e663a2888f98122cee42513a5c4781dcbb2e5052dbb083",
+  "training_scope": "No training on acquired or real project data. The unchanged full regression suite includes synthetic temporary model-fitting fixtures; existing project models are never replaced."
+}

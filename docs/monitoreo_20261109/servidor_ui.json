@@ -1,0 +1,19 @@
+{
+  "pid": 10564,
+  "command": [
+    "powershell.exe",
+    "-NoProfile",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\dist\\SeguridadInteligentePYMES-monitoreo-20261109\\iniciar.ps1",
+    "-PythonPath",
+    "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Scripts\\python.exe",
+    "-Port",
+    "8530"
+  ],
+  "cwd": "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\monitoreo_20261109",
+  "package": "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\dist\\SeguridadInteligentePYMES-monitoreo-20261109",
+  "health_seconds": 2.259132499999396,
+  "histories_isolated": true
+}

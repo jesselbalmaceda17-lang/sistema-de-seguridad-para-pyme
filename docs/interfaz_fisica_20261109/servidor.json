@@ -1,0 +1,117 @@
+{
+  "package": "C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-Le0Mxc\\Validacion monitoreo independiente seuqglmk\\ZIP final con espacios\\SeguridadInteligentePYMES-monitoreo-20261109",
+  "zip_sha256": "e83267ecf1d6bd43f0bdafd77b27c4cfdcbd434e20d254aefc7fb564f2e33259",
+  "package_check": {
+    "files_verified": 35,
+    "status": "ok",
+    "notice": "Hashes check integrity, not publisher identity. Only load trusted models."
+  },
+  "originals_verified": [
+    {
+      "path": "data/processed/security_analysis.backup-20261105T193153Z-e296f770.sqlite3",
+      "sha256": "d7f5b0bf09409e72a957f9b1fd0498e70d01e67fdd4ffc6cb0eb93878c83e7c2",
+      "expected_sha256": "d7f5b0bf09409e72a957f9b1fd0498e70d01e67fdd4ffc6cb0eb93878c83e7c2"
+    },
+    {
+      "path": "data/processed/security_analysis.pre-model-selector-20261103-0833.sqlite3",
+      "sha256": "17f66a73d34177e89fd3dca2896fd1c642d6d6806fe375737baa6662ef500734",
+      "expected_sha256": "17f66a73d34177e89fd3dca2896fd1c642d6d6806fe375737baa6662ef500734"
+    },
+    {
+      "path": "data/processed/security_analysis.sqlite3",
+      "sha256": "1b92777bc6857daffa11aadb57da49e897fdaaea0aac06bdf972009b884db225",
+      "expected_sha256": "1b92777bc6857daffa11aadb57da49e897fdaaea0aac06bdf972009b884db225"
+    },
+    {
+      "path": "models/README.md",
+      "sha256": "61551eae1e94b07d472a54a094256c9c3e60b4018df08ab3eaad5269105edfea",
+      "expected_sha256": "61551eae1e94b07d472a54a094256c9c3e60b4018df08ab3eaad5269105edfea"
+    },
+    {
+      "path": "models/unsw_nb15_random_forest.joblib",
+      "sha256": "58505ee89df22c4c223b66d5e7172388d5d1fad6b7d135fce800a2765b2029e9",
+      "expected_sha256": "58505ee89df22c4c223b66d5e7172388d5d1fad6b7d135fce800a2765b2029e9"
+    },
+    {
+      "path": "models/unsw_nb15_random_forest.joblib.metadata.json",
+      "sha256": "672c4f242003664bb699a56b29cfd71cfa4add3511ba178644d981b3e43b3462",
+      "expected_sha256": "672c4f242003664bb699a56b29cfd71cfa4add3511ba178644d981b3e43b3462"
+    },
+    {
+      "path": "models/unsw_nb15_random_forest_pilot.joblib",
+      "sha256": "5b4ca721478d8d949aa61bf381b2ca7becc0633436d9ff0038c11059d090f0c0",
+      "expected_sha256": "5b4ca721478d8d949aa61bf381b2ca7becc0633436d9ff0038c11059d090f0c0"
+    },
+    {
+      "path": "models/unsw_nb15_random_forest_pilot.joblib.metadata.json",
+      "sha256": "792a25389ae32448f04b484f9b1fa0604abaa65fcd9ea1253e0cdcb533ec98ad",
+      "expected_sha256": "792a25389ae32448f04b484f9b1fa0604abaa65fcd9ea1253e0cdcb533ec98ad"
+    }
+  ],
+  "tree": [
+    {
+      "pid": 20396,
+      "created": 1794255319.3001907,
+      "command": [
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-Le0Mxc\\Validacion monitoreo independiente seuqglmk\\ZIP final con espacios\\SeguridadInteligentePYMES-monitoreo-20261109\\iniciar.ps1",
+        "-PythonPath",
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Scripts\\python.exe",
+        "-Port",
+        "8533"
+      ]
+    },
+    {
+      "pid": 12836,
+      "created": 1794255319.3175793,
+      "command": [
+        "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+        "0x4"
+      ]
+    },
+    {
+      "pid": 11004,
+      "created": 1794255319.808378,
+      "command": [
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Scripts\\python.exe",
+        "-B",
+        "-m",
+        "streamlit",
+        "run",
+        "app.py",
+        "--server.address",
+        "127.0.0.1",
+        "--server.port",
+        "8533",
+        "--server.headless",
+        "true",
+        "--browser.gatherUsageStats",
+        "false"
+      ]
+    },
+    {
+      "pid": 1404,
+      "created": 1794255319.824193,
+      "command": [
+        "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Scripts\\python.exe",
+        "-B",
+        "-m",
+        "streamlit",
+        "run",
+        "app.py",
+        "--server.address",
+        "127.0.0.1",
+        "--server.port",
+        "8533",
+        "--server.headless",
+        "true",
+        "--browser.gatherUsageStats",
+        "false"
+      ]
+    }
+  ]
+}

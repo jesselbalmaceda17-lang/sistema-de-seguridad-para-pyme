@@ -1,0 +1,236 @@
+Result: [{"file":"vacio.csv","error":"No se pudo validar el archivo: El archivo está vacío."},{"file":"columna_faltante.csv","error":"No se pudo validar el archivo: El archivo no coincide con el esquema del modelo (faltan características: ['dur'])."},{"file":"numero_invalido.csv","error":"No se pudo completar el análisis: La característica numérica 'dur' contiene valores no numéricos o no finitos."}]
+Page Title: Seguridad Inteligente PYMES
+URL: http://127.0.0.1:8517/
+Recent events:
+- [2026-11-09T15:23:26.039Z] (console) [warning] WARN Scale bindings are currently only supported for scales with unbinned, continuous domains.
+- [2026-11-09T15:23:26.221Z] (console) [warning] WARN Scale bindings are currently only supported for scales with unbinned, continuous domains.
+- [2026-11-09T15:23:26.374Z] (console) [warning] WARN Scale bindings are currently only supported for scales with unbinned, continuous domains.
+- [2026-11-09T15:23:27.406Z] (console) [warning] WARN Scale bindings are currently only supported for scales with unbinned, continuous domains.
+- [2026-11-09T15:23:27.569Z] (console) [warning] WARN Scale bindings are currently only supported for scales with unbinned, continuous domains.
+- [2026-11-09T15:23:27.575Z] (console) [warning] WARN Scale bindings are currently only supported for scales with unbinned, continuous domains.
+- [2026-11-09T15:23:28.232Z] (console) [warning] WARN Scale bindings are currently only supported for scales with unbinned, continuous domains.
+Snapshot: 
+- <changed> generic [ref=e95]:
+  - ref=e100 [unchanged]
+  - ref=e106 [unchanged]
+  - ref=e109 [unchanged]
+  - ref=e122 [unchanged]
+  - ref=e128 [unchanged]
+  - generic [ref=e133]:
+    - ref=e134 [unchanged]
+    - region "Archivo CSV de registros" [ref=e145] [cursor=pointer]:
+      - button "file upload"
+      - generic [ref=e1033]:
+        - generic "numero_invalido.csv, 1.6KB" [ref=e1036]:
+          - img [ref=e1038]
+          - generic [ref=e1041]:
+            - generic "numero_invalido.csv" [ref=e1042]
+            - generic [ref=e1043]: 1.6KB
+          - button "Remove numero_invalido.csv" [ref=e1045]:
+            - img [ref=e1046]
+        - button "Add files" [ref=e1049]:
+          - generic [ref=e1051]:
+            - generic [ref=e1052]: add icon
+            - generic [ref=e1054]: add
+  - status [ref=e1056]:
+    - paragraph [ref=e1060]: "Archivo validado: 8 registros y 42 características compatibles."
+  - paragraph [ref=e1064]:
+    - text: "Columnas de metadatos excluidas de la predicción:"
+    - code [ref=e1065]: id
+    - text: .
+  - button "Ejecutar análisis del archivo" [active] [ref=e1068] [cursor=pointer]:
+    - paragraph [ref=e1073]: Ejecutar análisis del archivo
+  - alert [ref=e1076]:
+    - paragraph [ref=e1080]: "No se pudo completar el análisis: La característica numérica 'dur' contiene valores no numéricos o no finitos."
+  - separator [ref=e1085]
+  - heading "Último análisis" [level=2] [ref=e1089]:
+    - text: Último análisis
+    - generic [ref=e1090]:
+      - link "Link to heading":
+        - /url: "#ultimo-analisis"
+        - img
+  - paragraph [ref=e1095]:
+    - text: "Archivo procesado:"
+    - code [ref=e1096]: valido.csv
+  - generic [ref=e1098]:
+    - generic [ref=e1103]:
+      - paragraph [ref=e1107]: Registros analizados
+      - paragraph [ref=e1110]: "8"
+    - generic [ref=e1115]:
+      - paragraph [ref=e1119]: Normales
+      - paragraph [ref=e1122]: "4"
+    - generic [ref=e1127]:
+      - paragraph [ref=e1131]: Sospechosos
+      - paragraph [ref=e1134]: "4"
+    - generic [ref=e1139]:
+      - paragraph [ref=e1143]: Alertas guardadas
+      - paragraph [ref=e1146]: "4"
+  - paragraph [ref=e1150]: "Tiempo medido de inferencia: 0.0479 s · RSS pico: 354.5 MiB · incremento RSS aproximado: 0.2 MiB"
+  - paragraph [ref=e1154]:
+    - text: "Modelo:"
+    - strong [ref=e1155]: Definitivo — clasificación predeterminada
+    - text: "· referencia:"
+    - code [ref=e1156]: models\unsw_nb15_random_forest.joblib
+  - paragraph [ref=e1160]:
+    - text: "Regla:"
+    - code [ref=e1161]: predict
+    - text: "· umbral: no aplica (clasificación predeterminada) · ejecución:"
+    - code [ref=e1162]: e9fc78fc-18fa-4f17-a2ba-5408265b1c06
+  - paragraph [ref=e1166]: El score del modelo (clase 1) no es necesariamente una probabilidad calibrada ni confirma un ataque.
+  - heading "Resultados del archivo" [level=3] [ref=e1171]:
+    - text: Resultados del archivo
+    - generic [ref=e1172]:
+      - link "Link to heading":
+        - /url: "#resultados-del-archivo"
+        - img
+  - generic [ref=e1177]:
+    - button "Show/hide columns" [ref=e1181] [cursor=pointer]:
+      - img [ref=e1182]
+    - button "Download as CSV" [ref=e1187] [cursor=pointer]:
+      - img [ref=e1188]
+    - button "Search" [ref=e1193] [cursor=pointer]:
+      - img [ref=e1194]
+    - button "Fullscreen" [ref=e1199] [cursor=pointer]:
+      - img [ref=e1200]
+  - heading "Clasificación obtenida" [level=3] [ref=e1213]:
+    - text: Clasificación obtenida
+    - generic [ref=e1214]:
+      - link "Link to heading":
+        - /url: "#clasificacion-obtenida"
+        - img
+  - generic [ref=e1216]:
+    - button "Copy Vega-Lite spec" [ref=e1219] [cursor=pointer]:
+      - img [ref=e1220]
+    - button "Fullscreen" [ref=e1225] [cursor=pointer]:
+      - img [ref=e1226]
+  - button "Descargar resultados de este análisis (CSV)" [ref=e1231] [cursor=pointer]:
+    - paragraph [ref=e1236]: Descargar resultados de este análisis (CSV)
+  - ref=e591 [unchanged]
+  - separator [ref=e1240]
+  - heading "Historial de análisis" [level=2] [ref=e1244]:
+    - text: Historial de análisis
+    - generic [ref=e1245]:
+      - link "Link to heading":
+        - /url: "#historial-de-analisis"
+        - img
+  - status [ref=e1247]:
+    - paragraph [ref=e1251]: Este historial consulta como máximo las 100 ejecuciones más recientes y las 10,000 alertas más recientes. Los filtros, la búsqueda y «Todas» se aplican solo a las alertas cargadas; si se alcanza el límite, puede haber registros anteriores que no estén incluidos.
+  - generic [ref=e1256]:
+    - button "Show/hide columns" [ref=e1260] [cursor=pointer]:
+      - img [ref=e1261]
+    - button "Download as CSV" [ref=e1266] [cursor=pointer]:
+      - img [ref=e1267]
+    - button "Search" [ref=e1272] [cursor=pointer]:
+      - img [ref=e1273]
+    - button "Fullscreen" [ref=e1278] [cursor=pointer]:
+      - img [ref=e1279]
+  - heading "Actividad por ejecución" [level=3] [ref=e1289]:
+    - text: Actividad por ejecución
+    - generic [ref=e1290]:
+      - link "Link to heading":
+        - /url: "#actividad-por-ejecucion"
+        - img
+  - button "Descargar historial de ejecuciones (CSV)" [ref=e1293] [cursor=pointer]:
+    - paragraph [ref=e1298]: Descargar historial de ejecuciones (CSV)
+  - heading "Gestión de alertas" [level=2] [ref=e1303]:
+    - text: Gestión de alertas
+    - generic [ref=e1304]:
+      - link "Link to heading":
+        - /url: "#gestion-de-alertas"
+        - img
+  - paragraph [ref=e1308]: "La revisión manual: marcar una alerta como confirmada no modifica la predicción del modelo ni significa por sí solo que sea un ataque real."
+  - paragraph [ref=e1313]: La fecha indica cuándo se registró la alerta en SQLite, no necesariamente cuándo ocurrió el evento de red.
+  - paragraph [ref=e745]: El score del modelo (clase 1) no es necesariamente una probabilidad calibrada y no confirma por sí solo un ataque.
+  - group [ref=e1316]:
+    - generic "Filtros de alertas" [ref=e1317] [cursor=pointer]:
+      - generic [ref=e1318]:
+        - generic [ref=e1320]: keyboard_arrow_down
+        - paragraph [ref=e1323]: Filtros de alertas
+    - generic [ref=e1325]:
+      - generic [ref=e1327]:
+        - generic [ref=e1331]:
+          - paragraph [ref=e1335]: Modelo
+          - group [ref=e1337]:
+            - combobox "Modelo" [ref=e1338]: Todos los modelos
+            - button "Open" [ref=e1339] [cursor=pointer]:
+              - img [ref=e1340]
+        - generic [ref=e1346]:
+          - paragraph [ref=e1350]: Ejecución
+          - group [ref=e1352]:
+            - combobox "Ejecución" [ref=e1353]: Todas las ejecuciones
+            - button "Open" [ref=e1354] [cursor=pointer]:
+              - img [ref=e1355]
+        - generic [ref=e1361]:
+          - paragraph [ref=e1365]: Estado de revisión
+          - group [ref=e1367]:
+            - combobox "Estado de revisión" [ref=e1368]: Todos los estados
+            - button "Open" [ref=e1369] [cursor=pointer]:
+              - img [ref=e1370]
+      - generic [ref=e1374]:
+        - paragraph [ref=e1378]: Buscar identificador del registro
+        - textbox "Buscar identificador del registro" [ref=e1381]:
+          - /placeholder: Escriba parte o todo el identificador
+  - paragraph [ref=e1386]: Mostrando 8 de 8 alertas guardadas. Los filtros no modifican SQLite.
+  - generic [ref=e1391]:
+    - button "Show/hide columns" [ref=e1395] [cursor=pointer]:
+      - img [ref=e1396]
+    - button "Download as CSV" [ref=e1401] [cursor=pointer]:
+      - img [ref=e1402]
+    - button "Search" [ref=e1407] [cursor=pointer]:
+      - img [ref=e1408]
+    - button "Fullscreen" [ref=e1413] [cursor=pointer]:
+      - img [ref=e1414]
+  - paragraph [ref=e1429]: Para consultar los detalles, seleccione una alerta en el menú siguiente. Hacer clic en una fila de la tabla no selecciona la alerta
+  - ref=e868 [unchanged]
+  - generic [ref=e1431]:
+    - heading "Detalle de la alerta" [level=3] [ref=e1436]:
+      - text: Detalle de la alerta
+      - generic [ref=e1437]:
+        - link "Link to heading":
+          - /url: "#detalle-de-la-alerta"
+          - img
+    - generic [ref=e1439]:
+      - generic [ref=e1441]:
+        - paragraph [ref=e1446]:
+          - strong [ref=e1447]: ¿Qué significa esta alerta?
+        - paragraph [ref=e1452]: El modelo clasificó este registro como sospechoso según la regla indicada. Es una señal para revisión, no una confirmación automática de un ataque.
+        - paragraph [ref=e1457]: El score es una salida del modelo y no necesariamente una probabilidad calibrada. La aplicación no tiene explicabilidad implementada y no puede identificar aquí la causa exacta de la predicción.
+      - generic [ref=e1459]:
+        - paragraph [ref=e1464]:
+          - strong [ref=e1465]: Identificación y revisión
+        - paragraph [ref=e1470]:
+          - text: "Alerta:"
+          - code [ref=e1471]: "4"
+        - paragraph [ref=e1476]:
+          - text: "Registro:"
+          - code [ref=e1477]: controlled-8
+        - paragraph [ref=e1482]: "Clase predicha: Sospechoso (clase 1)"
+        - paragraph [ref=e1487]: "Estado: Falso positivo"
+        - paragraph [ref=e1492]:
+          - text: "Alerta registrada (UTC):"
+          - code [ref=e1493]: 2026-11-09T15:08:36+00:00
+        - paragraph [ref=e1498]: La fecha es la hora de registro en SQLite; no necesariamente el momento del evento de red.
+    - paragraph [ref=e1503]:
+      - strong [ref=e1504]: Modelo y origen
+    - paragraph [ref=e1509]: "Modelo: Definitivo — clasificación predeterminada"
+    - paragraph [ref=e1514]: "Regla: Clasificación predeterminada"
+    - paragraph [ref=e1519]: "Score del modelo (clase 1): 0.6415"
+    - paragraph [ref=e1524]: "Archivo de origen: valido.csv"
+    - paragraph [ref=e1529]:
+      - text: "Ejecución:"
+      - code [ref=e1530]: d583758e-4818-4fcb-8403-4307194bd71e
+    - paragraph [ref=e1535]:
+      - text: "Artefacto:"
+      - code [ref=e1536]: models\unsw_nb15_random_forest.joblib
+    - paragraph [ref=e1541]:
+      - text: "SHA-256 del modelo:"
+      - code [ref=e1542]: 58505ee89df22c4c223b66d5e7172388d5d1fad6b7d135fce800a2765b2029e9
+  - button "Descargar alertas filtradas (CSV)" [ref=e1545] [cursor=pointer]:
+    - paragraph [ref=e1550]: Descargar alertas filtradas (CSV)
+  - group [ref=e1553]:
+    - generic "Qué significan los estados de revisión" [ref=e1554] [cursor=pointer]:
+      - generic [ref=e1555]:
+        - generic [ref=e1557]: keyboard_arrow_right
+        - paragraph [ref=e1560]: Qué significan los estados de revisión
+  - ref=e1012 [unchanged]
+  - ref=e1026 [unchanged]

@@ -1,0 +1,790 @@
+{
+  "checked_at_utc": "2026-11-08T17:17:05.697352+00:00",
+  "repeat_started_at_utc": "2026-11-08T17:17:00.030490+00:00",
+  "repeat_structurally_identical_to_saved_audit": true,
+  "summary": {
+    "packets_seen": 50156,
+    "packets_accepted": 41207,
+    "packets_rejected_by_extractor": 8949,
+    "extracted_flows": 3499,
+    "reference_connections": 3209,
+    "admitted_flows": 3495,
+    "rejected_correspondences": 0,
+    "pending_quarantined_flows": 4,
+    "flow_status_counts": {
+      "admitted_unique": 3177,
+      "admitted_sibling_segment": 313,
+      "admitted_partition": 4,
+      "quarantined_partial_checksum": 3,
+      "counter_mismatch": 1,
+      "admitted_tcp_closure": 1
+    },
+    "flow_label_coverage_percent": 99.88568162332095,
+    "labeled_packets": 40921,
+    "label_coverage_of_accepted_packets_percent": 99.30594316499624,
+    "label_coverage_of_all_packets_percent": 81.58744716484568,
+    "matched_reference_connections": 3206,
+    "reference_coverage_percent": 99.9065129323777,
+    "reference_validation_counts": {
+      "verified": 3208,
+      "counter_mismatch": 1
+    },
+    "accepted_packet_checksum_states": {
+      "valid": 41203,
+      "partial_pseudoheader": 4
+    },
+    "class_coverage": {
+      "Benign": {
+        "reference_connections": 3193,
+        "matched_references": 3192,
+        "reference_coverage_percent": 99.96868149076104,
+        "admitted_flows": 3207
+      },
+      "Malicious": {
+        "reference_connections": 16,
+        "matched_references": 14,
+        "reference_coverage_percent": 87.5,
+        "admitted_flows": 288
+      }
+    }
+  },
+  "baseline_summary": {
+    "packets_seen": 50156,
+    "packets_accepted": 41207,
+    "packets_rejected": 8949,
+    "packet_extraction_coverage_percent": 82.15766807560412,
+    "extracted_flows": 3499,
+    "reference_connections": 3209,
+    "rejected_reference_rows": 0,
+    "reference_states": {
+      "usable": 3209
+    },
+    "flow_status_counts": {
+      "matched_unique": 3207,
+      "ambiguous": 0,
+      "not_found": 0,
+      "segmentation_mismatch": 6,
+      "incomplete_reference": 0,
+      "contradictory": 0,
+      "counter_mismatch": 286
+    },
+    "flow_label_coverage_percent": 91.65475850242926,
+    "matched_reference_connections": 3192,
+    "eligible_reference_connections": 3209,
+    "eligible_reference_packet_count_where_known": 41203,
+    "reference_coverage_percent": 99.47023995014023,
+    "labeled_packets_in_extracted_flows": 5996,
+    "label_coverage_of_accepted_packets_percent": 14.550925813575363,
+    "label_coverage_of_all_packets_percent": 11.954701331844644,
+    "references_split_across_matched_flows": 15,
+    "flows_with_multiple_candidate_references": 5,
+    "class_coverage": {
+      "Benign": {
+        "eligible_references": 3193,
+        "matched_references": 3192,
+        "reference_coverage_percent": 99.96868149076104,
+        "matched_extractor_flows": 3207
+      },
+      "Malicious": {
+        "eligible_references": 16,
+        "matched_references": 0,
+        "reference_coverage_percent": 0.0,
+        "matched_extractor_flows": 0
+      }
+    }
+  },
+  "audit_sha256": "614b80b18b349962e5aaad4cb3f8752f8ec380bf4aa9f7ef769234e972abd361",
+  "recovered_malicious_references": [
+    {
+      "uid": "CNgUZj2l83jIcPrLi2",
+      "source_line": 62,
+      "admitted_flow_count": 1
+    },
+    {
+      "uid": "CMvZfV3A0fj2GCfJs2",
+      "source_line": 64,
+      "admitted_flow_count": 1
+    },
+    {
+      "uid": "CkYqtu3UaUFRMgWRtl",
+      "source_line": 68,
+      "admitted_flow_count": 1
+    },
+    {
+      "uid": "CF49552MEZIPhghQJ3",
+      "source_line": 96,
+      "admitted_flow_count": 1
+    },
+    {
+      "uid": "Cf0ngw4SmqbOgwbRDk",
+      "source_line": 97,
+      "admitted_flow_count": 1
+    },
+    {
+      "uid": "CCVhqme8G3qXTDhac",
+      "source_line": 102,
+      "admitted_flow_count": 1
+    },
+    {
+      "uid": "CtHxXv46wV7Bx8Fsx1",
+      "source_line": 109,
+      "admitted_flow_count": 1
+    },
+    {
+      "uid": "ChumG2IokpJupNVD",
+      "source_line": 111,
+      "admitted_flow_count": 1
+    },
+    {
+      "uid": "CTGh3U2czm2PpX2n19",
+      "source_line": 112,
+      "admitted_flow_count": 1
+    },
+    {
+      "uid": "CyLMgu8PRDfN5yuLj",
+      "source_line": 1834,
+      "admitted_flow_count": 137
+    },
+    {
+      "uid": "CJ4kZO1ywwJo2JI9hj",
+      "source_line": 1844,
+      "admitted_flow_count": 1
+    },
+    {
+      "uid": "CZIOiq4kCqrzOyTnr9",
+      "source_line": 1846,
+      "admitted_flow_count": 1
+    },
+    {
+      "uid": "CsnYKr3Uz7O6PbCqe8",
+      "source_line": 1847,
+      "admitted_flow_count": 1
+    },
+    {
+      "uid": "CGLDvm3X8xOnv1Rfwf",
+      "source_line": 3216,
+      "admitted_flow_count": 147
+    }
+  ],
+  "malicious_connection_groups": 6,
+  "capture_groups": 1,
+  "quarantined_flows": [
+    {
+      "flow_id": "cc4106bf438e814428f92c626ed8453abf16fcb9ef3a32eee845dab721ba57be",
+      "status": "quarantined_partial_checksum",
+      "reason": "flow_contains_partial_checksum_pattern",
+      "binary_label": null,
+      "reference_ids": [
+        "26ad3d37a584ad8a4aaf340b8c0f18274c1b010ad747b0741d8f98242f59e90d"
+      ],
+      "admitted_reference_ids": [],
+      "references": [
+        {
+          "reference_id": "26ad3d37a584ad8a4aaf340b8c0f18274c1b010ad747b0741d8f98242f59e90d",
+          "uid": "CyLMgu8PRDfN5yuLj",
+          "source_line": 1834,
+          "label_original": "Malicious",
+          "detailed_label": "C&C-Torii"
+        }
+      ],
+      "flow_packet_count": 136,
+      "excluded_frames": [
+        266
+      ],
+      "reference_validation_states": {
+        "26ad3d37a584ad8a4aaf340b8c0f18274c1b010ad747b0741d8f98242f59e90d": "verified"
+      },
+      "baseline_status": "counter_mismatch",
+      "connection_group_id": "d327e57af682a99aec32684f1f83b4cb1552c9fbfc511da0a81b2fcf1070a373",
+      "capture_group_id": "4d0a00c33a4bf11228158baddd47c38f702731ea8d75ef1201061fc8bbd878b9"
+    },
+    {
+      "flow_id": "492c232e633d99f81b84788c4c792adf441e330a9f993f5329b4b0c096075f7f",
+      "status": "counter_mismatch",
+      "reason": "full_reference_conservation_or_source_evidence_failed",
+      "binary_label": null,
+      "reference_ids": [
+        "9caaec71a7c3a1aa90728908fd0572fdabc9dee2173d316cb2fecda80a5c15b1"
+      ],
+      "admitted_reference_ids": [],
+      "references": [
+        {
+          "reference_id": "9caaec71a7c3a1aa90728908fd0572fdabc9dee2173d316cb2fecda80a5c15b1",
+          "uid": "Cs2uux2Y3UfNwPD9Yd",
+          "source_line": 350,
+          "label_original": "Benign",
+          "detailed_label": null
+        }
+      ],
+      "flow_packet_count": 3,
+      "excluded_frames": [],
+      "reference_validation_states": {
+        "9caaec71a7c3a1aa90728908fd0572fdabc9dee2173d316cb2fecda80a5c15b1": "counter_mismatch"
+      },
+      "baseline_status": "counter_mismatch",
+      "connection_group_id": "702c5354c41e88633805a9d0732d7d4345e1f434cc30339589bec0a06ee9b78d",
+      "capture_group_id": "4d0a00c33a4bf11228158baddd47c38f702731ea8d75ef1201061fc8bbd878b9"
+    },
+    {
+      "flow_id": "87214fa5383a06231a572920a217ea3fad3d39b29faf32265b1031b4fbe0ef3c",
+      "status": "quarantined_partial_checksum",
+      "reason": "flow_contains_partial_checksum_pattern",
+      "binary_label": null,
+      "reference_ids": [
+        "1b5c41820901da192ca33eef9f3c6fc1f2901dda5f7fd3001316301acae1c9ea",
+        "9c8368a71c77235c1e609ff562a4998b3d70b8b31acbd8ba640c5c06a3f19b9d"
+      ],
+      "admitted_reference_ids": [],
+      "references": [
+        {
+          "reference_id": "1b5c41820901da192ca33eef9f3c6fc1f2901dda5f7fd3001316301acae1c9ea",
+          "uid": "CAeI0M2CvsuJgdMglf",
+          "source_line": 1836,
+          "label_original": "Malicious",
+          "detailed_label": "C&C-Torii"
+        },
+        {
+          "reference_id": "9c8368a71c77235c1e609ff562a4998b3d70b8b31acbd8ba640c5c06a3f19b9d",
+          "uid": "CfzKAA1RjOB1codUAk",
+          "source_line": 1839,
+          "label_original": "Malicious",
+          "detailed_label": "C&C-Torii"
+        }
+      ],
+      "flow_packet_count": 12,
+      "excluded_frames": [
+        24789
+      ],
+      "reference_validation_states": {
+        "1b5c41820901da192ca33eef9f3c6fc1f2901dda5f7fd3001316301acae1c9ea": "verified",
+        "9c8368a71c77235c1e609ff562a4998b3d70b8b31acbd8ba640c5c06a3f19b9d": "verified"
+      },
+      "baseline_status": "segmentation_mismatch",
+      "connection_group_id": "961768b8bd16dad6ae9db5036e226826c97e6ad0cd1081b20a4c811441e40f79",
+      "capture_group_id": "4d0a00c33a4bf11228158baddd47c38f702731ea8d75ef1201061fc8bbd878b9"
+    },
+    {
+      "flow_id": "b63b68abdd381a7dac1e118cebdf862fcd2f091ed2c88c92c591b9be3f787f3c",
+      "status": "quarantined_partial_checksum",
+      "reason": "flow_contains_partial_checksum_pattern",
+      "binary_label": null,
+      "reference_ids": [
+        "354da62de43f7691328a6356bd385c95dfcbda2e6f2c048aabc39d27f385e3d1"
+      ],
+      "admitted_reference_ids": [],
+      "references": [
+        {
+          "reference_id": "354da62de43f7691328a6356bd385c95dfcbda2e6f2c048aabc39d27f385e3d1",
+          "uid": "CGLDvm3X8xOnv1Rfwf",
+          "source_line": 3216,
+          "label_original": "Malicious",
+          "detailed_label": "C&C-Torii"
+        }
+      ],
+      "flow_packet_count": 135,
+      "excluded_frames": [
+        24825,
+        24828
+      ],
+      "reference_validation_states": {
+        "354da62de43f7691328a6356bd385c95dfcbda2e6f2c048aabc39d27f385e3d1": "verified"
+      },
+      "baseline_status": "counter_mismatch",
+      "connection_group_id": "824c420a2f2e5a5a881dba84e791459553b7a393cb5a3b733283add71eab1c24",
+      "capture_group_id": "4d0a00c33a4bf11228158baddd47c38f702731ea8d75ef1201061fc8bbd878b9"
+    }
+  ],
+  "partial_checksum_packets": [
+    {
+      "frame": 266,
+      "timestamp_epoch_ns": "1538479310188926000",
+      "captured_bytes": 1633,
+      "wire_bytes": 1633,
+      "packet_sha256": "d3394f995781e2930885fcdf28188366bbd3d431a9d07d5ad2eb6f140f178cf7",
+      "auditable": true,
+      "reason": null,
+      "ethernet_type": 2048,
+      "protocol": "tcp",
+      "src": "192.168.100.103",
+      "sport": 38092,
+      "dst": "66.85.157.90",
+      "dport": 443,
+      "ipv4_bytes": 1619,
+      "ipv4_header_bytes": 20,
+      "ip_checksum_status": "valid",
+      "transport_checksum_status": "partial_pseudoheader",
+      "stored_transport_checksum": 2821,
+      "pseudoheader_sum": 2821,
+      "tcp_sequence": 1048691785,
+      "tcp_acknowledgment": 4227120214,
+      "tcp_flags": 24,
+      "transport_header_bytes": 20,
+      "payload_bytes": 1579,
+      "extraction_flow_id": "cc4106bf438e814428f92c626ed8453abf16fcb9ef3a32eee845dab721ba57be",
+      "candidate_reference_ids": [
+        "26ad3d37a584ad8a4aaf340b8c0f18274c1b010ad747b0741d8f98242f59e90d"
+      ],
+      "accounting_reference_id": null,
+      "support_rule": "exact_declared_interval",
+      "packet_state": "partial_checksum",
+      "checksum_exclusion_reason": "partial_pattern_is_observed_but_flow_label_is_quarantined",
+      "reference_uid": null,
+      "reference_source_line": null,
+      "reference_validation_state": null,
+      "flow_label_admitted": false
+    },
+    {
+      "frame": 24789,
+      "timestamp_epoch_ns": "1538520739742815000",
+      "captured_bytes": 1636,
+      "wire_bytes": 1636,
+      "packet_sha256": "040f22e08501419cf3329c49460bdc639ff2b68ee068aff354bbc6c7827499d1",
+      "auditable": true,
+      "reason": null,
+      "ethernet_type": 2048,
+      "protocol": "tcp",
+      "src": "192.168.100.103",
+      "sport": 38094,
+      "dst": "66.85.157.90",
+      "dport": 443,
+      "ipv4_bytes": 1622,
+      "ipv4_header_bytes": 20,
+      "ip_checksum_status": "valid",
+      "transport_checksum_status": "partial_pseudoheader",
+      "stored_transport_checksum": 2824,
+      "pseudoheader_sum": 2824,
+      "tcp_sequence": 3545770390,
+      "tcp_acknowledgment": 205000958,
+      "tcp_flags": 24,
+      "transport_header_bytes": 20,
+      "payload_bytes": 1582,
+      "extraction_flow_id": "87214fa5383a06231a572920a217ea3fad3d39b29faf32265b1031b4fbe0ef3c",
+      "candidate_reference_ids": [
+        "9c8368a71c77235c1e609ff562a4998b3d70b8b31acbd8ba640c5c06a3f19b9d"
+      ],
+      "accounting_reference_id": null,
+      "support_rule": "exact_declared_interval",
+      "packet_state": "partial_checksum",
+      "checksum_exclusion_reason": "partial_pattern_is_observed_but_flow_label_is_quarantined",
+      "reference_uid": null,
+      "reference_source_line": null,
+      "reference_validation_state": null,
+      "flow_label_admitted": false
+    },
+    {
+      "frame": 24825,
+      "timestamp_epoch_ns": "1538520822957747000",
+      "captured_bytes": 1634,
+      "wire_bytes": 1634,
+      "packet_sha256": "e2cf544198fd3141c15b0bbc6e49ef2aba8f9843311e0d50a09fbea4b57d62a1",
+      "auditable": true,
+      "reason": null,
+      "ethernet_type": 2048,
+      "protocol": "tcp",
+      "src": "192.168.100.103",
+      "sport": 38098,
+      "dst": "66.85.157.90",
+      "dport": 443,
+      "ipv4_bytes": 1620,
+      "ipv4_header_bytes": 20,
+      "ip_checksum_status": "valid",
+      "transport_checksum_status": "partial_pseudoheader",
+      "stored_transport_checksum": 2822,
+      "pseudoheader_sum": 2822,
+      "tcp_sequence": 4103453757,
+      "tcp_acknowledgment": 80092207,
+      "tcp_flags": 24,
+      "transport_header_bytes": 20,
+      "payload_bytes": 1580,
+      "extraction_flow_id": "b63b68abdd381a7dac1e118cebdf862fcd2f091ed2c88c92c591b9be3f787f3c",
+      "candidate_reference_ids": [
+        "354da62de43f7691328a6356bd385c95dfcbda2e6f2c048aabc39d27f385e3d1"
+      ],
+      "accounting_reference_id": null,
+      "support_rule": "exact_declared_interval",
+      "packet_state": "partial_checksum",
+      "checksum_exclusion_reason": "partial_pattern_is_observed_but_flow_label_is_quarantined",
+      "reference_uid": null,
+      "reference_source_line": null,
+      "reference_validation_state": null,
+      "flow_label_admitted": false
+    },
+    {
+      "frame": 24828,
+      "timestamp_epoch_ns": "1538520823657618000",
+      "captured_bytes": 2974,
+      "wire_bytes": 2974,
+      "packet_sha256": "ecbdbe50c65522ddcc54914b95810e5156099521ac35618764f28f5d391639b4",
+      "auditable": true,
+      "reason": null,
+      "ethernet_type": 2048,
+      "protocol": "tcp",
+      "src": "66.85.157.90",
+      "sport": 443,
+      "dst": "192.168.100.103",
+      "dport": 38098,
+      "ipv4_bytes": 2960,
+      "ipv4_header_bytes": 20,
+      "ip_checksum_status": "valid",
+      "transport_checksum_status": "partial_pseudoheader",
+      "stored_transport_checksum": 4162,
+      "pseudoheader_sum": 4162,
+      "tcp_sequence": 80092207,
+      "tcp_acknowledgment": 4103455337,
+      "tcp_flags": 16,
+      "transport_header_bytes": 20,
+      "payload_bytes": 2920,
+      "extraction_flow_id": "b63b68abdd381a7dac1e118cebdf862fcd2f091ed2c88c92c591b9be3f787f3c",
+      "candidate_reference_ids": [
+        "354da62de43f7691328a6356bd385c95dfcbda2e6f2c048aabc39d27f385e3d1"
+      ],
+      "accounting_reference_id": null,
+      "support_rule": "exact_declared_interval",
+      "packet_state": "partial_checksum",
+      "checksum_exclusion_reason": "partial_pattern_is_observed_but_flow_label_is_quarantined",
+      "reference_uid": null,
+      "reference_source_line": null,
+      "reference_validation_state": null,
+      "flow_label_admitted": false
+    }
+  ],
+  "tcp_closure_chain": [
+    {
+      "frame": 24772,
+      "timestamp_epoch_ns": "1538520727193416000",
+      "captured_bytes": 60,
+      "wire_bytes": 60,
+      "packet_sha256": "bd8b984088d9224e6c76a4d008098e913fbc9226712653df93c1a773a7d6e1d3",
+      "auditable": true,
+      "reason": null,
+      "ethernet_type": 2048,
+      "protocol": "tcp",
+      "src": "66.85.157.90",
+      "sport": 443,
+      "dst": "192.168.100.103",
+      "dport": 38092,
+      "ipv4_bytes": 40,
+      "ipv4_header_bytes": 20,
+      "ip_checksum_status": "valid",
+      "transport_checksum_status": "valid",
+      "stored_transport_checksum": 53095,
+      "pseudoheader_sum": 1242,
+      "tcp_sequence": 4227138534,
+      "tcp_acknowledgment": 1048708645,
+      "tcp_flags": 17,
+      "transport_header_bytes": 20,
+      "payload_bytes": 0,
+      "extraction_flow_id": "3ea46b1fdc49e9ff66ba53a670df2665c052febf95e3b8faf4fd1bc11822ffb0",
+      "candidate_reference_ids": [
+        "26ad3d37a584ad8a4aaf340b8c0f18274c1b010ad747b0741d8f98242f59e90d"
+      ],
+      "accounting_reference_id": "26ad3d37a584ad8a4aaf340b8c0f18274c1b010ad747b0741d8f98242f59e90d",
+      "support_rule": "exact_declared_interval",
+      "packet_state": "supported",
+      "reference_uid": "CyLMgu8PRDfN5yuLj",
+      "reference_source_line": 1834,
+      "reference_validation_state": "verified",
+      "flow_label_admitted": true
+    },
+    {
+      "frame": 24773,
+      "timestamp_epoch_ns": "1538520727194155000",
+      "captured_bytes": 60,
+      "wire_bytes": 60,
+      "packet_sha256": "de6c6a7b7ef0b9e4b311ba1266feac48a3e10b0284274eed5a45d2ed183fed91",
+      "auditable": true,
+      "reason": null,
+      "ethernet_type": 2048,
+      "protocol": "tcp",
+      "src": "192.168.100.103",
+      "sport": 38092,
+      "dst": "66.85.157.90",
+      "dport": 443,
+      "ipv4_bytes": 40,
+      "ipv4_header_bytes": 20,
+      "ip_checksum_status": "valid",
+      "transport_checksum_status": "valid",
+      "stored_transport_checksum": 52662,
+      "pseudoheader_sum": 1242,
+      "tcp_sequence": 1048708645,
+      "tcp_acknowledgment": 4227138535,
+      "tcp_flags": 17,
+      "transport_header_bytes": 20,
+      "payload_bytes": 0,
+      "extraction_flow_id": "3ea46b1fdc49e9ff66ba53a670df2665c052febf95e3b8faf4fd1bc11822ffb0",
+      "candidate_reference_ids": [
+        "26ad3d37a584ad8a4aaf340b8c0f18274c1b010ad747b0741d8f98242f59e90d"
+      ],
+      "accounting_reference_id": "26ad3d37a584ad8a4aaf340b8c0f18274c1b010ad747b0741d8f98242f59e90d",
+      "support_rule": "exact_declared_interval",
+      "packet_state": "supported",
+      "reference_uid": "CyLMgu8PRDfN5yuLj",
+      "reference_source_line": 1834,
+      "reference_validation_state": "verified",
+      "flow_label_admitted": true
+    },
+    {
+      "frame": 24775,
+      "timestamp_epoch_ns": "1538520727344572000",
+      "captured_bytes": 60,
+      "wire_bytes": 60,
+      "packet_sha256": "6e6aa1d818a341e77a65d4f5a1d2b41070659e3ae214af55e8e7433a0e1aa7bf",
+      "auditable": true,
+      "reason": null,
+      "ethernet_type": 2048,
+      "protocol": "tcp",
+      "src": "66.85.157.90",
+      "sport": 443,
+      "dst": "192.168.100.103",
+      "dport": 38092,
+      "ipv4_bytes": 40,
+      "ipv4_header_bytes": 20,
+      "ip_checksum_status": "valid",
+      "transport_checksum_status": "valid",
+      "stored_transport_checksum": 53094,
+      "pseudoheader_sum": 1242,
+      "tcp_sequence": 4227138535,
+      "tcp_acknowledgment": 1048708646,
+      "tcp_flags": 16,
+      "transport_header_bytes": 20,
+      "payload_bytes": 0,
+      "extraction_flow_id": "3ea46b1fdc49e9ff66ba53a670df2665c052febf95e3b8faf4fd1bc11822ffb0",
+      "candidate_reference_ids": [
+        "26ad3d37a584ad8a4aaf340b8c0f18274c1b010ad747b0741d8f98242f59e90d"
+      ],
+      "accounting_reference_id": "26ad3d37a584ad8a4aaf340b8c0f18274c1b010ad747b0741d8f98242f59e90d",
+      "support_rule": "exact_fin_finack_ack_chain",
+      "packet_state": "supported",
+      "reference_uid": "CyLMgu8PRDfN5yuLj",
+      "reference_source_line": 1834,
+      "reference_validation_state": "verified",
+      "flow_label_admitted": true
+    }
+  ],
+  "partitions": [
+    {
+      "flow_id": "e10721eb68b9e196633c833d3ff8a8583db34f31e16533c0ce266876ba6a551e",
+      "status": "admitted_partition",
+      "reason": "complete_exclusive_packet_partition_with_compatible_labels",
+      "binary_label": 1,
+      "reference_ids": [
+        "0ba64692596961a6bcfb1aed15a9e8d421c0aa6ae758493f39d26b1541a23743",
+        "2bc50be43dc91e49a7795174d5d7efbc5948ac4cc8b7a6233d78b46ca3f56ed9",
+        "583e9e06ccc3730f9e05225b2c8fc774f99fe160f80713b010aafad0c697fd0f"
+      ],
+      "admitted_reference_ids": [
+        "0ba64692596961a6bcfb1aed15a9e8d421c0aa6ae758493f39d26b1541a23743",
+        "2bc50be43dc91e49a7795174d5d7efbc5948ac4cc8b7a6233d78b46ca3f56ed9",
+        "583e9e06ccc3730f9e05225b2c8fc774f99fe160f80713b010aafad0c697fd0f"
+      ],
+      "references": [
+        {
+          "reference_id": "0ba64692596961a6bcfb1aed15a9e8d421c0aa6ae758493f39d26b1541a23743",
+          "uid": "CNgUZj2l83jIcPrLi2",
+          "source_line": 62,
+          "label_original": "Malicious",
+          "detailed_label": "C&C-Torii"
+        },
+        {
+          "reference_id": "2bc50be43dc91e49a7795174d5d7efbc5948ac4cc8b7a6233d78b46ca3f56ed9",
+          "uid": "CMvZfV3A0fj2GCfJs2",
+          "source_line": 64,
+          "label_original": "Malicious",
+          "detailed_label": "C&C-Torii"
+        },
+        {
+          "reference_id": "583e9e06ccc3730f9e05225b2c8fc774f99fe160f80713b010aafad0c697fd0f",
+          "uid": "CkYqtu3UaUFRMgWRtl",
+          "source_line": 68,
+          "label_original": "Malicious",
+          "detailed_label": "C&C-Torii"
+        }
+      ],
+      "packet_frames": [
+        151,
+        153,
+        154,
+        162,
+        164
+      ],
+      "flow_packet_count": 5,
+      "excluded_frames": [],
+      "reference_validation_states": {
+        "0ba64692596961a6bcfb1aed15a9e8d421c0aa6ae758493f39d26b1541a23743": "verified",
+        "2bc50be43dc91e49a7795174d5d7efbc5948ac4cc8b7a6233d78b46ca3f56ed9": "verified",
+        "583e9e06ccc3730f9e05225b2c8fc774f99fe160f80713b010aafad0c697fd0f": "verified"
+      },
+      "baseline_status": "segmentation_mismatch",
+      "connection_group_id": "8dd77a49a488f5dc60a55fd6ecb1664fa709487fe1ba279370b0a1a1a94d3f52",
+      "capture_group_id": "4d0a00c33a4bf11228158baddd47c38f702731ea8d75ef1201061fc8bbd878b9"
+    },
+    {
+      "flow_id": "91449fa7b931d4f6996df31a2b163de9a105a6eca62fb33e32ea56cd86af5c21",
+      "status": "admitted_partition",
+      "reason": "complete_exclusive_packet_partition_with_compatible_labels",
+      "binary_label": 1,
+      "reference_ids": [
+        "ac195c5b28821fb00325f31caeb767a37cd838c4c74c9671d66e70d3346965d9",
+        "e2147b8cc31faf8c7b9d157d65adc9bf5ddfa3484d277fe435b41b948c2916ea",
+        "e417f4d61f645ae3119e3c22194e27ee1be6f7aba3eec8bf9b1b28b8d4a11d24"
+      ],
+      "admitted_reference_ids": [
+        "ac195c5b28821fb00325f31caeb767a37cd838c4c74c9671d66e70d3346965d9",
+        "e2147b8cc31faf8c7b9d157d65adc9bf5ddfa3484d277fe435b41b948c2916ea",
+        "e417f4d61f645ae3119e3c22194e27ee1be6f7aba3eec8bf9b1b28b8d4a11d24"
+      ],
+      "references": [
+        {
+          "reference_id": "ac195c5b28821fb00325f31caeb767a37cd838c4c74c9671d66e70d3346965d9",
+          "uid": "Cf0ngw4SmqbOgwbRDk",
+          "source_line": 97,
+          "label_original": "Malicious",
+          "detailed_label": "C&C-Torii"
+        },
+        {
+          "reference_id": "e2147b8cc31faf8c7b9d157d65adc9bf5ddfa3484d277fe435b41b948c2916ea",
+          "uid": "CCVhqme8G3qXTDhac",
+          "source_line": 102,
+          "label_original": "Malicious",
+          "detailed_label": "C&C-Torii"
+        },
+        {
+          "reference_id": "e417f4d61f645ae3119e3c22194e27ee1be6f7aba3eec8bf9b1b28b8d4a11d24",
+          "uid": "CF49552MEZIPhghQJ3",
+          "source_line": 96,
+          "label_original": "Malicious",
+          "detailed_label": "C&C-Torii"
+        }
+      ],
+      "packet_frames": [
+        213,
+        214,
+        216,
+        220,
+        226
+      ],
+      "flow_packet_count": 5,
+      "excluded_frames": [],
+      "reference_validation_states": {
+        "ac195c5b28821fb00325f31caeb767a37cd838c4c74c9671d66e70d3346965d9": "verified",
+        "e2147b8cc31faf8c7b9d157d65adc9bf5ddfa3484d277fe435b41b948c2916ea": "verified",
+        "e417f4d61f645ae3119e3c22194e27ee1be6f7aba3eec8bf9b1b28b8d4a11d24": "verified"
+      },
+      "baseline_status": "segmentation_mismatch",
+      "connection_group_id": "fb35c472c79a4e73104e7e6b26a3b8f78f88e31bda6a5a6211741338fb6d7003",
+      "capture_group_id": "4d0a00c33a4bf11228158baddd47c38f702731ea8d75ef1201061fc8bbd878b9"
+    },
+    {
+      "flow_id": "9d12a87d18a81138bf67b817d885a2f10de78202bbace0f867c93474b5607e39",
+      "status": "admitted_partition",
+      "reason": "complete_exclusive_packet_partition_with_compatible_labels",
+      "binary_label": 1,
+      "reference_ids": [
+        "6d8bcf80d6d797d8d596e032fbcf7150e4f3c288aba196078103828ec286eef0",
+        "6dee856a2b0f4ef60ebc9630d433dcac23ec3dfef6756c7c1b3cf44e41044be2",
+        "da87c40bcaa125fc868b8aa829d4aef4e443a03971f652f8aa4a50780165ac16"
+      ],
+      "admitted_reference_ids": [
+        "6d8bcf80d6d797d8d596e032fbcf7150e4f3c288aba196078103828ec286eef0",
+        "6dee856a2b0f4ef60ebc9630d433dcac23ec3dfef6756c7c1b3cf44e41044be2",
+        "da87c40bcaa125fc868b8aa829d4aef4e443a03971f652f8aa4a50780165ac16"
+      ],
+      "references": [
+        {
+          "reference_id": "6d8bcf80d6d797d8d596e032fbcf7150e4f3c288aba196078103828ec286eef0",
+          "uid": "CTGh3U2czm2PpX2n19",
+          "source_line": 112,
+          "label_original": "Malicious",
+          "detailed_label": "C&C-Torii"
+        },
+        {
+          "reference_id": "6dee856a2b0f4ef60ebc9630d433dcac23ec3dfef6756c7c1b3cf44e41044be2",
+          "uid": "CtHxXv46wV7Bx8Fsx1",
+          "source_line": 109,
+          "label_original": "Malicious",
+          "detailed_label": "C&C-Torii"
+        },
+        {
+          "reference_id": "da87c40bcaa125fc868b8aa829d4aef4e443a03971f652f8aa4a50780165ac16",
+          "uid": "ChumG2IokpJupNVD",
+          "source_line": 111,
+          "label_original": "Malicious",
+          "detailed_label": "C&C-Torii"
+        }
+      ],
+      "packet_frames": [
+        242,
+        243,
+        244,
+        247,
+        248
+      ],
+      "flow_packet_count": 5,
+      "excluded_frames": [],
+      "reference_validation_states": {
+        "6d8bcf80d6d797d8d596e032fbcf7150e4f3c288aba196078103828ec286eef0": "verified",
+        "6dee856a2b0f4ef60ebc9630d433dcac23ec3dfef6756c7c1b3cf44e41044be2": "verified",
+        "da87c40bcaa125fc868b8aa829d4aef4e443a03971f652f8aa4a50780165ac16": "verified"
+      },
+      "baseline_status": "segmentation_mismatch",
+      "connection_group_id": "54371f80437fe2b7c53da238b6598a1af4a51066885fdf874b299120a185c22f",
+      "capture_group_id": "4d0a00c33a4bf11228158baddd47c38f702731ea8d75ef1201061fc8bbd878b9"
+    },
+    {
+      "flow_id": "12c2a057e7d61d21c7a97584dada1b11d6c4c5839e2c1438230683badca4d42a",
+      "status": "admitted_partition",
+      "reason": "complete_exclusive_packet_partition_with_compatible_labels",
+      "binary_label": 1,
+      "reference_ids": [
+        "217be55c3d154a4743ff14983013e071f01ffc567db9a2836d1f6b760f5db1a9",
+        "95fc7e0c4e714a381ab2884a14f0635be00228ed73dbed491aacfe45d5b7255a",
+        "fa29e719072c35bfa61fe16c98a56e2e96789849d36681fbf6f7978d40e9ed23"
+      ],
+      "admitted_reference_ids": [
+        "217be55c3d154a4743ff14983013e071f01ffc567db9a2836d1f6b760f5db1a9",
+        "95fc7e0c4e714a381ab2884a14f0635be00228ed73dbed491aacfe45d5b7255a",
+        "fa29e719072c35bfa61fe16c98a56e2e96789849d36681fbf6f7978d40e9ed23"
+      ],
+      "references": [
+        {
+          "reference_id": "217be55c3d154a4743ff14983013e071f01ffc567db9a2836d1f6b760f5db1a9",
+          "uid": "CJ4kZO1ywwJo2JI9hj",
+          "source_line": 1844,
+          "label_original": "Malicious",
+          "detailed_label": "C&C-Torii"
+        },
+        {
+          "reference_id": "95fc7e0c4e714a381ab2884a14f0635be00228ed73dbed491aacfe45d5b7255a",
+          "uid": "CZIOiq4kCqrzOyTnr9",
+          "source_line": 1846,
+          "label_original": "Malicious",
+          "detailed_label": "C&C-Torii"
+        },
+        {
+          "reference_id": "fa29e719072c35bfa61fe16c98a56e2e96789849d36681fbf6f7978d40e9ed23",
+          "uid": "CsnYKr3Uz7O6PbCqe8",
+          "source_line": 1847,
+          "label_original": "Malicious",
+          "detailed_label": "C&C-Torii"
+        }
+      ],
+      "packet_frames": [
+        24804,
+        24805,
+        24806,
+        24807,
+        24808
+      ],
+      "flow_packet_count": 5,
+      "excluded_frames": [],
+      "reference_validation_states": {
+        "217be55c3d154a4743ff14983013e071f01ffc567db9a2836d1f6b760f5db1a9": "verified",
+        "95fc7e0c4e714a381ab2884a14f0635be00228ed73dbed491aacfe45d5b7255a": "verified",
+        "fa29e719072c35bfa61fe16c98a56e2e96789849d36681fbf6f7978d40e9ed23": "verified"
+      },
+      "baseline_status": "segmentation_mismatch",
+      "connection_group_id": "74a2cc1e2b3d5a7a0b22167f046dad8735850e5edd33a271d4529e93e0689ef5",
+      "capture_group_id": "4d0a00c33a4bf11228158baddd47c38f702731ea8d75ef1201061fc8bbd878b9"
+    }
+  ]
+}

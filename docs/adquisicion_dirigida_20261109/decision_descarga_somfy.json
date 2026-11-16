@@ -1,0 +1,59 @@
+{
+  "decided_at_utc": "2026-11-09T14:34:41.772050+00:00",
+  "resources": {
+    "ram_available_bytes": 11548983296,
+    "disk_free_bytes": 296704958464
+  },
+  "authorized_pair": [
+    {
+      "role": "pcap",
+      "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-7-1/Somfy-01/2019-07-03-15-15-47-first_start_somfy_gateway.pcap",
+      "checked_at_utc": "2026-11-09T14:34:41.071257+00:00",
+      "method": "HEAD",
+      "headers": {
+        "date": "Mon, 09 Nov 2026 14:34:41 GMT",
+        "server": "Apache/2.4.69",
+        "last-modified": "Tue, 09 Jul 2019 09:23:44 GMT",
+        "etag": "\"1ff419-58d3c1df98800\"",
+        "accept-ranges": "bytes",
+        "content-length": "2094105",
+        "content-type": "application/vnd.tcpdump.pcap"
+      },
+      "size_bytes": 2094105,
+      "body_bytes_downloaded": 0
+    },
+    {
+      "role": "labels",
+      "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-7-1/Somfy-01/bro/conn.log.labeled",
+      "checked_at_utc": "2026-11-09T14:34:41.772011+00:00",
+      "method": "HEAD",
+      "headers": {
+        "date": "Mon, 09 Nov 2026 14:34:41 GMT",
+        "server": "Apache/2.4.69",
+        "last-modified": "Thu, 05 Dec 2019 18:12:15 GMT",
+        "etag": "\"4668-598f8de73ddc0\"",
+        "accept-ranges": "bytes",
+        "content-length": "18024"
+      },
+      "size_bytes": 18024,
+      "body_bytes_downloaded": 0
+    }
+  ],
+  "configuration": {
+    "tcp_idle_seconds": 120.0,
+    "udp_idle_seconds": 30.0,
+    "active_timeout_seconds": 300.0,
+    "tshark_timeout_seconds": 120.0,
+    "max_packets": 1000000,
+    "max_active_flows": 50000,
+    "max_flows": 100000
+  },
+  "audit_max_bytes": 134217728,
+  "audit_max_frames": 1000000,
+  "reserved_not_requested": [
+    "Mirai 34-1",
+    "Amazon Echo 5-1"
+  ],
+  "previous_somfy_closed": false,
+  "source": "official IndividualScenarios snapshot; full Zenodo archive byte identity unverified"
+}

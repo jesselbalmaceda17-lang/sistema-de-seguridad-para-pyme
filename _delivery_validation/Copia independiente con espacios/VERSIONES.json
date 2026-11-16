@@ -1,0 +1,20 @@
+{
+  "delivery_id": "entrega-tecnica-20261109",
+  "target_os": "Windows 11 x64",
+  "observed_os": "Windows-11-10.0.26200-SP0",
+  "python_verified": "3.14.6",
+  "model_sha256": "58505ee89df22c4c223b66d5e7172388d5d1fad6b7d135fce800a2765b2029e9",
+  "input_features": 42,
+  "decision_rule": "predict",
+  "experimental_pcap_model_included": false,
+  "requirements": "requirements.txt",
+  "lock": "requirements-lock.txt",
+  "clean_install_verified_on_this_machine": false,
+  "clean_install_external_sources": [
+    "https://pypi.org/simple/",
+    "https://files.pythonhosted.org/"
+  ],
+  "another_physical_machine_verified": false,
+  "requires_original_development_folder": false,
+  "source_identification": "No Git repository; byte-identical runtime copies recorded by SHA-256."
+}

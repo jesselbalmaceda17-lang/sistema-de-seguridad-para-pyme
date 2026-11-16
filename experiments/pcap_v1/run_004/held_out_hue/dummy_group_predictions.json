@@ -1,0 +1,3592 @@
+[
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "00c343ba872dbd1712b9abe9972c50c858fc0a37d4037eec4ba282a0344eb16f",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "00f69c8b712c1670ec25f3274b5d13066548149b8b3fa9f638ecc14e09ee8af7",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "00f77f3043e6d58de5505e5a2901bdff75314ee3bb625ea025c23f40da3d93f5",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "01d2d843caddb02015c1b04fad67f4b69b8889908eab67891e59d2e74264aa08",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "02720a27232d84860294c25dc5914ebe104bb33bf75dee262fa9e1dceab29393",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "03d4a98d62c00043a489956c89d3330fa39fd05234ca6e2a1cdedeeddf052a3a",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "049f83db9bf20374af0e7b946610606aa5c9c48d116af2be3ab0cd72ea450ae1",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "04c77948bf614ad711b2120f5d24a872eee7c7e362a96e98d04ebb35f217489f",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "05a62dd1cc48a94c77f61233d8aeb313911fda2fbe7638ca4fbf680f03e459a9",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "0638e493bfcecec637d2aa84ac49ebdb35d3ea10c39f334921715928203ad59e",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "0659a21f8af754e33c33d24954a98d621e9d31ec5a7bad9c8875bc886b78fef2",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "06ee46629b7a4bb23ccdce873dfc01831ca7c6adc8cb437bca88d90c08c798c4",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "0788e93d26a36b35d162e0f2dbfbdb203d39f16ad53721d5d9f31d3fa3e4d0d9",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "08a5eef08372ef687c529a2d5fa6bded248c22969f298d1b918c8a288285da62",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "091b6664569e26b66b28131e76a1699f994f4261909a7bc94b1b651ae137c42a",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "09e6f571b80702c4e2885030ffe5751dcf3f1e8341d6eb71772b5d7936d26b66",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "0a222f1963236f5f4af34a62e663d732d0a3fe3b082639e043ea2cfbde931067",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "0a8ec3ed420603574c8edee518825e6cef9789609d90a38b28ca7df9fcd117df",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "0ab0f0f55e1813d9229f5e2cd332be19fe8c0de5322fffe40681d911be0ba102",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "0b593df8648e883e71b2ca2213dd684fcba73d582c782b555ca85907137a92d6",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "0d4efff372b108e16c8dab1097a4b6e1f86aeb531c3283d6e0fc7f6f870b8202",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "0e256bf31aadcddf294d72e4ef6bc16df3fafffaec70493108de5e0548b62cf2",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "0e9f2106ffaf925a743102d738bfd0718db148b87d1ea71aa3102ff7f57647a8",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "0e9fe93bcacc125137d83bf8901dcde6b6b4e898e0c326ab3679546c24e765bc",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "0f647057fc6e34e74e1104fabc9f39db8844c7175b9684b9e38147be6fd985df",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "0fd0bdec032efe5f557107ec5e577255bbdd5cda53e9915c107bd6b75217ab0f",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "102a20d4f1839a1e1ed26a4710771d1505e48344e41198dc89963cdfbbfc4449",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "106f7a512b5c7a12db01ddf118261ee2b345baf1968d455ba65cf7e403e4b6a0",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "10bb53bbe3e4ed92328c14cdca1434a823120f6fd5ba9127f8ae3ef659920535",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "10e17ebf3d24f516bc99c9e9ae36a503501fdf47d26917f93f8aa99ada35de37",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "12220c06cc80f0644b0c52d83d66b83bf159079af4ca840cb3a5a793bf326351",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "12af54c5bec68c800cce23a57263112b1d93e18e50f6aa8c0189da51dfda8230",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "13951dcc7a7f69cdbbd7a211e852014a7ca1f9b00a5f28a264174ba520c38404",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "150c6235942e404ded532ed9e73595ab6af64dd59d9fb27c5d60e03ab2854c03",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "16237f189f37c9b298797a568ba18a63b72a053b052cba2b5667c643a545e35f",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "165669ec3cf89aee47939a44ff1c4b135b462b1e3ffa43f618564d9c06ee9bf9",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "17803002fcd428049782143e46db22a1504ec6b29adf041d1731f1287b523631",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "17ed6acc46b7281f7cf262684714f91370148cea24fb0137194124f32d1c16a3",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "1917c621156e486517afead357b68cf9ce3dea6ccb4d103cc10346bd7e286756",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "197a93c9fe34e377716069298a26d25ad31132dc9eb791ab904f37e6b7d60654",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "19d68222af9a24d3222f176e3d641835a822656803520bb5c2ccc07a714bd465",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "19ee00e4a92c20ff88ed481b10e628cdb31a8f13aa27f46d2baa389779208781",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "1a06ba654544feb34ab9b8dd39262646b5faf640db19c40eb7cdc6aa3e4f6cfa",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "1af0d84ba1127971e9a1c79a2f2b1ce0f5be876ceab601255698162bbcaaf58a",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "1d0f95c03f1e3464c522628e87fe9565e3612ac6e7af4511222b1cfbb1f35979",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "1d545c5ba07d96e5b65c956b60d0d9afde74465d2e9c9f00bc62ea1d39c3cf72",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "1dcc814f721155a57680b7bd5c8d758fcd7bf8ac7fd4b67f75b62a7109f26786",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "1e08beee349a2145ef88039dcabae26728180900d556b44bc242f2ad099479c4",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "1ffe93fdfea8ab15b41ff25eb50a7d3d510311a16b5e3be869de8e3c18a5bfa0",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "206765a9d4382470f1ec8305fbb747abef2f796e26dd559bcd064ab21bbc4d1c",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "20c1c8ebf3e7df0ceb92738ab037529b79960f78b5e9cf2b186fe76308fdec77",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "21a92c46c0206ff35f123bb092d2cba9e0f6baab51d927aa02152391b0c55fa8",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "2260e7286f99c75b3e5ea3a23ae95bf6e92ab1580f8ae00fbef9412f52e9d8fb",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "22e98a211b5f9c9c6c9abe03854bb9a2d454913c48d5b0b86d234d49ed96b577",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "230e802464306c9960379740d41565f5a94db3bdfd116394917315420a9e593f",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "23ef7be427f9bb7aa4e5d5c3cbaf8bb9599fb3e20692a679ce8c2d4030e5ad85",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "247f082f22564f69ca37f07c0bfb397e772fceb5f744cb9f60e8d51b5ee6cfef",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "2482c95f46c0e9b798f58260fbfe95ef1e00780328dcbdc771ee2a924750d4d5",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "2535217592cf064af264cfa35ab8a6fe632d5075054e039f765fb7fd5e2e958d",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "25a015c01ee76fd1a07cdadd1b87a8e8cbf87921602e8158ec4818f4557d8077",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "2609f9d018207d793050177a5c720c197633d0ee7577aca155a4841ca0e332e5",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 4
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "270795790b4fbf92a6abd5dd373ac939988bcc2dcc5701e397267cb422891391",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "286bda8793c759ae215244babbaf146240cb9d89c7b3c6409a0d62422f757ad9",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "28928ea358373943d01b258335c6b27116969a0ea2277634b103dd3ad468b25d",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "29063b1bd3d5c432eb7b37c973170e5ff581c023ed07cd914fe95f09b98c68b6",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "29181f6639b12682e3612396af137e9affd4fe2d3ba14b4aef759d2caf0636c0",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "2b261f49b9d56ec3ea2d84d331ca04144ba10ecfa42ab47282db2595d4337127",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "2b3449f32f5767f3f5438dac4247a9b7851b09c2589e27fd79316a5568d21b60",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "2b5e7748fd36fbbbc54ac6661b5808d4288ae6ed8554dd56b36b0e8a5328b6c6",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "2cb75f61e0b971243fee0152bf783a4f906c06ded6658930fc3f1bf60b0e5f12",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "2d6e06d5b769b3861980ab0242e33c21ac9540e4eb66080115afc414c0d0a474",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "2dc39e6894290461b1e7158e4c819eba21a50d885b809e228a88600e2ec327f7",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "2dfb3901fb945ee3e6803910acd246669dc3bf0a6a88bbbd5382489ce6ac04f8",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "2e07f70f3b8ce0f2b968b7d46b26237faae4fc89bdf73368e78dc6adeb115c63",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "2fbc45e2c04703deeb43e2055eb525f216f9534e624b8d2eb483d5fbeaf3fa02",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "30f8824c8421c86ab57efd0a56c66644397022bd2aca4576010db4450ff24f0a",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "3203d8458710858c58f4e687e1876a65cd8c6ac38d4427d5b78446b55d5a38a6",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "3260c7fcee433f953bce456503ea620a94c845a4e401691dd2738e655530d037",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "32a4b89c89b713fb590ce8e611a6f17880fc28b079b54cfd8ef8f411814c781c",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "32ab3abde453243456cf55dc8ff63acf821b0330cffa504cb65b06e7c550071e",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "32f400ee27bd7113732e97150d5ef9049812f4b0f3a43ee8b0673c07a5fcf41b",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "335c24c782a6a47f84fe8649ec14d68072954c7b3c04be3259adbc74d10e98ab",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "3479ee1609756ec770d637dfc7acea69fc5c6c6d3424e84626e37b1ec3c3d4cf",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "34d7d44e3cdf055681c345487749c6dffb5142ec44677391dd331bde342f79ae",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "3508e9d1b2d9b5fe6f267d3d47d5d62118b7ed8e4edb4d39b31b03188ea4c780",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "35a02596e7165b6f2673727ed5495e56050ff76863ae78fb255ed78b8f3c1454",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "367c8b278a8b0d60db9daca0449109c8c2fbe0f5c386cd8aa3b2a2d79317c6d0",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "36f73e59b87410fb5dcbeff158bf8e88338654b93f8bd973613ac645aefe9603",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "3728c1f97805ca2f6db1e3a8d76bf542310f88662e6a9eedacaca18920d14b76",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "3754ed03fa1295b74d1079ca72f680aeff0cfe4ee48be0b8f4d8cccd89ae9ce5",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "37de4c76a71b5c0ac71992f8df331820cab50ca8ccfe1ce6a31a3d19c58c02ee",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "3845bc54adf69ead4f77d2ff7f3f5a8dda549d5722edb3e46e5b4f63a0fb05d2",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "38b2d70ade01fb7a10bba43e1d26cf4ce4cb63325ee06bdeba1f4b856eb8283f",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "391363640ac52699b55c59b8754080a95d2f74be63cd3c7a3dfdb22a6f9f5531",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "3929d431b5a4ccc5477e1a23b03147eab5264f2720cea9594f996b4b1fa20c2b",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "3ac8e42142db31e8783d301c1149b362d27907e5ec28ab69068996e9c91a698a",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "3b3243a02db76e5d164719aa9a4cff68ff3d34897f2a11bfe1e8856d49fa8609",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "3b71c614f1c8654a229e6ae967a0e0e3dfbb7c0d7abbf83c943b739fe9b091b9",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "3bff1b3d0c402b2726f737e478d6f32d7d83c62dc758220b0626ad3803d525b1",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "3d843fcf23e53f2203e3d29effebcbca92a19ec191650b47dd3ca44ad059682d",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "3e82188e489f0ce58cd6e2c5c25d985b59a3bebed90d7c31c0c86b9b0859495c",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "3fe321708e9663506586263969b2a3c82ad40ef9b4c8c3a892e5ea39f964b0fb",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "4109b46d218917d47ee214aa6698356bab3b165763c85be9657b41f59a901c58",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "416d6f75faaaecf781ce9f1d8772654dd23f82be617446deb2d5b508774406b5",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "41930502bbb93737b4eeee6179b04fae5048bb4613308090f0bc0ab905692e8e",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "419d097c6f250f9cfeecdf347cc138a9ead24cfc480be8a2d7b8fcaf7f2541fe",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "43ceb1aede8b15e5de318c7321bc8ac961ad4277d5647b135cca0448fccbb475",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "44fdc5af42024e9cacb450640e63ceee0b74f994eae32718e41c574b58697a0d",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "45084c1ef84c5d46c65af204143cd0a543555780ab078f89adbc8c8f16d29283",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "455d22956a1fc9b2546fb8c40919eced03f2b2b7ff5e2edcbcdd4bc8dd05ef79",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "45efbe46baa007c62e727cd0bd7563537f3b8b32cced3095f3b1c8feb253f8a9",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "46b9cded6a67b528f2aaf28870138e2e0f275d6fbb707161426311f6db726de3",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "46c2a195021d45591e7847efc3f0fc27c497602baed9586460abce948e1db855",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "482b9f68d516fe05a44166a04ca87252a31957ef0deb6520456b90b9bbc63db9",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "486504cf3273efa48abe457062f73378083947bbf513b35e9f50f2f3c24b2dbf",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "49826881c1d80a6426a6f885d7661cd2a80af1cbb0d9eee4fbb5a9442ef98e27",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "4a362399a60016a2ab43fca4a944149fa4065aba10edb1c088fce70d1ccda2e5",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "4aec4df8ec102bd77946d3f1f0b22382a69589fd7a88f116e7c280771398db90",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "4b2d0fbdaae2ace4e4a17441d5d0aa9e46558131aa9dc31dfca3f738675ed13a",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "4c35b1f3a9c7a4c524e0abaeff7c400a0720b338c5ef727b78395e4ba9867974",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "4c4f61be08327636060b50a3cddecc63d1366674cb6793f76539cba250681cec",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "4e19a960f329fb20eae348f34009434cfeb27b251426c6a53ba22f9a44fcbdf8",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "4e1f50237cd322544523d6fd5f1e47dfc3435766ad8700c52f429b1cc78f09f3",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "4eff6e7f7721187a875c0faeaeebd35dd5e14d557b58812bdd3f39407e2f9bc7",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "4f8ef68cd745b80de630ef5e6b8f2a43e26f8e54c9051dc26111ac33cc1cb21f",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "4fb4cbf072a61d75e457b90e073373ef9087b51a1eead2fd30422e33dde5d77a",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "4fe58f5f3faad9b3444bf6acfac4eaa70a2acde813a1638ab46ddea18951c756",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "504d53fb712bde228a60d506f10ca2d44750b02ffe5860ed3b10939cac67fa2f",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 2
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "509a54a93f05d845092756f8ba2c4c54551b31b830a03d4ece18eb68e8020a6e",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "5178f7fbeb719f6f68ac29e2345288c55ccecda5f1f0b4154415aa07fdfa1431",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "5182c85298a5a6decba7d8c1df5bda3d64191950200d26aedc26f9d5738e4730",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "51eaca945713235c7c95a5df4e8da940f3a68c9cd9e73f676d0d35a450e39a6e",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "52e20bdac63cebc6c8fac57a1baafafb45358435e7e68de86bf3544187ba10ae",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "54b48f1e091c842a883014a8e382e77e7a244d47a41a8e489891e38a0121d956",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1354
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "5557ad88ddd6091e325fbcb423234afbb1b13b7e2182c4c937b52d859c99ea02",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "56ebf8d1ee9c1d9f7e2715a19682dc04d43d78fb202fd9d145e1e3264e2d3442",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "573860262427523ae4f77a9ae5dee3656e242a3457a19243318f0e6b8c212c8e",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "57609587ea23c8db21ec7bea414d8258e348341736aaf307b7087d5b05f3becd",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "5813ae1329949486794feb3430f369abc62bd8cfc09e2c386ab1a51f33ac20a7",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "585305ef32622b641b596977c10b70ea4ec454966d1727a74c6652017b943c96",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "5903276803fd35f9f980bdf0ff7042b6bf0b58eafdf44697be2401350e4e1847",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "5a5557d0328f9e5021d1623e10e209435b52ef071e36584b5ecec7792fa3794c",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "5b53b1ae6da7102b9409b597f8a8fcdb36a5189df70a94c87f7cfe20d13653f8",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "5b8c00397049cf3f4d6525bd1362346f2ddef805f315252596c2bae22e600fb6",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "5be1a60d1252a264f584ed5da4cbe0813df2f51940cf31e6dcfbc142f8734d16",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "5bf32dc8d7e2b1aad18ab85e923169b6524d7ff6f8cfdf880046604b5437bfa3",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "5c8cc8c203211724910d359180b40a0f6a7b03c6dc2f968e7bf91ebdb93d6381",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "5ccaf03102eb0e827b064529f8a07100c82db500849d239d1801565a62f35680",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "5d574fb84ee28425cb5b923574c2462c35bbc01cccd527bb8e1ffad2c6ec6424",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "5df1977bad7f538a0975a74c622e815c0a287ea2d8193a907edd8d069c815cb5",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "5f95c37d2419117e1e5df9c868d7336dcac1121ee21dcdbaf3fbd17fd5a34bd5",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "5fb382980c3507576299f49a8afa1b88a1b12dc627bd5f2359c8bfadff94fdcf",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "60ca0f9891b0ce3325bad5c3914f42893b408cd0f845c8ca38e0b66e9c5fdd48",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "62138a81d73b2f425de8fa6d91f4911ebaab88c8b470dd1ea73719c09f8bce9b",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "624a84986d70ae240a96d30d58d267cb94ce02b8be581bd3986414118a948322",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 20
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "63436cd808d918bdd6428a6bb3c429410272b0bcd86d5a48604fcc212b7e010d",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "639e88453cff3cc39aced40a2d9badf26ec1503302793b32ab52fbdef1c28e9c",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "643f055b23e3e0c41b3d5c82c6400ad0006ade85a3a9c6be2116ea149b9e7643",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "64559e1cbf34517694b82ced8821187621139943484f61cbde0ed5405195ac2e",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "65091a83637e41a93031d079e5491f374292fc0b3dd956389fdaa4d67950773c",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "65efe60ec2d8785dc52abd5072400d1f43c534709c8ec6de07615be0db5bab20",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "66519f5ed1a57c03b26d18c24d6755f371b2513d1a727c4cd3bbdad8cde5d5d2",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "6729fb72882181fe8ff6bff718ba91e2ac6fb0c849516ab4e05c3214a1363342",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "67abccadcbd48e2056a503da059de3dd269d8a2688e39c2cbf9c0576ac613384",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "6806df46c25172e2e5bc77a96b9251cf7c95bbe3c630a4bcab587ba61eed4f16",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "68087e953ef734ef881bb5a04b0fb0cdf8011358e47de102b899f8c81de6dee7",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "6a0bfd8b8231abb962ee1fa4c79071bde097eebe9f48d625954997661e38bc43",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "6a478423f2ce8db83a1e9aeaeaad1c4e5099d619d8b5cefa98028f3e1e365e73",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "6be189967f94e8fd7cd9b32b49f57eaefd4b18815a26b437a2314e42f6a7d9fc",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "6d8b9991de51d0c48013ec1dd5dcecd9efbf891458a583425799aed57454eb02",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "6f6b0defbd8011da71291f19e236dca1a44b90474644a4893852f17e3af0b732",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "6f9c9d775553fee76d1b1573683540a2b8c8eadfe671eb83e948c4efdd447efe",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "6fb89cf4f4baa97a5465438be00b259d4f71dac9189c7d79f8335abb0f8c6db3",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "701bb19fa2ca0a67f7770db0619431451830a8953e78d05f3c324f21b33efc64",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "704034eeedea24f5fc065d6f8ee6d8a7710ac6220a9acd31fff1c9edc94a658d",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "72026291dc6a558f275795b2969bcbf4853415e6332dd1e4771012ebc586e402",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "723e77b245131b24e410bb82d2e0c8865d2aad7706dd5bddab09e04c25eaabd2",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "72bbaa15a1c0d930626c99ae3de1090d90b54af215c5c7ef6d0f556077a73230",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "73b1d3a6d7d0e5b17c47d2fe03408bbf54b2599cf9d8ac350ef3e576b905f856",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "7499e241be09832b21d2901f9467b2f4e924fb3286a342f187eebfa3944acd21",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "75d7ec00bc746deee50a05002ed3a734006285d2929b3a565cc46bf1e1d01e96",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "76c0ee14a5376943afb721779c6b8f21b11a1dac474c8d981b441840b77ea2e6",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 3
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "77521b73d26774e07a440f9cad3afecbe0d82aeeff62cddcf74c844399ccd78a",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "7797df369e27f990cb29ede373c6a3baca53e55be0150e1b49bbc3f3fb29ceaf",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "7a8b9f41a6a34e616266785a9b5a9ab4c0f229b931a3315990370dd73e4b6dbd",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "7b3108a58ac8c7178195c1058770a05cb3acc72921b009e8522dae3f5f14b8ce",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "7de10bb7ceb652837941427650f38b5e29fbcd969d969bd9951bd261caef0b64",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "7ef8e4a06d462d80c7a8d6ff3a2ebbc587638718b55826208538541c9e964a99",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "7f61354f2269efed4e8e01a0f6a1e53b9c2c90ed924b03ac5e88a6c77227f408",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "7f9433691944d04b551a55f61d702e4a2cfd18e995cbea3679389f2eff4a558f",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "815a68d68a1cc8c04b7e5d85f89108afdc6680983ad3eb5803f7cc7b63a2321c",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "815a6ea860a270b6caa59bc97ffd0f761acdc4245da83869663a93dcc33fd470",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "82867d3037a5a1e1528a866011a456b39fda90dbb3f2b50be09a74f7fa9329aa",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "82d49478977379151922578fcf8ba6e365a339aa16a869ebf446de1a6cf8c7af",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "83cfd4cb7fea2318f1e6312cca90cb4aa791e8c90e9cef732b06f898541c8a65",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 2
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "842e44953c6c5e8892f9c83d7e5b8d6af1e80595b5e2331987d617a03479d96c",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "84d8d035fd85d3a0f3662cb91b1bb90b812ef819a89cc647699110eb67ee2fc8",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "85002ba5280ede6e4bf8f8f22cada272963c366fc68d9e740192d7914f9213a8",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "850ce56a13c2a23abf850eef4c9f68fbaab7eae1a50c1710faf8f71d61113e6f",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 31
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "85559b90fe7c43c782f15c0d48b1b66189325221eb264e80dd7c6652696b5669",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "8595fba7242c0e64da807fe9fd56a9d4c3b26cf16ce1637168cca55b5af87e56",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "859e7c900f0c82f41a8b6c1b9d356e8ad8e25e1c4ffd2fe1bb337f6d32a69c36",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "86071aac7e3c947228b2556625b1ae3a388e8b58e1abc8d54ec9fc227c868256",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "881c82461ba804670ebfc3649d621777ed3cb7d9f948923e0827bc214145b8dd",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "888a35813a2ec29400376a9e43366f2107f06691c895976f13bccd6802d5a001",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "891181fe54a3870567aa79da469d11722e4af1ac2ee4c191e98507584ef74935",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "8bce66c9ef801072284c24ec2e41d21f49afdac53ce2fb2d2c29014701e6d9a9",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "8cd5838ca633cb3bb8d9662856a82a33601333ea2efe30e13ec88e025381ca1b",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 15
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "8d6bd26976af0e9e83bc385722c068cf60854bfdfe64b14de808be2230d76f1b",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "8f2e1bca4bab0283e0132498320495b9753f8c12c956d5b954658452d605d14f",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "8fb74f78511b56cb7ccb53bd79678581e5bdeaf20ca4afed12efd939c31e078f",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "908c1bf0904a3e372cf4725a852b4210f6c6e0f9d9cc797f3c258c6dc4950fa5",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "92b770efa376b375d4ad1726a4fb3a3d1c7b14527b64917bc7117cd6691f4e2a",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "9352ebe0e538ccc8ca50ba17b4706e9e8f45718158939325fb9c81fcbefb834b",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "9725be2c1d08823f293283ac905678de42ac4cfc9a41731cf6d7193fb9525a45",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "972e7e10e8228b3017f4e4b1f8d9589a216f2d1e2589d465da66d46c02fec3bf",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 2
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "9753b4b48f86312f9d0e575ffd48692421900cd1d0b3403c21926d38d26b5fad",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "97b74b37c567b67c7c1be4dc2b087b76157a46200e00a7967f50982b45f7716c",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "994f133a464f7ad097809940706239158c83d4127d7dc3a983b6a875cf0e205a",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "9a192ae36b49e8575e7a1caf842bca95035759209894fe6c1052935e908d3900",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "9b1c03e228b6f66aa7d5933b4612a96840b24606aaf48f96c9390145b9611cf2",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "9c97815ae16607b17075442d6070f6984625158feee2b90c02992df4e69e07f2",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "9ceb52aa7a3af880ae6671ad061dbfefefd4a888c914264be1fc17a3496d4e60",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "9d1319efdbe6e1b79091a40a1564d2b7a72674e5a867b5b94e9c2ce23432dc6c",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "9d401c0c7ca2dd45daf73f8337dea5c8497902480893023f37d233f0084b03ed",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "9d61910622b315cc7d9702716f1563918c3328eeaa92b42175558d244162293a",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "9d86fde4286754d3a778667df6720bf1802fd425eebe552ce7f05c981447e2a4",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "9d9484efb44f0c46acbd5e3445f0bef9ccd1b433ae466c9d6fae860c3d19e113",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "9fa1fd391ae5235ecd0e26f1112d64a5d941ada7c7421c3f55a496959baa7aa5",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "a0d036e80ae91eaaabc1179e4ae161fb4c11495c0aebf2244420af082c297e31",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "a10e4c50c3a42a802b31e43b41500d4450966b97d43c1a2a7991417326e9e677",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "a1a76908a156912461a97557cd2236fb94cc8392cf634c9556997c7b12fe9b5d",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "a206287b504ccae11c4121714c2d384a158c89f57ded51e3cceacb503e9c4b39",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "a2ea08e161f15a2222eb488b8cc8bb1b398a029c38d6095b441bc88b79a2d0f9",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "a31a831fdb4cdd9d65e45144768ccad39534e10e905a31ce4c43b55847546960",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "a3fe6518cdab158d1c3313a42b6df9e84aa51ecb36088d58d9a722eec5935ef6",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "a4d3b48bea80280c1ada2a2807cc7d9fd7d7fc46fea2cf434a3c38008627eb75",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "a4da62aeea995b34becb53cf8927c26194c5b07a26ebb592ec843b78360f7dca",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "a5662fb93033cc8097962e73c823c787b2da819ec0e9b9ae5f8c7f86e30c3be0",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "a60df7b21b4a7df07ce40bb19f6e7be6c0ce1638faabf66e895508a7bb7cc3b3",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "a765f1a164db623bfa3ceed51582dcc6cd9bcc00665aaa436afba526bba61967",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "a7e6f2b86334fcbaa05583bbb71ce116c49ce37e1ef034fdd54955f39b664523",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "a96c60697a2f13f55f91f6d356eca047eb8853d01e440ec221f4b3df2177b897",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "a9ec3e2fe91e78a362e3d6cf9df5bc62baee579b044e7cd855276ef62629304c",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "aa2d144b336f5b073e5eedd3f75381314c565b9e3a4410bedcd4827cab257217",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "abb574c66c52c880acc37ea5c6affcef0ce2cccb5b60f10b110813d2aa4e3c10",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "abd78f97ac05a4f8dc865d85a335661a7ef385dae873dcc893df9078d10e2307",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "ac19f1f7a3fb015139d45d9b2cd92cd74263a9036f8ebc49a91d1db3b9fe57e1",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "ac20d2d0104cea3460610642a04266f20b5f97955feaf1eef86602c52a5d3943",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "ac3a7525198f1de9d4faf28ff399e4608417035ba39dd372a3231174011bde22",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "ae0d6d749877a65c6981db5042284a3576833be515502dd710e2286e1df089a8",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "aeeb4f83d6b32529062dde1b25be68a61967256d074da0630c08afe7508fac1a",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "af57877d38aa22a3d5d24ad8610c02f4a24f023f7ab7d27bcb2b6906aacc13c7",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "af59b4a0e695ffe24c729fe9df1ed5f7318b33927e44ae39137d728efda23f3b",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "af78a50b27da021dede006431e846d6a316d2087ce14157697718b90d9ad3934",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "affe94aa0c822f563b5758cde6a1db821ac09f927042e39d5f7a0621133088f2",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 254
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "b04c413041b40d9bb1aee16c65d6f0992d62ef9b3d3b3eed53423a89c9b19222",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "b15d93ec11a6c3bca7e8bfd8f69023af816cb58440b0624bf0a19dbd16008d6b",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "b1e2d84592d76be5cdb8138f12d537d0db2436a05b09fbb3eed48d50839817d0",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "b29c3624719189ca6866dfa51744c262e611491b316d92600421065cf929fd8e",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "b2ca32bb9d074cf4d35c0f5a6e57ef79d6ee6348c0f40dcefc6ff4983fd7ac0f",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "b33747393918b4c072f9b8d815e35e1f976719a2f7575296af0b35d33a44d375",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "b337c93a81a19295a8c12b29bf063d08116d155e9bd5eabfae0bb2faefbe248b",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "b3b7edf4ff525cc622ed7f65c124ca3e67147bb7ed797329d16af3a96196b210",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "b4a74b3d21da333fa3a3ae0868e3128e86b3f74d182016ea2b62b024f18e7181",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "b541bb24112ccad29ca3d62b596819fe49502f7a9d6a50056b3766d61dc298fb",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "b571c3071669dbf4cd6d0dde25176c2bd2e0dbe4340b4a6a685058fb423c7fee",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "b78c7c660a7f7885ddbb0bd823bda10875ad5e488d1528550fd1f585ec9fb231",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "b7b23960534d0b0fa510a295c4733b069ce0a6dba3fc9e37cf1020d9b1290566",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "b845473b993c29a3db7283ee032f757f9cfb285f06d77ae541bf0adaed5f3df4",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "b91ab0181f0c6e0b5e708354b89acde1f94dc736608a3092a39e1364f88069b4",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "b93c24a5488a5e04d9cf17c1cee90053e167e6a80e4d01074b1f84c56046aa58",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "ba8d962b3077bbab9bdc4f6becabdbad069dd065c4f6f409a7b22cfea451b50d",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "ba9ac3347d447c1eaa6a7dfa6b8ba2cd5a6e9134c751e2733099add2abbf422b",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 32
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "bb4cf874edff5ad124202c1d186cbb4ccc6c31026a1c456b55d2cb6e02236efb",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "bda2c1ac440be4a66095b4abcf418b88a15ee7e578ff4a7531164112334e216c",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 7
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "c0992a3de365469b0170c046031a013495d072a7a0fb6dc9ce17436c14c91320",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "c12ae4dadb821bdbd128f827513d6aeb1ccd2d6efe68b624ea4c1dce4882f4cc",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "c13dd0b509b60b34e7884f0c5004d8b917cefee65411c936f01803c01ca0f7d6",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "c16a81357dc5835b4e7df2c5ea3b387047a8154ea44701b29295ab4428075b10",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "c1e83748fcb1dc1f538b36f5fd5c430e7845fa516b5718424613be8fc57893af",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "c1ef9e0b01f6d09effcc5380cb3f90a48830e9937ee2ae7ea30525b292330b3b",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "c1f7046a5c412ee85249ba3ec565252b327bf41ca7f32025faa55564718b41fd",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "c287aae445b905253fb098e7939cd624fbd5038d55fea6b06bbf3a9be8a0d675",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "c30a36147799445d50da94fd6a68af6d79ee9adf68b7e3bb4e30dddaf4b55d16",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "c36fe94484ed688efe23add3fed12049a3e60ddbf21904c6998282289cac0227",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "c3f6e8269935e2a74b83c6ff4d7c294940845e46dc7dbcc709214b690cf69cb3",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "c47439987b461786876ab84f381bacda741fa874a815af6f0946d25f0499a477",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "c6d46e068624af8b1c18c90e58ee332b3411a1328cb4f71987f859854450044f",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "c6ff5d8e30ea6dfc6f91872afa8738b763e4d93ce90580db8bc9c05fac4741bb",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "c88b244f4b7b3baafc6808019c3032c35d1b0d6fb69f4465c52ab870f9fad87d",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "c8d1f11ef0b5c91832972be802b483e2f27f79c7b8c8c329fbd96cd26f1a57b4",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "c9c04e9b9e8d5c1553b2a4e6c1c33773a2feab656ea1973a093c8981342cbff9",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 8
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "c9d25f1550f12c06f681276616807ba6da6eee9e64838f2d4ed8cc3510ca6c6b",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "ca0512a04cb695e1328a37fd684a201e766e198f4708ff6b7f0698876959c29c",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "cb8366a1cb17a0907ac70e2622b8300d08e37e67d64684e1ee16597a714a3167",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "ccde9b942ad0ef2879c74520f1842c3f94d42fa7ea799b6671be2d869d48c5b3",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "cd030c9516871cd2a5a9ef429615de1ad887d39ba0e447d74842ebbc65f0a555",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "cda5e7826aeaa8bb67c94b6dc887b1944c776de82cead37fe1888c33d0569e72",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "cec2b5546ff29277ec73eb2a6c3112ae2819929bea8e67b0f879af5de8a4ac4a",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "cfca2bbe1b94cfbcc6f9b9a96f440d3fea8d0d8361da3efa8e2d65538159e075",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "cfcb6acd84608a171cf1ea870ffe060c32c8175afc6da287dbdd93bee36e8bde",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "d0131f2ee548c29c2c267cbf8abc8b79e9af291cc758754379cd85923e01b07e",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "d15af8c41cd0cbdb6f7020c2a497e255e14af84eba243f35b93c80f230709c95",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "d2d8aec6ef0b3327520c868bcafc97d52d4006ed4170b804a2117db539122036",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "d41b6774272a05e7a8179406b8bde5ff31cc4f3229972226bbccd19290d92b47",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "d4d855cff072dd3c0624357b310a568de05c089f8199c7c711b4f63673d91e84",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "d5bf6d3315c5d2b0729674e4cf9865663c90208c8d29f07bfea687fab3dfe1a3",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "d62643fd798df97cde2548dacc6aa6a9d55e7530191a08ada2771330db4f04a8",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "d6a4ee4a53d3446d654b706fa3bf3e6eeea2878b40bc34eaaa4d3b3e158645cc",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "d7e1f391708c894abd542219844a01b1588dda71ac66ee4de320ee1838ec4b99",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "d83a1018350db85717540ad16b5916c898a62ecb3e9be50b37207d4c647209a8",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "d877a97676a52d7d5208bc391d93a04909b0de72bfe101ad1a31877124d503ed",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "d90d2a993a892723f4436063d3c07556e3fb1d4506a23dce373a2ca3a68b0cea",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "d99861fce1c33c6a468da75c12089eadc02eb99b2694ab443fac1569865cade5",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "da5b013a760323a8984254901ffab90e7f07547f45cd4acb8eb3bf2db4bef2b1",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 28
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "da6942a783616a44a51739c2f46e0b68bfc5c2dacbea0bda92568ac11d8430f2",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "db24810fc053bea8b4bb181c4c53e77847e878f0db4cd3aebe4705568ec7b478",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "db3292b255319990f3c00f0982ac07873ca41a878824d84f4b85601f528288ed",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "dbfb0aa4e6713ffc1ae87682ab4fa517d682e02b218a1740b4d2d0425a1a2f40",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "dc5f0ad1372c58e9516f324c7277704f1b21ff4e925d86972b6046d4b21c1136",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "e103f62bd9708e449342bf81f91e8d20dbd7a5748af041549c838038fd2097f9",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "e23bb643b51308c87cc05fa3d5d4866f6fbd93344ee6d999bbdb8038dc507f7f",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "e2f858bfdfa064e3069c9bfb3d6e9822b7d431ba8614649b4bfcbf1d51c83473",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "e30016a581b87d7124949859adc024a9964a8eec3ae924480619939622b59384",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "e3133b505cbe85953dcccd7ae725a7fdb9c9ae917076a27078cda0ea9fe096e8",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "e3709ef5351e0024cd2fee097e177beb6c594f37975f72b28567120f5a355673",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "e3fdabb5de168dc6a38a4beb139ced8b624cb918352c7daf7082d6c5592658d5",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "e5c170074878a54c35c8780afae7b0e084b845176a107eaa9c52e84310981b3a",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "e5c5e0766e1bf226f672238b24fd8147ed6e27bed7ec9c071b7409f26eceb99a",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "e77bbb8d9e621a8edd244db6931386d54d494337aef53aefd7bf744582c16f17",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "e84f8f38eeb33875615df01565915c61192c166b6452ada7c72e04ac789c0e7b",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "e854d5ec7d4ae5415e3655841eca534346f10f50e5f22c35e1245a07f136796c",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "e8e4096022a8e5533646f9a6be78b30612217168afa4091efced59a69c8a0d68",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "e95587e066f290a27fbfbc1c9c1cb04f524972fe457c4a28218e8e74da714d89",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "e99992d5816d0c75a6673d5f5680e45e08ccafd5086dcbc4dc74c6aa4f522f67",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "e99a1aecddf9ac525bc3262afe751963efd37c15ef58c7b273f36d778944f42d",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "eb112b29355711b2df798fe781bfa9d631d2839ee10bdf22825525e768585de9",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "ecb235806ea1b15edfc815a71da7c1cd877c2fea85fa7d01a8f318da14ed8830",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "ef40b7353e4235b7eae1612df683a2a4a2ec80b3a482b18b1c1041d1bd008fbe",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "ef497819fa337bff76fbdd5ec25727ab13d75fd06a2946cb81297c4374c341ea",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "ef612481b1cf71f58654fdecc1889de6965dc124cb8ebac1a4bde780fcb08bcf",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "f0242da5b2a5f9b63ebc7a83756182af1c50e9de891dc2111ef2bdb7b1845b24",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "f199739a708493ae11388729c31dd8fb23328fba5df3ae4ed2503fe7f832fad5",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "f1e9388a251a8d039980c7e7573d3ce72e7c4b2f3c304f094ac7c16369f7876a",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "f46635e16436ecc1f1e2118908005a7bea5d7039205cc0f6ed9e874f61cc2823",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "f56db56d31e56817235fd1f4a80ed1bfe7a259ba31a7ab3fbf80b22c60d9fe76",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "f724d6f542d195265310561034220c81fa7360635a6e521324f872328f26690e",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "f7f20c5db26ad969711cfea6a151677af3482f9e0e9e4d04355c2f6b5f82ce85",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "tcp_other",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "f7fc175bbaa6882f905b285caa753b98d4c120a0023f4bf220ea7b7b6a8efab6",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "tcp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "f98f5985130be7ba396a8628d7ba4cc5e1237b281136ffbd75a47f0a854af031",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "faadbd046898eb402f121ea1ead7d4e26ca9ad14399e873dda68b2a5c58d1fd5",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "fbbed23ff6b3203386063c024d4267583b4cd259dee0bf8be115a879bb0e285a",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "fbe7bb90172dfd2c9151423ec6171dce497b572443008aace61a60934f48381c",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "fcdeac645e247e6023c3fc26a2e3e91b32a6b4ededa60df3739341817e67063e",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "fd47bfc1b7cfaeab1c6f685c1663b95d5fa4775a5c130d283bb977766064d79c",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "fe70fd9db86ab4e004405429ba06fa67399c1d387e80edd306e95148b45a66b7",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "ff5c3120c916c140561b0cb39cae38eaca5c2074432e1e214f11ca5af1be7bc1",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  },
+  {
+    "behavior": "udp",
+    "binary_label": 0,
+    "capture": "hue",
+    "connection_group_id": "ff94ee636785851698ab753e3b92783998bc8d47f065ce454de2d55abaef84c2",
+    "prediction": 0,
+    "probability_malicious": 0.27733691997310655,
+    "protocol": "udp",
+    "segments": 1
+  }
+]

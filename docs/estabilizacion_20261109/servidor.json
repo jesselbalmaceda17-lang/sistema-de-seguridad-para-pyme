@@ -1,0 +1,7 @@
+{
+  "pid": 5284,
+  "url": "http://127.0.0.1:8517",
+  "database_path": "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\estabilizacion_20261109\\browser_history.sqlite3",
+  "bind": "127.0.0.1",
+  "command": "python -B -m streamlit run app.py --server.address 127.0.0.1 --server.port 8517 --server.headless true --browser.gatherUsageStats false"
+}

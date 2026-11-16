@@ -1,0 +1,52 @@
+{
+  "state": {
+    "status": "failed",
+    "session_id": "33367eea11cb4d73a0a51c9434fb4099",
+    "interface": "Adapter for loopback traffic capture",
+    "reason": "Cierre forzado; captura posiblemente incompleta.",
+    "errors": [],
+    "packets_seen": 12,
+    "packets_accepted": 12,
+    "packets_rejected": 0,
+    "connections_observed": 1,
+    "flows_closed": 1,
+    "flows_persisted": 1,
+    "alerts_generated": 1,
+    "alerts_persisted": 1,
+    "capture_rss_peak": 136282112,
+    "partial": true,
+    "forced_stop": true,
+    "source_kind": "live",
+    "recent_flows": [
+      {
+        "protocolo": "udp",
+        "origen": "127.0.0.1:55757",
+        "destino": "127.0.0.1:60124",
+        "paquetes": 12,
+        "cierre": "monitor_partial"
+      }
+    ],
+    "pid": 12604,
+    "rejections": {},
+    "active_flows": 0,
+    "elapsed_seconds": 7.34,
+    "storage_bytes": 44443,
+    "diagnostics": "Capturing on 'Adapter for loopback traffic capture'\n"
+  },
+  "alerts": [
+    {
+      "event_id": "17de8fa62d935f439449508ee7826df3cff1dae3edb307a8956aa32dd10838c9",
+      "session_id": "33367eea11cb4d73a0a51c9434fb4099",
+      "detector": "transparent_rules_v1",
+      "rule": "ipv4_volume",
+      "source": "127.0.0.1",
+      "severity": "baja",
+      "detected_at": "2026-11-09T17:09:23.737876+00:00",
+      "message": "El volumen IPv4 observado desde este origen super\u00f3 el umbral; un volumen alto puede ser leg\u00edtimo. Requiere revisi\u00f3n; no confirma un ataque.",
+      "evidence_json": "{\"event_id\": \"17de8fa62d935f439449508ee7826df3cff1dae3edb307a8956aa32dd10838c9\", \"session_id\": \"33367eea11cb4d73a0a51c9434fb4099\", \"detector\": \"transparent_rules_v1\", \"rule\": \"ipv4_volume\", \"source\": \"127.0.0.1\", \"severity\": \"baja\", \"detected_at\": \"2026-11-09T17:09:23.737876+00:00\", \"window_start_ns\": \"1794244133737876300\", \"window_end_ns\": \"1794244163737876300\", \"window_seconds\": 30, \"threshold\": 1024, \"observed\": 1080, \"evidence\": {\"value\": 1080, \"operator\": \">=\", \"window_seconds\": 30, \"destination_ports\": [], \"visibility\": \"observed IPv4 TCP/UDP only; capture completeness not established\"}, \"message\": \"El volumen IPv4 observado desde este origen super\\u00f3 el umbral; un volumen alto puede ser leg\\u00edtimo. Requiere revisi\\u00f3n; no confirma un ataque.\", \"review_state\": \"pending\"}",
+      "review_state": "pending"
+    }
+  ],
+  "kind": "actual authorized Npcap loopback UDP capture",
+  "port": 60124
+}

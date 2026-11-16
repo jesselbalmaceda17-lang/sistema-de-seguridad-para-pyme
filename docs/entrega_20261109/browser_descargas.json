@@ -1,0 +1,23 @@
+[
+  {
+    "url": "/media/f46cc416848d286ac5cb99d7fb5ddef9.csv",
+    "status": 200,
+    "bytes": 1302,
+    "file": "browser_export_0.csv",
+    "rows": 8
+  },
+  {
+    "url": "/media/0d74c080fc006af6753317fc1b0304d9.json",
+    "status": 200,
+    "bytes": 6720,
+    "file": "browser_export_1.json",
+    "rows": 8
+  },
+  {
+    "url": "/media/5534d69706da0db8921f8f8bb7c0f026.csv",
+    "status": 200,
+    "bytes": 435,
+    "file": "browser_export_2.csv",
+    "rows": 1
+  }
+]

@@ -1,0 +1,1320 @@
+{
+  "generated_at_utc": "2026-11-08T18:08:37.995296+00:00",
+  "scenarios": {
+    "hakai": {
+      "scenario": "CTU-IoT-Malware-Capture-8-1",
+      "summary": {
+        "packets_seen": 23623,
+        "packets_accepted": 16677,
+        "packets_rejected_by_extractor": 6946,
+        "extracted_flows": 4237,
+        "reference_connections": 10403,
+        "admitted_flows": 4237,
+        "rejected_correspondences": 0,
+        "pending_quarantined_flows": 0,
+        "flow_status_counts": {
+          "admitted_unique": 2181,
+          "admitted_partition": 2056
+        },
+        "flow_label_coverage_percent": 100.0,
+        "labeled_packets": 16677,
+        "label_coverage_of_accepted_packets_percent": 100.0,
+        "label_coverage_of_all_packets_percent": 70.59645260974474,
+        "matched_reference_connections": 10403,
+        "reference_coverage_percent": 100.0,
+        "reference_validation_counts": {
+          "verified": 10403
+        },
+        "accepted_packet_checksum_states": {
+          "valid": 16677
+        },
+        "class_coverage": {
+          "Benign": {
+            "reference_connections": 2181,
+            "matched_references": 2181,
+            "reference_coverage_percent": 100.0,
+            "admitted_flows": 2181
+          },
+          "Malicious": {
+            "reference_connections": 8222,
+            "matched_references": 8222,
+            "reference_coverage_percent": 100.0,
+            "admitted_flows": 2056
+          }
+        }
+      },
+      "extraction_quality": {
+        "packets_seen": 23623,
+        "packets_accepted": 16677,
+        "packets_rejected": 6946,
+        "rejections_by_reason": {
+          "unsupported_ethernet_payload": 6946
+        },
+        "rejection_examples_first_20": [
+          {
+            "frame": 4,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 5,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 6,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 7,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 14,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 15,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 16,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 17,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 24,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 25,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 26,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 27,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 32,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 33,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 34,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 35,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 42,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 43,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 44,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 45,
+            "reason": "unsupported_ethernet_payload"
+          }
+        ],
+        "flows_produced": 4237,
+        "first_timestamp_epoch_ns": "1533042911474174000",
+        "last_timestamp_epoch_ns": "1533129306734905000",
+        "capture_loss": "unknown; file contents cannot prove absence of capture loss"
+      },
+      "configuration": {
+        "tcp_idle_seconds": 120.0,
+        "udp_idle_seconds": 30.0,
+        "active_timeout_seconds": 300.0,
+        "tshark_timeout_seconds": 120.0,
+        "max_packets": 1000000,
+        "max_active_flows": 50000,
+        "max_flows": 100000
+      },
+      "feature_count": 38,
+      "duration_observed_seconds": 86395.260731,
+      "flow_protocol_by_admitted_class": {
+        "Benign": {
+          "udp": 2179,
+          "tcp": 2
+        },
+        "Malicious": {
+          "tcp": 2056
+        }
+      },
+      "connection_groups_by_admitted_class": {
+        "Benign": 2181,
+        "Malicious": 2056
+      },
+      "connection_groups_by_class_and_protocol": {
+        "Benign": {
+          "udp": 2179,
+          "tcp": 2
+        },
+        "Malicious": {
+          "tcp": 2056
+        }
+      },
+      "groups_with_multiple_classes": 0,
+      "packets_by_admitted_class": {
+        "Benign": 4343,
+        "Malicious": 12334
+      },
+      "ipv4_bytes_by_admitted_class": {
+        "Benign": 330092,
+        "Malicious": 740040
+      },
+      "flow_close_reason_by_class": {
+        "Benign": {
+          "idle_timeout": 2181
+        },
+        "Malicious": {
+          "idle_timeout": 2052,
+          "end_of_capture": 4
+        }
+      },
+      "unknown_feature_cells_by_class_and_reason": {
+        "Benign": {
+          "fewer_than_two_packets_in_direction": 17448,
+          "not_applicable_to_udp": 34864,
+          "no_packets_in_direction": 76
+        },
+        "Malicious": {
+          "no_packets_in_direction": 8224,
+          "fewer_than_two_packets_in_direction": 8224
+        }
+      },
+      "unknown_feature_cells_by_class_feature_reason": {
+        "Benign": {
+          "forward_iat_min_seconds": {
+            "fewer_than_two_packets_in_direction": 2181
+          },
+          "forward_iat_max_seconds": {
+            "fewer_than_two_packets_in_direction": 2181
+          },
+          "forward_iat_mean_seconds": {
+            "fewer_than_two_packets_in_direction": 2181
+          },
+          "forward_iat_population_std_seconds": {
+            "fewer_than_two_packets_in_direction": 2181
+          },
+          "forward_tcp_fin_count": {
+            "not_applicable_to_udp": 2179
+          },
+          "forward_tcp_syn_count": {
+            "not_applicable_to_udp": 2179
+          },
+          "forward_tcp_rst_count": {
+            "not_applicable_to_udp": 2179
+          },
+          "forward_tcp_psh_count": {
+            "not_applicable_to_udp": 2179
+          },
+          "forward_tcp_ack_count": {
+            "not_applicable_to_udp": 2179
+          },
+          "forward_tcp_urg_count": {
+            "not_applicable_to_udp": 2179
+          },
+          "forward_tcp_ece_count": {
+            "not_applicable_to_udp": 2179
+          },
+          "forward_tcp_cwr_count": {
+            "not_applicable_to_udp": 2179
+          },
+          "reverse_iat_min_seconds": {
+            "fewer_than_two_packets_in_direction": 2181
+          },
+          "reverse_iat_max_seconds": {
+            "fewer_than_two_packets_in_direction": 2181
+          },
+          "reverse_iat_mean_seconds": {
+            "fewer_than_two_packets_in_direction": 2181
+          },
+          "reverse_iat_population_std_seconds": {
+            "fewer_than_two_packets_in_direction": 2181
+          },
+          "reverse_tcp_fin_count": {
+            "not_applicable_to_udp": 2179
+          },
+          "reverse_tcp_syn_count": {
+            "not_applicable_to_udp": 2179
+          },
+          "reverse_tcp_rst_count": {
+            "not_applicable_to_udp": 2179
+          },
+          "reverse_tcp_psh_count": {
+            "not_applicable_to_udp": 2179
+          },
+          "reverse_tcp_ack_count": {
+            "not_applicable_to_udp": 2179
+          },
+          "reverse_tcp_urg_count": {
+            "not_applicable_to_udp": 2179
+          },
+          "reverse_tcp_ece_count": {
+            "not_applicable_to_udp": 2179
+          },
+          "reverse_tcp_cwr_count": {
+            "not_applicable_to_udp": 2179
+          },
+          "reverse_ipv4_size_min_bytes": {
+            "no_packets_in_direction": 19
+          },
+          "reverse_ipv4_size_max_bytes": {
+            "no_packets_in_direction": 19
+          },
+          "reverse_ipv4_size_mean_bytes": {
+            "no_packets_in_direction": 19
+          },
+          "reverse_ipv4_size_population_std_bytes": {
+            "no_packets_in_direction": 19
+          }
+        },
+        "Malicious": {
+          "reverse_ipv4_size_min_bytes": {
+            "no_packets_in_direction": 2056
+          },
+          "reverse_ipv4_size_max_bytes": {
+            "no_packets_in_direction": 2056
+          },
+          "reverse_ipv4_size_mean_bytes": {
+            "no_packets_in_direction": 2056
+          },
+          "reverse_ipv4_size_population_std_bytes": {
+            "no_packets_in_direction": 2056
+          },
+          "reverse_iat_min_seconds": {
+            "fewer_than_two_packets_in_direction": 2056
+          },
+          "reverse_iat_max_seconds": {
+            "fewer_than_two_packets_in_direction": 2056
+          },
+          "reverse_iat_mean_seconds": {
+            "fewer_than_two_packets_in_direction": 2056
+          },
+          "reverse_iat_population_std_seconds": {
+            "fewer_than_two_packets_in_direction": 2056
+          }
+        }
+      },
+      "reference_import_quality": {
+        "records_imported": 10403,
+        "rows_rejected": 0,
+        "close_marker_present": true,
+        "label_distribution": {
+          "Benign": 2181,
+          "Malicious": 8222
+        },
+        "records_with_field_problems": 8347,
+        "records_with_contradictions": 0
+      },
+      "reference_protocol_by_original_label": {
+        "Benign": {
+          "udp": 2179,
+          "tcp": 2
+        },
+        "Malicious": {
+          "tcp": 8222
+        }
+      },
+      "reference_field_problems": {
+        "detailed-label:unset": 2181,
+        "duration:unset": 6185
+      },
+      "reference_detail_counts": {
+        "unset": 2181,
+        "C&C": 8222
+      },
+      "outside_extraction_by_reason": {
+        "outside_ethernet_ipv4_scope": 6946
+      },
+      "outside_extraction_by_ethertype": {
+        "2054": 6946
+      },
+      "capture_groups": 1,
+      "statistical_independence": "connection groups prevent split leakage; groups within the same capture/device/time remain dependent",
+      "execution": {
+        "scenario": "CTU-IoT-Malware-Capture-8-1",
+        "started_at_utc": "2026-11-08T18:02:23.243116+00:00",
+        "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+        "configuration": {
+          "tcp_idle_seconds": 120.0,
+          "udp_idle_seconds": 30.0,
+          "active_timeout_seconds": 300.0,
+          "tshark_timeout_seconds": 120.0,
+          "max_packets": 1000000,
+          "max_active_flows": 50000,
+          "max_flows": 100000
+        },
+        "resource_configuration_changes": [],
+        "stages": [
+          {
+            "stage": "complete_tshark_read",
+            "wall_seconds": 0.612497699999949
+          },
+          {
+            "stage": "extraction_and_serialization",
+            "wall_seconds": 3.111297999999806
+          },
+          {
+            "stage": "audit_v2_and_serialization",
+            "wall_seconds": 8.791500199999064
+          }
+        ],
+        "tshark_version": "TShark (Wireshark) 4.6.9 (v4.6.9-0-g2d548b197c75).\r\n\r\nCopyright 1998-2026 Gerald Combs <gerald@wireshark.org> and contributors.\r\nLicensed under the terms of the GNU General Public License (version 2 or later).\r\nThis is free software; see the file named COPYING in the distribution. There is\r\nNO WARRANTY; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\r\n\r\nCompile-time info:\r\n Bit width: 64-bit\r\n  Compiler: Microsoft Visual Studio 2026 (VC++ 14.51, build 36244)\r\n      GLib: 2.88.0\r\n With:\r\n  +brotli                     +MaxMind\r\n  +Gcrypt 1.12.4-unknown      +nghttp2 1.69.0\r\n  +GnuTLS 3.8.13 and PKCS#11  +nghttp3 1.8.0\r\n  +Kerberos (MIT)             +PCRE2 10.47 2025-10-21\r\n  +libpcap                    +Snappy 1.1.9\r\n  +libsmi 0.5.0               +xxhash 0.8.3\r\n  +libxml2 2.15.3             +zlib 1.3.1\r\n  +Lua 5.4.6 (UfW patched)    +zlib-ng 2.2.3\r\n  +LZ4 1.10.0                 +Zstandard 1.5.7\r\n\r\nRuntime info:\r\n      OS: 64-bit Windows 11 (25H2), build 26200\r\n     CPU: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz (with SSE4.2)\r\n  Memory: 20263 MB of physical memory\r\n    GLib: 2.88.0\r\n  Locale: LC_TYPE=Spanish_Nicaragua.utf8\r\n Plugins: supported, 0 loaded\r\n With:\r\n  +brotli 1.2.0\r\n  +c-ares 1.34.8\r\n  +Gcrypt 1.12.4-unknown\r\n  +GnuTLS 3.8.13\r\n  +LZ4 1.10.0\r\n  +nghttp2 1.69.0\r\n  +nghttp3 1.8.0\r\n  +Npcap 1.88, libpcap 1.10.6 (64-bit time_t)\r\n  +PCRE2 10.47 2025-10-21\r\n  +xxhash 803\r\n  +Zstandard 1.5.7\r\n",
+        "tshark_read": {
+          "command": [
+            "C:\\Program Files\\Wireshark\\tshark.exe",
+            "-n",
+            "-r",
+            "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\data\\raw\\iot23_hakai_8_1\\2018-07-31-15-15-09-192.168.100.113.pcap",
+            "-T",
+            "fields",
+            "-e",
+            "frame.number"
+          ],
+          "exit_code": 0,
+          "packets": 23623,
+          "stderr": ""
+        },
+        "audit_summary": {
+          "packets_seen": 23623,
+          "packets_accepted": 16677,
+          "packets_rejected_by_extractor": 6946,
+          "extracted_flows": 4237,
+          "reference_connections": 10403,
+          "admitted_flows": 4237,
+          "rejected_correspondences": 0,
+          "pending_quarantined_flows": 0,
+          "flow_status_counts": {
+            "admitted_unique": 2181,
+            "admitted_partition": 2056
+          },
+          "flow_label_coverage_percent": 100.0,
+          "labeled_packets": 16677,
+          "label_coverage_of_accepted_packets_percent": 100.0,
+          "label_coverage_of_all_packets_percent": 70.59645260974474,
+          "matched_reference_connections": 10403,
+          "reference_coverage_percent": 100.0,
+          "reference_validation_counts": {
+            "verified": 10403
+          },
+          "accepted_packet_checksum_states": {
+            "valid": 16677
+          },
+          "class_coverage": {
+            "Benign": {
+              "reference_connections": 2181,
+              "matched_references": 2181,
+              "reference_coverage_percent": 100.0,
+              "admitted_flows": 2181
+            },
+            "Malicious": {
+              "reference_connections": 8222,
+              "matched_references": 8222,
+              "reference_coverage_percent": 100.0,
+              "admitted_flows": 2056
+            }
+          }
+        },
+        "successful": true,
+        "finished_at_utc": "2026-11-08T18:02:36.028717+00:00",
+        "wall_seconds": 12.785631900000226,
+        "python_cpu_seconds": 11.40625,
+        "memory": {
+          "python_os_peak_working_set_bytes": 253399040,
+          "sampled_python_and_children_rss_max_bytes": 219865088,
+          "sampling_interval_seconds": 0.02,
+          "samples": 315,
+          "sampling_errors": [],
+          "method": "Windows process high-water mark for Python; separate sampled sum of Python and child RSS (includes TShark when observed), not an exact tree peak"
+        }
+      },
+      "raw_storage_bytes": 3531340,
+      "processed_storage_bytes": 86052682,
+      "artifact_sizes": {
+        "data/processed/iot23_hakai_8_1/extraction.json": 26974848,
+        "data/processed/iot23_hakai_8_1/audit_v2/imported_labels.json": 14808415,
+        "data/processed/iot23_hakai_8_1/audit_v2/label_audit.json": 44269419
+      }
+    },
+    "hue": {
+      "scenario": "CTU-Honeypot-Capture-4-1",
+      "summary": {
+        "packets_seen": 21664,
+        "packets_accepted": 16921,
+        "packets_rejected_by_extractor": 4743,
+        "extracted_flows": 2200,
+        "reference_connections": 452,
+        "admitted_flows": 0,
+        "rejected_correspondences": 0,
+        "pending_quarantined_flows": 2200,
+        "flow_status_counts": {
+          "incomplete_reference": 2193,
+          "quarantined_partial_checksum": 7
+        },
+        "flow_label_coverage_percent": 0.0,
+        "labeled_packets": 0,
+        "label_coverage_of_accepted_packets_percent": 0.0,
+        "label_coverage_of_all_packets_percent": 0.0,
+        "matched_reference_connections": 0,
+        "reference_coverage_percent": 0.0,
+        "reference_validation_counts": {
+          "unknown_label": 452
+        },
+        "accepted_packet_checksum_states": {
+          "valid": 16912,
+          "partial_pseudoheader": 9
+        },
+        "class_coverage": {
+          "Benign": {
+            "reference_connections": 0,
+            "matched_references": 0,
+            "reference_coverage_percent": null,
+            "admitted_flows": 0
+          },
+          "Malicious": {
+            "reference_connections": 0,
+            "matched_references": 0,
+            "reference_coverage_percent": null,
+            "admitted_flows": 0
+          }
+        }
+      },
+      "extraction_quality": {
+        "packets_seen": 21664,
+        "packets_accepted": 16921,
+        "packets_rejected": 4743,
+        "rejections_by_reason": {
+          "unsupported_ethernet_payload": 4743
+        },
+        "rejection_examples_first_20": [
+          {
+            "frame": 9,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 10,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 13,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 14,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 23,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 24,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 28,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 29,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 40,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 41,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 44,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 45,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 54,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 55,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 61,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 62,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 71,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 72,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 81,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 82,
+            "reason": "unsupported_ethernet_payload"
+          }
+        ],
+        "flows_produced": 2200,
+        "first_timestamp_epoch_ns": "1540469197400159000",
+        "last_timestamp_epoch_ns": "1540548043799522000",
+        "capture_loss": "unknown; file contents cannot prove absence of capture loss"
+      },
+      "configuration": {
+        "tcp_idle_seconds": 120.0,
+        "udp_idle_seconds": 30.0,
+        "active_timeout_seconds": 300.0,
+        "tshark_timeout_seconds": 120.0,
+        "max_packets": 1000000,
+        "max_active_flows": 50000,
+        "max_flows": 100000
+      },
+      "feature_count": 38,
+      "duration_observed_seconds": 78846.399363,
+      "flow_protocol_by_admitted_class": {
+        "unlabeled": {
+          "udp": 1805,
+          "tcp": 395
+        }
+      },
+      "connection_groups_by_admitted_class": {
+        "unlabeled": 452
+      },
+      "connection_groups_by_class_and_protocol": {
+        "unlabeled": {
+          "udp": 310,
+          "tcp": 142
+        }
+      },
+      "groups_with_multiple_classes": 0,
+      "packets_by_admitted_class": {
+        "unlabeled": 16921
+      },
+      "ipv4_bytes_by_admitted_class": {
+        "unlabeled": 3693650
+      },
+      "flow_close_reason_by_class": {
+        "unlabeled": {
+          "idle_timeout": 1945,
+          "active_timeout": 253,
+          "tcp_rst": 1,
+          "end_of_capture": 1
+        }
+      },
+      "unknown_feature_cells_by_class_and_reason": {
+        "unlabeled": {
+          "not_applicable_to_udp": 28880,
+          "no_packets_in_direction": 6036,
+          "fewer_than_two_packets_in_direction": 8408
+        }
+      },
+      "unknown_feature_cells_by_class_feature_reason": {
+        "unlabeled": {
+          "forward_tcp_fin_count": {
+            "not_applicable_to_udp": 1805
+          },
+          "forward_tcp_syn_count": {
+            "not_applicable_to_udp": 1805
+          },
+          "forward_tcp_rst_count": {
+            "not_applicable_to_udp": 1805
+          },
+          "forward_tcp_psh_count": {
+            "not_applicable_to_udp": 1805
+          },
+          "forward_tcp_ack_count": {
+            "not_applicable_to_udp": 1805
+          },
+          "forward_tcp_urg_count": {
+            "not_applicable_to_udp": 1805
+          },
+          "forward_tcp_ece_count": {
+            "not_applicable_to_udp": 1805
+          },
+          "forward_tcp_cwr_count": {
+            "not_applicable_to_udp": 1805
+          },
+          "reverse_ipv4_size_min_bytes": {
+            "no_packets_in_direction": 1509
+          },
+          "reverse_ipv4_size_max_bytes": {
+            "no_packets_in_direction": 1509
+          },
+          "reverse_ipv4_size_mean_bytes": {
+            "no_packets_in_direction": 1509
+          },
+          "reverse_ipv4_size_population_std_bytes": {
+            "no_packets_in_direction": 1509
+          },
+          "reverse_iat_min_seconds": {
+            "fewer_than_two_packets_in_direction": 1805
+          },
+          "reverse_iat_max_seconds": {
+            "fewer_than_two_packets_in_direction": 1805
+          },
+          "reverse_iat_mean_seconds": {
+            "fewer_than_two_packets_in_direction": 1805
+          },
+          "reverse_iat_population_std_seconds": {
+            "fewer_than_two_packets_in_direction": 1805
+          },
+          "reverse_tcp_fin_count": {
+            "not_applicable_to_udp": 1805
+          },
+          "reverse_tcp_syn_count": {
+            "not_applicable_to_udp": 1805
+          },
+          "reverse_tcp_rst_count": {
+            "not_applicable_to_udp": 1805
+          },
+          "reverse_tcp_psh_count": {
+            "not_applicable_to_udp": 1805
+          },
+          "reverse_tcp_ack_count": {
+            "not_applicable_to_udp": 1805
+          },
+          "reverse_tcp_urg_count": {
+            "not_applicable_to_udp": 1805
+          },
+          "reverse_tcp_ece_count": {
+            "not_applicable_to_udp": 1805
+          },
+          "reverse_tcp_cwr_count": {
+            "not_applicable_to_udp": 1805
+          },
+          "forward_iat_min_seconds": {
+            "fewer_than_two_packets_in_direction": 297
+          },
+          "forward_iat_max_seconds": {
+            "fewer_than_two_packets_in_direction": 297
+          },
+          "forward_iat_mean_seconds": {
+            "fewer_than_two_packets_in_direction": 297
+          },
+          "forward_iat_population_std_seconds": {
+            "fewer_than_two_packets_in_direction": 297
+          }
+        }
+      },
+      "reference_import_quality": {
+        "records_imported": 452,
+        "rows_rejected": 0,
+        "close_marker_present": true,
+        "label_distribution": {
+          "benign": 452
+        },
+        "records_with_field_problems": 452,
+        "records_with_contradictions": 0
+      },
+      "reference_protocol_by_original_label": {
+        "benign": {
+          "udp": 310,
+          "tcp": 142
+        }
+      },
+      "reference_field_problems": {
+        "detailed-label:unset": 452,
+        "label:unrecognized_label": 452,
+        "duration:unset": 1
+      },
+      "reference_detail_counts": {
+        "unset": 452
+      },
+      "outside_extraction_by_reason": {
+        "outside_ethernet_ipv4_scope": 4743
+      },
+      "outside_extraction_by_ethertype": {
+        "2054": 4743
+      },
+      "capture_groups": 1,
+      "statistical_independence": "connection groups prevent split leakage; groups within the same capture/device/time remain dependent",
+      "execution": {
+        "scenario": "CTU-Honeypot-Capture-4-1",
+        "started_at_utc": "2026-11-08T18:03:44.288816+00:00",
+        "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+        "configuration": {
+          "tcp_idle_seconds": 120.0,
+          "udp_idle_seconds": 30.0,
+          "active_timeout_seconds": 300.0,
+          "tshark_timeout_seconds": 120.0,
+          "max_packets": 1000000,
+          "max_active_flows": 50000,
+          "max_flows": 100000
+        },
+        "resource_configuration_changes": [],
+        "stages": [
+          {
+            "stage": "complete_tshark_read",
+            "wall_seconds": 0.6446542000012414
+          },
+          {
+            "stage": "extraction_and_serialization",
+            "wall_seconds": 2.3144965000010416
+          },
+          {
+            "stage": "audit_v2_and_serialization",
+            "wall_seconds": 2.475888400000258
+          }
+        ],
+        "tshark_version": "TShark (Wireshark) 4.6.9 (v4.6.9-0-g2d548b197c75).\r\n\r\nCopyright 1998-2026 Gerald Combs <gerald@wireshark.org> and contributors.\r\nLicensed under the terms of the GNU General Public License (version 2 or later).\r\nThis is free software; see the file named COPYING in the distribution. There is\r\nNO WARRANTY; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\r\n\r\nCompile-time info:\r\n Bit width: 64-bit\r\n  Compiler: Microsoft Visual Studio 2026 (VC++ 14.51, build 36244)\r\n      GLib: 2.88.0\r\n With:\r\n  +brotli                     +MaxMind\r\n  +Gcrypt 1.12.4-unknown      +nghttp2 1.69.0\r\n  +GnuTLS 3.8.13 and PKCS#11  +nghttp3 1.8.0\r\n  +Kerberos (MIT)             +PCRE2 10.47 2025-10-21\r\n  +libpcap                    +Snappy 1.1.9\r\n  +libsmi 0.5.0               +xxhash 0.8.3\r\n  +libxml2 2.15.3             +zlib 1.3.1\r\n  +Lua 5.4.6 (UfW patched)    +zlib-ng 2.2.3\r\n  +LZ4 1.10.0                 +Zstandard 1.5.7\r\n\r\nRuntime info:\r\n      OS: 64-bit Windows 11 (25H2), build 26200\r\n     CPU: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz (with SSE4.2)\r\n  Memory: 20263 MB of physical memory\r\n    GLib: 2.88.0\r\n  Locale: LC_TYPE=Spanish_Nicaragua.utf8\r\n Plugins: supported, 0 loaded\r\n With:\r\n  +brotli 1.2.0\r\n  +c-ares 1.34.8\r\n  +Gcrypt 1.12.4-unknown\r\n  +GnuTLS 3.8.13\r\n  +LZ4 1.10.0\r\n  +nghttp2 1.69.0\r\n  +nghttp3 1.8.0\r\n  +Npcap 1.88, libpcap 1.10.6 (64-bit time_t)\r\n  +PCRE2 10.47 2025-10-21\r\n  +xxhash 803\r\n  +Zstandard 1.5.7\r\n",
+        "tshark_read": {
+          "command": [
+            "C:\\Program Files\\Wireshark\\tshark.exe",
+            "-n",
+            "-r",
+            "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\data\\raw\\iot23_hue_4_1\\2018-10-25-14-06-32-192.168.1.132.pcap",
+            "-T",
+            "fields",
+            "-e",
+            "frame.number"
+          ],
+          "exit_code": 0,
+          "packets": 21664,
+          "stderr": ""
+        },
+        "audit_summary": {
+          "packets_seen": 21664,
+          "packets_accepted": 16921,
+          "packets_rejected_by_extractor": 4743,
+          "extracted_flows": 2200,
+          "reference_connections": 452,
+          "admitted_flows": 0,
+          "rejected_correspondences": 0,
+          "pending_quarantined_flows": 2200,
+          "flow_status_counts": {
+            "incomplete_reference": 2193,
+            "quarantined_partial_checksum": 7
+          },
+          "flow_label_coverage_percent": 0.0,
+          "labeled_packets": 0,
+          "label_coverage_of_accepted_packets_percent": 0.0,
+          "label_coverage_of_all_packets_percent": 0.0,
+          "matched_reference_connections": 0,
+          "reference_coverage_percent": 0.0,
+          "reference_validation_counts": {
+            "unknown_label": 452
+          },
+          "accepted_packet_checksum_states": {
+            "valid": 16912,
+            "partial_pseudoheader": 9
+          },
+          "class_coverage": {
+            "Benign": {
+              "reference_connections": 0,
+              "matched_references": 0,
+              "reference_coverage_percent": null,
+              "admitted_flows": 0
+            },
+            "Malicious": {
+              "reference_connections": 0,
+              "matched_references": 0,
+              "reference_coverage_percent": null,
+              "admitted_flows": 0
+            }
+          }
+        },
+        "successful": true,
+        "finished_at_utc": "2026-11-08T18:03:50.001098+00:00",
+        "wall_seconds": 5.712306499999613,
+        "python_cpu_seconds": 4.40625,
+        "memory": {
+          "python_os_peak_working_set_bytes": 196190208,
+          "sampled_python_and_children_rss_max_bytes": 193490944,
+          "sampling_interval_seconds": 0.02,
+          "samples": 149,
+          "sampling_errors": [],
+          "method": "Windows process high-water mark for Python; separate sampled sum of Python and child RSS (includes TShark when observed), not an exact tree peak"
+        }
+      },
+      "raw_storage_bytes": 5038549,
+      "processed_storage_bytes": 43477345,
+      "artifact_sizes": {
+        "data/processed/iot23_hue_4_1/extraction.json": 14414973,
+        "data/processed/iot23_hue_4_1/audit_v2/imported_labels.json": 667508,
+        "data/processed/iot23_hue_4_1/audit_v2/label_audit.json": 28394864
+      }
+    },
+    "pilot_20_1": {
+      "scenario": "CTU-IoT-Malware-Capture-20-1",
+      "summary": {
+        "packets_seen": 50156,
+        "packets_accepted": 41207,
+        "packets_rejected_by_extractor": 8949,
+        "extracted_flows": 3499,
+        "reference_connections": 3209,
+        "admitted_flows": 3495,
+        "rejected_correspondences": 0,
+        "pending_quarantined_flows": 4,
+        "flow_status_counts": {
+          "admitted_unique": 3177,
+          "admitted_sibling_segment": 313,
+          "admitted_partition": 4,
+          "quarantined_partial_checksum": 3,
+          "counter_mismatch": 1,
+          "admitted_tcp_closure": 1
+        },
+        "flow_label_coverage_percent": 99.88568162332095,
+        "labeled_packets": 40921,
+        "label_coverage_of_accepted_packets_percent": 99.30594316499624,
+        "label_coverage_of_all_packets_percent": 81.58744716484568,
+        "matched_reference_connections": 3206,
+        "reference_coverage_percent": 99.9065129323777,
+        "reference_validation_counts": {
+          "verified": 3208,
+          "counter_mismatch": 1
+        },
+        "accepted_packet_checksum_states": {
+          "valid": 41203,
+          "partial_pseudoheader": 4
+        },
+        "class_coverage": {
+          "Benign": {
+            "reference_connections": 3193,
+            "matched_references": 3192,
+            "reference_coverage_percent": 99.96868149076104,
+            "admitted_flows": 3207
+          },
+          "Malicious": {
+            "reference_connections": 16,
+            "matched_references": 14,
+            "reference_coverage_percent": 87.5,
+            "admitted_flows": 288
+          }
+        }
+      },
+      "extraction_quality": {
+        "packets_seen": 50156,
+        "packets_accepted": 41207,
+        "packets_rejected": 8949,
+        "rejections_by_reason": {
+          "unsupported_ethernet_payload": 8949
+        },
+        "rejection_examples_first_20": [
+          {
+            "frame": 8,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 9,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 17,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 18,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 30,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 32,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 38,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 39,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 57,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 58,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 65,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 66,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 67,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 68,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 83,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 84,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 92,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 93,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 101,
+            "reason": "unsupported_ethernet_payload"
+          },
+          {
+            "frame": 102,
+            "reason": "unsupported_ethernet_payload"
+          }
+        ],
+        "flows_produced": 3499,
+        "first_timestamp_epoch_ns": "1538478769600293000",
+        "last_timestamp_epoch_ns": "1538565147243622000",
+        "capture_loss": "unknown; file contents cannot prove absence of capture loss"
+      },
+      "configuration": {
+        "tcp_idle_seconds": 120.0,
+        "udp_idle_seconds": 30.0,
+        "active_timeout_seconds": 300.0,
+        "tshark_timeout_seconds": 120.0,
+        "max_packets": 1000000,
+        "max_active_flows": 50000,
+        "max_flows": 100000
+      },
+      "feature_count": 38,
+      "duration_observed_seconds": 86377.643329,
+      "flow_protocol_by_admitted_class": {
+        "Benign": {
+          "udp": 3206,
+          "tcp": 1
+        },
+        "Malicious": {
+          "tcp": 288
+        },
+        "unlabeled": {
+          "tcp": 3,
+          "udp": 1
+        }
+      },
+      "connection_groups_by_admitted_class": {
+        "Benign": 3192,
+        "Malicious": 6,
+        "unlabeled": 4
+      },
+      "connection_groups_by_class_and_protocol": {
+        "Benign": {
+          "udp": 3191,
+          "tcp": 1
+        },
+        "Malicious": {
+          "tcp": 6
+        },
+        "unlabeled": {
+          "tcp": 3,
+          "udp": 1
+        }
+      },
+      "groups_with_multiple_classes": 2,
+      "packets_by_admitted_class": {
+        "Benign": 5996,
+        "Malicious": 34925,
+        "unlabeled": 286
+      },
+      "ipv4_bytes_by_admitted_class": {
+        "Benign": 452022,
+        "Malicious": 1461084,
+        "unlabeled": 27423
+      },
+      "flow_close_reason_by_class": {
+        "Benign": {
+          "idle_timeout": 3207
+        },
+        "Malicious": {
+          "idle_timeout": 5,
+          "active_timeout": 282,
+          "end_of_capture": 1
+        },
+        "unlabeled": {
+          "active_timeout": 2,
+          "idle_timeout": 1,
+          "tcp_rst": 1
+        }
+      },
+      "unknown_feature_cells_by_class_and_reason": {
+        "Benign": {
+          "not_applicable_to_udp": 51296,
+          "no_packets_in_direction": 4268,
+          "fewer_than_two_packets_in_direction": 24436
+        },
+        "Malicious": {
+          "no_packets_in_direction": 16,
+          "fewer_than_two_packets_in_direction": 16
+        },
+        "unlabeled": {
+          "not_applicable_to_udp": 16,
+          "no_packets_in_direction": 4,
+          "fewer_than_two_packets_in_direction": 4
+        }
+      },
+      "unknown_feature_cells_by_class_feature_reason": {
+        "Benign": {
+          "forward_tcp_fin_count": {
+            "not_applicable_to_udp": 3206
+          },
+          "forward_tcp_syn_count": {
+            "not_applicable_to_udp": 3206
+          },
+          "forward_tcp_rst_count": {
+            "not_applicable_to_udp": 3206
+          },
+          "forward_tcp_psh_count": {
+            "not_applicable_to_udp": 3206
+          },
+          "forward_tcp_ack_count": {
+            "not_applicable_to_udp": 3206
+          },
+          "forward_tcp_urg_count": {
+            "not_applicable_to_udp": 3206
+          },
+          "forward_tcp_ece_count": {
+            "not_applicable_to_udp": 3206
+          },
+          "forward_tcp_cwr_count": {
+            "not_applicable_to_udp": 3206
+          },
+          "reverse_ipv4_size_min_bytes": {
+            "no_packets_in_direction": 1067
+          },
+          "reverse_ipv4_size_max_bytes": {
+            "no_packets_in_direction": 1067
+          },
+          "reverse_ipv4_size_mean_bytes": {
+            "no_packets_in_direction": 1067
+          },
+          "reverse_ipv4_size_population_std_bytes": {
+            "no_packets_in_direction": 1067
+          },
+          "reverse_iat_min_seconds": {
+            "fewer_than_two_packets_in_direction": 3159
+          },
+          "reverse_iat_max_seconds": {
+            "fewer_than_two_packets_in_direction": 3159
+          },
+          "reverse_iat_mean_seconds": {
+            "fewer_than_two_packets_in_direction": 3159
+          },
+          "reverse_iat_population_std_seconds": {
+            "fewer_than_two_packets_in_direction": 3159
+          },
+          "reverse_tcp_fin_count": {
+            "not_applicable_to_udp": 3206
+          },
+          "reverse_tcp_syn_count": {
+            "not_applicable_to_udp": 3206
+          },
+          "reverse_tcp_rst_count": {
+            "not_applicable_to_udp": 3206
+          },
+          "reverse_tcp_psh_count": {
+            "not_applicable_to_udp": 3206
+          },
+          "reverse_tcp_ack_count": {
+            "not_applicable_to_udp": 3206
+          },
+          "reverse_tcp_urg_count": {
+            "not_applicable_to_udp": 3206
+          },
+          "reverse_tcp_ece_count": {
+            "not_applicable_to_udp": 3206
+          },
+          "reverse_tcp_cwr_count": {
+            "not_applicable_to_udp": 3206
+          },
+          "forward_iat_min_seconds": {
+            "fewer_than_two_packets_in_direction": 2950
+          },
+          "forward_iat_max_seconds": {
+            "fewer_than_two_packets_in_direction": 2950
+          },
+          "forward_iat_mean_seconds": {
+            "fewer_than_two_packets_in_direction": 2950
+          },
+          "forward_iat_population_std_seconds": {
+            "fewer_than_two_packets_in_direction": 2950
+          }
+        },
+        "Malicious": {
+          "reverse_ipv4_size_min_bytes": {
+            "no_packets_in_direction": 4
+          },
+          "reverse_ipv4_size_max_bytes": {
+            "no_packets_in_direction": 4
+          },
+          "reverse_ipv4_size_mean_bytes": {
+            "no_packets_in_direction": 4
+          },
+          "reverse_ipv4_size_population_std_bytes": {
+            "no_packets_in_direction": 4
+          },
+          "reverse_iat_min_seconds": {
+            "fewer_than_two_packets_in_direction": 4
+          },
+          "reverse_iat_max_seconds": {
+            "fewer_than_two_packets_in_direction": 4
+          },
+          "reverse_iat_mean_seconds": {
+            "fewer_than_two_packets_in_direction": 4
+          },
+          "reverse_iat_population_std_seconds": {
+            "fewer_than_two_packets_in_direction": 4
+          }
+        },
+        "unlabeled": {
+          "forward_tcp_fin_count": {
+            "not_applicable_to_udp": 1
+          },
+          "forward_tcp_syn_count": {
+            "not_applicable_to_udp": 1
+          },
+          "forward_tcp_rst_count": {
+            "not_applicable_to_udp": 1
+          },
+          "forward_tcp_psh_count": {
+            "not_applicable_to_udp": 1
+          },
+          "forward_tcp_ack_count": {
+            "not_applicable_to_udp": 1
+          },
+          "forward_tcp_urg_count": {
+            "not_applicable_to_udp": 1
+          },
+          "forward_tcp_ece_count": {
+            "not_applicable_to_udp": 1
+          },
+          "forward_tcp_cwr_count": {
+            "not_applicable_to_udp": 1
+          },
+          "reverse_ipv4_size_min_bytes": {
+            "no_packets_in_direction": 1
+          },
+          "reverse_ipv4_size_max_bytes": {
+            "no_packets_in_direction": 1
+          },
+          "reverse_ipv4_size_mean_bytes": {
+            "no_packets_in_direction": 1
+          },
+          "reverse_ipv4_size_population_std_bytes": {
+            "no_packets_in_direction": 1
+          },
+          "reverse_iat_min_seconds": {
+            "fewer_than_two_packets_in_direction": 1
+          },
+          "reverse_iat_max_seconds": {
+            "fewer_than_two_packets_in_direction": 1
+          },
+          "reverse_iat_mean_seconds": {
+            "fewer_than_two_packets_in_direction": 1
+          },
+          "reverse_iat_population_std_seconds": {
+            "fewer_than_two_packets_in_direction": 1
+          },
+          "reverse_tcp_fin_count": {
+            "not_applicable_to_udp": 1
+          },
+          "reverse_tcp_syn_count": {
+            "not_applicable_to_udp": 1
+          },
+          "reverse_tcp_rst_count": {
+            "not_applicable_to_udp": 1
+          },
+          "reverse_tcp_psh_count": {
+            "not_applicable_to_udp": 1
+          },
+          "reverse_tcp_ack_count": {
+            "not_applicable_to_udp": 1
+          },
+          "reverse_tcp_urg_count": {
+            "not_applicable_to_udp": 1
+          },
+          "reverse_tcp_ece_count": {
+            "not_applicable_to_udp": 1
+          },
+          "reverse_tcp_cwr_count": {
+            "not_applicable_to_udp": 1
+          }
+        }
+      },
+      "reference_import_quality": {
+        "records_imported": 3209,
+        "rows_rejected": 0,
+        "close_marker_present": true,
+        "label_distribution": {
+          "Benign": 3193,
+          "Malicious": 16
+        },
+        "records_with_field_problems": 3201,
+        "records_with_contradictions": 0
+      },
+      "reference_protocol_by_original_label": {
+        "Benign": {
+          "udp": 3192,
+          "tcp": 1
+        },
+        "Malicious": {
+          "tcp": 16
+        }
+      },
+      "reference_field_problems": {
+        "detailed-label:unset": 3193,
+        "duration:unset": 885
+      },
+      "reference_detail_counts": {
+        "unset": 3193,
+        "C&C-Torii": 16
+      },
+      "outside_extraction_by_reason": {
+        "outside_ethernet_ipv4_scope": 8949
+      },
+      "outside_extraction_by_ethertype": {
+        "2054": 8949
+      },
+      "capture_groups": 1,
+      "statistical_independence": "connection groups prevent split leakage; groups within the same capture/device/time remain dependent"
+    }
+  }
+}

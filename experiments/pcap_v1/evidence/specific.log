@@ -1,0 +1,44 @@
+test_exact_38_predictors_no_identity_or_target (tests.test_pcap_experiment.ExperimentContractTests.test_exact_38_predictors_no_identity_or_target) ... ok
+test_explicit_protocol_encoding (tests.test_pcap_experiment.ExperimentContractTests.test_explicit_protocol_encoding) ... ok
+test_false_admission_fails_closed (tests.test_pcap_experiment.ExperimentContractTests.test_false_admission_fails_closed) ... ok
+test_invented_zero_in_unknown_rejected (tests.test_pcap_experiment.ExperimentContractTests.test_invented_zero_in_unknown_rejected) ... ok
+test_metadata_cannot_change_predictors (tests.test_pcap_experiment.ExperimentContractTests.test_metadata_cannot_change_predictors) ... ok
+test_nonfinite_value_rejected (tests.test_pcap_experiment.ExperimentContractTests.test_nonfinite_value_rejected) ... ok
+test_predictor_injection_and_missing_column_rejected (tests.test_pcap_experiment.ExperimentContractTests.test_predictor_injection_and_missing_column_rejected) ... ok
+test_quarantined_or_unmatched_is_not_eligible (tests.test_pcap_experiment.ExperimentContractTests.test_quarantined_or_unmatched_is_not_eligible) ... ok
+test_unknown_protocol_rejected (tests.test_pcap_experiment.ExperimentContractTests.test_unknown_protocol_rejected) ... ok
+test_unknown_remains_none_with_reason (tests.test_pcap_experiment.ExperimentContractTests.test_unknown_remains_none_with_reason) ... ok
+test_unknown_without_reason_rejected (tests.test_pcap_experiment.ExperimentContractTests.test_unknown_without_reason_rejected) ... ok
+test_unverified_admitted_reference_fails (tests.test_pcap_experiment.ExperimentContractTests.test_unverified_admitted_reference_fails) ... ok
+test_verified_reference_admitted (tests.test_pcap_experiment.ExperimentContractTests.test_verified_reference_admitted) ... ok
+test_average_precision_definition (tests.test_pcap_experiment.MetricTests.test_average_precision_definition) ... ok
+test_benign_only_metrics (tests.test_pcap_experiment.MetricTests.test_benign_only_metrics) ... ok
+test_confusion_matrix_and_threshold (tests.test_pcap_experiment.MetricTests.test_confusion_matrix_and_threshold) ... ok
+test_empty_slice_is_explicit (tests.test_pcap_experiment.MetricTests.test_empty_slice_is_explicit) ... ok
+test_invalid_probability_rejected (tests.test_pcap_experiment.MetricTests.test_invalid_probability_rejected) ... ok
+test_no_predicted_malicious_precision_not_invented (tests.test_pcap_experiment.MetricTests.test_no_predicted_malicious_precision_not_invented) ... ok
+test_paired_comparison (tests.test_pcap_experiment.MetricTests.test_paired_comparison) ... ok
+test_csv_roundtrip_keeps_missing_and_separates_labels (tests.test_pcap_experiment.ModelAndTableTests.test_csv_roundtrip_keeps_missing_and_separates_labels) ... ok
+test_dataset_bytes_are_repeatable (tests.test_pcap_experiment.ModelAndTableTests.test_dataset_bytes_are_repeatable) ... ok
+test_dummy_uses_only_weighted_training_prior (tests.test_pcap_experiment.ModelAndTableTests.test_dummy_uses_only_weighted_training_prior) ... ok
+test_fixed_rule_ignores_labels_and_udp_missing_flags (tests.test_pcap_experiment.ModelAndTableTests.test_fixed_rule_ignores_labels_and_udp_missing_flags) ... ok
+test_new_run_cannot_overwrite_previous_artifacts (tests.test_pcap_experiment.ModelAndTableTests.test_new_run_cannot_overwrite_previous_artifacts) ... ok
+test_prespecified_folds_and_threshold (tests.test_pcap_experiment.ModelAndTableTests.test_prespecified_folds_and_threshold) ... ok
+test_rf_native_nan_seed_and_38_features (tests.test_pcap_experiment.ModelAndTableTests.test_rf_native_nan_seed_and_38_features) ... ok
+test_single_class_probability_helper (tests.test_pcap_experiment.ModelAndTableTests.test_single_class_probability_helper) ... ok
+test_syn_rule_rejects_missing_tcp_flags (tests.test_pcap_experiment.ModelAndTableTests.test_syn_rule_rejects_missing_tcp_flags) ... ok
+test_tampered_feature_file_rejected (tests.test_pcap_experiment.ModelAndTableTests.test_tampered_feature_file_rejected) ... ok
+test_capture_hash_leak_rejected (tests.test_pcap_experiment.PartitionAndGroupTests.test_capture_hash_leak_rejected) ... ok
+test_capture_name_overlap_rejected (tests.test_pcap_experiment.PartitionAndGroupTests.test_capture_name_overlap_rejected) ... ok
+test_complete_capture_partitions (tests.test_pcap_experiment.PartitionAndGroupTests.test_complete_capture_partitions) ... ok
+test_connection_leak_rejected (tests.test_pcap_experiment.PartitionAndGroupTests.test_connection_leak_rejected) ... ok
+test_group_contradiction_rejected (tests.test_pcap_experiment.PartitionAndGroupTests.test_group_contradiction_rejected) ... ok
+test_group_duplicate_and_partial_rejected (tests.test_pcap_experiment.PartitionAndGroupTests.test_group_duplicate_and_partial_rejected) ... ok
+test_group_mean_not_max_or_packet_weight (tests.test_pcap_experiment.PartitionAndGroupTests.test_group_mean_not_max_or_packet_weight) ... ok
+test_group_slice_does_not_aggregate_partial_groups (tests.test_pcap_experiment.PartitionAndGroupTests.test_group_slice_does_not_aggregate_partial_groups) ... ok
+test_weight_total_equal_per_group (tests.test_pcap_experiment.PartitionAndGroupTests.test_weight_total_equal_per_group) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 0.600s
+
+OK

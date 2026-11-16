@@ -1,0 +1,2 @@
+﻿run_id,started_at,finished_at,source,model_reference,model_id,decision_rule,decision_threshold,model_sha256,status,records_processed,alerts_created,error_message
+c3000131-fe09-4237-860f-a8fd422a2715,2026-11-09T16:16:57+00:00,2026-11-09T16:16:57+00:00,demostracion_sintetica.csv,models\unsw_nb15_random_forest.joblib,production_random_forest,predict,,58505ee89df22c4c223b66d5e7172388d5d1fad6b7d135fce800a2765b2029e9,completed,8,4,

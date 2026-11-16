@@ -1,0 +1,76 @@
+{
+  "decided_at_utc": "2026-11-08T19:34:29.868260+00:00",
+  "selected_scenario": "CTU-IoT-Malware-Capture-42-1",
+  "only_data_files_authorized_for_this_acquisition": [
+    {
+      "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-42-1/2019-01-10-14-34-38-192.168.1.197.pcap",
+      "checked_at_utc": "2026-11-08T19:34:29.050272+00:00",
+      "size_bytes": 2908160,
+      "headers": {
+        "date": "Sun, 08 Nov 2026 19:34:28 GMT",
+        "server": "Apache/2.4.69",
+        "last-modified": "Wed, 30 Jan 2019 17:23:41 GMT",
+        "etag": "\"2c6000-580b02bcce140\"",
+        "accept-ranges": "bytes",
+        "content-length": "2908160",
+        "content-type": "application/vnd.tcpdump.pcap"
+      },
+      "raw_headers": "HTTP/1.1 200 OK\r\nDate: Sun, 08 Nov 2026 19:34:28 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Wed, 30 Jan 2019 17:23:41 GMT\r\nETag: \"2c6000-580b02bcce140\"\r\nAccept-Ranges: bytes\r\nContent-Length: 2908160\r\nContent-Type: application/vnd.tcpdump.pcap\r\n\r\n"
+    },
+    {
+      "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-42-1/bro/conn.log.labeled",
+      "checked_at_utc": "2026-11-08T19:34:29.867748+00:00",
+      "size_bytes": 585829,
+      "headers": {
+        "date": "Sun, 08 Nov 2026 19:34:29 GMT",
+        "server": "Apache/2.4.69",
+        "last-modified": "Tue, 24 Dec 2019 23:17:01 GMT",
+        "etag": "\"8f065-59a7b575e3540\"",
+        "accept-ranges": "bytes",
+        "content-length": "585829"
+      },
+      "raw_headers": "HTTP/1.1 200 OK\r\nDate: Sun, 08 Nov 2026 19:34:29 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Tue, 24 Dec 2019 23:17:01 GMT\r\nETag: \"8f065-59a7b575e3540\"\r\nAccept-Ranges: bytes\r\nContent-Length: 585829\r\n\r\n"
+    }
+  ],
+  "total_download_bytes": 3493989,
+  "free_disk_bytes": 297695563776,
+  "available_physical_memory_bytes": 10117582848,
+  "disk_headroom_guard_bytes": 536870912,
+  "available_memory_guard_bytes": 1073741824,
+  "configuration": {
+    "tcp_idle_seconds": 120.0,
+    "udp_idle_seconds": 30.0,
+    "active_timeout_seconds": 300.0,
+    "tshark_timeout_seconds": 120.0,
+    "max_packets": 1000000,
+    "max_active_flows": 50000,
+    "max_flows": 100000
+  },
+  "resource_limit_changes": [],
+  "audit_limits": {
+    "max_pcap_bytes": 134217728,
+    "max_frames": 1000000
+  },
+  "reason": "Full 2.9 MB PCAP, 4,426 published references and six file-download-related malicious references; smaller test of non-SYN behavior than Muhstik, without changing limits",
+  "muhstik_deferred": {
+    "pair_bytes": 82303309,
+    "published_reference_connections": 156103,
+    "max_flows_current": 100000,
+    "reason": "Zeek counts are not extractor counts, but many scan references risk exceeding max_flows; Python objects/JSON may require several GiB. No limits raised and no data body requested."
+  },
+  "source_advisories": [
+    "README generic dataset number says 41 although official directory and links are 42-1",
+    "README start year says 2018 but dated timeline and capture filename say January 2019; preserve exact metadata and validate packet correspondence",
+    "Full Zenodo archive byte identity is not verified; official IndividualScenarios snapshot only"
+  ],
+  "reserved_not_requested": [
+    "CTU-IoT-Malware-Capture-34-1",
+    "CTU-Honeypot-Capture-5-1"
+  ],
+  "do_not_download_alternative_subsets": [
+    "test.pcap",
+    "only5000",
+    "telnet.pcap",
+    "port-filtered files"
+  ]
+}

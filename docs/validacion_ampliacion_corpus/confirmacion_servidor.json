@@ -1,0 +1,14 @@
+{
+  "checked_at_utc": "2026-11-08T19:37:38.206309+00:00",
+  "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-42-1/2019-01-10-14-34-38-192.168.1.197.pcap",
+  "http_status": 206,
+  "range_start": 2908080,
+  "range_end": 2908159,
+  "received_bytes": 80,
+  "raw_headers": "HTTP/1.1 206 Partial Content\nDate: Sun, 08 Nov 2026 19:37:37 GMT\nServer: Apache/2.4.69\nLast-Modified: Wed, 30 Jan 2019 17:23:41 GMT\nETag: \"2c6000-580b02bcce140\"\nAccept-Ranges: bytes\nContent-Length: 80\nContent-Range: bytes 2908080-2908159/2908160\nContent-Type: application/vnd.tcpdump.pcap\n\n",
+  "server_tail_identical_to_local": true,
+  "tail_sha256": "20b23e3dfac27c7e678bca430448cf9c055e02bf49e4539e96be371a6bd64f92",
+  "local_capture_sha256": "7573797f17aae96e3804a3cfb22d531b74c17bbae740de1e14048f89130fba37",
+  "conclusion": "Server publishes the same incomplete final record; original GET body size equals HEAD Content-Length. No repair or truncation applied.",
+  "additional_data_bytes_requested": 80
+}

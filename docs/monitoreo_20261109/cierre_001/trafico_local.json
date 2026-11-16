@@ -1,0 +1,1 @@
+{"scope": "Only self-owned loopback listeners; no remote targets or scanning", "tcp_connections_completed": 12, "udp_echoes_completed": 8, "owned_service_ports": [64173, 64174, 64175, 64176, 64177, 64178, 55435]}

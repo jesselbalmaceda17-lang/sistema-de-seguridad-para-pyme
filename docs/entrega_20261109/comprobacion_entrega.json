@@ -1,0 +1,12 @@
+{
+  "delivery_links_checked": 73,
+  "broken_links": [],
+  "hardcoded_windows_user_paths_in_package": [],
+  "frozen_package_files": 24,
+  "manifest_files_excluding_self": 23,
+  "all_acceptance_locations_passed": true,
+  "test_servers_stopped": true,
+  "original_files_unchanged": 1743,
+  "ready_for_local_windows11_csv_demonstration": true,
+  "another_physical_machine_tested": false
+}

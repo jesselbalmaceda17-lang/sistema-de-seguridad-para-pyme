@@ -1,0 +1,105 @@
+Page Title: Seguridad Inteligente PYMES
+URL: http://127.0.0.1:8527/
+Snapshot: 
+- generic [ref=e2]:
+  - link "Skip to main content" [ref=e3] [cursor=pointer]:
+    - /url: "#stMain"
+  - region "Sidebar":
+    - generic [ref=e8]:
+      - heading "Estado del sistema" [level=2] [ref=e12]
+      - status [ref=e15]:
+        - generic:
+          - generic:
+            - generic:
+              - paragraph: "SIPYMES_MODEL_PATH está definido: el selector está deshabilitado y se usa el artefacto indicado."
+      - status [ref=e18]:
+        - generic:
+          - generic:
+            - generic:
+              - paragraph: Modelo cargado y listo.
+      - paragraph [ref=e23]: "Modelo seleccionado: Definitivo — clasificación predeterminada"
+      - paragraph [ref=e28]:
+        - text: "Artefacto:"
+        - code [ref=e29]: models\unsw_nb15_random_forest.joblib
+      - paragraph [ref=e34]: "Características requeridas: 42"
+      - paragraph [ref=e39]:
+        - text: "Regla:"
+        - code [ref=e40]: predict
+      - paragraph [ref=e45]: "Umbral: clasificación predeterminada"
+      - paragraph [ref=e50]:
+        - text: "Base SQLite:"
+        - code [ref=e51]: data\processed\security_analysis.sqlite3
+      - paragraph [ref=e56]: "Clasificación: normal (0) / sospechoso (1)"
+  - generic [ref=e4]:
+    - banner [ref=e59]:
+      - generic [ref=e61]:
+        - button "Expand sidebar" [ref=e64] [cursor=pointer]:
+          - generic [ref=e66]: keyboard_double_arrow_right
+        - generic [ref=e67]:
+          - button "Deploy" [ref=e69] [cursor=pointer]:
+            - generic [ref=e71]: Deploy
+          - button "Main menu" [ref=e73] [cursor=pointer]:
+            - img [ref=e74]
+    - main [ref=e5]:
+      - generic [ref=e77]:
+        - heading "Seguridad Inteligente PYMES" [level=1] [ref=e82]:
+          - text: Seguridad Inteligente PYMES
+          - generic [ref=e83]:
+            - link "Link to heading":
+              - /url: "#seguridad-inteligente-pymes"
+              - img
+        - paragraph [ref=e88]: Análisis de registros de tráfico con el modelo local disponible.
+        - alert [ref=e91]:
+          - generic [ref=e93]:
+            - generic [ref=e96]: ⚠️
+            - paragraph [ref=e98]:
+              - strong [ref=e99]: Análisis por archivo, no monitoreo en tiempo real.
+              - text: El sistema procesa un CSV que usted carga; no captura tráfico de red ni observa la red de forma continua.
+        - heading "Analizar un archivo" [level=2] [ref=e104]:
+          - text: Analizar un archivo
+          - generic [ref=e105]:
+            - link "Link to heading":
+              - /url: "#analizar-un-archivo"
+              - img
+        - paragraph [ref=e110]:
+          - text: Seleccione un CSV que contenga las características requeridas por el modelo. Puede incluir
+          - code [ref=e111]: id
+          - text: para identificar filas;
+          - code [ref=e112]: label
+          - text: "y"
+          - code [ref=e113]: attack_cat
+          - text: se ignoran y nunca se utilizan para predecir.
+        - generic [ref=e115]:
+          - generic [ref=e116]:
+            - paragraph [ref=e119]: Archivo CSV de registros
+            - button "Help for Archivo CSV de registros" [ref=e123] [cursor=pointer]:
+              - img [ref=e124]
+          - region "Archivo CSV de registros" [ref=e127] [cursor=pointer]:
+            - button "file upload"
+            - button "Upload" [ref=e129]:
+              - generic [ref=e131]:
+                - generic [ref=e133]: upload
+                - paragraph [ref=e136]: Upload
+            - generic [ref=e139]: 100MB per file • CSV
+        - separator [ref=e144]
+        - heading "Historial de análisis" [level=2] [ref=e149]:
+          - text: Historial de análisis
+          - generic [ref=e150]:
+            - link "Link to heading":
+              - /url: "#historial-de-analisis"
+              - img
+        - status [ref=e153]:
+          - paragraph [ref=e157]: Este historial consulta como máximo las 100 ejecuciones más recientes y las 10,000 alertas más recientes. Los filtros, la búsqueda y «Todas» se aplican solo a las alertas cargadas; si se alcanza el límite, puede haber registros anteriores que no estén incluidos.
+        - status [ref=e160]:
+          - paragraph [ref=e164]: Todavía no hay ejecuciones guardadas en la base local.
+        - heading "Gestión de alertas" [level=2] [ref=e169]:
+          - text: Gestión de alertas
+          - generic [ref=e170]:
+            - link "Link to heading":
+              - /url: "#gestion-de-alertas"
+              - img
+        - paragraph [ref=e175]: "La revisión manual: marcar una alerta como confirmada no modifica la predicción del modelo ni significa por sí solo que sea un ataque real."
+        - paragraph [ref=e180]: La fecha indica cuándo se registró la alerta en SQLite, no necesariamente cuándo ocurrió el evento de red.
+        - paragraph [ref=e185]: El score del modelo (clase 1) no es necesariamente una probabilidad calibrada y no confirma por sí solo un ataque.
+        - status [ref=e188]:
+          - paragraph [ref=e192]: El historial no contiene alertas predichas.

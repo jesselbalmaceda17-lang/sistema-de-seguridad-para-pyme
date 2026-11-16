@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-11-08T18:16:17.497457+00:00",
+  "method": "Restore serialized SQLite backup to temporary file; compare SHA-256 of complete iterdump line stream with live read-only source; no database modified",
+  "checks": [
+    {
+      "path": "data/processed/security_analysis.backup-20261105T193153Z-e296f770.sqlite3",
+      "source_sha256": "d7f5b0bf09409e72a957f9b1fd0498e70d01e67fdd4ffc6cb0eb93878c83e7c2",
+      "archive_sha256": "d7f5b0bf09409e72a957f9b1fd0498e70d01e67fdd4ffc6cb0eb93878c83e7c2",
+      "logical_sql_dump_sha256": "33899e78e545dfb21e579079a2c1ed6ad74b1a1227700e907b6e5411597b22e8",
+      "logical_restore_identical": true,
+      "restored_integrity": "ok",
+      "source_unchanged": true
+    },
+    {
+      "path": "data/processed/security_analysis.pre-model-selector-20261103-0833.sqlite3",
+      "source_sha256": "17f66a73d34177e89fd3dca2896fd1c642d6d6806fe375737baa6662ef500734",
+      "archive_sha256": "17f66a73d34177e89fd3dca2896fd1c642d6d6806fe375737baa6662ef500734",
+      "logical_sql_dump_sha256": "c44318cea860d651133d80bca567a7767cf4a5da505fcb9b9b2941ca0962257c",
+      "logical_restore_identical": true,
+      "restored_integrity": "ok",
+      "source_unchanged": true
+    },
+    {
+      "path": "data/processed/security_analysis.sqlite3",
+      "source_sha256": "1b92777bc6857daffa11aadb57da49e897fdaaea0aac06bdf972009b884db225",
+      "archive_sha256": "0c75f14449e623d79f673fe0dba150b7238f89705243376d5911d244758a6271",
+      "logical_sql_dump_sha256": "33899e78e545dfb21e579079a2c1ed6ad74b1a1227700e907b6e5411597b22e8",
+      "logical_restore_identical": true,
+      "restored_integrity": "ok",
+      "source_unchanged": true
+    }
+  ]
+}

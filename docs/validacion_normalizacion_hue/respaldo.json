@@ -1,0 +1,48 @@
+{
+  "checked_at_utc": "2026-11-08T19:03:23.162143+00:00",
+  "git": "not a Git repository",
+  "backup": "_backups/pre-hue-normalization-20261108T190312Z-008f13fb.zip",
+  "sha256": "238d0306c576b5edfd8b87cb0aae857388f6a0fa85abf7ae87d35d9e9c45bd0e",
+  "size_bytes": 46417122,
+  "restored_files_verified": 143,
+  "crc_valid": true,
+  "restored_sqlite": [
+    {
+      "path": "data/processed/security_analysis.backup-20261105T193153Z-e296f770.sqlite3",
+      "logical_sql_sha256": "33899e78e545dfb21e579079a2c1ed6ad74b1a1227700e907b6e5411597b22e8",
+      "restored_integrity": "ok",
+      "logical_contents_identical": true
+    },
+    {
+      "path": "data/processed/security_analysis.pre-model-selector-20261103-0833.sqlite3",
+      "logical_sql_sha256": "c44318cea860d651133d80bca567a7767cf4a5da505fcb9b9b2941ca0962257c",
+      "restored_integrity": "ok",
+      "logical_contents_identical": true
+    },
+    {
+      "path": "data/processed/security_analysis.sqlite3",
+      "logical_sql_sha256": "33899e78e545dfb21e579079a2c1ed6ad74b1a1227700e907b6e5411597b22e8",
+      "restored_integrity": "ok",
+      "logical_contents_identical": true
+    }
+  ],
+  "previous_tests": {
+    "started_at_utc": "2026-11-08T18:12:24.328692+00:00",
+    "finished_at_utc": "2026-11-08T18:13:04.771641+00:00",
+    "wall_seconds": 40.44294850000006,
+    "pattern": "test*.py",
+    "tests_run": 172,
+    "passed": 172,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "expected_failures": 0,
+    "unexpected_successes": 0,
+    "successful": true,
+    "failure_details": [],
+    "error_details": [],
+    "skipped_details": []
+  },
+  "previous_evidence_hash_checks": 143,
+  "previous_inventory_sha256": "71ea69fdd19b1326182f486cece928b93faf89193075d1068bda73385326b740"
+}

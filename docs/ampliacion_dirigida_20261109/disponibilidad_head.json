@@ -1,0 +1,104 @@
+{
+  "resources": [
+    {
+      "id": "somfy_01_index",
+      "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-7-1/Somfy-01/2019-07-03-15-15-47-first_start_somfy_gateway.pcap",
+      "method": "HEAD",
+      "checked_at_utc": "2026-11-09T14:18:38.806319+00:00",
+      "exit_code": 0,
+      "size_bytes": 2094105,
+      "headers": "HTTP/1.1 200 OK\r\nDate: Mon, 09 Nov 2026 14:18:38 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Tue, 09 Jul 2019 09:23:44 GMT\r\nETag: \"1ff419-58d3c1df98800\"\r\nAccept-Ranges: bytes\r\nContent-Length: 2094105\r\nContent-Type: application/vnd.tcpdump.pcap\r\n\r\n",
+      "stderr": "",
+      "body_downloaded": false
+    },
+    {
+      "id": "somfy_01_bro",
+      "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-7-1/Somfy-01/bro/conn.log.labeled",
+      "method": "HEAD",
+      "checked_at_utc": "2026-11-09T14:18:38.804973+00:00",
+      "exit_code": 0,
+      "size_bytes": 18024,
+      "headers": "HTTP/1.1 200 OK\r\nDate: Mon, 09 Nov 2026 14:18:38 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Thu, 05 Dec 2019 18:12:15 GMT\r\nETag: \"4668-598f8de73ddc0\"\r\nAccept-Ranges: bytes\r\nContent-Length: 18024\r\n\r\n",
+      "stderr": "",
+      "body_downloaded": false
+    },
+    {
+      "id": "somfy_02_index",
+      "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-7-1/Somfy-02/2019-07-03-16-41-09-192.168.1.158.pcap",
+      "method": "HEAD",
+      "checked_at_utc": "2026-11-09T14:18:38.805611+00:00",
+      "exit_code": 0,
+      "size_bytes": 33104424,
+      "headers": "HTTP/1.1 200 OK\r\nDate: Mon, 09 Nov 2026 14:18:38 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Tue, 09 Jul 2019 09:24:08 GMT\r\nETag: \"1f92228-58d3c1f67be00\"\r\nAccept-Ranges: bytes\r\nContent-Length: 33104424\r\nContent-Type: application/vnd.tcpdump.pcap\r\n\r\n",
+      "stderr": "",
+      "body_downloaded": false
+    },
+    {
+      "id": "somfy_03_index",
+      "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-7-1/Somfy-03/2019-07-04-16-41-10-192.168.1.158.pcap",
+      "method": "HEAD",
+      "checked_at_utc": "2026-11-09T14:18:38.805222+00:00",
+      "exit_code": 0,
+      "size_bytes": 17182720,
+      "headers": "HTTP/1.1 200 OK\r\nDate: Mon, 09 Nov 2026 14:18:38 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Tue, 09 Jul 2019 09:24:21 GMT\r\nETag: \"1063000-58d3c202e1b40\"\r\nAccept-Ranges: bytes\r\nContent-Length: 17182720\r\nContent-Type: application/vnd.tcpdump.pcap\r\n\r\n",
+      "stderr": "",
+      "body_downloaded": false
+    },
+    {
+      "id": "somfy_04_index",
+      "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-7-1/Somfy-04/2019-07-05-16-41-14-192.168.1.158.pcap",
+      "method": "HEAD",
+      "checked_at_utc": "2026-11-09T14:18:38.806694+00:00",
+      "exit_code": 0,
+      "size_bytes": 33213386,
+      "headers": "HTTP/1.1 200 OK\r\nDate: Mon, 09 Nov 2026 14:18:38 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Tue, 09 Jul 2019 08:40:18 GMT\r\nETag: \"1facbca-58d3b82a52080\"\r\nAccept-Ranges: bytes\r\nContent-Length: 33213386\r\nContent-Type: application/vnd.tcpdump.pcap\r\n\r\n",
+      "stderr": "",
+      "body_downloaded": false
+    },
+    {
+      "id": "somfy_05_index",
+      "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-7-1/Somfy-05/2019-07-06-16-41-17-192.168.1.158.pcap",
+      "method": "HEAD",
+      "checked_at_utc": "2026-11-09T14:18:38.805319+00:00",
+      "exit_code": 0,
+      "size_bytes": 33358852,
+      "headers": "HTTP/1.1 200 OK\r\nDate: Mon, 09 Nov 2026 14:18:38 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Tue, 09 Jul 2019 08:40:36 GMT\r\nETag: \"1fd0404-58d3b83b7c900\"\r\nAccept-Ranges: bytes\r\nContent-Length: 33358852\r\nContent-Type: application/vnd.tcpdump.pcap\r\n\r\n",
+      "stderr": "",
+      "body_downloaded": false
+    },
+    {
+      "id": "somfy_06_index",
+      "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-Honeypot-Capture-7-1/Somfy-06/2019-07-07-16-41-19-192.168.1.158.pcap",
+      "method": "HEAD",
+      "checked_at_utc": "2026-11-09T14:18:39.625830+00:00",
+      "exit_code": 0,
+      "size_bytes": 32964494,
+      "headers": "HTTP/1.1 200 OK\r\nDate: Mon, 09 Nov 2026 14:18:39 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Tue, 09 Jul 2019 08:40:58 GMT\r\nETag: \"1f6ff8e-58d3b85077a80\"\r\nAccept-Ranges: bytes\r\nContent-Length: 32964494\r\nContent-Type: application/vnd.tcpdump.pcap\r\n\r\n",
+      "stderr": "",
+      "body_downloaded": false
+    },
+    {
+      "id": "malware_3_bro",
+      "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-3-1/bro/conn.log.labeled",
+      "method": "HEAD",
+      "checked_at_utc": "2026-11-09T14:18:39.637803+00:00",
+      "exit_code": 0,
+      "size_bytes": 24383537,
+      "headers": "HTTP/1.1 200 OK\r\nDate: Mon, 09 Nov 2026 14:18:39 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Wed, 25 Dec 2019 10:41:17 GMT\r\nETag: \"1741031-59a84e67f0d40\"\r\nAccept-Ranges: bytes\r\nContent-Length: 24383537\r\n\r\n",
+      "stderr": "",
+      "body_downloaded": false
+    },
+    {
+      "id": "malware_21_bro",
+      "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-21-1/bro/conn.log.labeled",
+      "method": "HEAD",
+      "checked_at_utc": "2026-11-09T14:18:39.637724+00:00",
+      "exit_code": 0,
+      "size_bytes": 428943,
+      "headers": "HTTP/1.1 200 OK\r\nDate: Mon, 09 Nov 2026 14:18:39 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Tue, 24 Dec 2019 23:17:00 GMT\r\nETag: \"68b8f-59a7b574ef300\"\r\nAccept-Ranges: bytes\r\nContent-Length: 428943\r\n\r\n",
+      "stderr": "",
+      "body_downloaded": false
+    }
+  ],
+  "capture_and_labels_body_bytes_downloaded": 0
+}

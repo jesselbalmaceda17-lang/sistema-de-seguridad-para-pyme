@@ -1,0 +1,14 @@
+test_actual_hue_xz_matches_preserved_pcap_with_only_metadata_snaplen_discrepancy (test_iot23_acquisition_compatibility.LocalAdditionalScenarioTests.test_actual_hue_xz_matches_preserved_pcap_with_only_metadata_snaplen_discrepancy) ... ok
+test_hakai_full_capture_has_exact_exclusive_same_label_partitions (test_iot23_acquisition_compatibility.LocalAdditionalScenarioTests.test_hakai_full_capture_has_exact_exclusive_same_label_partitions) ... ok
+test_hue_unknown_lowercase_labels_remain_unlabeled_and_partials_quarantined (test_iot23_acquisition_compatibility.LocalAdditionalScenarioTests.test_hue_unknown_lowercase_labels_remain_unlabeled_and_partials_quarantined) ... ok
+test_bounded_output_rejects_before_creating_pcap (test_iot23_acquisition_compatibility.SafeXZCompatibilityTests.test_bounded_output_rejects_before_creating_pcap) ... ok
+test_corrupt_truncated_and_trailing_streams_do_not_create_output (test_iot23_acquisition_compatibility.SafeXZCompatibilityTests.test_corrupt_truncated_and_trailing_streams_do_not_create_output) ... ok
+test_existing_output_is_never_overwritten (test_iot23_acquisition_compatibility.SafeXZCompatibilityTests.test_existing_output_is_never_overwritten) ... ok
+test_header_proof_cannot_hide_other_header_or_packet_differences (test_iot23_acquisition_compatibility.SafeXZCompatibilityTests.test_header_proof_cannot_hide_other_header_or_packet_differences) ... ok
+test_single_stream_preserves_original_and_writes_exact_pcap (test_iot23_acquisition_compatibility.SafeXZCompatibilityTests.test_single_stream_preserves_original_and_writes_exact_pcap) ... ok
+test_wrong_expected_hash_or_non_pcap_does_not_create_output (test_iot23_acquisition_compatibility.SafeXZCompatibilityTests.test_wrong_expected_hash_or_non_pcap_does_not_create_output) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 9.575s
+
+OK

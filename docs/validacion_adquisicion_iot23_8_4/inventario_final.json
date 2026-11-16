@@ -1,0 +1,207 @@
+{
+  "checked_at_utc": "2026-11-08T18:22:28.328229+00:00",
+  "original_files_unchanged": 106,
+  "modified_existing_files": [],
+  "deleted_existing_files": [],
+  "added_files_excluding_this_inventory": [
+    {
+      "path": "_backups/pre-controlled-iot23-20261108T175432Z-c9e45e9c.zip",
+      "size_bytes": 36572246,
+      "sha256": "42945a50a04a92813311795561e9bb84901e8f6b26bf626af95bd7e773976606"
+    },
+    {
+      "path": "data/processed/iot23_hakai_8_1/audit_v2/imported_labels.json",
+      "size_bytes": 14808415,
+      "sha256": "68eb41d9f429bec266b67cd9b2a8bcf0caa5a24748153805194daa66a9457e03"
+    },
+    {
+      "path": "data/processed/iot23_hakai_8_1/audit_v2/label_audit.json",
+      "size_bytes": 44269419,
+      "sha256": "dbd8f3c9e4de69ad5b6a0920ef84bc6796ccc11bd640c9c83a81c341709ee90c"
+    },
+    {
+      "path": "data/processed/iot23_hakai_8_1/extraction.json",
+      "size_bytes": 26974848,
+      "sha256": "02ba168c4a0db067e813e9dc129d45689f3b88c51eefaf66c4a1c44c54437b99"
+    },
+    {
+      "path": "data/processed/iot23_hue_4_1/audit_v2/imported_labels.json",
+      "size_bytes": 667508,
+      "sha256": "cf98311fae844b16a4a58b0638b291414665a15752f09a3d0e1ed16d72e527e7"
+    },
+    {
+      "path": "data/processed/iot23_hue_4_1/audit_v2/label_audit.json",
+      "size_bytes": 28394864,
+      "sha256": "f5e8e001666280bbafa5d3cf60f35382b5d228a1bb273a7f0ecb3ba5b7d9b41c"
+    },
+    {
+      "path": "data/processed/iot23_hue_4_1/extraction.json",
+      "size_bytes": 14414973,
+      "sha256": "2843833f1842f8a915a5aabeed9b244d44dd9262e155ac4774ee747aaf3e341c"
+    },
+    {
+      "path": "data/raw/iot23_hakai_8_1/2018-07-31-15-15-09-192.168.100.113.pcap",
+      "size_bytes": 2098362,
+      "sha256": "80dcc2602519479ddcde889fa902fee19a76696630811452f8df38888af894f2"
+    },
+    {
+      "path": "data/raw/iot23_hakai_8_1/conn.log.labeled",
+      "size_bytes": 1431000,
+      "sha256": "4877ca8f0f01902fbd18d28b7d06cb3d0be082355b7f2c8862c9deef1782eb8a"
+    },
+    {
+      "path": "data/raw/iot23_hakai_8_1/provenance.json",
+      "size_bytes": 1978,
+      "sha256": "3d61f9d8c4dfa1dad99abb8cd5f34125d8ec84f9fef2aab37fb8e694871890fa"
+    },
+    {
+      "path": "data/raw/iot23_hue_4_1/2018-10-25-14-06-32-192.168.1.132.pcap",
+      "size_bytes": 4594492,
+      "sha256": "3fb775c0391b6ad313a3f7845e634a277b07c3f6377346c2486ba63e1c22e90c"
+    },
+    {
+      "path": "data/raw/iot23_hue_4_1/2018-10-25-14-06-32-192.168.1.132.pcap.xz",
+      "size_bytes": 376840,
+      "sha256": "bc5a57306d9a5f614b09d9c0976f007667fee5b6de3427fbab094fa3084b9b64"
+    },
+    {
+      "path": "data/raw/iot23_hue_4_1/acquisition_transport.json",
+      "size_bytes": 1810,
+      "sha256": "5c2ba6dc6529b69a3437579e53fcd1a3572f4930465eadb843617cf7709d7187"
+    },
+    {
+      "path": "data/raw/iot23_hue_4_1/conn.log.labeled",
+      "size_bytes": 61653,
+      "sha256": "aebe40ea0e03b120265a5c7bc140dd9b0d3fe2fce65559e84776b7dd5360e71e"
+    },
+    {
+      "path": "data/raw/iot23_hue_4_1/provenance.json",
+      "size_bytes": 3754,
+      "sha256": "231471e18d54ca396c3b0eaf5e09726708a9af8c74062730f6b2dbb04e19f268"
+    },
+    {
+      "path": "docs/adquisicion_controlada_iot23_8_4.md",
+      "size_bytes": 28577,
+      "sha256": "7d63c58a9914c6405344deff9829055aae8ca0a9e1f0c4d2a3f52122e9cbafe4"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/censar.py",
+      "size_bytes": 9751,
+      "sha256": "5a2f879ca7494e959aa074ea320a3e4006cfb8f5fbcc38cdccdb23a8533959b3"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/censo.json",
+      "size_bytes": 45218,
+      "sha256": "e75542d0716afcc8f19dbc342332701538c3ab28b9efe9677371fe829b804f5e"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/cerrar_evidencias.py",
+      "size_bytes": 7316,
+      "sha256": "c37f1999a2d75ee06992bcc39fad3d14083b0bd80003fff74771200c213a40d0"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/diagnostico_hue.json",
+      "size_bytes": 112769,
+      "sha256": "37e93a05ce2360987a3e768e5cd7a7bc6c836b92e9434e82006455a5a3feb902"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/diagnostico_hue_tcp.json",
+      "size_bytes": 36265,
+      "sha256": "28309a80af284a10d4654e106342fa1f18f1ce91d1a25f86c2f38480c5de8eab"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/diversidad.json",
+      "size_bytes": 10070,
+      "sha256": "d6a6799426b23df33702f6ba8d256f6a50585fbb8a0ae49dfd3b135afa6f1e37"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/ejecutar_etapa.py",
+      "size_bytes": 19966,
+      "sha256": "45edacd1aa82115005db98a9be18bf1a0e68ad5177da254787ccf10003bbb4b5"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/entorno.json",
+      "size_bytes": 3313,
+      "sha256": "beb7d7fd28e0bcf7ae30c9de36fc38cb7a78e5730fdf33ccb7af4fe3a256d837"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/hakai_ejecucion.json",
+      "size_bytes": 4540,
+      "sha256": "bd6b64ef436e4b7900257e484dfd1d381600e16bd89c1163a93614502b760f57"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/hue_ejecucion.json",
+      "size_bytes": 4532,
+      "sha256": "c6fa27671c83095663ab9f2a8f157fee7fb80a7357b0ba0893a8d318901c96b0"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/incidencias.json",
+      "size_bytes": 3826,
+      "sha256": "8c22934a082b0d2ab7d08ad14c70413375fdd3f106048db5a3234560c30f8c02"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/integridad.json",
+      "size_bytes": 31399,
+      "sha256": "1052878b12c4c3c45ecd5211a0cd765402f77558fb8b8403c5551e232c861ee6"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/preflight.json",
+      "size_bytes": 26221,
+      "sha256": "897d937697f5ae61e1eefa21a48c9cf0dbc22e0b4acae47c833d251554b08058"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/pruebas.py",
+      "size_bytes": 1868,
+      "sha256": "2d69501ddf3e98e86e0865376fe278e1169f1ced21602878656abd6022aefea5"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/pruebas_completas.log",
+      "size_bytes": 29154,
+      "sha256": "008dd979649d3ce00bf9a2023110f000e136c812f62ebed2acf27420633ccc8d"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/pruebas_especificas.log",
+      "size_bytes": 1891,
+      "sha256": "44308e5f5b35deb87efaa9ea91f6251bcc5780b524bb32a1ff55b0c59fc0c958"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/respaldo.json",
+      "size_bytes": 831,
+      "sha256": "cde78791f3a1184a2e0ae2672250e98fa557b04ecb7b70192fc3f29463cd0c8c"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/restauracion_sqlite_logica.json",
+      "size_bytes": 1722,
+      "sha256": "05da5a9d5c378aeebd328bf94bc76efff236c4892d7c5ba15122e33815b895be"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/resultado_completas.json",
+      "size_bytes": 430,
+      "sha256": "e9a370542c2195d911f1965e2252d3f76913a017205704564530c5ff2850165d"
+    },
+    {
+      "path": "docs/validacion_adquisicion_iot23_8_4/resultado_especificas.json",
+      "size_bytes": 457,
+      "sha256": "b61e55258280ae0cefd9f15d188eb89538d05441f9ca1f658e0b3c76f440033e"
+    },
+    {
+      "path": "tests/test_iot23_acquisition_compatibility.py",
+      "size_bytes": 9608,
+      "sha256": "66ab929799f5edc3a59b5e72e1db4b3c4f8de4e28785740ac2d155eaa3334160"
+    }
+  ],
+  "added_file_count_excluding_this_inventory": 37,
+  "added_storage_bytes_excluding_this_inventory": 175061886,
+  "excluded": [
+    ".venv",
+    "__pycache__",
+    ".pytest_cache",
+    ".git"
+  ],
+  "preserved_prior_backups": [
+    "_backups/pre-iot23-pilot-20261108T154817Z-558de56f.zip",
+    "_backups/pre-pcap-20261108T145704Z-c78b980b.zip",
+    "_backups/pre-real-pcap-validation-20261108T151858Z-da1e2f71.zip",
+    "_backups/pre-reconciliation-20261108T165622Z-fb48e1bc.zip"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "available_memory_before_bytes": 10129027072,
+  "code_sha256": {
+    "pcap_experiment/__init__.py": "63e167377b1bbda05871f0624a8bc748a0b3562d51454b8c94d878a58777bacf",
+    "pcap_experiment/common.py": "27bcbe6b739f433d7611a626f88df65fc29ca97354a908f4756ba2a48958e5e7",
+    "pcap_experiment/contract.py": "d931973a8644a510f60620fe4219c7b6ee15cb457892890d48fd3a9afa256c3e",
+    "pcap_experiment/dataset.py": "7a3cc5b43375cee1c409e5b0ca68c8c2bf3e8437e8f3c04bbec3460360bcc71e",
+    "pcap_experiment/evaluation.py": "ed83614b46987eb0717ca571b6883b4142b0a0cffd969c4dd1fec3812d1b5bca",
+    "pcap_experiment/models.py": "5d6222168ed81f204c233012777d24f06b02c996be9b63d1da2452bd212c9961",
+    "pcap_experiment/run.py": "e0d6a1e12a28d95bff5a5d713214d9054341be21aed9f592f9847a422898287d",
+    "pcap_experiment/validation.py": "f045ea1dfd74b8059861d3a5c9d0379be11151bcf196582ea9522ac30389cfda"
+  },
+  "physical_memory_bytes": 21247614976,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.14.6",
+  "thread_policy": "Random Forest n_jobs=1; seed fixed; no hyperparameter search",
+  "versions": {
+    "joblib": "1.6.0",
+    "numpy": "2.5.4",
+    "psutil": "7.2.2",
+    "scikit-learn": "1.9.1"
+  }
+}

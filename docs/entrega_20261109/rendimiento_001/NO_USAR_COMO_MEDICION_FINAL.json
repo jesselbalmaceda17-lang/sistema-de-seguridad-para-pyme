@@ -1,0 +1,5 @@
+{
+  "status": "INVALIDATED_MEASUREMENT_PILOT",
+  "reason": "The first supervisor observed RSS of the Windows venv launcher rather than its actual worker child. Its memory figures are invalid for the resource guard. A stop was requested after detecting this, but its process tree had already exited. All pilot files were retained. The supervisor was changed to observe the entire owned process tree. No application code, model or limits changed.",
+  "superseded_by": "../rendimiento_002/resultados.json"
+}

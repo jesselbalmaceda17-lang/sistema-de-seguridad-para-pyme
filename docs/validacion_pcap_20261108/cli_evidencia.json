@@ -1,0 +1,66 @@
+[
+  {
+    "command": [
+      "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\.venv\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "seguridad_pymes.pcap_extract",
+      "docs\\validacion_pcap_20261108\\udp_control.pcap",
+      "--output",
+      "docs\\validacion_pcap_20261108\\udp_control.pcap.flujos.json",
+      "--tshark",
+      "C:\\Program Files\\Wireshark\\tshark.exe"
+    ],
+    "returncode": 0,
+    "stdout": "Extracted 1 flows to docs\\validacion_pcap_20261108\\udp_control.pcap.flujos.json; no classification performed.\n",
+    "stderr": "",
+    "source": "docs\\validacion_pcap_20261108\\udp_control.pcap",
+    "source_sha256": "27a8ec2098710de4eadaa353bf9c32a1ca8e441c7ce15d5f9caef64a4c6f30ce",
+    "report": "docs\\validacion_pcap_20261108\\udp_control.pcap.flujos.json",
+    "report_sha256": "50b212368f264f68b222dc0538a9905a121293582b5dfd96e0ff877b5435ebfb",
+    "feature_count": 38,
+    "quality": {
+      "packets_seen": 3,
+      "packets_accepted": 3,
+      "packets_rejected": 0,
+      "rejections_by_reason": {},
+      "rejection_examples_first_20": [],
+      "flows_produced": 1,
+      "first_timestamp_epoch_ns": "1000000000",
+      "last_timestamp_epoch_ns": "1500000000",
+      "capture_loss": "unknown; file contents cannot prove absence of capture loss"
+    }
+  },
+  {
+    "command": [
+      "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\.venv\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "seguridad_pymes.pcap_extract",
+      "docs\\validacion_pcap_20261108\\tcp_control.pcapng",
+      "--output",
+      "docs\\validacion_pcap_20261108\\tcp_control.pcapng.flujos.json",
+      "--tshark",
+      "C:\\Program Files\\Wireshark\\tshark.exe"
+    ],
+    "returncode": 0,
+    "stdout": "Extracted 1 flows to docs\\validacion_pcap_20261108\\tcp_control.pcapng.flujos.json; no classification performed.\n",
+    "stderr": "",
+    "source": "docs\\validacion_pcap_20261108\\tcp_control.pcapng",
+    "source_sha256": "4f72ea165556aeb2792d54b24822a5c26fbe0f5c918ce093add28debb8bbfcb6",
+    "report": "docs\\validacion_pcap_20261108\\tcp_control.pcapng.flujos.json",
+    "report_sha256": "13dd1b5c2adcc74f6a812618cb2c9552d04c7d7fd99a619dbfce61f2afe873fa",
+    "feature_count": 38,
+    "quality": {
+      "packets_seen": 6,
+      "packets_accepted": 6,
+      "packets_rejected": 0,
+      "rejections_by_reason": {},
+      "rejection_examples_first_20": [],
+      "flows_produced": 1,
+      "first_timestamp_epoch_ns": "1000000000",
+      "last_timestamp_epoch_ns": "2600000000",
+      "capture_loss": "unknown; file contents cannot prove absence of capture loss"
+    }
+  }
+]

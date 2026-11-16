@@ -1,0 +1,26 @@
+[
+  {
+    "name": "monitoreo_actual",
+    "exit_code": 0,
+    "command": [
+      "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "tests.test_monitoring",
+      "-v"
+    ]
+  },
+  {
+    "name": "csv_actual",
+    "exit_code": 0,
+    "command": [
+      "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Scripts\\python.exe",
+      "-I",
+      "-B",
+      "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\entrega_20261109\\test_paquete.py",
+      "C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-Le0Mxc\\Validacion monitoreo independiente seuqglmk\\ZIP final con espacios\\SeguridadInteligentePYMES-monitoreo-20261109",
+      "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\interfaz_fisica_20261109\\csv_aceptacion"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-11-09T14:31:05.999708+00:00",
+  "ram_available_bytes": 11738836992,
+  "disk_free_bytes": 297469714432,
+  "backup_and_restore_uncompressed_source_bytes": 648393374,
+  "later_candidate_pairs_bytes": 84415438,
+  "later_processing_disk_reserve_bytes": 3221225472,
+  "somfy_ram_guard_bytes": 1073741824,
+  "muhstik_ram_guard_bytes": 8589934592
+}

@@ -1,0 +1,91 @@
+{
+  "all_predictions_exact": true,
+  "checks": [
+    {
+      "capture": "hakai",
+      "model": "dummy",
+      "predictions_exact": true,
+      "predictors": 38,
+      "sha256": "c40f9f042b4e09d0bce3f8c0737b13ea9fee23a38fb35822673e8f20103c6b7f"
+    },
+    {
+      "capture": "hakai",
+      "model": "random_forest",
+      "predictions_exact": true,
+      "predictors": 38,
+      "sha256": "812cad7f589003665b2c35efb4f9af54f9f6dfac674ade1066ddcb3dcc73ca73"
+    },
+    {
+      "capture": "hakai",
+      "model": "syn_no_ack_rule",
+      "predictions_exact": true,
+      "predictors": 38,
+      "sha256": "5200ca79777f34161b34489f680fd82ef04c3b9e79e3094b8c25284f4c72756f"
+    },
+    {
+      "capture": "hakai",
+      "model": "tcp_rule",
+      "predictions_exact": true,
+      "predictors": 38,
+      "sha256": "a98cd6f484ec8135a3bb507b6f3af13cf169370710897303d2fbc745ef37fd42"
+    },
+    {
+      "capture": "hue",
+      "model": "dummy",
+      "predictions_exact": true,
+      "predictors": 38,
+      "sha256": "1c43af2b3a1f62acbb3101ac3434e4c8ee85d556cad77bbdfed78e9abd7c07fa"
+    },
+    {
+      "capture": "hue",
+      "model": "random_forest",
+      "predictions_exact": true,
+      "predictors": 38,
+      "sha256": "4503ecd7f8f94bd08578530dd287e27aee94443456fdb5bf162bcfb5f038ae09"
+    },
+    {
+      "capture": "hue",
+      "model": "syn_no_ack_rule",
+      "predictions_exact": true,
+      "predictors": 38,
+      "sha256": "5200ca79777f34161b34489f680fd82ef04c3b9e79e3094b8c25284f4c72756f"
+    },
+    {
+      "capture": "hue",
+      "model": "tcp_rule",
+      "predictions_exact": true,
+      "predictors": 38,
+      "sha256": "a98cd6f484ec8135a3bb507b6f3af13cf169370710897303d2fbc745ef37fd42"
+    },
+    {
+      "capture": "torii",
+      "model": "dummy",
+      "predictions_exact": true,
+      "predictors": 38,
+      "sha256": "adb8846bd2158ba866a19ec76b41a7b7234b008838493eeb121d81f54eabb014"
+    },
+    {
+      "capture": "torii",
+      "model": "random_forest",
+      "predictions_exact": true,
+      "predictors": 38,
+      "sha256": "7999532b8a613948867b87f875f8c32be705c57ed1067899b85856b60d562abe"
+    },
+    {
+      "capture": "torii",
+      "model": "syn_no_ack_rule",
+      "predictions_exact": true,
+      "predictors": 38,
+      "sha256": "5200ca79777f34161b34489f680fd82ef04c3b9e79e3094b8c25284f4c72756f"
+    },
+    {
+      "capture": "torii",
+      "model": "tcp_rule",
+      "predictions_exact": true,
+      "predictors": 38,
+      "sha256": "a98cd6f484ec8135a3bb507b6f3af13cf169370710897303d2fbc745ef37fd42"
+    }
+  ],
+  "models_checked": 12,
+  "trust": "locally created in this session; SHA verified before loading; never use for unknown joblib files"
+}

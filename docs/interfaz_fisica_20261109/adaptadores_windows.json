@@ -1,0 +1,32 @@
+﻿[
+    {
+        "Name":  "VMware Network Adapter VMnet8",
+        "InterfaceDescription":  "VMware Virtual Ethernet Adapter for VMnet8",
+        "Status":  "Up",
+        "InterfaceGuid":  "{FF525014-9895-4F18-9AF2-085B6447D746}",
+        "ifIndex":  19,
+        "HardwareInterface":  false,
+        "Virtual":  true,
+        "PhysicalMediaType":  "802.3"
+    },
+    {
+        "Name":  "VMware Network Adapter VMnet1",
+        "InterfaceDescription":  "VMware Virtual Ethernet Adapter for VMnet1",
+        "Status":  "Up",
+        "InterfaceGuid":  "{6CF0780D-E0E7-4450-A4D3-B46CCD293279}",
+        "ifIndex":  11,
+        "HardwareInterface":  false,
+        "Virtual":  true,
+        "PhysicalMediaType":  "802.3"
+    },
+    {
+        "Name":  "Wi-Fi",
+        "InterfaceDescription":  "Intel(R) Wi-Fi 6 AX201 160MHz",
+        "Status":  "Up",
+        "InterfaceGuid":  "{014603EF-B8E8-4F1A-9B1B-535F0D5E99D3}",
+        "ifIndex":  2,
+        "HardwareInterface":  true,
+        "Virtual":  false,
+        "PhysicalMediaType":  "Native 802.11"
+    }
+]

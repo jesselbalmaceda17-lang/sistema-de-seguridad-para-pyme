@@ -1,0 +1,25 @@
+{
+  "backup": "_backups/pre-controlled-iot23-20261108T175432Z-c9e45e9c.zip",
+  "sha256": "42945a50a04a92813311795561e9bb84901e8f6b26bf626af95bd7e773976606",
+  "size_bytes": 36572246,
+  "files_restored_and_verified": 106,
+  "prior_hash_checks": 109,
+  "sqlite_restorations": 3,
+  "git": "not a Git repository",
+  "prior_tests": {
+    "started_at_utc": "2026-11-08T17:15:02.191744+00:00",
+    "finished_at_utc": "2026-11-08T17:15:25.446638+00:00",
+    "tests_run": 163,
+    "passed": 163,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "expected_failures": 0,
+    "unexpected_successes": 0,
+    "successful": true,
+    "failure_details": [],
+    "error_details": [],
+    "skipped_details": []
+  },
+  "restoration": "CRC, per-file hashes, restored SQLite integrity verified in temporary directory"
+}

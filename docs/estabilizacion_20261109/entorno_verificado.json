@@ -1,0 +1,253 @@
+{
+  "lock_versions": [
+    {
+      "name": "joblib",
+      "expected": "1.6.0",
+      "installed": "1.6.0",
+      "matches": true
+    },
+    {
+      "name": "numpy",
+      "expected": "2.5.4",
+      "installed": "2.5.4",
+      "matches": true
+    },
+    {
+      "name": "pandas",
+      "expected": "3.0.6",
+      "installed": "3.0.6",
+      "matches": true
+    },
+    {
+      "name": "psutil",
+      "expected": "7.2.2",
+      "installed": "7.2.2",
+      "matches": true
+    },
+    {
+      "name": "scikit-learn",
+      "expected": "1.9.1",
+      "installed": "1.9.1",
+      "matches": true
+    },
+    {
+      "name": "streamlit",
+      "expected": "1.66.0",
+      "installed": "1.66.0",
+      "matches": true
+    },
+    {
+      "name": "altair",
+      "expected": "6.3.0",
+      "installed": "6.3.0",
+      "matches": true
+    },
+    {
+      "name": "anyio",
+      "expected": "4.15.1",
+      "installed": "4.15.1",
+      "matches": true
+    },
+    {
+      "name": "attrs",
+      "expected": "26.1.0",
+      "installed": "26.1.0",
+      "matches": true
+    },
+    {
+      "name": "certifi",
+      "expected": "2026.7.22",
+      "installed": "2026.7.22",
+      "matches": true
+    },
+    {
+      "name": "charset-normalizer",
+      "expected": "3.5.2",
+      "installed": "3.5.2",
+      "matches": true
+    },
+    {
+      "name": "click",
+      "expected": "8.5.0",
+      "installed": "8.5.0",
+      "matches": true
+    },
+    {
+      "name": "cloudpickle",
+      "expected": "3.1.2",
+      "installed": "3.1.2",
+      "matches": true
+    },
+    {
+      "name": "h11",
+      "expected": "0.16.0",
+      "installed": "0.16.0",
+      "matches": true
+    },
+    {
+      "name": "idna",
+      "expected": "3.20",
+      "installed": "3.20",
+      "matches": true
+    },
+    {
+      "name": "itsdangerous",
+      "expected": "2.2.0",
+      "installed": "2.2.0",
+      "matches": true
+    },
+    {
+      "name": "Jinja2",
+      "expected": "3.1.6",
+      "installed": "3.1.6",
+      "matches": true
+    },
+    {
+      "name": "jsonschema",
+      "expected": "4.26.0",
+      "installed": "4.26.0",
+      "matches": true
+    },
+    {
+      "name": "jsonschema-specifications",
+      "expected": "2025.9.1",
+      "installed": "2025.9.1",
+      "matches": true
+    },
+    {
+      "name": "MarkupSafe",
+      "expected": "3.0.4",
+      "installed": "3.0.4",
+      "matches": true
+    },
+    {
+      "name": "narwhals",
+      "expected": "2.27.1",
+      "installed": "2.27.1",
+      "matches": true
+    },
+    {
+      "name": "packaging",
+      "expected": "26.3",
+      "installed": "26.3",
+      "matches": true
+    },
+    {
+      "name": "pillow",
+      "expected": "12.3.0",
+      "installed": "12.3.0",
+      "matches": true
+    },
+    {
+      "name": "protobuf",
+      "expected": "7.36.2",
+      "installed": "7.36.2",
+      "matches": true
+    },
+    {
+      "name": "pyarrow",
+      "expected": "26.0.0",
+      "installed": "26.0.0",
+      "matches": true
+    },
+    {
+      "name": "pydeck",
+      "expected": "0.9.3",
+      "installed": "0.9.3",
+      "matches": true
+    },
+    {
+      "name": "python-dateutil",
+      "expected": "2.9.0.post0",
+      "installed": "2.9.0.post0",
+      "matches": true
+    },
+    {
+      "name": "python-multipart",
+      "expected": "0.0.32",
+      "installed": "0.0.32",
+      "matches": true
+    },
+    {
+      "name": "referencing",
+      "expected": "0.37.0",
+      "installed": "0.37.0",
+      "matches": true
+    },
+    {
+      "name": "requests",
+      "expected": "2.34.2",
+      "installed": "2.34.2",
+      "matches": true
+    },
+    {
+      "name": "rpds-py",
+      "expected": "2026.9.1",
+      "installed": "2026.9.1",
+      "matches": true
+    },
+    {
+      "name": "scipy",
+      "expected": "1.18.1",
+      "installed": "1.18.1",
+      "matches": true
+    },
+    {
+      "name": "six",
+      "expected": "1.17.0",
+      "installed": "1.17.0",
+      "matches": true
+    },
+    {
+      "name": "starlette",
+      "expected": "1.8.0",
+      "installed": "1.8.0",
+      "matches": true
+    },
+    {
+      "name": "threadpoolctl",
+      "expected": "3.7.0",
+      "installed": "3.7.0",
+      "matches": true
+    },
+    {
+      "name": "typing_extensions",
+      "expected": "4.16.0",
+      "installed": "4.16.0",
+      "matches": true
+    },
+    {
+      "name": "tzdata",
+      "expected": "2026.5",
+      "installed": "2026.5",
+      "matches": true
+    },
+    {
+      "name": "urllib3",
+      "expected": "2.8.0",
+      "installed": "2.8.0",
+      "matches": true
+    },
+    {
+      "name": "uvicorn",
+      "expected": "0.54.0",
+      "installed": "0.54.0",
+      "matches": true
+    },
+    {
+      "name": "watchdog",
+      "expected": "6.0.0",
+      "installed": "6.0.0",
+      "matches": true
+    },
+    {
+      "name": "websockets",
+      "expected": "17.2",
+      "installed": "17.2",
+      "matches": true
+    }
+  ],
+  "all_match": true,
+  "pip_check": "No broken requirements found.",
+  "clean_environment_installation_verified": false
+}

@@ -1,0 +1,179 @@
+{
+  "run": {
+    "run_id": "4afee582-d2e2-4d65-a781-c899efe2a3bc",
+    "source": "demostracion_sintetica.csv",
+    "records_processed": 8,
+    "alerts_created": 4,
+    "model_id": "production_random_forest",
+    "model_reference": "models\\unsw_nb15_random_forest.joblib",
+    "decision_rule": "predict",
+    "decision_threshold": null,
+    "model_sha256": "58505ee89df22c4c223b66d5e7172388d5d1fad6b7d135fce800a2765b2029e9"
+  },
+  "normal_predictions": 4,
+  "suspicious_predictions": 4,
+  "alerts": [
+    {
+      "alert_id": 4,
+      "run_id": "4afee582-d2e2-4d65-a781-c899efe2a3bc",
+      "record_id": "controlled-8",
+      "detected_at": "2026-11-09T19:58:50+00:00",
+      "predicted_class": 1,
+      "model_score": 0.6415065396730989,
+      "review_state": "pending",
+      "source": "demostracion_sintetica.csv",
+      "model_id": "production_random_forest",
+      "model_reference": "models\\unsw_nb15_random_forest.joblib",
+      "decision_rule": "predict",
+      "decision_threshold": null,
+      "model_sha256": "58505ee89df22c4c223b66d5e7172388d5d1fad6b7d135fce800a2765b2029e9",
+      "run_started_at": "2026-11-09T19:58:50+00:00",
+      "run_status": "completed"
+    },
+    {
+      "alert_id": 3,
+      "run_id": "4afee582-d2e2-4d65-a781-c899efe2a3bc",
+      "record_id": "controlled-7",
+      "detected_at": "2026-11-09T19:58:50+00:00",
+      "predicted_class": 1,
+      "model_score": 0.6615425973654065,
+      "review_state": "pending",
+      "source": "demostracion_sintetica.csv",
+      "model_id": "production_random_forest",
+      "model_reference": "models\\unsw_nb15_random_forest.joblib",
+      "decision_rule": "predict",
+      "decision_threshold": null,
+      "model_sha256": "58505ee89df22c4c223b66d5e7172388d5d1fad6b7d135fce800a2765b2029e9",
+      "run_started_at": "2026-11-09T19:58:50+00:00",
+      "run_status": "completed"
+    },
+    {
+      "alert_id": 2,
+      "run_id": "4afee582-d2e2-4d65-a781-c899efe2a3bc",
+      "record_id": "controlled-6",
+      "detected_at": "2026-11-09T19:58:50+00:00",
+      "predicted_class": 1,
+      "model_score": 0.5363438539791632,
+      "review_state": "pending",
+      "source": "demostracion_sintetica.csv",
+      "model_id": "production_random_forest",
+      "model_reference": "models\\unsw_nb15_random_forest.joblib",
+      "decision_rule": "predict",
+      "decision_threshold": null,
+      "model_sha256": "58505ee89df22c4c223b66d5e7172388d5d1fad6b7d135fce800a2765b2029e9",
+      "run_started_at": "2026-11-09T19:58:50+00:00",
+      "run_status": "completed"
+    },
+    {
+      "alert_id": 1,
+      "run_id": "4afee582-d2e2-4d65-a781-c899efe2a3bc",
+      "record_id": "controlled-5",
+      "detected_at": "2026-11-09T19:58:50+00:00",
+      "predicted_class": 1,
+      "model_score": 0.5565356529209622,
+      "review_state": "pending",
+      "source": "demostracion_sintetica.csv",
+      "model_id": "production_random_forest",
+      "model_reference": "models\\unsw_nb15_random_forest.joblib",
+      "decision_rule": "predict",
+      "decision_threshold": null,
+      "model_sha256": "58505ee89df22c4c223b66d5e7172388d5d1fad6b7d135fce800a2765b2029e9",
+      "run_started_at": "2026-11-09T19:58:50+00:00",
+      "run_status": "completed"
+    }
+  ],
+  "alerts_total": 4,
+  "alerts_returned": 4,
+  "alerts_limit": 10000,
+  "alerts_truncated": false,
+  "resource_measurement": {
+    "sample_size": 8,
+    "elapsed_seconds": 0.029649800000015603,
+    "elapsed_ms_per_record": 3.7062250000019503,
+    "baseline_rss_mib": 283.68359375,
+    "peak_rss_mib": 283.72265625,
+    "peak_rss_delta_mib": 0.0390625
+  },
+  "records": [
+    {
+      "identificador_registro": "controlled-1",
+      "clasificacion_predicha": "Normal",
+      "Score del modelo (clase 1)": 0.13562021881150815,
+      "archivo_origen": "demostracion_sintetica.csv",
+      "id_ejecucion": "4afee582-d2e2-4d65-a781-c899efe2a3bc",
+      "modelo": "production_random_forest",
+      "regla_decision": "predict",
+      "umbral_decision": null
+    },
+    {
+      "identificador_registro": "controlled-2",
+      "clasificacion_predicha": "Normal",
+      "Score del modelo (clase 1)": 0.28785357145945006,
+      "archivo_origen": "demostracion_sintetica.csv",
+      "id_ejecucion": "4afee582-d2e2-4d65-a781-c899efe2a3bc",
+      "modelo": "production_random_forest",
+      "regla_decision": "predict",
+      "umbral_decision": null
+    },
+    {
+      "identificador_registro": "controlled-3",
+      "clasificacion_predicha": "Normal",
+      "Score del modelo (clase 1)": 0.1360016302413029,
+      "archivo_origen": "demostracion_sintetica.csv",
+      "id_ejecucion": "4afee582-d2e2-4d65-a781-c899efe2a3bc",
+      "modelo": "production_random_forest",
+      "regla_decision": "predict",
+      "umbral_decision": null
+    },
+    {
+      "identificador_registro": "controlled-4",
+      "clasificacion_predicha": "Normal",
+      "Score del modelo (clase 1)": 0.34023129352794346,
+      "archivo_origen": "demostracion_sintetica.csv",
+      "id_ejecucion": "4afee582-d2e2-4d65-a781-c899efe2a3bc",
+      "modelo": "production_random_forest",
+      "regla_decision": "predict",
+      "umbral_decision": null
+    },
+    {
+      "identificador_registro": "controlled-5",
+      "clasificacion_predicha": "Sospechoso (ataque)",
+      "Score del modelo (clase 1)": 0.5565356529209622,
+      "archivo_origen": "demostracion_sintetica.csv",
+      "id_ejecucion": "4afee582-d2e2-4d65-a781-c899efe2a3bc",
+      "modelo": "production_random_forest",
+      "regla_decision": "predict",
+      "umbral_decision": null
+    },
+    {
+      "identificador_registro": "controlled-6",
+      "clasificacion_predicha": "Sospechoso (ataque)",
+      "Score del modelo (clase 1)": 0.5363438539791632,
+      "archivo_origen": "demostracion_sintetica.csv",
+      "id_ejecucion": "4afee582-d2e2-4d65-a781-c899efe2a3bc",
+      "modelo": "production_random_forest",
+      "regla_decision": "predict",
+      "umbral_decision": null
+    },
+    {
+      "identificador_registro": "controlled-7",
+      "clasificacion_predicha": "Sospechoso (ataque)",
+      "Score del modelo (clase 1)": 0.6615425973654065,
+      "archivo_origen": "demostracion_sintetica.csv",
+      "id_ejecucion": "4afee582-d2e2-4d65-a781-c899efe2a3bc",
+      "modelo": "production_random_forest",
+      "regla_decision": "predict",
+      "umbral_decision": null
+    },
+    {
+      "identificador_registro": "controlled-8",
+      "clasificacion_predicha": "Sospechoso (ataque)",
+      "Score del modelo (clase 1)": 0.6415065396730989,
+      "archivo_origen": "demostracion_sintetica.csv",
+      "id_ejecucion": "4afee582-d2e2-4d65-a781-c899efe2a3bc",
+      "modelo": "production_random_forest",
+      "regla_decision": "predict",
+      "umbral_decision": null
+    }
+  ]
+}

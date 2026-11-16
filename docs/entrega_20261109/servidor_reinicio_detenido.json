@@ -1,0 +1,10 @@
+{
+  "stopped_pids": [
+    2468,
+    14216,
+    7336,
+    10040
+  ],
+  "owned_launcher": 10040,
+  "all_stopped": true
+}

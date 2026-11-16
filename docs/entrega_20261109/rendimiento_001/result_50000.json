@@ -1,0 +1,37 @@
+{
+  "records": 50000,
+  "input_bytes": 7539259,
+  "predicted_suspicious": 25000,
+  "imports_and_start_seconds": 4.968840900000032,
+  "file_read_seconds": 0.02762239999992744,
+  "csv_parse_seconds": 0.7894957999997132,
+  "csv_prepare_seconds": 0.02894930000002205,
+  "analysis_total_seconds": 4.3267550999999,
+  "model_load_seconds": 0.1632128000001103,
+  "sqlite_initialize_seconds": 0.048279500000717235,
+  "sqlite_create_run_seconds": 0.010105800000019372,
+  "sqlite_complete_and_alerts_seconds": 0.40939129999969737,
+  "classification_including_scores_seconds": 2.2925423999995473,
+  "inference_resources": {
+    "sample_size": 50000,
+    "elapsed_seconds": 2.2925423999995473,
+    "elapsed_ms_per_record": 0.045850847999990944,
+    "baseline_rss_mib": 296.1875,
+    "peak_rss_mib": 375.69921875,
+    "peak_rss_delta_mib": 79.51171875
+  },
+  "sqlite_query_seconds": 0.1905202999996618,
+  "report_build_and_serialization_seconds": 1.5799232999997912,
+  "sqlite_bytes": 5455872,
+  "csv_export_bytes": 6782787,
+  "json_export_bytes": 21573577,
+  "json_alerts_returned": 10000,
+  "json_alerts_truncated": true,
+  "classes_and_scores_match_oracle": true,
+  "sqlite_integrity": "ok",
+  "module_paths": [
+    "seguridad_pymes\\dashboard.py",
+    "seguridad_pymes\\inference.py"
+  ],
+  "worker_wall_seconds": 12.02647639999941
+}

@@ -1,0 +1,20 @@
+{
+  "release": "monitoreo-wifi-verificado-20261109",
+  "platform_verified": "Windows 11 x64 / Python 3.14.6",
+  "requirements_unchanged": true,
+  "new_python_dependencies": [],
+  "capture_dependencies": [
+    "TShark 4.6.9",
+    "Npcap"
+  ],
+  "csv_model_sha256": "58505ee89df22c4c223b66d5e7172388d5d1fad6b7d135fce800a2765b2029e9",
+  "rule_detector": "transparent_rules_v1",
+  "pcap_rf_included": false,
+  "offline_pcap_features_unchanged": 38,
+  "csv_features_unchanged": 42,
+  "another_physical_machine_verified": false,
+  "physical_wifi_verified": true,
+  "physical_ethernet_verified": false,
+  "npcap_version_verified": "1.88",
+  "application_code_changed": false
+}

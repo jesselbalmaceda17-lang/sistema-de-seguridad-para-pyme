@@ -1,0 +1,131 @@
+{
+  "recorded_at_utc": "2026-11-08T19:45:42.000507+00:00",
+  "baseline_files_unchanged": 165,
+  "modified_preexisting_files": [],
+  "deleted_preexisting_files": [],
+  "files_added_by_interrupted_stage": [
+    {
+      "path": "_backups/pre-corpus-expansion-20261108T192626Z-3cdf2ed2.zip",
+      "size_bytes": 48589785,
+      "sha256": "05194834818c97ae65d07c43eac9980fd060607b33cb6444d975933b955a4a2c"
+    },
+    {
+      "path": "data/raw/iot23_trojan_42_1/2019-01-10-14-34-38-192.168.1.197.pcap",
+      "size_bytes": 2908160,
+      "sha256": "7573797f17aae96e3804a3cfb22d531b74c17bbae740de1e14048f89130fba37"
+    },
+    {
+      "path": "data/raw/iot23_trojan_42_1/conn.log.labeled",
+      "size_bytes": 585829,
+      "sha256": "269fa1b22d9a37e159cf41b81a213a0032d21306f5d39b4c20cb0d211b04e8aa"
+    },
+    {
+      "path": "data/raw/iot23_trojan_42_1/labels_transport.json",
+      "size_bytes": 572,
+      "sha256": "b00d866356a7b1ed34c6676314f946ae52de93aae890feebb7e47c2454b91251"
+    },
+    {
+      "path": "data/raw/iot23_trojan_42_1/pcap_transport.json",
+      "size_bytes": 666,
+      "sha256": "fe3019ebb617e74e737f6fb74ac712c5db6f3398bbb888419f51bc9c01424ff3"
+    },
+    {
+      "path": "data/raw/iot23_trojan_42_1/provenance.json",
+      "size_bytes": 2464,
+      "sha256": "3dde0aade07a439921c9d830061d4c1716caa96d3c172581ab5af512137ccf33"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/analizar_grupos.py",
+      "size_bytes": 6436,
+      "sha256": "b0e1f5f25a2e22044702efca0c53821f5aadb53ef31aa40e258ccb451f062f09"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/censo_inicial_grupos.json",
+      "size_bytes": 9586056,
+      "sha256": "ae7d50cb12b46357d6a33937746ae7396ed0c94c678de0bb301d25c8577edc0d"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/confirmacion_servidor.json",
+      "size_bytes": 1062,
+      "sha256": "18353fbda5e0cb027aded18a79cf64615f4abbd2d3a2eab16d9aa92e5e1090c1"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/decision_previa.json",
+      "size_bytes": 3593,
+      "sha256": "6db526253c2dcabc328740e59f005fd655adc93493339039491da5b321dd6d82"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/diagnostico_truncamiento.json",
+      "size_bytes": 2292,
+      "sha256": "19489ea8a9117aa76f19bda431dabc160a7c45e2d8c26f3fc4660051880dbfe2"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/ejecucion_trojan_42_1.json",
+      "size_bytes": 262768,
+      "sha256": "ad21c061ed6d5cb94a9424aacdf572dbc6272fe2f6684cf94d6b6304caf7397c"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/ejecutar_42.py",
+      "size_bytes": 10473,
+      "sha256": "069e47e050239fd815c4886d89bf33a89a9742a3487ff59cc74d66d1e6b50827"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/etiquetas_importadas_42_sin_correspondencia.json",
+      "size_bytes": 6512460,
+      "sha256": "f3e26f61945642d47979ba4128613ca1c855058b04aa8ae6144d0089f6749566"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/pruebas.py",
+      "size_bytes": 2165,
+      "sha256": "926809942054dbf089be54a1f1644c58a7b968de9b0a3ff7a5ffad49fea1fd14"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/pruebas_especificas.log",
+      "size_bytes": 15259,
+      "sha256": "08e80994cb2a04229aae4de9f02d611df987bcb3f9750213f4ac9f51d53f4722"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/respaldo.json",
+      "size_bytes": 1617,
+      "sha256": "32fc9ddacb5e7f4f97611e247eeb47ff00700cab76bb38ed709ea0e7676375c3"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/resultado_especificas.json",
+      "size_bytes": 419,
+      "sha256": "354795507b1d0eb3ec16bf02f84fc0bed96814f8244bd4f1a6a9d10c141965db"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/seleccion_fuentes.json",
+      "size_bytes": 80272,
+      "sha256": "234358c6776782c3d0addbf3e1e4d808b8e43befc1d7b7c895ad4d142bfb6149"
+    },
+    {
+      "path": "docs/validacion_ampliacion_corpus/seleccionar.py",
+      "size_bytes": 3756,
+      "sha256": "a0843da5bbf0dfa5a4bcfa30a3cb59d5a8db4534775a364209f843b141e700ff"
+    },
+    {
+      "path": "tests/test_corpus_expansion.py",
+      "size_bytes": 5472,
+      "sha256": "a5dcf5a09b405b91d57c7f07bcd85006aed4b0883efa893c999dbf4946a51717"
+    }
+  ],
+  "processing_directory_exists_but_empty": true,
+  "prior_specific_tests": {
+    "started_at_utc": "2026-11-08T19:39:28.962045+00:00",
+    "finished_at_utc": "2026-11-08T19:39:50.434901+00:00",
+    "wall_seconds_including_discovery": 21.4745619000023,
+    "tests_run": 83,
+    "passed": 83,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "expected_failures": 0,
+    "unexpected_successes": 0,
+    "successful": true,
+    "failure_details": [],
+    "error_details": [],
+    "skipped_details": []
+  },
+  "test_selection_issue": "Prior specific run omitted tests.test_corpus_expansion; result 83 is genuine but not a corpus-rejection test result"
+}

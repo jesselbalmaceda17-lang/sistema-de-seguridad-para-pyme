@@ -1,0 +1,152 @@
+{
+  "source_sha256": "c674dc0c8d584fa66e6f00c60df973c5fbacad551c850a76d75ec9952641d00b",
+  "all_frames_visited": 496959,
+  "all_bytes_consumed": true,
+  "scope_packets": 489567,
+  "ipv4_header_checksum_counts": {
+    "valid_ipv4_header": 386594,
+    "incorrect_ipv4_header": 102973
+  },
+  "bad_ip_header_zero_stored_checksum": 102973,
+  "bad_ip_header_top_port_pairs": [
+    [
+      "(2407, 41501)",
+      5975
+    ],
+    [
+      "(2407, 54809)",
+      1454
+    ],
+    [
+      "(123, 123)",
+      739
+    ],
+    [
+      "(2407, 48654)",
+      389
+    ],
+    [
+      "(2407, 51638)",
+      171
+    ],
+    [
+      "(2407, 54815)",
+      74
+    ],
+    [
+      "(22, 48992)",
+      50
+    ],
+    [
+      "(22, 34168)",
+      49
+    ],
+    [
+      "(22, 49829)",
+      49
+    ],
+    [
+      "(22, 34949)",
+      48
+    ],
+    [
+      "(22, 34953)",
+      48
+    ],
+    [
+      "(22, 50251)",
+      48
+    ],
+    [
+      "(22, 35000)",
+      47
+    ],
+    [
+      "(22, 44019)",
+      47
+    ],
+    [
+      "(22, 44086)",
+      47
+    ]
+  ],
+  "tcp_flags_by_ipv4_header_checksum": {
+    "incorrect_ipv4_header": {
+      "syn": 6308,
+      "ack": 102177,
+      "fin": 5999,
+      "rst": 2396
+    },
+    "valid_ipv4_header": {
+      "syn": 299970,
+      "ack": 84880,
+      "fin": 6516,
+      "rst": 1006
+    }
+  },
+  "bad_ipv4_header_examples": [
+    {
+      "frame": 3,
+      "ip_header_hex": "4500004cb45b0000341100001f1f4a23c0a80205",
+      "stored_checksum": 0,
+      "internet_checksum_residual": 42582
+    },
+    {
+      "frame": 4,
+      "ip_header_hex": "4500004c00000000351100000501387bc0a80205",
+      "stored_checksum": 0,
+      "internet_checksum_residual": 34168
+    },
+    {
+      "frame": 7,
+      "ip_header_hex": "4500004cb8620000341100001f1f4a23c0a80205",
+      "stored_checksum": 0,
+      "internet_checksum_residual": 41551
+    },
+    {
+      "frame": 8,
+      "ip_header_hex": "4500004c00000000351100000501387bc0a80205",
+      "stored_checksum": 0,
+      "internet_checksum_residual": 34168
+    },
+    {
+      "frame": 10,
+      "ip_header_hex": "4500004cad09000034110000259dc696c0a80205",
+      "stored_checksum": 0,
+      "internet_checksum_residual": 10935
+    },
+    {
+      "frame": 13,
+      "ip_header_hex": "4500004c00000000351100000501387bc0a80205",
+      "stored_checksum": 0,
+      "internet_checksum_residual": 34168
+    },
+    {
+      "frame": 14,
+      "ip_header_hex": "4500004cbc470000341100001f1f4a23c0a80205",
+      "stored_checksum": 0,
+      "internet_checksum_residual": 40554
+    },
+    {
+      "frame": 18,
+      "ip_header_hex": "4500004cae69000034110000259dc696c0a80205",
+      "stored_checksum": 0,
+      "internet_checksum_residual": 10583
+    },
+    {
+      "frame": 21,
+      "ip_header_hex": "4500004c00000000351100000501387bc0a80205",
+      "stored_checksum": 0,
+      "internet_checksum_residual": 34168
+    },
+    {
+      "frame": 22,
+      "ip_header_hex": "4500004cc0ad0000341100001f1f4a23c0a80205",
+      "stored_checksum": 0,
+      "internet_checksum_residual": 39428
+    }
+  ],
+  "method": "Independent full PCAP walk; Internet checksum over the IPv4 header only using the unchanged auditor checksum function. Transport validity does not imply IPv4 header validity.",
+  "interpretation": "Observed mismatch; offloading, capture transformation or on-wire corruption cannot be distinguished from these bytes alone; no repair or relabeling.",
+  "wall_seconds": 3.0331082000002425
+}

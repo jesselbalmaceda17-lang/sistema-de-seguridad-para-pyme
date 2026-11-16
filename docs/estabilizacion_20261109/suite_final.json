@@ -1,0 +1,8 @@
+{
+  "exit_code": 0,
+  "tests_run": 235,
+  "successful": true,
+  "wall_seconds_including_discovery": 49.60830780000015,
+  "suite_seconds": 45.565,
+  "log": "suite_final_confirmada.log"
+}

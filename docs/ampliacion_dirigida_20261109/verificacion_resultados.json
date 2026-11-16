@@ -1,0 +1,424 @@
+{
+  "stored_test_result": "229 pass; verified evidence/log hash; tests not rerun in this metadata-only stage",
+  "fit_or_inference_executed": false,
+  "confusion_matrices_recounted": [
+    {
+      "capture": "torii",
+      "model": "dummy",
+      "unit": "flow",
+      "matrix": [
+        [
+          3207,
+          0
+        ],
+        [
+          288,
+          0
+        ]
+      ],
+      "n": 3495,
+      "consistent": true
+    },
+    {
+      "capture": "torii",
+      "model": "dummy",
+      "unit": "group",
+      "matrix": [
+        [
+          3192,
+          0
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "n": 3198,
+      "consistent": true
+    },
+    {
+      "capture": "torii",
+      "model": "tcp_rule",
+      "unit": "flow",
+      "matrix": [
+        [
+          3206,
+          1
+        ],
+        [
+          0,
+          288
+        ]
+      ],
+      "n": 3495,
+      "consistent": true
+    },
+    {
+      "capture": "torii",
+      "model": "tcp_rule",
+      "unit": "group",
+      "matrix": [
+        [
+          3191,
+          1
+        ],
+        [
+          0,
+          6
+        ]
+      ],
+      "n": 3198,
+      "consistent": true
+    },
+    {
+      "capture": "torii",
+      "model": "syn_no_ack_rule",
+      "unit": "flow",
+      "matrix": [
+        [
+          3207,
+          0
+        ],
+        [
+          284,
+          4
+        ]
+      ],
+      "n": 3495,
+      "consistent": true
+    },
+    {
+      "capture": "torii",
+      "model": "syn_no_ack_rule",
+      "unit": "group",
+      "matrix": [
+        [
+          3192,
+          0
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "n": 3198,
+      "consistent": true
+    },
+    {
+      "capture": "torii",
+      "model": "random_forest",
+      "unit": "flow",
+      "matrix": [
+        [
+          3207,
+          0
+        ],
+        [
+          284,
+          4
+        ]
+      ],
+      "n": 3495,
+      "consistent": true
+    },
+    {
+      "capture": "torii",
+      "model": "random_forest",
+      "unit": "group",
+      "matrix": [
+        [
+          3192,
+          0
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "n": 3198,
+      "consistent": true
+    },
+    {
+      "capture": "hakai",
+      "model": "dummy",
+      "unit": "flow",
+      "matrix": [
+        [
+          2181,
+          0
+        ],
+        [
+          2056,
+          0
+        ]
+      ],
+      "n": 4237,
+      "consistent": true
+    },
+    {
+      "capture": "hakai",
+      "model": "dummy",
+      "unit": "group",
+      "matrix": [
+        [
+          2181,
+          0
+        ],
+        [
+          2056,
+          0
+        ]
+      ],
+      "n": 4237,
+      "consistent": true
+    },
+    {
+      "capture": "hakai",
+      "model": "tcp_rule",
+      "unit": "flow",
+      "matrix": [
+        [
+          2179,
+          2
+        ],
+        [
+          0,
+          2056
+        ]
+      ],
+      "n": 4237,
+      "consistent": true
+    },
+    {
+      "capture": "hakai",
+      "model": "tcp_rule",
+      "unit": "group",
+      "matrix": [
+        [
+          2179,
+          2
+        ],
+        [
+          0,
+          2056
+        ]
+      ],
+      "n": 4237,
+      "consistent": true
+    },
+    {
+      "capture": "hakai",
+      "model": "syn_no_ack_rule",
+      "unit": "flow",
+      "matrix": [
+        [
+          2181,
+          0
+        ],
+        [
+          0,
+          2056
+        ]
+      ],
+      "n": 4237,
+      "consistent": true
+    },
+    {
+      "capture": "hakai",
+      "model": "syn_no_ack_rule",
+      "unit": "group",
+      "matrix": [
+        [
+          2181,
+          0
+        ],
+        [
+          0,
+          2056
+        ]
+      ],
+      "n": 4237,
+      "consistent": true
+    },
+    {
+      "capture": "hakai",
+      "model": "random_forest",
+      "unit": "flow",
+      "matrix": [
+        [
+          2181,
+          0
+        ],
+        [
+          0,
+          2056
+        ]
+      ],
+      "n": 4237,
+      "consistent": true
+    },
+    {
+      "capture": "hakai",
+      "model": "random_forest",
+      "unit": "group",
+      "matrix": [
+        [
+          2181,
+          0
+        ],
+        [
+          0,
+          2056
+        ]
+      ],
+      "n": 4237,
+      "consistent": true
+    },
+    {
+      "capture": "hue",
+      "model": "dummy",
+      "unit": "flow",
+      "matrix": [
+        [
+          2107,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "n": 2107,
+      "consistent": true
+    },
+    {
+      "capture": "hue",
+      "model": "dummy",
+      "unit": "group",
+      "matrix": [
+        [
+          359,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "n": 359,
+      "consistent": true
+    },
+    {
+      "capture": "hue",
+      "model": "tcp_rule",
+      "unit": "flow",
+      "matrix": [
+        [
+          1805,
+          302
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "n": 2107,
+      "consistent": true
+    },
+    {
+      "capture": "hue",
+      "model": "tcp_rule",
+      "unit": "group",
+      "matrix": [
+        [
+          310,
+          49
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "n": 359,
+      "consistent": true
+    },
+    {
+      "capture": "hue",
+      "model": "syn_no_ack_rule",
+      "unit": "flow",
+      "matrix": [
+        [
+          2107,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "n": 2107,
+      "consistent": true
+    },
+    {
+      "capture": "hue",
+      "model": "syn_no_ack_rule",
+      "unit": "group",
+      "matrix": [
+        [
+          359,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "n": 359,
+      "consistent": true
+    },
+    {
+      "capture": "hue",
+      "model": "random_forest",
+      "unit": "flow",
+      "matrix": [
+        [
+          1810,
+          297
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "n": 2107,
+      "consistent": true
+    },
+    {
+      "capture": "hue",
+      "model": "random_forest",
+      "unit": "group",
+      "matrix": [
+        [
+          315,
+          44
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "n": 359,
+      "consistent": true
+    }
+  ],
+  "threshold_05_predictions_consistent": true,
+  "report_metric_rows_verified": 120,
+  "replay_metric_blocks_identical": 12,
+  "rf_syn_decisions_identical": {
+    "torii": true,
+    "hakai": true
+  },
+  "rows": 9839,
+  "features": 38,
+  "groups": 7794
+}

@@ -1,0 +1,19 @@
+{
+  "case": "somfy",
+  "action": "procesar",
+  "started_at_utc": "2026-11-09T14:34:57.758024+00:00",
+  "configuration_changes": [],
+  "successful": true,
+  "finished_at_utc": "2026-11-09T14:35:03.417865+00:00",
+  "wall_seconds": 5.659912000000077,
+  "python_cpu_seconds": 2.53125,
+  "memory": {
+    "sampled_python_rss_peak_bytes": 48259072,
+    "sampled_tree_rss_peak_bytes": 141512704,
+    "target_interval_seconds": 0.02,
+    "samples": 166,
+    "exact_peak": false
+  },
+  "raw_storage_bytes": 2118289,
+  "processed_storage_bytes": 11037002
+}

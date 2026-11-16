@@ -1,0 +1,157 @@
+{
+  "auditor_versions": {
+    "AUDIT_VERSION": "sipymes.label-audit.v1",
+    "PACKET_AUDIT_VERSION": "sipymes.label-audit.v2"
+  },
+  "canonical_run": "run_003",
+  "code_sha256": {
+    "pcap_experiment/__init__.py": "63e167377b1bbda05871f0624a8bc748a0b3562d51454b8c94d878a58777bacf",
+    "pcap_experiment/common.py": "27bcbe6b739f433d7611a626f88df65fc29ca97354a908f4756ba2a48958e5e7",
+    "pcap_experiment/contract.py": "d931973a8644a510f60620fe4219c7b6ee15cb457892890d48fd3a9afa256c3e",
+    "pcap_experiment/dataset.py": "7a3cc5b43375cee1c409e5b0ca68c8c2bf3e8437e8f3c04bbec3460360bcc71e",
+    "pcap_experiment/evaluation.py": "a3f944aca51bab18b964804ef8c1dbcfb5066a2046352b5e72fba52bbdc1b71a",
+    "pcap_experiment/models.py": "5d6222168ed81f204c233012777d24f06b02c996be9b63d1da2452bd212c9961",
+    "pcap_experiment/run.py": "e0d6a1e12a28d95bff5a5d713214d9054341be21aed9f592f9847a422898287d",
+    "pcap_experiment/validation.py": "8ed657eebf65e6e728b02cff0ca15425b0c91e46f479e443ad90821f8b45285e"
+  },
+  "dataset_files_sha256": {
+    "features.csv": "c390f8b51e6ead1ad8bfce4e91fe67b47ff52459a2f361e7bf198c85de7b30b8",
+    "metadata.jsonl": "578c0fefe641bbf9dc24e60191b8056c28e434f729589358ff5176a4bf062f09",
+    "targets.csv": "aeeed540063139d2b68cd5c66f5be65fcc328bfc239ac4e902bf2b4c9ee3c6a3"
+  },
+  "dataset_manifest_sha256": "502c143fb5f8e8f3a47198c7febe61262fd6fe447bb0810cc51ab5ca18a7c881",
+  "experiment_version": "sipymes.pcap-experiment.v1",
+  "extractor_version": "1.0.1",
+  "features": 38,
+  "integrity_evidence": "integrity_final.json",
+  "label_importer_version": "sipymes.zeek-labels.v1.1",
+  "label_normalization_version": "sipymes.iot23.label-aliases.v1",
+  "models": {
+    "hakai": {
+      "dummy": {
+        "path": "held_out_hakai/dummy.joblib",
+        "sha256": "c40f9f042b4e09d0bce3f8c0737b13ea9fee23a38fb35822673e8f20103c6b7f",
+        "size_bytes": 486,
+        "training_captures": [
+          "torii",
+          "hue"
+        ]
+      },
+      "random_forest": {
+        "path": "held_out_hakai/random_forest.joblib",
+        "sha256": "812cad7f589003665b2c35efb4f9af54f9f6dfac674ade1066ddcb3dcc73ca73",
+        "size_bytes": 12163,
+        "training_captures": [
+          "torii",
+          "hue"
+        ]
+      },
+      "syn_no_ack_rule": {
+        "path": "held_out_hakai/syn_no_ack_rule.joblib",
+        "sha256": "5200ca79777f34161b34489f680fd82ef04c3b9e79e3094b8c25284f4c72756f",
+        "size_bytes": 358,
+        "training_captures": [
+          "torii",
+          "hue"
+        ]
+      },
+      "tcp_rule": {
+        "path": "held_out_hakai/tcp_rule.joblib",
+        "sha256": "a98cd6f484ec8135a3bb507b6f3af13cf169370710897303d2fbc745ef37fd42",
+        "size_bytes": 351,
+        "training_captures": [
+          "torii",
+          "hue"
+        ]
+      }
+    },
+    "hue": {
+      "dummy": {
+        "path": "held_out_hue/dummy.joblib",
+        "sha256": "1c43af2b3a1f62acbb3101ac3434e4c8ee85d556cad77bbdfed78e9abd7c07fa",
+        "size_bytes": 489,
+        "training_captures": [
+          "torii",
+          "hakai"
+        ]
+      },
+      "random_forest": {
+        "path": "held_out_hue/random_forest.joblib",
+        "sha256": "4503ecd7f8f94bd08578530dd287e27aee94443456fdb5bf162bcfb5f038ae09",
+        "size_bytes": 11922,
+        "training_captures": [
+          "torii",
+          "hakai"
+        ]
+      },
+      "syn_no_ack_rule": {
+        "path": "held_out_hue/syn_no_ack_rule.joblib",
+        "sha256": "5200ca79777f34161b34489f680fd82ef04c3b9e79e3094b8c25284f4c72756f",
+        "size_bytes": 358,
+        "training_captures": [
+          "torii",
+          "hakai"
+        ]
+      },
+      "tcp_rule": {
+        "path": "held_out_hue/tcp_rule.joblib",
+        "sha256": "a98cd6f484ec8135a3bb507b6f3af13cf169370710897303d2fbc745ef37fd42",
+        "size_bytes": 351,
+        "training_captures": [
+          "torii",
+          "hakai"
+        ]
+      }
+    },
+    "torii": {
+      "dummy": {
+        "path": "held_out_torii/dummy.joblib",
+        "sha256": "adb8846bd2158ba866a19ec76b41a7b7234b008838493eeb121d81f54eabb014",
+        "size_bytes": 484,
+        "training_captures": [
+          "hakai",
+          "hue"
+        ]
+      },
+      "random_forest": {
+        "path": "held_out_torii/random_forest.joblib",
+        "sha256": "7999532b8a613948867b87f875f8c32be705c57ed1067899b85856b60d562abe",
+        "size_bytes": 11921,
+        "training_captures": [
+          "hakai",
+          "hue"
+        ]
+      },
+      "syn_no_ack_rule": {
+        "path": "held_out_torii/syn_no_ack_rule.joblib",
+        "sha256": "5200ca79777f34161b34489f680fd82ef04c3b9e79e3094b8c25284f4c72756f",
+        "size_bytes": 358,
+        "training_captures": [
+          "hakai",
+          "hue"
+        ]
+      },
+      "tcp_rule": {
+        "path": "held_out_torii/tcp_rule.joblib",
+        "sha256": "a98cd6f484ec8135a3bb507b6f3af13cf169370710897303d2fbc745ef37fd42",
+        "size_bytes": 351,
+        "training_captures": [
+          "hakai",
+          "hue"
+        ]
+      }
+    }
+  },
+  "prespecified_sha256": "d4992b8ddc1f754fbaf6ea046ebc7c96a4787a802651d5080efd62cab53cb7c9",
+  "python": "3.14.6",
+  "repeated_run": "run_004",
+  "replay_evidence": "replay_final.json",
+  "schema": "sipymes.offline.ipv4.v1",
+  "test_evidence": "full_final.json",
+  "versions": {
+    "joblib": "1.6.0",
+    "numpy": "2.5.4",
+    "psutil": "7.2.2",
+    "scikit-learn": "1.9.1"
+  }
+}

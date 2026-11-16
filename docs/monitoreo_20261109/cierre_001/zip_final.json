@@ -1,0 +1,51 @@
+{
+  "utc": "2026-11-09T20:05:52.179389+00:00",
+  "status": "approved_with_documented_scope",
+  "zip": "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\dist\\SeguridadInteligentePYMES-monitoreo-20261109.zip",
+  "zip_bytes": 8048846,
+  "sha256": "e83267ecf1d6bd43f0bdafd77b27c4cfdcbd434e20d254aefc7fb564f2e33259",
+  "zip_crc_ok": true,
+  "extracted_package": "C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-Le0Mxc\\Validacion monitoreo independiente seuqglmk\\ZIP final con espacios\\SeguridadInteligentePYMES-monitoreo-20261109",
+  "all_extracted_files_byte_identical": true,
+  "code_identical_to_independent_live_test": true,
+  "changes_since_live_test": [
+    "manifest.sha256.json",
+    "README.md",
+    "VERIFICACION.md"
+  ],
+  "manifest_result": {
+    "files_verified": 35,
+    "status": "ok",
+    "notice": "Hashes check integrity, not publisher identity. Only load trusted models."
+  },
+  "csv_smoke": {
+    "records": 8,
+    "alerts": 4,
+    "matches_original_oracle": true,
+    "module": "C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-Le0Mxc\\Validacion monitoreo independiente seuqglmk\\ZIP final con espacios\\SeguridadInteligentePYMES-monitoreo-20261109\\seguridad_pymes\\inference.py",
+    "model_sha256": "58505ee89df22c4c223b66d5e7172388d5d1fad6b7d135fce800a2765b2029e9"
+  },
+  "launcher_health_http_status": 200,
+  "launcher_health_seconds": 2.2454863000000387,
+  "owned_server_pids_stopped": [
+    5432,
+    10672,
+    18424,
+    15916
+  ],
+  "capture_processes_remaining": [],
+  "monitor_tests": 38,
+  "complete_suite": 273,
+  "csv_acceptance": 7,
+  "protected_models_and_original_databases_rechecked": 8,
+  "remaining_reproducible_defects": [],
+  "unverified": [
+    "another physical machine / fresh driver installation",
+    "physical NIC / business network",
+    "sustained production load",
+    "production detection accuracy",
+    "HTTP upload/download transport"
+  ],
+  "new_source_changes_during_closure": [],
+  "new_large_backups": 0
+}

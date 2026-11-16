@@ -1,0 +1,365 @@
+{
+  "scope": "Real Npcap loopback capture restricted to owned lab listener ports; no physical interfaces captured",
+  "is_admin_token": false,
+  "interface": {
+    "identifier": "\\Device\\NPF_Loopback",
+    "description": "Adapter for loopback traffic capture",
+    "loopback": true
+  },
+  "cases": [
+    {
+      "name": "real_live_start_duplicate_start_rules_flows_sqlite_review_stop_no_orphans",
+      "passed": true,
+      "generation": {
+        "scope": "Only self-owned loopback listeners; no remote targets or scanning",
+        "tcp_connections_completed": 12,
+        "udp_echoes_completed": 8,
+        "owned_service_ports": [
+          61389,
+          61390,
+          61391,
+          61392,
+          61393,
+          61394,
+          60242
+        ]
+      },
+      "state": {
+        "status": "stopped",
+        "session_id": "ec08fb46897a49668cbea6bbf8b85bd0",
+        "interface": "Adapter for loopback traffic capture",
+        "reason": "Detenido por el usuario.",
+        "errors": [],
+        "packets_seen": 142,
+        "packets_accepted": 142,
+        "packets_rejected": 0,
+        "connections_observed": 13,
+        "flows_closed": 13,
+        "flows_persisted": 13,
+        "alerts_generated": 3,
+        "alerts_persisted": 3,
+        "capture_rss_peak": 136306688,
+        "partial": false,
+        "forced_stop": false,
+        "source_kind": "live",
+        "recent_flows": [
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49675",
+            "destino": "127.0.0.1:61390",
+            "paquetes": 11,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49676",
+            "destino": "127.0.0.1:61391",
+            "paquetes": 10,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49677",
+            "destino": "127.0.0.1:61392",
+            "paquetes": 10,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49679",
+            "destino": "127.0.0.1:61393",
+            "paquetes": 12,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49680",
+            "destino": "127.0.0.1:61394",
+            "paquetes": 11,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49682",
+            "destino": "127.0.0.1:61389",
+            "paquetes": 11,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49683",
+            "destino": "127.0.0.1:61390",
+            "paquetes": 12,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49684",
+            "destino": "127.0.0.1:61391",
+            "paquetes": 12,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49685",
+            "destino": "127.0.0.1:61392",
+            "paquetes": 11,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:61389",
+            "destino": "127.0.0.1:49674",
+            "paquetes": 2,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49686",
+            "destino": "127.0.0.1:61393",
+            "paquetes": 12,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49687",
+            "destino": "127.0.0.1:61394",
+            "paquetes": 12,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "udp",
+            "origen": "127.0.0.1:60243",
+            "destino": "127.0.0.1:60242",
+            "paquetes": 16,
+            "cierre": "monitor_stopped"
+          }
+        ],
+        "pid": 20784,
+        "rejections": {},
+        "active_flows": 0,
+        "elapsed_seconds": 2.73,
+        "storage_bytes": 115344,
+        "diagnostics": "Capturing on 'Adapter for loopback traffic capture'\n142 packets captured\n",
+        "stop_signal": {
+          "returncode": 0,
+          "stderr": ""
+        }
+      },
+      "alerts": [
+        {
+          "event_id": "5359d034e8b9764c968377c023d7c1c27bd73bac52f33e63f6d8d213a0fa354a",
+          "session_id": "ec08fb46897a49668cbea6bbf8b85bd0",
+          "detector": "transparent_rules_v1",
+          "rule": "syn_observed",
+          "source": "127.0.0.1",
+          "severity": "media",
+          "detected_at": "2026-11-09T17:16:36.706833+00:00",
+          "message": "Muchos paquetes TCP SYN sin ACK observados desde este origen; pueden incluir retransmisiones. Requiere revisión; no confirma un ataque.",
+          "evidence_json": "{\"event_id\": \"5359d034e8b9764c968377c023d7c1c27bd73bac52f33e63f6d8d213a0fa354a\", \"session_id\": \"ec08fb46897a49668cbea6bbf8b85bd0\", \"detector\": \"transparent_rules_v1\", \"rule\": \"syn_observed\", \"source\": \"127.0.0.1\", \"severity\": \"media\", \"detected_at\": \"2026-11-09T17:16:36.706833+00:00\", \"window_start_ns\": \"1794244566706833100\", \"window_end_ns\": \"1794244596706833100\", \"window_seconds\": 30, \"threshold\": 5, \"observed\": 5, \"evidence\": {\"value\": 5, \"operator\": \">=\", \"window_seconds\": 30, \"destination_ports\": [61390, 61391, 61392, 61393, 61394], \"visibility\": \"observed IPv4 TCP/UDP only; capture completeness not established\"}, \"message\": \"Muchos paquetes TCP SYN sin ACK observados desde este origen; pueden incluir retransmisiones. Requiere revisi\\u00f3n; no confirma un ataque.\", \"review_state\": \"pending\"}",
+          "review_state": "false_positive"
+        },
+        {
+          "event_id": "41ff168d94d505f0a6acbd81c20595ea02e1c6ba58b3d04dd74ea2055050e077",
+          "session_id": "ec08fb46897a49668cbea6bbf8b85bd0",
+          "detector": "transparent_rules_v1",
+          "rule": "destination_ports",
+          "source": "127.0.0.1",
+          "severity": "media",
+          "detected_at": "2026-11-09T17:16:36.673624+00:00",
+          "message": "Se observaron SYN iniciales hacia numerosos puertos de destino distintos desde este origen. Requiere revisión; no confirma un ataque.",
+          "evidence_json": "{\"event_id\": \"41ff168d94d505f0a6acbd81c20595ea02e1c6ba58b3d04dd74ea2055050e077\", \"session_id\": \"ec08fb46897a49668cbea6bbf8b85bd0\", \"detector\": \"transparent_rules_v1\", \"rule\": \"destination_ports\", \"source\": \"127.0.0.1\", \"severity\": \"media\", \"detected_at\": \"2026-11-09T17:16:36.673624+00:00\", \"window_start_ns\": \"1794244566673624100\", \"window_end_ns\": \"1794244596673624100\", \"window_seconds\": 30, \"threshold\": 4, \"observed\": 4, \"evidence\": {\"value\": 4, \"operator\": \">=\", \"window_seconds\": 30, \"destination_ports\": [61390, 61391, 61392, 61393], \"visibility\": \"observed IPv4 TCP/UDP only; capture completeness not established\"}, \"message\": \"Se observaron SYN iniciales hacia numerosos puertos de destino distintos desde este origen. Requiere revisi\\u00f3n; no confirma un ataque.\", \"review_state\": \"pending\"}",
+          "review_state": "pending"
+        },
+        {
+          "event_id": "4bb42515c5f32b5a279473c005cd646afbb52965a8ce6495de613759b174687c",
+          "session_id": "ec08fb46897a49668cbea6bbf8b85bd0",
+          "detector": "transparent_rules_v1",
+          "rule": "ipv4_volume",
+          "source": "127.0.0.1",
+          "severity": "baja",
+          "detected_at": "2026-11-09T17:16:36.605215+00:00",
+          "message": "El volumen IPv4 observado desde este origen superó el umbral; un volumen alto puede ser legítimo. Requiere revisión; no confirma un ataque.",
+          "evidence_json": "{\"event_id\": \"4bb42515c5f32b5a279473c005cd646afbb52965a8ce6495de613759b174687c\", \"session_id\": \"ec08fb46897a49668cbea6bbf8b85bd0\", \"detector\": \"transparent_rules_v1\", \"rule\": \"ipv4_volume\", \"source\": \"127.0.0.1\", \"severity\": \"baja\", \"detected_at\": \"2026-11-09T17:16:36.605215+00:00\", \"window_start_ns\": \"1794244566605215000\", \"window_end_ns\": \"1794244596605215000\", \"window_seconds\": 30, \"threshold\": 1024, \"observed\": 1042, \"evidence\": {\"value\": 1042, \"operator\": \">=\", \"window_seconds\": 30, \"destination_ports\": [61390, 61391], \"visibility\": \"observed IPv4 TCP/UDP only; capture completeness not established\"}, \"message\": \"El volumen IPv4 observado desde este origen super\\u00f3 el umbral; un volumen alto puede ser leg\\u00edtimo. Requiere revisi\\u00f3n; no confirma un ataque.\", \"review_state\": \"pending\"}",
+          "review_state": "pending"
+        }
+      ],
+      "capture_sha256": "d9680244390a9bd65865210e4df972d27e26747f506a7c064d6d83ce1b712d01",
+      "owned_pids_reaped": [
+        20784,
+        13620,
+        5944,
+        14740
+      ]
+    },
+    {
+      "name": "complete_lab_pcap_replay_same_38_features",
+      "passed": true,
+      "state": {
+        "status": "completed",
+        "session_id": "fcc38bddf9924d04b3538f4d58f5b5b1",
+        "interface": "Adapter for loopback traffic capture",
+        "reason": "",
+        "errors": [],
+        "packets_seen": 142,
+        "packets_accepted": 142,
+        "packets_rejected": 0,
+        "connections_observed": 13,
+        "flows_closed": 13,
+        "flows_persisted": 13,
+        "alerts_generated": 3,
+        "alerts_persisted": 3,
+        "capture_rss_peak": 10301440,
+        "partial": false,
+        "forced_stop": false,
+        "source_kind": "laboratory_replay",
+        "recent_flows": [
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49675",
+            "destino": "127.0.0.1:61390",
+            "paquetes": 11,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49676",
+            "destino": "127.0.0.1:61391",
+            "paquetes": 10,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49677",
+            "destino": "127.0.0.1:61392",
+            "paquetes": 10,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49679",
+            "destino": "127.0.0.1:61393",
+            "paquetes": 12,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49680",
+            "destino": "127.0.0.1:61394",
+            "paquetes": 11,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49682",
+            "destino": "127.0.0.1:61389",
+            "paquetes": 11,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49683",
+            "destino": "127.0.0.1:61390",
+            "paquetes": 12,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49684",
+            "destino": "127.0.0.1:61391",
+            "paquetes": 12,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49685",
+            "destino": "127.0.0.1:61392",
+            "paquetes": 11,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:61389",
+            "destino": "127.0.0.1:49674",
+            "paquetes": 2,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49686",
+            "destino": "127.0.0.1:61393",
+            "paquetes": 12,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "tcp",
+            "origen": "127.0.0.1:49687",
+            "destino": "127.0.0.1:61394",
+            "paquetes": 12,
+            "cierre": "monitor_stopped"
+          },
+          {
+            "protocolo": "udp",
+            "origen": "127.0.0.1:60243",
+            "destino": "127.0.0.1:60242",
+            "paquetes": 16,
+            "cierre": "monitor_stopped"
+          }
+        ],
+        "pid": 10832,
+        "rejections": {},
+        "active_flows": 0,
+        "elapsed_seconds": 0.29,
+        "storage_bytes": 94788,
+        "diagnostics": "",
+        "stop_signal": null
+      }
+    },
+    {
+      "name": "restart_new_session_natural_duration_no_traffic",
+      "passed": true,
+      "state": {
+        "status": "completed",
+        "session_id": "832ec987250b4fcdaf13aa3971f89460",
+        "interface": "Adapter for loopback traffic capture",
+        "reason": "",
+        "errors": [],
+        "packets_seen": 0,
+        "packets_accepted": 0,
+        "packets_rejected": 0,
+        "connections_observed": 0,
+        "flows_closed": 0,
+        "flows_persisted": 0,
+        "alerts_generated": 0,
+        "alerts_persisted": 0,
+        "capture_rss_peak": 135503872,
+        "partial": false,
+        "forced_stop": false,
+        "source_kind": "live",
+        "recent_flows": [],
+        "pid": 3524,
+        "rejections": {},
+        "active_flows": 0,
+        "elapsed_seconds": 1.5,
+        "storage_bytes": 116348,
+        "diagnostics": "Capturing on 'Adapter for loopback traffic capture'\n0 packets captured\n",
+        "stop_signal": {
+          "returncode": 2,
+          "stderr": "AttachConsole failed: 5\r\n"
+        }
+      }
+    },
+    {
+      "name": "abrupt_app_exit_job_reaps_children_and_sqlite_recovers",
+      "passed": true,
+      "pids": {
+        "app_pid": 18212,
+        "capture_pids": [
+          7364,
+          8504
+        ]
+      }
+    }
+  ],
+  "all_passed": true
+}

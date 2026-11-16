@@ -1,0 +1,20 @@
+﻿[
+    {
+        "InterfaceAlias":  "VMware Network Adapter VMnet1",
+        "InterfaceIndex":  11,
+        "IPv4":  "192.168.86.1",
+        "Gateway":  null
+    },
+    {
+        "InterfaceAlias":  "VMware Network Adapter VMnet8",
+        "InterfaceIndex":  19,
+        "IPv4":  "192.168.129.1",
+        "Gateway":  null
+    },
+    {
+        "InterfaceAlias":  "Wi-Fi",
+        "InterfaceIndex":  2,
+        "IPv4":  "10.166.99.21",
+        "Gateway":  "10.166.99.98"
+    }
+]

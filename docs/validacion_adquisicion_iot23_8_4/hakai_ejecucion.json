@@ -1,0 +1,97 @@
+{
+  "scenario": "CTU-IoT-Malware-Capture-8-1",
+  "started_at_utc": "2026-11-08T18:02:23.243116+00:00",
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "configuration": {
+    "tcp_idle_seconds": 120.0,
+    "udp_idle_seconds": 30.0,
+    "active_timeout_seconds": 300.0,
+    "tshark_timeout_seconds": 120.0,
+    "max_packets": 1000000,
+    "max_active_flows": 50000,
+    "max_flows": 100000
+  },
+  "resource_configuration_changes": [],
+  "stages": [
+    {
+      "stage": "complete_tshark_read",
+      "wall_seconds": 0.612497699999949
+    },
+    {
+      "stage": "extraction_and_serialization",
+      "wall_seconds": 3.111297999999806
+    },
+    {
+      "stage": "audit_v2_and_serialization",
+      "wall_seconds": 8.791500199999064
+    }
+  ],
+  "tshark_version": "TShark (Wireshark) 4.6.9 (v4.6.9-0-g2d548b197c75).\r\n\r\nCopyright 1998-2026 Gerald Combs <gerald@wireshark.org> and contributors.\r\nLicensed under the terms of the GNU General Public License (version 2 or later).\r\nThis is free software; see the file named COPYING in the distribution. There is\r\nNO WARRANTY; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\r\n\r\nCompile-time info:\r\n Bit width: 64-bit\r\n  Compiler: Microsoft Visual Studio 2026 (VC++ 14.51, build 36244)\r\n      GLib: 2.88.0\r\n With:\r\n  +brotli                     +MaxMind\r\n  +Gcrypt 1.12.4-unknown      +nghttp2 1.69.0\r\n  +GnuTLS 3.8.13 and PKCS#11  +nghttp3 1.8.0\r\n  +Kerberos (MIT)             +PCRE2 10.47 2025-10-21\r\n  +libpcap                    +Snappy 1.1.9\r\n  +libsmi 0.5.0               +xxhash 0.8.3\r\n  +libxml2 2.15.3             +zlib 1.3.1\r\n  +Lua 5.4.6 (UfW patched)    +zlib-ng 2.2.3\r\n  +LZ4 1.10.0                 +Zstandard 1.5.7\r\n\r\nRuntime info:\r\n      OS: 64-bit Windows 11 (25H2), build 26200\r\n     CPU: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz (with SSE4.2)\r\n  Memory: 20263 MB of physical memory\r\n    GLib: 2.88.0\r\n  Locale: LC_TYPE=Spanish_Nicaragua.utf8\r\n Plugins: supported, 0 loaded\r\n With:\r\n  +brotli 1.2.0\r\n  +c-ares 1.34.8\r\n  +Gcrypt 1.12.4-unknown\r\n  +GnuTLS 3.8.13\r\n  +LZ4 1.10.0\r\n  +nghttp2 1.69.0\r\n  +nghttp3 1.8.0\r\n  +Npcap 1.88, libpcap 1.10.6 (64-bit time_t)\r\n  +PCRE2 10.47 2025-10-21\r\n  +xxhash 803\r\n  +Zstandard 1.5.7\r\n",
+  "tshark_read": {
+    "command": [
+      "C:\\Program Files\\Wireshark\\tshark.exe",
+      "-n",
+      "-r",
+      "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\data\\raw\\iot23_hakai_8_1\\2018-07-31-15-15-09-192.168.100.113.pcap",
+      "-T",
+      "fields",
+      "-e",
+      "frame.number"
+    ],
+    "exit_code": 0,
+    "packets": 23623,
+    "stderr": ""
+  },
+  "audit_summary": {
+    "packets_seen": 23623,
+    "packets_accepted": 16677,
+    "packets_rejected_by_extractor": 6946,
+    "extracted_flows": 4237,
+    "reference_connections": 10403,
+    "admitted_flows": 4237,
+    "rejected_correspondences": 0,
+    "pending_quarantined_flows": 0,
+    "flow_status_counts": {
+      "admitted_unique": 2181,
+      "admitted_partition": 2056
+    },
+    "flow_label_coverage_percent": 100.0,
+    "labeled_packets": 16677,
+    "label_coverage_of_accepted_packets_percent": 100.0,
+    "label_coverage_of_all_packets_percent": 70.59645260974474,
+    "matched_reference_connections": 10403,
+    "reference_coverage_percent": 100.0,
+    "reference_validation_counts": {
+      "verified": 10403
+    },
+    "accepted_packet_checksum_states": {
+      "valid": 16677
+    },
+    "class_coverage": {
+      "Benign": {
+        "reference_connections": 2181,
+        "matched_references": 2181,
+        "reference_coverage_percent": 100.0,
+        "admitted_flows": 2181
+      },
+      "Malicious": {
+        "reference_connections": 8222,
+        "matched_references": 8222,
+        "reference_coverage_percent": 100.0,
+        "admitted_flows": 2056
+      }
+    }
+  },
+  "successful": true,
+  "finished_at_utc": "2026-11-08T18:02:36.028717+00:00",
+  "wall_seconds": 12.785631900000226,
+  "python_cpu_seconds": 11.40625,
+  "memory": {
+    "python_os_peak_working_set_bytes": 253399040,
+    "sampled_python_and_children_rss_max_bytes": 219865088,
+    "sampling_interval_seconds": 0.02,
+    "samples": 315,
+    "sampling_errors": [],
+    "method": "Windows process high-water mark for Python; separate sampled sum of Python and child RSS (includes TShark when observed), not an exact tree peak"
+  }
+}

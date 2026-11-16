@@ -1,0 +1,113 @@
+{
+  "baseline_files": 85,
+  "modified_existing_files": [
+    "seguridad_pymes/label_audit.py"
+  ],
+  "deleted_existing_files": [],
+  "added_files_excluding_backups_and_this_inventory": [
+    {
+      "path": "docs/reconciliacion_conservadora_iot23_20_1.md",
+      "size_bytes": 19901,
+      "sha256": "ed3c4681f1a73a2f066afa9685bbb8522c1499980107858d97dd6fafedac8114"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/audit_v2/imported_labels.json",
+      "size_bytes": 4601646,
+      "sha256": "ce3090ad777a2e9af2ef40b2ecb0807302027c084b631c0c36633f86f322f46a"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/audit_v2/label_audit.json",
+      "size_bytes": 71245827,
+      "sha256": "614b80b18b349962e5aaad4cb3f8752f8ec380bf4aa9f7ef769234e972abd361"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/checksum_tshark.tsv",
+      "size_bytes": 630,
+      "sha256": "7801f7d53c1342bba3b01d7f03f3f05e3334c61f953cfa5956a9eec1f4f9f7a9"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/checksum_tshark_comando.json",
+      "size_bytes": 804,
+      "sha256": "cdb804e3119e77723744a1b39296b62f0d8a5fef7b7a8323021647cf15b175bf"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/ejecucion_piloto.json",
+      "size_bytes": 13687,
+      "sha256": "a19db178ac3d02b7529ce4e6a0a2c7e06bdc2cc7f466b1591671a1c88332724a"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/evidencia_compacta.json",
+      "size_bytes": 29533,
+      "sha256": "444772bf14410f82735e294d3e46844cce2c7ad65d6daaaee9fa2183ba14e799"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/extraccion_repetida.json",
+      "size_bytes": 22680150,
+      "sha256": "12113adbf60e0c5f3adcd493b2ab15c8e1b65cd7cf4108459f9ab04a6dbcf77b"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/integridad.json",
+      "size_bytes": 15899,
+      "sha256": "29dd7417918a6974ab337edd81fd8130b5faf15e9bf1b0e1269d1e1c1d7d9291"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/pruebas_completas.log",
+      "size_bytes": 27135,
+      "sha256": "e0f6f9a07c878ab0f840a3d6edf101df86598ab9751f9585cc5038c0bc6fd073"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/pruebas_completas_finales.log",
+      "size_bytes": 27174,
+      "sha256": "2239e05ab70b365daf2cfd9f00c150af6fd647d1c195209c9ab88f4243a06ebc"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/pruebas_especificas.log",
+      "size_bytes": 10929,
+      "sha256": "40c2c20af7974c26ae979cfd9a06488a706e0f1a3b7527778d3be1db6a9e1f46"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/pruebas_especificas_finales.log",
+      "size_bytes": 11166,
+      "sha256": "e647b2deb016d2dc345ab572d73ecb0f3ba703dca600819a48119ff30b1ff41e"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/pruebas_especificas_iniciales.log",
+      "size_bytes": 10203,
+      "sha256": "d47488dfb4261b82a152e29bffa37f189a3f6acad24ba50f8969b2619e722775"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/resultado_completas.json",
+      "size_bytes": 364,
+      "sha256": "a8470b46495f4073bf26d395a681fedfd8865088b554377f283c414f9ee6f209"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/resultado_completas_finales.json",
+      "size_bytes": 364,
+      "sha256": "652c7a8049227b011fad67fdfd3bec18c264a059ee48e4c4ada4296abf397146"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/resultado_especificas.json",
+      "size_bytes": 282,
+      "sha256": "ac2a543e94f1475b4cdf16dc95260d0be0114279e3f193c37fe902df88c34400"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/resultado_especificas_finales.json",
+      "size_bytes": 362,
+      "sha256": "2e729078827f7d5c97f3ab48f1b6e49fa071cc0119950f80883c924db597c5d5"
+    },
+    {
+      "path": "docs/validacion_reconciliacion_iot23_20_1/resultado_especificas_iniciales.json",
+      "size_bytes": 282,
+      "sha256": "bd7d6c5d63e5008f74ff4c67aa58d867e18b419689729f27a9edff638ffe0b94"
+    },
+    {
+      "path": "tests/test_label_reconciliation.py",
+      "size_bytes": 23074,
+      "sha256": "55b92a4c0b7798025387d8f9efcdfbb72e4728ceea0a47f750ee107543843fb1"
+    }
+  ],
+  "original_and_reimported_labels_json_identical_byte_for_byte": true,
+  "local_report_links_verified": true,
+  "backup_manifest": "_backups/pre-reconciliation-20261108T165622Z-fb48e1bc.zip:BACKUP_MANIFEST.json",
+  "backup_and_protected_hashes": "integridad.json"
+}

@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+
+models/*
+!models/README.md
+
+*.db
+*.sqlite
+*.sqlite3
+
+# Respaldos locales: no subir a GitHub
+_backups/
+
+# Archivos comprimidos de respaldo
+*.zip
+
+# Archivos grandes de auditoría y adquisición
+docs/validacion_reconciliacion_iot23_20_1/audit_v2/label_audit.json
+docs/adquisicion_dirigida_20261109/decision_muhstik.json
+docs/adquisicion_dirigida_20261109/etiquetas_importadas_muhstik.json

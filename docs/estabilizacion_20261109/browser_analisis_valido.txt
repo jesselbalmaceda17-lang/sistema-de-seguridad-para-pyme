@@ -1,0 +1,370 @@
+Page Title: Seguridad Inteligente PYMES
+URL: http://127.0.0.1:8517/
+Recent events:
+- [2026-11-09T15:08:37.257Z] (console) [warning] WARN Scale bindings are currently only supported for scales with unbinned, continuous domains.
+- [2026-11-09T15:08:37.305Z] (console) [warning] WARN Scale bindings are currently only supported for scales with unbinned, continuous domains.
+Snapshot: 
+- generic [ref=e2]:
+  - link "Skip to main content" [ref=e3] [cursor=pointer]:
+    - /url: "#stMain"
+  - region "Sidebar":
+    - generic [ref=e21]:
+      - heading "Estado del sistema" [level=2] [ref=e25]
+      - generic [ref=e27]:
+        - paragraph [ref=e31]: Modelo de clasificación
+        - group [ref=e33]:
+          - combobox "Modelo de clasificación" [ref=e34]: Definitivo — clasificación predeterminada
+          - button "Open" [ref=e35] [cursor=pointer]:
+            - img [ref=e36]
+      - status [ref=e41]:
+        - generic:
+          - generic:
+            - generic:
+              - paragraph: Modelo cargado y listo.
+      - paragraph [ref=e46]: "Modelo seleccionado: Definitivo — clasificación predeterminada"
+      - paragraph [ref=e51]:
+        - text: "Artefacto:"
+        - code [ref=e52]: models\unsw_nb15_random_forest.joblib
+      - paragraph [ref=e57]: "Características requeridas: 42"
+      - paragraph [ref=e62]:
+        - text: "Regla:"
+        - code [ref=e63]: predict
+      - paragraph [ref=e68]: "Umbral: clasificación predeterminada"
+      - paragraph [ref=e73]:
+        - text: "Base SQLite:"
+        - code [ref=e74]: C:\Users\Ideapad15-itl6\Desktop\SeguridadInteligentePYMES\docs\estabilizacion_20261109\browser_history.sqlite3
+      - paragraph [ref=e79]: "Clasificación: normal (0) / sospechoso (1)"
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e7]:
+        - button "Expand sidebar" [ref=e84] [cursor=pointer]:
+          - generic [ref=e86]: keyboard_double_arrow_right
+        - generic [ref=e8]:
+          - button "Deploy" [ref=e10] [cursor=pointer]:
+            - generic [ref=e12]: Deploy
+          - button "Main menu" [ref=e14] [cursor=pointer]:
+            - img [ref=e15]
+    - main [ref=e18]:
+      - generic [ref=e87]:
+        - heading "Seguridad Inteligente PYMES" [level=1] [ref=e92]:
+          - text: Seguridad Inteligente PYMES
+          - generic [ref=e93]:
+            - link "Link to heading":
+              - /url: "#seguridad-inteligente-pymes"
+              - img
+        - paragraph [ref=e98]: Análisis de registros de tráfico con el modelo local disponible.
+        - alert [ref=e101]:
+          - generic [ref=e103]:
+            - generic [ref=e106]: ⚠️
+            - paragraph [ref=e108]:
+              - strong [ref=e109]: Análisis por archivo, no monitoreo en tiempo real.
+              - text: El sistema procesa un CSV que usted carga; no captura tráfico de red ni observa la red de forma continua.
+        - heading "Analizar un archivo" [level=2] [ref=e114]:
+          - text: Analizar un archivo
+          - generic [ref=e115]:
+            - link "Link to heading":
+              - /url: "#analizar-un-archivo"
+              - img
+        - paragraph [ref=e120]:
+          - text: Seleccione un CSV que contenga las características requeridas por el modelo. Puede incluir
+          - code [ref=e121]: id
+          - text: para identificar filas;
+          - code [ref=e122]: label
+          - text: "y"
+          - code [ref=e123]: attack_cat
+          - text: se ignoran y nunca se utilizan para predecir.
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - paragraph [ref=e129]: Archivo CSV de registros
+            - button "Help for Archivo CSV de registros" [ref=e133] [cursor=pointer]:
+              - img [ref=e134]
+          - region "Archivo CSV de registros" [ref=e137] [cursor=pointer]:
+            - button "file upload"
+            - generic [ref=e204]:
+              - generic "valido.csv, 1.6KB" [ref=e207]:
+                - img [ref=e225]
+                - generic [ref=e211]:
+                  - generic "valido.csv" [ref=e212]
+                  - generic [ref=e213]: 1.6KB
+                - button "Remove valido.csv" [ref=e228]:
+                  - img [ref=e216]
+              - button "Add files" [ref=e219]:
+                - generic [ref=e221]:
+                  - generic [ref=e222]: add icon
+                  - generic [ref=e224]: add
+        - status [ref=e230]:
+          - paragraph [ref=e234]: "Archivo validado: 8 registros y 42 características compatibles."
+        - paragraph [ref=e238]:
+          - text: "Columnas de metadatos excluidas de la predicción:"
+          - code [ref=e239]: id
+          - text: .
+        - button "Ejecutar análisis del archivo" [active] [ref=e242] [cursor=pointer]:
+          - paragraph [ref=e247]: Ejecutar análisis del archivo
+        - status [ref=e292]:
+          - paragraph [ref=e296]: Análisis completado y registrado en la base local.
+        - separator [ref=e300]
+        - heading "Último análisis" [level=2] [ref=e304]:
+          - text: Último análisis
+          - generic [ref=e305]:
+            - link "Link to heading":
+              - /url: "#ultimo-analisis"
+              - img
+        - paragraph [ref=e309]:
+          - text: "Archivo procesado:"
+          - code [ref=e310]: valido.csv
+        - generic [ref=e312]:
+          - generic [ref=e317]:
+            - paragraph [ref=e321]: Registros analizados
+            - paragraph [ref=e324]: "8"
+          - generic [ref=e329]:
+            - paragraph [ref=e333]: Normales
+            - paragraph [ref=e336]: "4"
+          - generic [ref=e341]:
+            - paragraph [ref=e345]: Sospechosos
+            - paragraph [ref=e348]: "4"
+          - generic [ref=e353]:
+            - paragraph [ref=e357]: Alertas guardadas
+            - paragraph [ref=e360]: "4"
+        - paragraph [ref=e273]: "Tiempo medido de inferencia: 0.0800 s · RSS pico: 315.9 MiB · incremento RSS aproximado: 1.1 MiB"
+        - paragraph [ref=e278]:
+          - text: "Modelo:"
+          - strong [ref=e361]: Definitivo — clasificación predeterminada
+          - text: "· referencia:"
+          - code [ref=e362]: models\unsw_nb15_random_forest.joblib
+        - paragraph [ref=e283]:
+          - text: "Regla:"
+          - code [ref=e363]: predict
+          - text: "· umbral: no aplica (clasificación predeterminada) · ejecución:"
+          - code [ref=e364]: d583758e-4818-4fcb-8403-4307194bd71e
+        - paragraph [ref=e368]: El score del modelo (clase 1) no es necesariamente una probabilidad calibrada ni confirma un ataque.
+        - heading "Resultados del archivo" [level=3] [ref=e373]:
+          - text: Resultados del archivo
+          - generic [ref=e374]:
+            - link "Link to heading":
+              - /url: "#resultados-del-archivo"
+              - img
+        - generic [ref=e379]:
+          - button "Show/hide columns" [ref=e383] [cursor=pointer]:
+            - img [ref=e384]
+          - button "Download as CSV" [ref=e389] [cursor=pointer]:
+            - img [ref=e390]
+          - button "Search" [ref=e395] [cursor=pointer]:
+            - img [ref=e396]
+          - button "Fullscreen" [ref=e401] [cursor=pointer]:
+            - img [ref=e402]
+        - heading "Clasificación obtenida" [level=3] [ref=e417]:
+          - text: Clasificación obtenida
+          - generic [ref=e418]:
+            - link "Link to heading":
+              - /url: "#clasificacion-obtenida"
+              - img
+        - generic [ref=e421]:
+          - generic [ref=e423]:
+            - button "Show data" [ref=e426] [cursor=pointer]:
+              - img [ref=e427]
+            - button "Download as PNG" [ref=e432] [cursor=pointer]:
+              - img [ref=e433]
+            - button "Copy Vega-Lite spec" [ref=e438] [cursor=pointer]:
+              - img [ref=e439]
+            - button "Fullscreen" [ref=e444] [cursor=pointer]:
+              - img [ref=e445]
+          - generic "Vega visualization" [ref=e448]:
+            - img [ref=e449]:
+              - generic [ref=e454]:
+                - 'generic "X-axis for a discrete scale with 2 values: Normal, Sospechoso (ataque)" [ref=e458]':
+                  - generic [ref=e460]:
+                    - generic:
+                      - generic: Normal
+                      - generic: Sospechoso (ata…
+                - generic "Y-axis for a linear scale with values from 0 to 4" [ref=e461]:
+                  - generic [ref=e463]:
+                    - generic:
+                      - generic: "0"
+                      - generic: "1"
+                      - generic: "2"
+                      - generic: "3"
+                      - generic: "4"
+                - generic [ref=e464]:
+                  - 'generic "index -- streamlit-generated: Normal; Registros: 4; index: Normal" [ref=e465]'
+                  - 'generic "index -- streamlit-generated: Sospechoso (ataque); Registros: 4; index: Sospechoso (ataque)" [ref=e466]'
+        - button "Descargar resultados de este análisis (CSV)" [ref=e469] [cursor=pointer]:
+          - paragraph [ref=e474]: Descargar resultados de este análisis (CSV)
+        - button "Descargar reporte de este análisis (JSON)" [ref=e477] [cursor=pointer]:
+          - paragraph [ref=e482]: Descargar reporte de este análisis (JSON)
+        - separator [ref=e487]
+        - heading "Historial de análisis" [level=2] [ref=e492]:
+          - text: Historial de análisis
+          - generic [ref=e493]:
+            - link "Link to heading":
+              - /url: "#historial-de-analisis"
+              - img
+        - status [ref=e496]:
+          - paragraph [ref=e500]: Este historial consulta como máximo las 100 ejecuciones más recientes y las 10,000 alertas más recientes. Los filtros, la búsqueda y «Todas» se aplican solo a las alertas cargadas; si se alcanza el límite, puede haber registros anteriores que no estén incluidos.
+        - generic [ref=e505]:
+          - button "Show/hide columns" [ref=e509] [cursor=pointer]:
+            - img [ref=e510]
+          - button "Download as CSV" [ref=e515] [cursor=pointer]:
+            - img [ref=e516]
+          - button "Search" [ref=e521] [cursor=pointer]:
+            - img [ref=e522]
+          - button "Fullscreen" [ref=e527] [cursor=pointer]:
+            - img [ref=e528]
+        - heading "Actividad por ejecución" [level=3] [ref=e543]:
+          - text: Actividad por ejecución
+          - generic [ref=e544]:
+            - link "Link to heading":
+              - /url: "#actividad-por-ejecucion"
+              - img
+        - generic [ref=e547]:
+          - generic [ref=e549]:
+            - button "Show data" [ref=e552] [cursor=pointer]:
+              - img [ref=e553]
+            - button "Download as PNG" [ref=e558] [cursor=pointer]:
+              - img [ref=e559]
+            - button "Copy Vega-Lite spec" [ref=e564] [cursor=pointer]:
+              - img [ref=e565]
+            - button "Fullscreen" [ref=e570] [cursor=pointer]:
+              - img [ref=e571]
+          - generic "Vega visualization" [ref=e574]:
+            - img [ref=e575]:
+              - generic [ref=e580]:
+                - 'generic "X-axis for a discrete scale with 1 value: 2026-11-09T15:08:36+00:00" [ref=e584]':
+                  - generic [ref=e586]:
+                    - generic:
+                      - generic: 2026-11-09T15:08…
+                - generic "Y-axis for a linear scale with values from 0 to 12" [ref=e587]:
+                  - generic [ref=e589]:
+                    - generic:
+                      - generic: "0"
+                      - generic: "2"
+                      - generic: "4"
+                      - generic: "6"
+                      - generic: "8"
+                      - generic: "10"
+                      - generic: "12"
+                - generic [ref=e590]:
+                  - 'generic "started_at: 2026-11-09T15:08:36+00:00; value -- streamlit-generated: 8; : Registros analizados; value: 8; color: Registros analizados" [ref=e591]'
+                  - 'generic "started_at: 2026-11-09T15:08:36+00:00; value -- streamlit-generated: 4; : Alertas; value: 4; color: Alertas" [ref=e592]'
+                - 'generic "Symbol legend titled '' '' for fill color with 2 values: Registros analizados, Alertas" [ref=e593]':
+                  - generic [ref=e599]:
+                    - generic [ref=e602]:
+                      - generic:
+                        - generic: Registros analizados
+                    - generic [ref=e605]:
+                      - generic:
+                        - generic: Alertas
+        - button "Descargar historial de ejecuciones (CSV)" [ref=e608] [cursor=pointer]:
+          - paragraph [ref=e613]: Descargar historial de ejecuciones (CSV)
+        - heading "Gestión de alertas" [level=2] [ref=e618]:
+          - text: Gestión de alertas
+          - generic [ref=e619]:
+            - link "Link to heading":
+              - /url: "#gestion-de-alertas"
+              - img
+        - paragraph [ref=e624]: "La revisión manual: marcar una alerta como confirmada no modifica la predicción del modelo ni significa por sí solo que sea un ataque real."
+        - paragraph [ref=e629]: La fecha indica cuándo se registró la alerta en SQLite, no necesariamente cuándo ocurrió el evento de red.
+        - paragraph [ref=e634]: El score del modelo (clase 1) no es necesariamente una probabilidad calibrada y no confirma por sí solo un ataque.
+        - group [ref=e637]:
+          - generic "Filtros de alertas" [ref=e638] [cursor=pointer]:
+            - generic [ref=e639]:
+              - generic [ref=e641]: keyboard_arrow_down
+              - paragraph [ref=e644]: Filtros de alertas
+          - generic [ref=e646]:
+            - generic [ref=e648]:
+              - generic [ref=e652]:
+                - paragraph [ref=e656]: Modelo
+                - group [ref=e658]:
+                  - combobox "Modelo" [ref=e659]: Todos los modelos
+                  - button "Open" [ref=e660] [cursor=pointer]:
+                    - img [ref=e661]
+              - generic [ref=e667]:
+                - paragraph [ref=e671]: Ejecución
+                - group [ref=e673]:
+                  - combobox "Ejecución" [ref=e674]: Todas las ejecuciones
+                  - button "Open" [ref=e675] [cursor=pointer]:
+                    - img [ref=e676]
+              - generic [ref=e682]:
+                - paragraph [ref=e686]: Estado de revisión
+                - group [ref=e688]:
+                  - combobox "Estado de revisión" [ref=e689]: Todos los estados
+                  - button "Open" [ref=e690] [cursor=pointer]:
+                    - img [ref=e691]
+            - generic [ref=e695]:
+              - paragraph [ref=e699]: Buscar identificador del registro
+              - textbox "Buscar identificador del registro" [ref=e702]:
+                - /placeholder: Escriba parte o todo el identificador
+        - paragraph [ref=e707]: Mostrando 4 de 4 alertas guardadas. Los filtros no modifican SQLite.
+        - generic [ref=e712]:
+          - button "Show/hide columns" [ref=e716] [cursor=pointer]:
+            - img [ref=e717]
+          - button "Download as CSV" [ref=e722] [cursor=pointer]:
+            - img [ref=e723]
+          - button "Search" [ref=e728] [cursor=pointer]:
+            - img [ref=e729]
+          - button "Fullscreen" [ref=e734] [cursor=pointer]:
+            - img [ref=e735]
+        - paragraph [ref=e750]: Para consultar los detalles, seleccione una alerta en el menú siguiente. Hacer clic en una fila de la tabla no selecciona la alerta
+        - generic [ref=e752]:
+          - paragraph [ref=e756]: Alerta para revisar
+          - group [ref=e758]:
+            - combobox "Alerta para revisar" [ref=e759]: Alerta 4 — controlled-8
+            - button "Open" [ref=e760] [cursor=pointer]:
+              - img [ref=e761]
+        - generic [ref=e765]:
+          - heading "Detalle de la alerta" [level=3] [ref=e770]:
+            - text: Detalle de la alerta
+            - generic [ref=e771]:
+              - link "Link to heading":
+                - /url: "#detalle-de-la-alerta"
+                - img
+          - generic [ref=e773]:
+            - generic [ref=e775]:
+              - paragraph [ref=e780]:
+                - strong [ref=e781]: ¿Qué significa esta alerta?
+              - paragraph [ref=e786]: El modelo clasificó este registro como sospechoso según la regla indicada. Es una señal para revisión, no una confirmación automática de un ataque.
+              - paragraph [ref=e791]: El score es una salida del modelo y no necesariamente una probabilidad calibrada. La aplicación no tiene explicabilidad implementada y no puede identificar aquí la causa exacta de la predicción.
+            - generic [ref=e793]:
+              - paragraph [ref=e798]:
+                - strong [ref=e799]: Identificación y revisión
+              - paragraph [ref=e804]:
+                - text: "Alerta:"
+                - code [ref=e805]: "4"
+              - paragraph [ref=e810]:
+                - text: "Registro:"
+                - code [ref=e811]: controlled-8
+              - paragraph [ref=e816]: "Clase predicha: Sospechoso (clase 1)"
+              - paragraph [ref=e821]: "Estado: Pendiente de revisión"
+              - paragraph [ref=e826]:
+                - text: "Alerta registrada (UTC):"
+                - code [ref=e827]: 2026-11-09T15:08:36+00:00
+              - paragraph [ref=e832]: La fecha es la hora de registro en SQLite; no necesariamente el momento del evento de red.
+          - paragraph [ref=e837]:
+            - strong [ref=e838]: Modelo y origen
+          - paragraph [ref=e843]: "Modelo: Definitivo — clasificación predeterminada"
+          - paragraph [ref=e848]: "Regla: Clasificación predeterminada"
+          - paragraph [ref=e853]: "Score del modelo (clase 1): 0.6415"
+          - paragraph [ref=e858]: "Archivo de origen: valido.csv"
+          - paragraph [ref=e863]:
+            - text: "Ejecución:"
+            - code [ref=e864]: d583758e-4818-4fcb-8403-4307194bd71e
+          - paragraph [ref=e869]:
+            - text: "Artefacto:"
+            - code [ref=e870]: models\unsw_nb15_random_forest.joblib
+          - paragraph [ref=e875]:
+            - text: "SHA-256 del modelo:"
+            - code [ref=e876]: 58505ee89df22c4c223b66d5e7172388d5d1fad6b7d135fce800a2765b2029e9
+        - button "Descargar alertas filtradas (CSV)" [ref=e879] [cursor=pointer]:
+          - paragraph [ref=e884]: Descargar alertas filtradas (CSV)
+        - group [ref=e887]:
+          - generic "Qué significan los estados de revisión" [ref=e888] [cursor=pointer]:
+            - generic [ref=e889]:
+              - generic [ref=e891]: keyboard_arrow_right
+              - paragraph [ref=e894]: Qué significan los estados de revisión
+        - generic [ref=e896]:
+          - paragraph [ref=e900]: Nuevo estado de revisión
+          - group [ref=e902]:
+            - combobox "Nuevo estado de revisión" [ref=e903]: Pendiente de revisión
+            - button "Open" [ref=e904] [cursor=pointer]:
+              - img [ref=e905]
+        - button "Guardar revisión" [ref=e910] [cursor=pointer]:
+          - paragraph [ref=e915]: Guardar revisión

@@ -1,0 +1,49 @@
+{
+  "recorded_at_utc": "2026-11-08T19:49:55.994217+00:00",
+  "scenario": "CTU-IoT-Malware-Capture-42-1",
+  "status": "capture_quarantined_truncated_published_source",
+  "sources": [
+    {
+      "path": "data/raw/iot23_trojan_42_1/2019-01-10-14-34-38-192.168.1.197.pcap",
+      "sha256": "7573797f17aae96e3804a3cfb22d531b74c17bbae740de1e14048f89130fba37",
+      "size_bytes": 2908160
+    },
+    {
+      "path": "data/raw/iot23_trojan_42_1/conn.log.labeled",
+      "sha256": "269fa1b22d9a37e159cf41b81a213a0032d21306f5d39b4c20cb0d211b04e8aa",
+      "size_bytes": 585829
+    }
+  ],
+  "reason": {
+    "frame": 24485,
+    "record_header_offset": 2908099,
+    "packet_data_offset": 2908115,
+    "declared_captured_bytes": 91,
+    "declared_wire_bytes": 91,
+    "available_packet_bytes": 45,
+    "missing_packet_bytes": 46,
+    "timestamp_epoch_ns": "1547157358547251000",
+    "kind": "incomplete_packet_body"
+  },
+  "complete_records_observed_before_failure": 24484,
+  "server_publishes_same_tail": true,
+  "successful_extraction": false,
+  "packet_audit_completed": false,
+  "new_admitted_flows": 0,
+  "new_admitted_reference_connections": 0,
+  "new_labeled_packets": 0,
+  "valid_extracted_flow_count": null,
+  "flow_or_packet_correspondence_coverage_percent": null,
+  "unavailable_reason": "No valid complete extraction or audit; partial decoded prefix must not be promoted to a corpus",
+  "source_references_imported": 4426,
+  "source_reference_classes_unverified_for_packet_correspondence": {
+    "Benign": 4420,
+    "Malicious": 6
+  },
+  "file_repaired_or_trimmed": false,
+  "fallback_scenario_downloaded": false,
+  "new_dataset_bodies_requested_during_closure": false,
+  "training_performed_on_captures": false,
+  "previous_corpus_admitted_flows": 9839,
+  "previous_corpus_unchanged": true
+}

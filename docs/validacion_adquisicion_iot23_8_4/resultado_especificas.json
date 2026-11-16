@@ -1,0 +1,17 @@
+{
+  "started_at_utc": "2026-11-08T18:12:01.060650+00:00",
+  "finished_at_utc": "2026-11-08T18:12:10.699156+00:00",
+  "wall_seconds": 9.638516499999241,
+  "pattern": "test_iot23_acquisition_compatibility.py",
+  "tests_run": 9,
+  "passed": 9,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "expected_failures": 0,
+  "unexpected_successes": 0,
+  "successful": true,
+  "failure_details": [],
+  "error_details": [],
+  "skipped_details": []
+}

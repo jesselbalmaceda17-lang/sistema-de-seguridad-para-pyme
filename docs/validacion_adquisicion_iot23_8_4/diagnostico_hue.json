@@ -1,0 +1,4109 @@
+{
+  "diagnostic_only_no_admissions": true,
+  "original_labels_unchanged": true,
+  "primary_blocker": "452 literal lowercase benign labels are unrecognized by the current importer",
+  "caution": "These are candidate tuple/time/counter checks including all checksum states, NOT accepted correspondence or recovered coverage; unknown labels prevent the auditor from performing full conservation validation",
+  "candidate_reference_checks": {
+    "counters_and_boundaries_agree": 359,
+    "additional_packet_discrepancy": 93
+  },
+  "examples": [
+    {
+      "reference_id": "f200da989d1192ff352a0dd2485c772c139bd72ce52ee7959ce5b461e6fab25c",
+      "uid": "CGm6jB4dXK71ZDWUDh",
+      "source_line": 9,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "udp",
+      "source_start_ns": "1540469302538640000",
+      "source_end_ns": "1540469302652824000",
+      "expected_counters": {
+        "orig_pkts": 1,
+        "resp_pkts": 1,
+        "orig_ip_bytes": 76,
+        "resp_ip_bytes": 76
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 1,
+        "resp_pkts": 1,
+        "orig_ip_bytes": 76,
+        "resp_ip_bytes": 76
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 2
+      },
+      "candidate_frames": [
+        30,
+        31
+      ],
+      "flow_ids": [
+        "48524e03f9a61c80443a952b3c076c11327653c62e3e3fdad6b67881d0aa572d"
+      ],
+      "diagnostic_state": "counters_and_boundaries_agree"
+    },
+    {
+      "reference_id": "caab7c1ce81b0b3e24638d51a9dbee26a6e8675c96974f688b3ab4eb18669bf2",
+      "uid": "CnaDAG3n5r8eiG4su2",
+      "source_line": 10,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "udp",
+      "source_start_ns": "1540469197400159000",
+      "source_end_ns": "1540469357767738000",
+      "expected_counters": {
+        "orig_pkts": 24,
+        "resp_pkts": 0,
+        "orig_ip_bytes": 8208,
+        "resp_ip_bytes": 0
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 24,
+        "resp_pkts": 0,
+        "orig_ip_bytes": 8208,
+        "resp_ip_bytes": 0
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 24
+      },
+      "candidate_frames": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "flow_ids": [
+        "1d7f261508add1062d4091742a136adb7d00fd7753448d8b9e36930d79b03844",
+        "948ee785f6db726946d86059709a3ab4959b12e9c8263daafe2e9aeba0f92a0b",
+        "ce873632859ea9a6912a783daa05693295060dd1397f2a957c9324439a4ad43d",
+        "d13faac4947d95c377e1a8a55128be08ac40502ca685477d9ea4b9a8563cb074"
+      ],
+      "diagnostic_state": "counters_and_boundaries_agree"
+    },
+    {
+      "reference_id": "e6635e28a88b7cfb727290726a5e548cc2b580b24298e89d1bcb29efdad6092d",
+      "uid": "CUrxU238nt0m6yTgKf",
+      "source_line": 11,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "udp",
+      "source_start_ns": "1540469385734089000",
+      "source_end_ns": "1540469385751075000",
+      "expected_counters": {
+        "orig_pkts": 1,
+        "resp_pkts": 1,
+        "orig_ip_bytes": 76,
+        "resp_ip_bytes": 76
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 1,
+        "resp_pkts": 1,
+        "orig_ip_bytes": 76,
+        "resp_ip_bytes": 76
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 2
+      },
+      "candidate_frames": [
+        56,
+        57
+      ],
+      "flow_ids": [
+        "63274e61e3d519cd585816558aa590a4259748e317e0e152bc577cd627918afd"
+      ],
+      "diagnostic_state": "counters_and_boundaries_agree"
+    },
+    {
+      "reference_id": "5303e354b4e6b568dcc91cdaab9460ce9e5ed014adf3f09e2dfcb79ebea40c71",
+      "uid": "CGQf8t1kjdxB5PHXL4",
+      "source_line": 12,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540469831302625000",
+      "source_end_ns": "1540469831306122000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174
+      ],
+      "flow_ids": [
+        "40a505ceaee251eb7c64a34c33b6c8fd3bda97871bfce1b59e65d4a9d0ce72f8"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "15e30dbac43b6e55bc8d68500e5bf1d51aaf19d821c1a6f7c7134c089406fd1b",
+      "uid": "C0wssT3JKSiAqhCZw",
+      "source_line": 32,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540472524852647000",
+      "source_end_ns": "1540472524941093000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 7,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 1823
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 1783
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 13
+      },
+      "candidate_frames": [
+        864,
+        865,
+        866,
+        867,
+        868,
+        869,
+        870,
+        871,
+        872,
+        873,
+        874,
+        875,
+        876
+      ],
+      "flow_ids": [
+        "5e81120a1dd7622dff5e3ee4f8ec1687714d8decc8686dab0d51d66391a9f9c2"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "df3a9e70b23cdd098187dc9c8943ac7efcfeabad5f77b29b50579ddc16621e71",
+      "uid": "CZAnC51NxxuVdfhg28",
+      "source_line": 33,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540472524944342000",
+      "source_end_ns": "1540472525053529000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1035
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 995
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11
+      },
+      "candidate_frames": [
+        881,
+        883,
+        884,
+        885,
+        886,
+        887,
+        888,
+        889,
+        890,
+        891,
+        892
+      ],
+      "flow_ids": [
+        "dfb2a69e49ca5f29f084baeca6691f28578116a589806ba0ec8c0cfb9d6feda6"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "f76692b6b85bb451fdbba564ea89e5020fa73ca61e9b85eb2bbb6dfc612cdc9b",
+      "uid": "C29JTF1UOZjbQoRx3",
+      "source_line": 38,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540472531582530000",
+      "source_end_ns": "1540472531586029000",
+      "expected_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 132
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 3,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 132,
+        "resp_ip_bytes": 132
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 6
+      },
+      "candidate_frames": [
+        901,
+        902,
+        903,
+        904,
+        905,
+        906
+      ],
+      "flow_ids": [
+        "21d935c9e72893e653c405191a8b766c4dfeacd38e1e74eaa3abec798d586dfe"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "04069c7c40c396c219cb4e3bfe723ace9f49912ac6cf47d10d091ee549830d2b",
+      "uid": "Cx8IgN3iIIlwEhtIg3",
+      "source_line": 44,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540473431620666000",
+      "source_end_ns": "1540473431624161000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        1131,
+        1132,
+        1133,
+        1134,
+        1135,
+        1136,
+        1137
+      ],
+      "flow_ids": [
+        "86c4a5949cc2f5cfb4b1310a484941fa73c04f920cea5c347b2ec41257010619"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "8f62cb0b3ff6fef5e67e873b544475ee86a6362acddb46fcbfe46e391dda599f",
+      "uid": "C9jU4h471UjRdSSze7",
+      "source_line": 58,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540476124983569000",
+      "source_end_ns": "1540476125073017000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 7,
+        "orig_ip_bytes": 2151,
+        "resp_ip_bytes": 1831
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2151,
+        "resp_ip_bytes": 1791
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 13
+      },
+      "candidate_frames": [
+        1840,
+        1841,
+        1842,
+        1843,
+        1844,
+        1845,
+        1846,
+        1847,
+        1848,
+        1849,
+        1850,
+        1851,
+        1852
+      ],
+      "flow_ids": [
+        "7411fb2f5bda767a34ef6447e6d2ed76e620b6fc16926d6aa7dd0f891fb23ac3"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "78f2c78192b824ce7c393c22c0ffd0bd8b7e59c71fdcfa0534e43331018eb787",
+      "uid": "CajqPf45nI4XZfNi5g",
+      "source_line": 59,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540476125075766000",
+      "source_end_ns": "1540476125190700000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1035
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 995
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11
+      },
+      "candidate_frames": [
+        1857,
+        1859,
+        1860,
+        1861,
+        1862,
+        1863,
+        1864,
+        1865,
+        1866,
+        1867,
+        1868
+      ],
+      "flow_ids": [
+        "2f8f8b326546cea3bda67fbc5f70bacab7d5e3fc753d925c9a7ddecb4c8020f3"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "a8c8cddaa0b820f07d62933e1f6776df5bd80948c4f18841dfa794e26f878eb7",
+      "uid": "CquRBf3qPSLrfDZME5",
+      "source_line": 74,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540477935096245000",
+      "source_end_ns": "1540477935099742000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        2332,
+        2333,
+        2334,
+        2335,
+        2336,
+        2337,
+        2338
+      ],
+      "flow_ids": [
+        "04132a0f6be7db8a4a09df5eac9522dbbbe9e03e50a976ec6f6e7e24e737db0c"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "2ba51be806ce55e0e4737db2ecaf363c081e2243d4efaadeb8055e01fdc29aad",
+      "uid": "Cx7C0rBT2nl5Kjzw8",
+      "source_line": 82,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540479724840014000",
+      "source_end_ns": "1540479724933960000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 7,
+        "orig_ip_bytes": 2151,
+        "resp_ip_bytes": 1831
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2151,
+        "resp_ip_bytes": 1791
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 13
+      },
+      "candidate_frames": [
+        2796,
+        2797,
+        2798,
+        2799,
+        2800,
+        2801,
+        2802,
+        2803,
+        2804,
+        2805,
+        2806,
+        2807,
+        2808
+      ],
+      "flow_ids": [
+        "5208e991f060de7667bc58d3480504777809c92a2efdf613189d9556b3c2252d"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "eaf657ee7dbc2127dad1d9dd2de1bbbc3be303df5b26e53a3ff1d991687ec0f1",
+      "uid": "CGTOJt2xNQkobSwysb",
+      "source_line": 83,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540479724936960000",
+      "source_end_ns": "1540479725063386000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1035
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 995
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11
+      },
+      "candidate_frames": [
+        2813,
+        2815,
+        2816,
+        2817,
+        2818,
+        2819,
+        2820,
+        2821,
+        2822,
+        2823,
+        2824
+      ],
+      "flow_ids": [
+        "c2df7fc43c6585423aa469493a52f5c047f18399e298ea92910e02fbc7c57406"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "933db5f947a85de39e2e13a165ea6666abaafd6c76b1582b0e75578fa3adeaee",
+      "uid": "CCX7ye2aClx8tifQvl",
+      "source_line": 88,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540479735255579000",
+      "source_end_ns": "1540479735258829000",
+      "expected_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 132
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 3,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 132,
+        "resp_ip_bytes": 132
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 6
+      },
+      "candidate_frames": [
+        2833,
+        2834,
+        2835,
+        2836,
+        2837,
+        2838
+      ],
+      "flow_ids": [
+        "f13ab251a1a6d03983f91f91334b8d3dc9efe894568e054ea2eeed0f23a2436c"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "f5f1e29010f6e96fa0960311ff2417a5cf7c67f3a71e9e970aaaffaa7bc42947",
+      "uid": "Cs4qk62UTBa3GY4gwl",
+      "source_line": 90,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540480635309043000",
+      "source_end_ns": "1540480635312788000",
+      "expected_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 132
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 3,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 132,
+        "resp_ip_bytes": 132
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 6
+      },
+      "candidate_frames": [
+        3065,
+        3066,
+        3067,
+        3068,
+        3069,
+        3070
+      ],
+      "flow_ids": [
+        "7510dd91ab9969b987e181c0dec6cfd0bd9553724980629f3155849c368022fc"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "987613a2687a22f7ec5300f019aa14c9c82a590395f8895dd2e36948365290d2",
+      "uid": "CPzhwSyOPMNESW6d3",
+      "source_line": 95,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540481535351819000",
+      "source_end_ns": "1540481535355066000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        3314,
+        3315,
+        3316,
+        3317,
+        3318,
+        3319,
+        3320
+      ],
+      "flow_ids": [
+        "f9401ac2e541207be56c30df21b39990db2a232332050eae2e89566de82f75f2"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "71aadc70664544796acda89d5e33d386e72e7edb3fd449b946702e22613dd5df",
+      "uid": "CbVqMk2OM7jVeueEE5",
+      "source_line": 98,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540482435551159000",
+      "source_end_ns": "1540482435554660000",
+      "expected_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 132
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 3,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 132,
+        "resp_ip_bytes": 132
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 6
+      },
+      "candidate_frames": [
+        3551,
+        3552,
+        3553,
+        3554,
+        3555,
+        3556
+      ],
+      "flow_ids": [
+        "37b5ceac421e8e92195b869e7289a7d21c59f28cb9c86ab6847dd2d8fb466417"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "7835be704464dd99c0a322b18fb1db959222aa971434133892e35a3349c53eaa",
+      "uid": "CVCoG14pyysFPa2kQi",
+      "source_line": 103,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540483324998282000",
+      "source_end_ns": "1540483325092729000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 7,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 1823
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 1783
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 13
+      },
+      "candidate_frames": [
+        3797,
+        3798,
+        3799,
+        3800,
+        3801,
+        3802,
+        3803,
+        3804,
+        3805,
+        3806,
+        3807,
+        3808,
+        3809
+      ],
+      "flow_ids": [
+        "9b9609a06e33948cd322bbf3a0cf98ca69be67768e8974450012d3a1de5c1a21"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "567ee2c805ebee0ef737db28580683bc0947d62f301c73e327f38226dd6e1d83",
+      "uid": "CdV7FS1hOxkGuHkTbc",
+      "source_line": 104,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540483325095726000",
+      "source_end_ns": "1540483325209411000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1043
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1003
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11
+      },
+      "candidate_frames": [
+        3814,
+        3816,
+        3817,
+        3818,
+        3819,
+        3820,
+        3821,
+        3822,
+        3823,
+        3824,
+        3825
+      ],
+      "flow_ids": [
+        "9687801d7a2bca193917bb8f04eb2ce22d909ee5346d3aaddb60cd6e01f24e33"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "f089c7073e200cb681daf4216c18ff8f6ebcd5a0672c0d73d34962007edb8a1d",
+      "uid": "CSiLuw4nkxF0s73csc",
+      "source_line": 105,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540483327011386000",
+      "source_end_ns": "1540483327221765000",
+      "expected_counters": {
+        "orig_pkts": 8,
+        "resp_pkts": 7,
+        "orig_ip_bytes": 1927,
+        "resp_ip_bytes": 469
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 1887,
+        "resp_ip_bytes": 429
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 13
+      },
+      "candidate_frames": [
+        3829,
+        3830,
+        3831,
+        3832,
+        3833,
+        3834,
+        3835,
+        3836,
+        3837,
+        3838,
+        3839,
+        3840,
+        3841
+      ],
+      "flow_ids": [
+        "c64f03a22c87016dc3c22c0a4b57e529226656ff953cdbeb10e9bcae0c4653c7"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "12e3aee962d0c2bee0aed4fa7904db131fd56ea961e638da363c588aee057e3c",
+      "uid": "C3xu7H3dfM6erO2dWg",
+      "source_line": 114,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540484235635954000",
+      "source_end_ns": "1540484235639451000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        4086,
+        4087,
+        4088,
+        4089,
+        4090,
+        4091,
+        4092
+      ],
+      "flow_ids": [
+        "39f5451dcd4659ee995a586329087939d445ac97855407fb1cf9d62e7bd0c0a4"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "4ca35454e0382ad2c53c3824550e5ed50eeb44545d71cc5e846ac5f9b0d2f422",
+      "uid": "CPg9Qe2aCDKzySLPTb",
+      "source_line": 117,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540485135742827000",
+      "source_end_ns": "1540485135746323000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        4326,
+        4327,
+        4328,
+        4329,
+        4330,
+        4331,
+        4332
+      ],
+      "flow_ids": [
+        "7049ba3099abc2644c64b1072d08c5c379438e5d97bbbf7fbace0a16a445d7f4"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "acde8b92921b9c7d40580f3db1ff392c064883517776d6c05788907d7d69c2d4",
+      "uid": "CTg5GP1RFoDc9qCMa6",
+      "source_line": 122,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540486035853935000",
+      "source_end_ns": "1540486035857183000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        4569,
+        4570,
+        4571,
+        4572,
+        4573,
+        4574,
+        4575
+      ],
+      "flow_ids": [
+        "de471771bc91b5bce7762cfc98c70a98b639205e63242b993fa84aafe44ddd1f"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "4a8727c188c85f03e7855853a7853b55b04c218b751f3424044e020b98075635",
+      "uid": "CAZatg2a0heEfxcKb",
+      "source_line": 124,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540486924852768000",
+      "source_end_ns": "1540486924941965000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 7,
+        "orig_ip_bytes": 2151,
+        "resp_ip_bytes": 1831
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2151,
+        "resp_ip_bytes": 1791
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 13
+      },
+      "candidate_frames": [
+        4798,
+        4799,
+        4800,
+        4801,
+        4802,
+        4803,
+        4804,
+        4805,
+        4806,
+        4807,
+        4808,
+        4809,
+        4810
+      ],
+      "flow_ids": [
+        "d62eba320db19fe09bf48a656994a9884fcb8e3da4a80c2fff87eedd2f6877f7"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "a7b06bd299078fe7a4043a7872d290b84115e1aa8962271645d8c199b064d921",
+      "uid": "CXhlOUOXoJ7S8zmf3",
+      "source_line": 125,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540486924944965000",
+      "source_end_ns": "1540486925054901000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1043
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1003
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11
+      },
+      "candidate_frames": [
+        4815,
+        4817,
+        4818,
+        4819,
+        4820,
+        4821,
+        4822,
+        4823,
+        4824,
+        4825,
+        4826
+      ],
+      "flow_ids": [
+        "020385c8e7e73e4d213a24c26e37ed4e29b395d30b81ec2db82cfb8fe6db84d0"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "c8a1f37fae07dc76d38641b3ff135c4009608151d993ca5b9909b38b6a64acc2",
+      "uid": "CdPBh22yxj50qLVxea",
+      "source_line": 138,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540488736141826000",
+      "source_end_ns": "1540488736145323000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        5314,
+        5315,
+        5316,
+        5317,
+        5318,
+        5319,
+        5320
+      ],
+      "flow_ids": [
+        "017b18aefbf57836667beb024daa3478ace7735375739cc647b034d145bd8938"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "23a0161ace3541cbda16c6b0fc7fb392660dbe366b9dbb63997c179cbcf98fdf",
+      "uid": "C7a0fo4aeQEAcR6ELg",
+      "source_line": 146,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540490524903913000",
+      "source_end_ns": "1540490524992361000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 7,
+        "orig_ip_bytes": 2151,
+        "resp_ip_bytes": 1831
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2151,
+        "resp_ip_bytes": 1791
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 13
+      },
+      "candidate_frames": [
+        5790,
+        5791,
+        5792,
+        5793,
+        5794,
+        5795,
+        5796,
+        5797,
+        5798,
+        5799,
+        5800,
+        5801,
+        5802
+      ],
+      "flow_ids": [
+        "aa9dce558aac275aac1e2868d55b023086bd6e0c123c06922a1ee134d72b0093"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "5a0725e013dc58563b882914cbd3f19b0408325ac9bff1a7b539d9738c033610",
+      "uid": "CHQW2S1g0RRUqhlf1e",
+      "source_line": 147,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540490524995609000",
+      "source_end_ns": "1540490525113293000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1035
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 995
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11
+      },
+      "candidate_frames": [
+        5807,
+        5809,
+        5810,
+        5811,
+        5812,
+        5813,
+        5814,
+        5815,
+        5816,
+        5817,
+        5818
+      ],
+      "flow_ids": [
+        "b7bd4bd24b1d628b17936a102bc7881b564661766971cc89292a5b6b6e9f83a7"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "5af756bb47faa5f8f0ce79d19f2dcdb770daee87c78dfca41209d853d52c4299",
+      "uid": "C01r7XD1pGjqxMXv7",
+      "source_line": 154,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540491436497405000",
+      "source_end_ns": "1540491436500904000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        6060,
+        6061,
+        6062,
+        6063,
+        6064,
+        6065,
+        6066
+      ],
+      "flow_ids": [
+        "1c328ec478703271d073c469988321f367d036fc6ef132fc1fdfdbc6df43052a"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "bd95e701c947847ce81be16f355755dc8dff31184007393a1cb8b14dbae9d571",
+      "uid": "CCzkuS2hJQ2TDX3I98",
+      "source_line": 164,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540494124922315000",
+      "source_end_ns": "1540494125012013000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 7,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 1823
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 1783
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 13
+      },
+      "candidate_frames": [
+        6776,
+        6777,
+        6778,
+        6779,
+        6780,
+        6781,
+        6782,
+        6783,
+        6784,
+        6785,
+        6786,
+        6787,
+        6788
+      ],
+      "flow_ids": [
+        "d1f802dd71c1d892fbc82c7a218e26eae8b93b873eff11fb39f970539b208dfc"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "6d67570d938f9a38c5afd28290df3c1d2698ff4a7c393f4500e3a76601c38fd9",
+      "uid": "C1aDm42J0BOHj0bs5h",
+      "source_line": 165,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540494125015012000",
+      "source_end_ns": "1540494125125199000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2151,
+        "resp_ip_bytes": 1043
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2151,
+        "resp_ip_bytes": 1003
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 12
+      },
+      "candidate_frames": [
+        6793,
+        6795,
+        6796,
+        6797,
+        6798,
+        6799,
+        6800,
+        6801,
+        6802,
+        6803,
+        6804,
+        6805
+      ],
+      "flow_ids": [
+        "c7fe45fdf98a08926306af38c9bd7809558ab850118c75ebd0bc185985b148b6"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "1dfc13977bb35be8e99096fe9bf64cfffb01a1eb610ad3885b74630d03491476",
+      "uid": "C8rQlWYJfwp4Un1v5",
+      "source_line": 170,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540494137013174000",
+      "source_end_ns": "1540494137016676000",
+      "expected_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 132
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 3,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 132,
+        "resp_ip_bytes": 132
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 6
+      },
+      "candidate_frames": [
+        6812,
+        6813,
+        6814,
+        6815,
+        6816,
+        6817
+      ],
+      "flow_ids": [
+        "7db2591a46a83ff57a51b2292c13a1b25f2b485785f47683c27b4d265098bab5"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "f8291477a0701fa2d2aa511b9c09b473273a3c8ecea8e8330a0f96869959d842",
+      "uid": "Cbcupy3wc2cxkaHQJk",
+      "source_line": 176,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540495937186049000",
+      "source_end_ns": "1540495937189546000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        7278,
+        7279,
+        7280,
+        7281,
+        7282,
+        7283,
+        7284
+      ],
+      "flow_ids": [
+        "fc35219caad4283cd344d1935498f2deee765022a4211124a5de05a8fef35faf"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "a6d820f2fe5feee17ac18e651d2fc1194dd54a3a703f74ac69bc002bc40cc191",
+      "uid": "CG5VXMR4xMjAr5ual",
+      "source_line": 182,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540497724871129000",
+      "source_end_ns": "1540497724965085000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 204
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 1743
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11,
+        "partial_pseudoheader": 1
+      },
+      "candidate_frames": [
+        7748,
+        7749,
+        7750,
+        7751,
+        7752,
+        7753,
+        7754,
+        7755,
+        7756,
+        7757,
+        7758,
+        7759
+      ],
+      "flow_ids": [
+        "e5d3c5b4b06dd6d8bc601933a81cf5b640d0f4b403cca0920d79ac6e95245940"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "235bbcb3a5ef552f9e759b216aef4f47ca7f1fdbe784354ebd1c2f7f58229af7",
+      "uid": "Cfx22u2YL8jtUqIFAa",
+      "source_line": 183,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540497724968073000",
+      "source_end_ns": "1540497725083007000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1035
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 995
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11
+      },
+      "candidate_frames": [
+        7764,
+        7766,
+        7767,
+        7768,
+        7769,
+        7770,
+        7771,
+        7772,
+        7773,
+        7774,
+        7775
+      ],
+      "flow_ids": [
+        "9e1176934e007f9d95ccb25d93a5b8b7f1f27d7eab1f5a73cbd13845781770d5"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "d8f64a76972078204d0cdbcd05ce0cb6cde8e4802d4c220cefccb5c9f6ba7fff",
+      "uid": "CNuAbv4lQw04mxqo3g",
+      "source_line": 188,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540497737379759000",
+      "source_end_ns": "1540497737383256000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        7790,
+        7791,
+        7792,
+        7793,
+        7794,
+        7795,
+        7796
+      ],
+      "flow_ids": [
+        "27e16db97a1bcd10b6c5d4eb7bbd92b871fd99037f04b8c10b92e00fb6309a96"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "18fe292006e0a1ad387d87ecfe3570f938d92f17b6cfe0be92503a3ba9b12440",
+      "uid": "C1WzDv3WrzCPLqp9l",
+      "source_line": 193,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540499537484682000",
+      "source_end_ns": "1540499537488178000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        8267,
+        8268,
+        8269,
+        8270,
+        8271,
+        8272,
+        8273
+      ],
+      "flow_ids": [
+        "8f8a8640e3aa93a988dcfc6219c7341aa40d5aa5ddd4a56b5ccdd4a2d91a646c"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "22f14e1657d0f20eee3974b2eef78992bce6583fe1bd0ce0c1a4da5e3430ce83",
+      "uid": "CP466V3XjgmsBHzxs5",
+      "source_line": 198,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540500437593858000",
+      "source_end_ns": "1540500437597355000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        8518,
+        8519,
+        8520,
+        8521,
+        8522,
+        8523,
+        8524
+      ],
+      "flow_ids": [
+        "593d1c8886f19fc6bbfa9d3da6871f512d37075e72366ab1cfa6eb2008cbd490"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "9b5fbbcc2a00eb73fe2d0fd18c658fd9e172cdd77b031e20b5cfae8c0b7d4a29",
+      "uid": "CVcdav2p9LU9ziPEAh",
+      "source_line": 201,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540501325004914000",
+      "source_end_ns": "1540501325098109000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 7,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 1823
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 1783
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 13
+      },
+      "candidate_frames": [
+        8759,
+        8760,
+        8761,
+        8762,
+        8763,
+        8764,
+        8765,
+        8766,
+        8767,
+        8768,
+        8769,
+        8770,
+        8771
+      ],
+      "flow_ids": [
+        "314bbb5f12c139bbb87f8f2693e5537b445dd27103f835bbb81b11441d58b3b8"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "e94267e01d7ce0a34f080061d24e27f808d410f5305a0962e226a5b7e820b7bd",
+      "uid": "C37aa4k8gxiLE1Un5",
+      "source_line": 202,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540501325101113000",
+      "source_end_ns": "1540501325210545000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1035
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 995
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11
+      },
+      "candidate_frames": [
+        8776,
+        8778,
+        8779,
+        8780,
+        8781,
+        8782,
+        8783,
+        8784,
+        8785,
+        8786,
+        8787
+      ],
+      "flow_ids": [
+        "f079ebdbbd29084f6cd205239feb31513cea1cba7815a52cb51475384067c605"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "de6ea7e6ea9dff31d96f82b6f3a960766382033b92aee368721d1b15c7901a34",
+      "uid": "CB7Lz42c6upevBWUs4",
+      "source_line": 211,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540503138049506000",
+      "source_end_ns": "1540503138053003000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        9261,
+        9262,
+        9263,
+        9264,
+        9265,
+        9266,
+        9267
+      ],
+      "flow_ids": [
+        "8bc28b936e0330c86a89f28369beda6082e9094a2174f43b8f0a9424b1e721b4"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "1907f0803967aeb3cea332c3273a6e0844b3e3f1c1b5eb0affd8b3a86bd25db4",
+      "uid": "CPjp2h1nGt9TUcuNJ5",
+      "source_line": 213,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540504038160202000",
+      "source_end_ns": "1540504038163699000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        9494,
+        9495,
+        9496,
+        9497,
+        9498,
+        9499,
+        9500
+      ],
+      "flow_ids": [
+        "abc8a43def36a5e959ef59e74e0bbaa151f206ad2b7afe53a943760f75b034ff"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "04ee947fa943a827acae0bbcdf566ceb253fb0a27705b0b87cfd3b233e8732c3",
+      "uid": "CtHBi12fX8jwrgNUij",
+      "source_line": 218,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540504925006577000",
+      "source_end_ns": "1540504925095524000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 7,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 1823
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 1783
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 13
+      },
+      "candidate_frames": [
+        9733,
+        9734,
+        9735,
+        9736,
+        9737,
+        9738,
+        9739,
+        9740,
+        9741,
+        9742,
+        9743,
+        9744,
+        9745
+      ],
+      "flow_ids": [
+        "12c2cb4ce511f424dc0af8c16300aef3c2c5d8b4489d05f30888caf9ef7d1968"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "a646ef6a52e8308c965b8df01d2927d0f0c9e61447e253335fd7acda87800f8c",
+      "uid": "CPMajE4RHvz2lDYShl",
+      "source_line": 219,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540504925098524000",
+      "source_end_ns": "1540504925204213000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1035
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 995
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11
+      },
+      "candidate_frames": [
+        9750,
+        9752,
+        9753,
+        9754,
+        9755,
+        9756,
+        9757,
+        9758,
+        9759,
+        9760,
+        9761
+      ],
+      "flow_ids": [
+        "8d688ec451f6e8a29eeb9f26ebe8d282ebe5a2fbcf504a07836ee05c51867e79"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "73e62ae349a92ba7cefee822d8b2659bc55d49f9e02fea4ac026f71e09d8b8c2",
+      "uid": "CvSaDNDmzrU8bPOu",
+      "source_line": 224,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540504938361218000",
+      "source_end_ns": "1540504938364716000",
+      "expected_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 132
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 3,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 132,
+        "resp_ip_bytes": 132
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 6
+      },
+      "candidate_frames": [
+        9768,
+        9769,
+        9770,
+        9771,
+        9772,
+        9773
+      ],
+      "flow_ids": [
+        "0e1d983d44f90dd3f55528d5f317c6073bc1fa93169b8b0cd9348e3c30c60a98"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "5eaa92951e4623353a4d94d21b9a204c5cfcfa70e601116be0cc40ca71e4a7bb",
+      "uid": "CGDpRf160VFfRsbK9e",
+      "source_line": 229,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540506738545466000",
+      "source_end_ns": "1540506738556959000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        10235,
+        10236,
+        10237,
+        10238,
+        10239,
+        10240,
+        10241
+      ],
+      "flow_ids": [
+        "9123b913ae5323378d1401b55556121881e7304be0153a3113a3d86114e2a534"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "f2bf76b56f0a6d7d7550ccdc845b44713e5d506b2dac0b51d5c49b13a1f46706",
+      "uid": "CnAqup3ceSo525BWP6",
+      "source_line": 231,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540507638752086000",
+      "source_end_ns": "1540507638763578000",
+      "expected_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 132
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 3,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 132,
+        "resp_ip_bytes": 132
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 6
+      },
+      "candidate_frames": [
+        10464,
+        10465,
+        10466,
+        10467,
+        10468,
+        10469
+      ],
+      "flow_ids": [
+        "ce2cde228d4131a5e40e76371835d382eb4835675005eb40195b947264ca23b7"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "2a508bcb26e2c12da502954503996aa935a1dfc95786b5bc3fd05de55dd8bb5f",
+      "uid": "C5mIg23XNIiyCvNQVl",
+      "source_line": 235,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540508524931122000",
+      "source_end_ns": "1540508525019820000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 7,
+        "orig_ip_bytes": 2151,
+        "resp_ip_bytes": 1831
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2151,
+        "resp_ip_bytes": 1791
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 13
+      },
+      "candidate_frames": [
+        10698,
+        10699,
+        10700,
+        10701,
+        10702,
+        10703,
+        10704,
+        10705,
+        10706,
+        10707,
+        10708,
+        10709,
+        10710
+      ],
+      "flow_ids": [
+        "0ff9a3520e71dd524d83cf66e2bfd6d81f26984192cde20ea25138c4f7f60877"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "04a6c0a76480fb08142ee15be3d16395374044ddb3813d4f72c8f31c11f2a8f1",
+      "uid": "CyrIq30SFEsG9d2jj",
+      "source_line": 236,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540508525023069000",
+      "source_end_ns": "1540508525136253000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1035
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 995
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11
+      },
+      "candidate_frames": [
+        10715,
+        10717,
+        10718,
+        10719,
+        10720,
+        10721,
+        10722,
+        10723,
+        10724,
+        10725,
+        10726
+      ],
+      "flow_ids": [
+        "2fcd1a5ae8bf385a38cc2817219bf931fe2ba62ef54c293d92e0b1686a2d0dde"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "c13312d9cfdd5a356bd73c59ee3c7c226f2d112de8e6089daf5e209692916cd2",
+      "uid": "CMII4j3n5MlqItut73",
+      "source_line": 245,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540509438871339000",
+      "source_end_ns": "1540509438882831000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        10982,
+        10983,
+        10984,
+        10985,
+        10986,
+        10987,
+        10988
+      ],
+      "flow_ids": [
+        "cc50032e3e844a208855ba806aef2f0234d24f26ee2920b7677b9a85d8a71199"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "31a2385aea6d1d6d8fd98dd3cdbcdd27d228aa72979f2bcec3fcdc67539b558b",
+      "uid": "CucjdBf0HtCabLUTh",
+      "source_line": 249,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540511239137920000",
+      "source_end_ns": "1540511239149662000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        11449,
+        11450,
+        11451,
+        11452,
+        11453,
+        11454,
+        11455
+      ],
+      "flow_ids": [
+        "fccbfbe1176b528991aae0fe39ba12874e3b19f2cde6428aab6a467ff50d8a35"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "935d0045dfe8536b2b8c07e8cbd67f1526b9606a647d0763fd4a61d9ae8958d6",
+      "uid": "CPC6fV3iUxLyABUFUi",
+      "source_line": 251,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540512125001086000",
+      "source_end_ns": "1540512125089284000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 7,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 1823
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 1783
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 13
+      },
+      "candidate_frames": [
+        11682,
+        11683,
+        11684,
+        11685,
+        11686,
+        11687,
+        11688,
+        11689,
+        11690,
+        11691,
+        11692,
+        11693,
+        11694
+      ],
+      "flow_ids": [
+        "3d78a788692fc0d5804d079e1e6f33dd97e9758ee42b4141b6d943b124e35e3a"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "fbcdc25d16b3318270f7230b5710101fbc5c8d2ecff104d53502a862d8ba0480",
+      "uid": "C6kNSd4e8JSs6NKBN9",
+      "source_line": 252,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540512125092534000",
+      "source_end_ns": "1540512125203968000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1035
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 995
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11
+      },
+      "candidate_frames": [
+        11699,
+        11701,
+        11702,
+        11703,
+        11704,
+        11705,
+        11706,
+        11707,
+        11708,
+        11709,
+        11710
+      ],
+      "flow_ids": [
+        "f8d471cfdad3f0c4ffaf9d1399052b140de1521c9326825c60f1eeaf6d9df4a3"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "c4c5fa602071dc35ec3f87c1f5bef3acc0c6b5f25f3dee0acf31662c2c2077e0",
+      "uid": "CDNSl01RsJnS5bOPc3",
+      "source_line": 259,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540512139195757000",
+      "source_end_ns": "1540512139207252000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        11741,
+        11742,
+        11743,
+        11744,
+        11745,
+        11746,
+        11747
+      ],
+      "flow_ids": [
+        "b8d40c8ec55b7d083eddead81e285c8eb6122c55a32a3a042c7b3d5f477868d7"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "4711044fb56ca87257a710a651fb0a653438cdbd122672630f1aaf4ad5529dc9",
+      "uid": "CVULm537oXUvXxiq19",
+      "source_line": 264,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540513039256097000",
+      "source_end_ns": "1540513039267340000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        11980,
+        11981,
+        11982,
+        11983,
+        11984,
+        11985,
+        11986
+      ],
+      "flow_ids": [
+        "a638de749a47e138f228dc67c5748bf9f73df3ac3f4e1d8060bc6d5be7f7cc94"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "96b776d8399a82ec6bb33dce51ea5e46fd4794489afdef676c94974692c272e0",
+      "uid": "CGkFIc4WyTKH5KyFs5",
+      "source_line": 267,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540513939308267000",
+      "source_end_ns": "1540513939319759000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        12220,
+        12221,
+        12222,
+        12223,
+        12224,
+        12225,
+        12226
+      ],
+      "flow_ids": [
+        "acb588ccb20ba77fc73068a730e30d01339eca731a2f6f79593dc41cfebdcbd0"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "3c64deb24ce214495523928d4193b949ab8bfafac2b9b9016fa94b077a74b830",
+      "uid": "Cx3BL4tL9nrA4xZx",
+      "source_line": 271,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540514839363353000",
+      "source_end_ns": "1540514839375096000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        12484,
+        12485,
+        12486,
+        12487,
+        12488,
+        12489,
+        12490
+      ],
+      "flow_ids": [
+        "3c0eccb61e80b87ebaca5563ca017b95fb97d6c3855b1b06c0b5327d9d9d4d9f"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "076a960a59f493dff4968e65d14664d17ce5f29e8b53fa8cc5941e17527e47ec",
+      "uid": "C5n2tP3bULpFkNfEH3",
+      "source_line": 273,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540515724848363000",
+      "source_end_ns": "1540515724942058000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 7,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 1823
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 1783
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 13
+      },
+      "candidate_frames": [
+        12715,
+        12716,
+        12717,
+        12718,
+        12719,
+        12720,
+        12721,
+        12722,
+        12723,
+        12724,
+        12725,
+        12726,
+        12727
+      ],
+      "flow_ids": [
+        "3d4bec0004d1b9806bf2a3906565652ac8754831979a7c9df94966a388623264"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "a091575d278d6a5a8cff031d6915bf90eb3727e247e919a56ded50ffcefd8742",
+      "uid": "CtAgbP8GhitppIqfd",
+      "source_line": 274,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540515724945057000",
+      "source_end_ns": "1540515725057492000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1043
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1003
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11
+      },
+      "candidate_frames": [
+        12732,
+        12734,
+        12735,
+        12736,
+        12737,
+        12738,
+        12739,
+        12740,
+        12741,
+        12742,
+        12743
+      ],
+      "flow_ids": [
+        "c8eb8bbe313a40158e09106fe6165b4ac10e5b2799eb05d0c74b0a60271b933d"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "b9fef97c0fe8390be30168d595d9b21f1195ca7fdf36c35fab1e5d0c94bb1c60",
+      "uid": "C8HO1Whj0ObSEwagl",
+      "source_line": 291,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540519324912822000",
+      "source_end_ns": "1540519325005768000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 7,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 1823
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 1783
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 13
+      },
+      "candidate_frames": [
+        13693,
+        13694,
+        13695,
+        13696,
+        13697,
+        13698,
+        13699,
+        13700,
+        13701,
+        13702,
+        13703,
+        13704,
+        13705
+      ],
+      "flow_ids": [
+        "a4d7fe5ee70fcd86f0b536f9546bc508cd2e5f51a4b54c42004f8d5d8387459c"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "f8c190524ea1c04d990506159dd8724a0d3b01aa919d13b417b6a3c9bda65495",
+      "uid": "C8k0ZJ3nN2F72zMFkk",
+      "source_line": 292,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540519325009016000",
+      "source_end_ns": "1540519325126699000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1035
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 995
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11
+      },
+      "candidate_frames": [
+        13710,
+        13712,
+        13713,
+        13714,
+        13715,
+        13716,
+        13717,
+        13718,
+        13719,
+        13720,
+        13721
+      ],
+      "flow_ids": [
+        "9aeda785bee0658700b03009c4233b68a4b633c9e7d45e04d63390891f31b341"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "7f4fed7cb2fa5750180fa1c0063f96c8c4c5bc50b3b56397576935da432a22ce",
+      "uid": "C0p9SH1Ypj2Li00ch1",
+      "source_line": 306,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540522040123123000",
+      "source_end_ns": "1540522040134615000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        14444,
+        14445,
+        14446,
+        14447,
+        14448,
+        14449,
+        14450
+      ],
+      "flow_ids": [
+        "111d452042abf365c01b5e46f11942315fc44b8d2984c336be8c82fc3e1fb078"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "7b5dbbf200ba252618b8857613496cc84c709fec30d2b46a6a3e3d5c19b4b7b8",
+      "uid": "C4bjac2nU578UQgUE3",
+      "source_line": 309,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540522924857984000",
+      "source_end_ns": "1540522924946931000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 204
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 1743
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11,
+        "partial_pseudoheader": 1
+      },
+      "candidate_frames": [
+        14669,
+        14670,
+        14671,
+        14672,
+        14673,
+        14674,
+        14675,
+        14676,
+        14677,
+        14678,
+        14679,
+        14680
+      ],
+      "flow_ids": [
+        "646e8a4e96771a9ebfcc5f95564f7cd958a32db2cbb2ac7e18b684d7f4443aa2"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "7c3fba10700fd2ca37ecc33b8680dcd96b659cda55c37b1742b808e65f7d176b",
+      "uid": "CMyMnc3hMHuSndyf7l",
+      "source_line": 310,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540522924949931000",
+      "source_end_ns": "1540522925068363000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1043
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1003
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11
+      },
+      "candidate_frames": [
+        14685,
+        14687,
+        14688,
+        14689,
+        14690,
+        14691,
+        14692,
+        14693,
+        14694,
+        14695,
+        14696
+      ],
+      "flow_ids": [
+        "c332848dc3ba374fea59e78a6bf08ef0e2319a7d982418038a166251cb240543"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "f976e9f68a1b41b370ec7a6163d6d5f7a15a9381f4a947b661f418b08b121f27",
+      "uid": "CSrevYRCgCuOIGzh8",
+      "source_line": 315,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540522940187248000",
+      "source_end_ns": "1540522940198739000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        14711,
+        14712,
+        14713,
+        14714,
+        14715,
+        14716,
+        14717
+      ],
+      "flow_ids": [
+        "d7869c71f2cb82e0d330bb7fb11fb4045e336a3fb6b0372808ef5a638d259592"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "21c8f017a27fe0ffd2029e84894255cd95df906da8f2976adf6a3d751f75c071",
+      "uid": "CbeaqN34EdECULHYvg",
+      "source_line": 317,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540523840251867000",
+      "source_end_ns": "1540523840263360000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        14944,
+        14945,
+        14946,
+        14947,
+        14948,
+        14949,
+        14950
+      ],
+      "flow_ids": [
+        "84c94d5763625538c6113455fd234c0c4bd6d4033f336cea949e382ad91d673b"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "a5d7f8cd9d7b8f7d5ca02b06831b5cf27db0417cd05ed032a5b64bf33b7aa6ff",
+      "uid": "CrFCOL33cceOlEy8Wd",
+      "source_line": 319,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540524740366458000",
+      "source_end_ns": "1540524740377954000",
+      "expected_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 132
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 3,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 132,
+        "resp_ip_bytes": 132
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 6
+      },
+      "candidate_frames": [
+        15181,
+        15182,
+        15183,
+        15184,
+        15185,
+        15186
+      ],
+      "flow_ids": [
+        "a2904aa0e5471d09994cdc38ed975d6dbf77e56797c8082cf94299eeeca3fb08"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "bf73ca96c1de9a64b5e3398565ed00e57de60d0f692dce3dd24086ac46da9edc",
+      "uid": "CDN4VG2nq49dSD5s3f",
+      "source_line": 323,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540525640448162000",
+      "source_end_ns": "1540525640459654000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        15427,
+        15428,
+        15429,
+        15430,
+        15431,
+        15432,
+        15433
+      ],
+      "flow_ids": [
+        "9afc663830aa5554dc17851f25271d6b094a1d41ca2e4a0daf360ef854e0dccc"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "5af652b4e4245a38f934e64d804f3c63a5018a536f22aa9f4e0fef3ee360fe23",
+      "uid": "CAXOio3MteEfxUuDGa",
+      "source_line": 327,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540526524857591000",
+      "source_end_ns": "1540526524951286000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 204
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 1743
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11,
+        "partial_pseudoheader": 1
+      },
+      "candidate_frames": [
+        15666,
+        15667,
+        15668,
+        15669,
+        15670,
+        15671,
+        15672,
+        15673,
+        15674,
+        15675,
+        15676,
+        15677
+      ],
+      "flow_ids": [
+        "8952d42e6491dea2f69fccb99fe0cf0c78c2e2e8d91e0a4e7e54084a3ed5dc97"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "1a8cee755dea6b62eac29af9b930ac2e79252edb0d8bd887a31cc2cc34c51e85",
+      "uid": "C0nEp2xkOzTKITJmb",
+      "source_line": 328,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540526524954534000",
+      "source_end_ns": "1540526525075965000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1035
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 995
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11
+      },
+      "candidate_frames": [
+        15682,
+        15684,
+        15685,
+        15686,
+        15687,
+        15688,
+        15689,
+        15690,
+        15691,
+        15692,
+        15693
+      ],
+      "flow_ids": [
+        "b835f9837e2817d2fc92dad36d314d1d4afc4f2b99da32cbf96ffe50cf3ebd46"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "8a86305aef68de6b6137cacaaf138b60514789b248aebb2367b4de8582bcad23",
+      "uid": "CHFURY2s6rJMEF0ql7",
+      "source_line": 333,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540526540514416000",
+      "source_end_ns": "1540526540525914000",
+      "expected_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 132
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 3,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 132,
+        "resp_ip_bytes": 132
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 6
+      },
+      "candidate_frames": [
+        15700,
+        15701,
+        15702,
+        15703,
+        15704,
+        15705
+      ],
+      "flow_ids": [
+        "a5f7b243a90f44bc954293dfc1a5f5a3861b9fb0959e8a72380bc0b37f2f5ad3"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "a82b0774aea1b076f1a082a809187e28b45adaa82694c4642838174bdb72c880",
+      "uid": "CY5qO32G3ikGmHo9D5",
+      "source_line": 335,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540527440634112000",
+      "source_end_ns": "1540527440645604000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        15933,
+        15934,
+        15935,
+        15936,
+        15937,
+        15938,
+        15939
+      ],
+      "flow_ids": [
+        "e01af6e2e0d9d36fb9053ad8a66ea0caf49dd4ab9043f5e5cf040b7c8c71872c"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "48f529ca8ec233085a8a25247c4a5e6da6e5fa674f8986fe0598142100bb4440",
+      "uid": "C6EbcG3N1bFHpkbY09",
+      "source_line": 337,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540528340698063000",
+      "source_end_ns": "1540528340709314000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        16174,
+        16175,
+        16176,
+        16177,
+        16178,
+        16179,
+        16180
+      ],
+      "flow_ids": [
+        "e216d3266c465124fadbf8a76a92bcf511fbb46d40546fd13eb8cb61e43e9cbd"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "2ba015b0ab11a16ddf076d7b8fe1589889457dd5927d6e9354da5aa4cc7c8a4d",
+      "uid": "CPrWLc4yQHoEulu4b4",
+      "source_line": 339,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540529240790016000",
+      "source_end_ns": "1540529240801511000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        16419,
+        16420,
+        16421,
+        16422,
+        16423,
+        16424,
+        16425
+      ],
+      "flow_ids": [
+        "43fc2cd202b32b55772fc88508c84f2438ed03ffe4176c72148a5e394f116dd7"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "10e43d21cc54afdd31627ad9c5bc51636d924d6cbaa7744678ce02771395067b",
+      "uid": "CaSu6e3GvqIXmlQKZ5",
+      "source_line": 344,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540530124860461000",
+      "source_end_ns": "1540530124953406000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 7,
+        "orig_ip_bytes": 2151,
+        "resp_ip_bytes": 1831
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2151,
+        "resp_ip_bytes": 1791
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 13
+      },
+      "candidate_frames": [
+        16658,
+        16659,
+        16660,
+        16661,
+        16662,
+        16663,
+        16664,
+        16665,
+        16666,
+        16667,
+        16668,
+        16669,
+        16670
+      ],
+      "flow_ids": [
+        "0b5cc63e4a3bc247aff68122c28b7d1a1e84362a012ab1de285eb5ad621a5af9"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "ce3831c671c12eaeac9e81f52810581614f98ef65f717a5d4c08430796c91581",
+      "uid": "CYptQT1A6Rpa4C0uj1",
+      "source_line": 345,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540530124956405000",
+      "source_end_ns": "1540530125080585000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1043
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1003
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11
+      },
+      "candidate_frames": [
+        16675,
+        16677,
+        16678,
+        16679,
+        16680,
+        16681,
+        16682,
+        16683,
+        16684,
+        16685,
+        16686
+      ],
+      "flow_ids": [
+        "8e9ab5216f9f6a3e970b59f2ad586481df4ea51ed916e05428c5d72b3afbea8b"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "56684c24794fec3f3320644db39b5f8c93c62365610d6c242c38e88180b544c5",
+      "uid": "CPYxQE4uDhjh3JrYj5",
+      "source_line": 353,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540531041029249000",
+      "source_end_ns": "1540531041040494000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 3,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 132,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 6
+      },
+      "candidate_frames": [
+        16932,
+        16933,
+        16934,
+        16935,
+        16936,
+        16937
+      ],
+      "flow_ids": [
+        "2c695c594f132966249c59c66ac00fab5c8afd75a260b1c2f8525c3a4d13186a"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "1d0daecc441fdecfd077966d55c496013167bae120b54d47f45086d6ee3b78d4",
+      "uid": "CdBvdp3N5rCtQlHHp7",
+      "source_line": 359,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540533724844016000",
+      "source_end_ns": "1540533724933214000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 7,
+        "orig_ip_bytes": 2151,
+        "resp_ip_bytes": 1831
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2151,
+        "resp_ip_bytes": 1791
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 13
+      },
+      "candidate_frames": [
+        17634,
+        17635,
+        17636,
+        17637,
+        17638,
+        17639,
+        17640,
+        17641,
+        17642,
+        17643,
+        17644,
+        17645,
+        17646
+      ],
+      "flow_ids": [
+        "918cf2d3ed6753c4096b796a0e075b3cdf3358c323085b2c3bb62be6252af25c"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "d4a77ac6529b5e122ee29ba2094fd80f930d748f53de57e845c1a818708456c3",
+      "uid": "C5u5H74tTlzFJoXBXf",
+      "source_line": 360,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540533724936213000",
+      "source_end_ns": "1540533725043651000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1043
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1003
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11
+      },
+      "candidate_frames": [
+        17651,
+        17653,
+        17654,
+        17655,
+        17656,
+        17657,
+        17658,
+        17659,
+        17660,
+        17661,
+        17662
+      ],
+      "flow_ids": [
+        "df343dafd732a1b3b01db8ea320dfa18eafd17d9cd175eda1713d67eef117ba3"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "e909a8d1ca7980b0539fa05516ef30686ffda3192d7b52e812206b841ceaaf1f",
+      "uid": "C6z1H24jpjeU5m7uV4",
+      "source_line": 365,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540533741482778000",
+      "source_end_ns": "1540533741494271000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        17673,
+        17674,
+        17675,
+        17676,
+        17677,
+        17678,
+        17679
+      ],
+      "flow_ids": [
+        "c972fe5e5c8168c7c6b21ecbd7499f2309bf9b2b0cad33acc188e8ab41adcdd8"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "f989fcc3639d430db38edbf6816dd1739849ecb64fc8d90d328dd633d6e78233",
+      "uid": "CYtR1I13Twe6NihjOh",
+      "source_line": 370,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540534641551133000",
+      "source_end_ns": "1540534641562879000",
+      "expected_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 132
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 3,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 132,
+        "resp_ip_bytes": 132
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 6
+      },
+      "candidate_frames": [
+        17920,
+        17921,
+        17922,
+        17923,
+        17924,
+        17925
+      ],
+      "flow_ids": [
+        "2faaeb71908f69c7602b25c2b1b14361edd16c435aff36a528142920bd74e871"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "35b2fd6503ff802645bb1679a31b55df7f65e38698c4859ad9200726de8b44a1",
+      "uid": "Ck8vbL32XMddHO9yye",
+      "source_line": 378,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540537324845662000",
+      "source_end_ns": "1540537324934361000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 7,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 1823
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2139,
+        "resp_ip_bytes": 1783
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 13
+      },
+      "candidate_frames": [
+        18613,
+        18614,
+        18615,
+        18616,
+        18617,
+        18618,
+        18619,
+        18620,
+        18621,
+        18622,
+        18623,
+        18624,
+        18625
+      ],
+      "flow_ids": [
+        "dffd9c2153594217245093fad2397672b657f99d2b82db8e4c88b2c30cbfbb11"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "33f205cd1510a873f214193e5f18114a40072793ac35dfd8e7d12090c4565244",
+      "uid": "CUzrb327OO4cuCEBW4",
+      "source_line": 379,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540537324937359000",
+      "source_end_ns": "1540537325059289000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2151,
+        "resp_ip_bytes": 1043
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2151,
+        "resp_ip_bytes": 1003
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 12
+      },
+      "candidate_frames": [
+        18630,
+        18632,
+        18633,
+        18634,
+        18635,
+        18636,
+        18637,
+        18638,
+        18639,
+        18640,
+        18641,
+        18642
+      ],
+      "flow_ids": [
+        "64b99df8f47c3cab931bbb5730022d2b9b6cf829989b5bcc2dcf58d261e81210"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "69e744a74e914aff39c7b943665c57325f550b15268286baf85a35a86a2c12a4",
+      "uid": "CmgM9a4uBMzcwabLK6",
+      "source_line": 384,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540537341732279000",
+      "source_end_ns": "1540537341743773000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        18655,
+        18656,
+        18657,
+        18658,
+        18659,
+        18660,
+        18661
+      ],
+      "flow_ids": [
+        "d1578a9dce1bf61173f55ddb553d7b1e1a3ceddc483a83abe5eb36986d586063"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "e8a27f5f22e07a26be538f0fd3d8a69fc598e8b07b64ab333598384ac0ef87b9",
+      "uid": "CGSu5p3zD7iEMPtCW8",
+      "source_line": 391,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540539141919169000",
+      "source_end_ns": "1540539141930665000",
+      "expected_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 132
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 3,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 132,
+        "resp_ip_bytes": 132
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 6
+      },
+      "candidate_frames": [
+        19124,
+        19125,
+        19126,
+        19127,
+        19128,
+        19129
+      ],
+      "flow_ids": [
+        "cc3c1ac95f63e7c614c4f5b0b860e4059a711654de90d39e137282be04e27a47"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "040f5df8acb5ee92f20a737efcb0a9a7226841e366648a51a105bdb513b61e40",
+      "uid": "CqGWpT1AL7WTnfzdj7",
+      "source_line": 396,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540540924868566000",
+      "source_end_ns": "1540540924958012000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 7,
+        "orig_ip_bytes": 2151,
+        "resp_ip_bytes": 1831
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2151,
+        "resp_ip_bytes": 1791
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 13
+      },
+      "candidate_frames": [
+        19581,
+        19582,
+        19583,
+        19584,
+        19585,
+        19586,
+        19587,
+        19588,
+        19589,
+        19590,
+        19591,
+        19592,
+        19593
+      ],
+      "flow_ids": [
+        "654d238cb45b418cbd077b0ddb40968494636bd812496d6832b7f7fb8349bbfe"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "2c450600119ee2011f4fe120244c816b85bc7a084432030d3df179686dc5c69c",
+      "uid": "CYAwKw2QjNen7oFxDf",
+      "source_line": 397,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540540924961512000",
+      "source_end_ns": "1540540925065452000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1043
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2099,
+        "resp_ip_bytes": 1003
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11
+      },
+      "candidate_frames": [
+        19598,
+        19600,
+        19601,
+        19602,
+        19603,
+        19604,
+        19605,
+        19606,
+        19607,
+        19608,
+        19609
+      ],
+      "flow_ids": [
+        "0f856128b1f9b41fd27377b8ff543aa983b48ee08a67d7b30d5e60ca04b06e9f"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "d8cbde85b28fd9b52004d9c91e635f5d0c1ea99af5573e1b811f9fd65536fe55",
+      "uid": "Cbm9U64H0vRm36Cwne",
+      "source_line": 398,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540540925381522000",
+      "source_end_ns": "1540540925445235000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 1427,
+        "resp_ip_bytes": 1755
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 1427,
+        "resp_ip_bytes": 1715
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11
+      },
+      "candidate_frames": [
+        19615,
+        19616,
+        19617,
+        19618,
+        19619,
+        19620,
+        19621,
+        19622,
+        19623,
+        19624,
+        19625
+      ],
+      "flow_ids": [
+        "b90f9b91ad8aed412826db851a3aab66b1553efd62e6bca50ce721885a64d7f6"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "786aa2499ec8fa75aacc47ee150ac47f092bea8d8762220e0a88e753a4dd6c96",
+      "uid": "CnLHQd2NrE3dd5Zmzg",
+      "source_line": 399,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540540925448234000",
+      "source_end_ns": "1540540925655367000",
+      "expected_counters": {
+        "orig_pkts": 10,
+        "resp_pkts": 4,
+        "orig_ip_bytes": 3314,
+        "resp_ip_bytes": 1429
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 10,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 3314,
+        "resp_ip_bytes": 5515
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 14,
+        "partial_pseudoheader": 2
+      },
+      "candidate_frames": [
+        19630,
+        19632,
+        19633,
+        19634,
+        19635,
+        19636,
+        19637,
+        19638,
+        19639,
+        19640,
+        19641,
+        19642,
+        19643,
+        19644,
+        19650,
+        19651
+      ],
+      "flow_ids": [
+        "f77b8306b13435bbf2f1bc3cb6ff9075b87c95d36e69796ab9e2450d792f005c"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "001ae1795bb1288541734df5eb8f96a0f17ffcd8b9addaa8d389fe0a6e55924a",
+      "uid": "C5uvie3zcM1Tafgm09",
+      "source_line": 400,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540540925632379000",
+      "source_end_ns": "1540540925705087000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 1374,
+        "resp_ip_bytes": 987
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 4,
+        "orig_ip_bytes": 1374,
+        "resp_ip_bytes": 947
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 9
+      },
+      "candidate_frames": [
+        19649,
+        19652,
+        19653,
+        19654,
+        19655,
+        19656,
+        19657,
+        19658,
+        19659
+      ],
+      "flow_ids": [
+        "b0c98e855158813353efc93d9948b5e559c5a9a6792f3c05cc7a49454f9cf2d8"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "b87e50f04adbbe3e21fabc8401b3b09d602fe8927092048d06e8c3509c103ca2",
+      "uid": "CzbTq633kbgFwtvsVd",
+      "source_line": 413,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540540932684106000",
+      "source_end_ns": "1540540932790295000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 8,
+        "orig_ip_bytes": 1370,
+        "resp_ip_bytes": 1115
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 7,
+        "orig_ip_bytes": 4330,
+        "resp_ip_bytes": 1075
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 13,
+        "partial_pseudoheader": 1
+      },
+      "candidate_frames": [
+        19686,
+        19687,
+        19688,
+        19689,
+        19690,
+        19691,
+        19692,
+        19693,
+        19694,
+        19695,
+        19696,
+        19697,
+        19698,
+        19699
+      ],
+      "flow_ids": [
+        "e221746c66d0d172e5c8b7556a1ee3e78e2a1723cb3f40327546ab818eaf83f7"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "56e0039ddd2b2223c0ede0b85a7d07e27d9aacc50e012ed971abbb5e8a8f6693",
+      "uid": "Co9vQIyybagkWcNja",
+      "source_line": 419,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540541842110424000",
+      "source_end_ns": "1540541842121669000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        19940,
+        19941,
+        19942,
+        19943,
+        19944,
+        19945,
+        19946
+      ],
+      "flow_ids": [
+        "4d7fb9dcd26eb8dfe5fbd285f1e6a289bed8a85b35060a2098d54fb6fdd19f82"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "8be87c071e1ff5d952ecdaa03ba4e4fd0f8574fb848faded0e982789e3e42ebb",
+      "uid": "Cuff7D4gDB3vXu5zJ7",
+      "source_line": 429,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540544524995102000",
+      "source_end_ns": "1540544525089298000",
+      "expected_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2138,
+        "resp_ip_bytes": 204
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 7,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2138,
+        "resp_ip_bytes": 1743
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11,
+        "partial_pseudoheader": 1
+      },
+      "candidate_frames": [
+        20633,
+        20634,
+        20635,
+        20636,
+        20637,
+        20638,
+        20639,
+        20640,
+        20641,
+        20642,
+        20643,
+        20644
+      ],
+      "flow_ids": [
+        "acab71cfa0efaa560ba531b5731a1b4e255e16d0a0da7f80f95c171ebd15e4d2"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "f9232a55d033458f24430a5482a0fbabfa696d7a83cafc4b6ee6e9db9e68cf93",
+      "uid": "C6qJIb1kVhPyNVKaOd",
+      "source_line": 430,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540544525092547000",
+      "source_end_ns": "1540544525214226000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 6,
+        "orig_ip_bytes": 2098,
+        "resp_ip_bytes": 1035
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 5,
+        "orig_ip_bytes": 2098,
+        "resp_ip_bytes": 995
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 11
+      },
+      "candidate_frames": [
+        20649,
+        20651,
+        20652,
+        20653,
+        20654,
+        20655,
+        20656,
+        20657,
+        20658,
+        20659,
+        20660
+      ],
+      "flow_ids": [
+        "4256768088f11ae25b8500146b7e704ef98e20f179f89e5047de955c548d8b31"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "8eb2dd94405d37059e3273a3d11120aab0eec9ad75511a2a6a186ece59bdbeb4",
+      "uid": "CBBXNf1LJuI7PKeIZd",
+      "source_line": 435,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540544542440912000",
+      "source_end_ns": "1540544542452402000",
+      "expected_counters": {
+        "orig_pkts": 5,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 212,
+        "resp_ip_bytes": 144
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 4,
+        "resp_pkts": 3,
+        "orig_ip_bytes": 172,
+        "resp_ip_bytes": 144
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 7
+      },
+      "candidate_frames": [
+        20675,
+        20676,
+        20677,
+        20678,
+        20679,
+        20680,
+        20681
+      ],
+      "flow_ids": [
+        "1a49b24c28dcdfd44f69019329d668ddd5ce9f0f5bbdd07b425b628302f3ff44"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    },
+    {
+      "reference_id": "b20cc4b1ad544d80d06c05e4fd35e85ac82e3272f57e096a1cd4375bb74d9206",
+      "uid": "CTFUS34mv0hiX64tAd",
+      "source_line": 440,
+      "original_label": "benign",
+      "binary_label": null,
+      "protocol": "tcp",
+      "source_start_ns": "1540545547219111000",
+      "source_end_ns": "1540545547374773000",
+      "expected_counters": {
+        "orig_pkts": 6,
+        "resp_pkts": 10,
+        "orig_ip_bytes": 1712,
+        "resp_ip_bytes": 594
+      },
+      "observed_unique_candidate_counters": {
+        "orig_pkts": 8,
+        "resp_pkts": 10,
+        "orig_ip_bytes": 9155,
+        "resp_ip_bytes": 594
+      },
+      "boundaries_witnessed": true,
+      "checksum_states": {
+        "valid": 16,
+        "partial_pseudoheader": 2
+      },
+      "candidate_frames": [
+        20948,
+        20951,
+        20952,
+        20953,
+        20954,
+        20955,
+        20956,
+        20957,
+        20958,
+        20959,
+        20960,
+        20961,
+        20962,
+        20963,
+        20964,
+        20965,
+        20971,
+        20972
+      ],
+      "flow_ids": [
+        "f1ea056c7e4f7898de884a1c829cfde493353c47d5ffa0c83a964053e6eca6b0"
+      ],
+      "diagnostic_state": "additional_packet_discrepancy"
+    }
+  ],
+  "partial_checksum_packets": [
+    {
+      "frame": 7755,
+      "timestamp_epoch_ns": "1540497724964830000",
+      "extraction_flow_id": "e5d3c5b4b06dd6d8bc601933a81cf5b640d0f4b403cca0920d79ac6e95245940",
+      "candidate_reference_ids": [
+        "a6d820f2fe5feee17ac18e651d2fc1194dd54a3a703f74ac69bc002bc40cc191"
+      ],
+      "stored_transport_checksum": 23705,
+      "pseudoheader_sum": 23705,
+      "transport_checksum_status": "partial_pseudoheader"
+    },
+    {
+      "frame": 14676,
+      "timestamp_epoch_ns": "1540522924946437000",
+      "extraction_flow_id": "646e8a4e96771a9ebfcc5f95564f7cd958a32db2cbb2ac7e18b684d7f4443aa2",
+      "candidate_reference_ids": [
+        "7b5dbbf200ba252618b8857613496cc84c709fec30d2b46a6a3e3d5c19b4b7b8"
+      ],
+      "stored_transport_checksum": 23705,
+      "pseudoheader_sum": 23705,
+      "transport_checksum_status": "partial_pseudoheader"
+    },
+    {
+      "frame": 15673,
+      "timestamp_epoch_ns": "1540526524950791000",
+      "extraction_flow_id": "8952d42e6491dea2f69fccb99fe0cf0c78c2e2e8d91e0a4e7e54084a3ed5dc97",
+      "candidate_reference_ids": [
+        "5af652b4e4245a38f934e64d804f3c63a5018a536f22aa9f4e0fef3ee360fe23"
+      ],
+      "stored_transport_checksum": 23705,
+      "pseudoheader_sum": 23705,
+      "transport_checksum_status": "partial_pseudoheader"
+    },
+    {
+      "frame": 19636,
+      "timestamp_epoch_ns": "1540540925514951000",
+      "extraction_flow_id": "f77b8306b13435bbf2f1bc3cb6ff9075b87c95d36e69796ab9e2450d792f005c",
+      "candidate_reference_ids": [
+        "786aa2499ec8fa75aacc47ee150ac47f092bea8d8762220e0a88e753a4dd6c96"
+      ],
+      "stored_transport_checksum": 22073,
+      "pseudoheader_sum": 22073,
+      "transport_checksum_status": "partial_pseudoheader"
+    },
+    {
+      "frame": 19642,
+      "timestamp_epoch_ns": "1540540925623639000",
+      "extraction_flow_id": "f77b8306b13435bbf2f1bc3cb6ff9075b87c95d36e69796ab9e2450d792f005c",
+      "candidate_reference_ids": [
+        "786aa2499ec8fa75aacc47ee150ac47f092bea8d8762220e0a88e753a4dd6c96"
+      ],
+      "stored_transport_checksum": 22477,
+      "pseudoheader_sum": 22477,
+      "transport_checksum_status": "partial_pseudoheader"
+    },
+    {
+      "frame": 19690,
+      "timestamp_epoch_ns": "1540540932716092000",
+      "extraction_flow_id": "e221746c66d0d172e5c8b7556a1ee3e78e2a1723cb3f40327546ab818eaf83f7",
+      "candidate_reference_ids": [
+        "b87e50f04adbbe3e21fabc8401b3b09d602fe8927092048d06e8c3509c103ca2"
+      ],
+      "stored_transport_checksum": 25086,
+      "pseudoheader_sum": 25086,
+      "transport_checksum_status": "partial_pseudoheader"
+    },
+    {
+      "frame": 20640,
+      "timestamp_epoch_ns": "1540544525089054000",
+      "extraction_flow_id": "acab71cfa0efaa560ba531b5731a1b4e255e16d0a0da7f80f95c171ebd15e4d2",
+      "candidate_reference_ids": [
+        "8be87c071e1ff5d952ecdaa03ba4e4fd0f8574fb848faded0e982789e3e42ebb"
+      ],
+      "stored_transport_checksum": 55902,
+      "pseudoheader_sum": 55902,
+      "transport_checksum_status": "partial_pseudoheader"
+    },
+    {
+      "frame": 20954,
+      "timestamp_epoch_ns": "1540545547238864000",
+      "extraction_flow_id": "f1ea056c7e4f7898de884a1c829cfde493353c47d5ffa0c83a964053e6eca6b0",
+      "candidate_reference_ids": [
+        "b20cc4b1ad544d80d06c05e4fd35e85ac82e3272f57e096a1cd4375bb74d9206"
+      ],
+      "stored_transport_checksum": 39234,
+      "pseudoheader_sum": 39234,
+      "transport_checksum_status": "partial_pseudoheader"
+    },
+    {
+      "frame": 20955,
+      "timestamp_epoch_ns": "1540545547239109000",
+      "extraction_flow_id": "f1ea056c7e4f7898de884a1c829cfde493353c47d5ffa0c83a964053e6eca6b0",
+      "candidate_reference_ids": [
+        "b20cc4b1ad544d80d06c05e4fd35e85ac82e3272f57e096a1cd4375bb74d9206"
+      ],
+      "stored_transport_checksum": 37837,
+      "pseudoheader_sum": 37837,
+      "transport_checksum_status": "partial_pseudoheader"
+    }
+  ]
+}

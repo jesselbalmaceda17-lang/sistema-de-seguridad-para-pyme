@@ -1,0 +1,43 @@
+{
+  "files": [
+    {
+      "url": "/media/1305f4a27644754dcee2dabb8a954162.csv",
+      "status": 200,
+      "bytes": 419,
+      "type": "history_or_alert_csv",
+      "rows": 1
+    },
+    {
+      "url": "/media/e7feaf3cc7b86f11f1865fa9e212c25e.csv",
+      "status": 200,
+      "bytes": 1362,
+      "type": "history_or_alert_csv",
+      "rows": 4
+    },
+    {
+      "url": "/media/fcebdbc09638bd00c6b16144a05946bc.csv",
+      "status": 200,
+      "bytes": 1174,
+      "type": "current_csv",
+      "rows": 8
+    },
+    {
+      "url": "/media/f988c7cd1b5a8b51bf11d882c2e98a52.json",
+      "status": 200,
+      "bytes": 6513,
+      "type": "current_json",
+      "records": 8,
+      "alerts": 4,
+      "matches_oracle": true
+    },
+    {
+      "url": "/media/a4f751936a3047da3b92d3978cd2f65f.csv",
+      "status": 200,
+      "bytes": 672,
+      "type": "history_or_alert_csv",
+      "rows": 2
+    }
+  ],
+  "transport": "Actual browser-generated media URLs observed in WebSocket, fetched over HTTP from running original Streamlit service",
+  "os_save_dialog_not_automated": true
+}

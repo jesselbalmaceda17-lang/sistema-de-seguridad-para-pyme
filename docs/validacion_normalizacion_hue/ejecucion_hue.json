@@ -1,0 +1,51 @@
+{
+  "wall_seconds": 4.092924100001255,
+  "extractor_rerun": false,
+  "extraction": "Original unchanged extraction 1.0.1, source hash bound by audit_files",
+  "auditor_rules_changed": false,
+  "summary": {
+    "packets_seen": 21664,
+    "packets_accepted": 16921,
+    "packets_rejected_by_extractor": 4743,
+    "extracted_flows": 2200,
+    "reference_connections": 452,
+    "admitted_flows": 2107,
+    "rejected_correspondences": 0,
+    "pending_quarantined_flows": 93,
+    "flow_status_counts": {
+      "admitted_sibling_segment": 1762,
+      "admitted_unique": 298,
+      "segmentation_mismatch": 86,
+      "admitted_tcp_closure": 47,
+      "quarantined_partial_checksum": 7
+    },
+    "flow_label_coverage_percent": 95.77272727272727,
+    "labeled_packets": 15942,
+    "label_coverage_of_accepted_packets_percent": 94.214289935583,
+    "label_coverage_of_all_packets_percent": 73.58751846381094,
+    "matched_reference_connections": 359,
+    "reference_coverage_percent": 79.42477876106194,
+    "reference_validation_counts": {
+      "verified": 361,
+      "counter_mismatch": 91
+    },
+    "accepted_packet_checksum_states": {
+      "valid": 16912,
+      "partial_pseudoheader": 9
+    },
+    "class_coverage": {
+      "Benign": {
+        "reference_connections": 452,
+        "matched_references": 359,
+        "reference_coverage_percent": 79.42477876106194,
+        "admitted_flows": 2107
+      },
+      "Malicious": {
+        "reference_connections": 0,
+        "matched_references": 0,
+        "reference_coverage_percent": null,
+        "admitted_flows": 0
+      }
+    }
+  }
+}

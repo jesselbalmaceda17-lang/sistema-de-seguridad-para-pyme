@@ -1,0 +1,19 @@
+{
+  "case": "muhstik",
+  "action": "procesar",
+  "started_at_utc": "2026-11-09T14:40:56.277369+00:00",
+  "configuration_changes": [],
+  "successful": true,
+  "finished_at_utc": "2026-11-09T14:43:44.897165+00:00",
+  "wall_seconds": 168.61983140000007,
+  "python_cpu_seconds": 163.71875,
+  "memory": {
+    "sampled_python_rss_peak_bytes": 3665600512,
+    "sampled_tree_rss_peak_bytes": 3665600512,
+    "target_interval_seconds": 0.02,
+    "samples": 4028,
+    "exact_peak": false
+  },
+  "raw_storage_bytes": 82309301,
+  "processed_storage_bytes": 1715591732
+}

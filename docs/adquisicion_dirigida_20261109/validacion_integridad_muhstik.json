@@ -1,0 +1,61 @@
+{
+  "checked_at_utc": "2026-11-09T14:38:43.377159+00:00",
+  "complete_container_valid": true,
+  "format": "classic Ethernet PCAP 2.4",
+  "source": {
+    "path": "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\data\\raw\\iot23_muhstik_3_1\\2018-05-21_capture.pcap",
+    "sha256": "c674dc0c8d584fa66e6f00c60df973c5fbacad551c850a76d75ec9952641d00b",
+    "size_bytes": 57919772,
+    "format": "pcap"
+  },
+  "limits": {
+    "max_bytes": 134217728,
+    "max_frames": 1000000
+  },
+  "frames": 496959,
+  "auditable_packets": 489567,
+  "raw_protocol_packets": {
+    "udp": 1507,
+    "tcp": 488060
+  },
+  "raw_tcp_flag_packets": {
+    "syn": 306278,
+    "ack": 187057,
+    "fin": 12515,
+    "rst": 3402
+  },
+  "raw_canonical_tuples": 80445,
+  "import_quality": {
+    "records_imported": 156103,
+    "rows_rejected": 0,
+    "close_marker_present": true,
+    "label_distribution": {
+      "Malicious": 151567,
+      "Benign": 4536
+    },
+    "normalized_label_distribution": {
+      "Malicious": 151567,
+      "Benign": 4536
+    },
+    "records_with_field_problems": 77483,
+    "records_with_contradictions": 0
+  },
+  "zeek_references": 156103,
+  "zeek_target_bidirectional_tcp_references_by_reported_counters": 5969,
+  "checksum_states": {
+    "valid": 489549,
+    "outside_ethernet_ipv4_scope": 5658,
+    "partial_pseudoheader": 18,
+    "unsupported_or_incomplete_packet": 1734
+  },
+  "extractor_configuration": {
+    "tcp_idle_seconds": 120.0,
+    "udp_idle_seconds": 30.0,
+    "active_timeout_seconds": 300.0,
+    "tshark_timeout_seconds": 120.0,
+    "max_packets": 1000000,
+    "max_active_flows": 50000,
+    "max_flows": 100000
+  },
+  "note": "Header tuple counts and Zeek references are not extractor flows; no labels assigned by this validation"
+}

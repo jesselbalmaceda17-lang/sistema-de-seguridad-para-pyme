@@ -1,0 +1,67 @@
+--- before/dashboard.py
++++ after/dashboard.py
+@@ -6,6 +6,7 @@
+ import io
+ import json
+ import os
++import pickle
+ from pathlib import Path
+ from typing import Any
+ 
+@@ -101,7 +102,10 @@
+ @st.cache_resource(show_spinner=False)
+ def _load_model(model_path: str, modified_time_ns: int):
+     del modified_time_ns
+-    return load_trained_model(model_path)
++    try:
++        return load_trained_model(model_path)
++    except (pickle.UnpicklingError, OverflowError) as error:
++        raise ValueError("El archivo del modelo está dañado o no tiene un formato válido.") from error
+ 
+ 
+ def _model_features(model: Any) -> tuple[str, ...]:
+@@ -252,6 +256,12 @@
+         raise ValueError(f"No se pudo interpretar el CSV: {error}") from error
+     if tuple(frame.columns) != tuple(header):
+         raise ValueError("Los encabezados del CSV no se interpretaron de forma consistente.")
++    # pandas can silently consume extra leading fields as an inferred row index.
++    if not isinstance(frame.index, pd.RangeIndex):
++        raise ValueError(
++            "La estructura del CSV contiene más campos que columnas declaradas. "
++            "Corrija las filas antes de analizar."
++        )
+     if frame.empty:
+         raise ValueError("El CSV contiene encabezados, pero no tiene registros.")
+ 
+@@ -1004,6 +1014,7 @@
+         "Archivo CSV de registros",
+         type=["csv"],
+         accept_multiple_files=False,
++        max_upload_size=MAX_UPLOAD_BYTES // (1024 * 1024),
+         help="CSV UTF-8 de hasta 100 MB. El archivo no se envía a servicios externos.",
+     )
+ 
+@@ -1122,11 +1133,23 @@
+         except PersistenceError as error:
+             st.error(f"No se pudieron recuperar las alertas del análisis: {error}")
+             latest_alerts = []
++        alerts_truncated = len(latest_alerts) < latest_run["alerts_created"]
++        if alerts_truncated:
++            st.caption(
++                f"El reporte JSON incluye {len(latest_alerts):,} de "
++                f"{latest_run['alerts_created']:,} alertas. La lista de alertas "
++                f"está limitada a {ALERT_HISTORY_LIMIT:,}; los resultados por "
++                "registro conservan todas las predicciones del análisis."
++            )
+         report_payload = {
+             "run": latest_run,
+             "normal_predictions": latest_run["records_processed"] - suspicious_count,
+             "suspicious_predictions": suspicious_count,
+             "alerts": latest_alerts,
++            "alerts_total": latest_run["alerts_created"],
++            "alerts_returned": len(latest_alerts),
++            "alerts_limit": ALERT_HISTORY_LIMIT,
++            "alerts_truncated": alerts_truncated,
+             "resource_measurement": (
+                 None
+                 if result.resource_measurement is None

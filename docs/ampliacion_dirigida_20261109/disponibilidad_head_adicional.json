@@ -1,0 +1,22 @@
+[
+  {
+    "id": "muhstik_pcap",
+    "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-3-1/2018-05-21_capture.pcap",
+    "method": "HEAD",
+    "checked_at_utc": "2026-11-09T14:21:05.332661+00:00",
+    "exit_code": 0,
+    "headers": "HTTP/1.1 200 OK\r\nDate: Mon, 09 Nov 2026 14:21:05 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Wed, 30 Jan 2019 16:51:28 GMT\r\nETag: \"373c91c-580afb895a400\"\r\nAccept-Ranges: bytes\r\nContent-Length: 57919772\r\nContent-Type: application/vnd.tcpdump.pcap\r\n\r\n",
+    "stderr": "",
+    "body_bytes_downloaded": 0
+  },
+  {
+    "id": "torii21_pcap",
+    "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-21-1/2018-10-03-15-22-32-192.168.100.113.pcap",
+    "method": "HEAD",
+    "checked_at_utc": "2026-11-09T14:21:05.333454+00:00",
+    "exit_code": 0,
+    "headers": "HTTP/1.1 200 OK\r\nDate: Mon, 09 Nov 2026 14:21:05 GMT\r\nServer: Apache/2.4.69\r\nLast-Modified: Wed, 30 Jan 2019 16:39:06 GMT\r\nETag: \"3e02fd-580af8c5b9e80\"\r\nAccept-Ranges: bytes\r\nContent-Length: 4063997\r\nContent-Type: application/vnd.tcpdump.pcap\r\n\r\n",
+    "stderr": "",
+    "body_bytes_downloaded": 0
+  }
+]

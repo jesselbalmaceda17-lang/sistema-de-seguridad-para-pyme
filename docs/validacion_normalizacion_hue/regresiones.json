@@ -1,0 +1,32 @@
+{
+  "checked_at_utc": "2026-11-08T19:12:22.447576+00:00",
+  "results": [
+    {
+      "scenario": "pilot_20_1",
+      "auditor_core_output_identical_to_expected": true,
+      "expected_report": "docs/validacion_reconciliacion_iot23_20_1/audit_v2/label_audit.json",
+      "original_record_fields_unchanged": true,
+      "pcap_sha256": "4d0a00c33a4bf11228158baddd47c38f702731ea8d75ef1201061fc8bbd878b9",
+      "label_sha256": "ef48ad72f65efd13d517223e61e4d877ba53a082ddb8159324b18d3f310d0711",
+      "wall_seconds": 7.695880499999475
+    },
+    {
+      "scenario": "hakai",
+      "auditor_core_output_identical_to_expected": true,
+      "expected_report": "data/processed/iot23_hakai_8_1/audit_v2/label_audit.json",
+      "original_record_fields_unchanged": true,
+      "pcap_sha256": "80dcc2602519479ddcde889fa902fee19a76696630811452f8df38888af894f2",
+      "label_sha256": "4877ca8f0f01902fbd18d28b7d06cb3d0be082355b7f2c8862c9deef1782eb8a",
+      "wall_seconds": 6.724186200000986
+    },
+    {
+      "scenario": "hue",
+      "auditor_core_output_identical_to_expected": true,
+      "expected_report": "docs/validacion_normalizacion_hue/audit_v2_hue/label_audit.json",
+      "original_record_fields_unchanged": false,
+      "pcap_sha256": "3fb775c0391b6ad313a3f7845e634a277b07c3f6377346c2486ba63e1c22e90c",
+      "label_sha256": "aebe40ea0e03b120265a5c7bc140dd9b0d3fe2fce65559e84776b7dd5360e71e",
+      "wall_seconds": 4.599256299999979
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "recorded_at_utc": "2026-11-08T18:16:17.501392+00:00",
+  "initial_metadata_404": {
+    "url": "https://mcfp.felk.cvut.cz/publicDatasets/IoT-23-Dataset/IndividualScenarios/CTU-IoT-Malware-Capture-8-1/2018-07-31-15-15-09-192.168.100.113.capinfos",
+    "cause": "New acquisition runner assumed a capinfos exists for Hakai; official index has none",
+    "action": "Restrict capinfos check to Hue; use Hakai official indices and README. No product change; no data had been downloaded at this failure"
+  },
+  "xz_memory_guard": {
+    "initial_limit_bytes": 67108864,
+    "error": "_lzma.LZMAError: Memory usage limit exceeded",
+    "observed_lzma2_property_hex": "1c",
+    "dictionary_bytes": 67108864,
+    "new_limit_bytes": 100663296,
+    "output_guard_bytes": 16777216,
+    "justification": "64 MiB dictionary plus decoder overhead; bounded 96 MiB acquisition-only limit; extractor and auditor limits unchanged",
+    "failed_output_created": false
+  },
+  "hue_source_digest": {
+    "actual_sha256": "3fb775c0391b6ad313a3f7845e634a277b07c3f6377346c2486ba63e1c22e90c",
+    "published_sha256": "f770897e6cc3fa45857aee25ef7d3ab39dba39127b5bb813e0e0d48d3b905347",
+    "proof": "Replace only global header snaplen bytes 16..19 from 65535 to 262144 in a memory-only probe: resulting SHA-256 exactly equals published digest. No packet, file, timestamp or source label changed."
+  },
+  "transport_metadata_recovery": {
+    "cause": "Initial Hue GET metadata not persisted before failed decompression",
+    "action": "Re-fetch only the same two authorized URLs, require exact byte identity, retain original files, persist verified transport before decompression; subsequent recovery reused these records",
+    "extra_data_bytes_retrieved": 438493,
+    "data_payload_total_bytes_including_verification": 4406348,
+    "metadata_payload_not_included_in_that_total": true
+  },
+  "label_compatibility_blocker": {
+    "raw_literal": "benign",
+    "references": 452,
+    "current_importer_accepts": [
+      "Benign",
+      "Malicious"
+    ],
+    "action": "No normalization or core edits; all 2200 Hue flows remain unlabeled; further adaptation stopped pending review"
+  },
+  "hue_readonly_candidate_diagnostics": {
+    "counters_and_boundaries_agree": 359,
+    "additional_packet_discrepancy": 93,
+    "difference_definition": "expected minus observed uniquely supported candidate packets; includes all checksum states; does not constitute auditor admission",
+    "difference_field_order": [
+      "orig_pkts",
+      "resp_pkts",
+      "orig_ip_bytes",
+      "resp_ip_bytes"
+    ],
+    "difference_histogram": [
+      {
+        "difference": [
+          -2,
+          0,
+          -7443,
+          0
+        ],
+        "references": 1
+      },
+      {
+        "difference": [
+          -1,
+          1,
+          -2960,
+          40
+        ],
+        "references": 1
+      },
+      {
+        "difference": [
+          0,
+          -2,
+          0,
+          -4086
+        ],
+        "references": 1
+      },
+      {
+        "difference": [
+          0,
+          0,
+          0,
+          -1539
+        ],
+        "references": 4
+      },
+      {
+        "difference": [
+          0,
+          1,
+          0,
+          40
+        ],
+        "references": 40
+      },
+      {
+        "difference": [
+          1,
+          0,
+          40,
+          0
+        ],
+        "references": 44
+      },
+      {
+        "difference": [
+          1,
+          1,
+          40,
+          40
+        ],
+        "references": 1
+      },
+      {
+        "difference": [
+          2,
+          0,
+          80,
+          0
+        ],
+        "references": 1
+      }
+    ],
+    "no_hypothetical_label_coverage_claimed": true
+  }
+}

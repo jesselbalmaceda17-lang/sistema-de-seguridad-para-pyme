@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-11-08T20:52:53.225905+00:00",
+  "error_details": [],
+  "errors": 0,
+  "expected_failures": 0,
+  "failure_details": [],
+  "failures": 0,
+  "log_sha256": "ebabf4810a6d3237fb520d771a7de67d6e835a61266e3191b82f1d8ab7ce0d9f",
+  "passed": 229,
+  "scope": "full",
+  "skipped": 0,
+  "skipped_details": [],
+  "successful": true,
+  "tests_run": 229,
+  "unexpected_successes": 0,
+  "wall_seconds": 71.76811669999734
+}

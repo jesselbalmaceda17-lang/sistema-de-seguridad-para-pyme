@@ -1,0 +1,47 @@
+test_bad_loopback_family (tests.test_monitoring.ConfigAndDecodeTests.test_bad_loopback_family) ... ok
+test_console_helper_does_not_require_venv_packages (tests.test_monitoring.ConfigAndDecodeTests.test_console_helper_does_not_require_venv_packages) ... ok
+test_dependency_failure_is_explained (tests.test_monitoring.ConfigAndDecodeTests.test_dependency_failure_is_explained) ... ok
+test_ethernet_and_vlan_policy_unchanged (tests.test_monitoring.ConfigAndDecodeTests.test_ethernet_and_vlan_policy_unchanged) ... ok
+test_fragments_rejected (tests.test_monitoring.ConfigAndDecodeTests.test_fragments_rejected) ... ok
+test_interface_list_excludes_extcap (tests.test_monitoring.ConfigAndDecodeTests.test_interface_list_excludes_extcap) ... ok
+test_invalid_resource_limits (tests.test_monitoring.ConfigAndDecodeTests.test_invalid_resource_limits) ... ok
+test_invalid_rule_limits (tests.test_monitoring.ConfigAndDecodeTests.test_invalid_rule_limits) ... ok
+test_loopback_tcp_observable_headers (tests.test_monitoring.ConfigAndDecodeTests.test_loopback_tcp_observable_headers) ... ok
+test_loopback_udp (tests.test_monitoring.ConfigAndDecodeTests.test_loopback_udp) ... ok
+test_truncation_rejected (tests.test_monitoring.ConfigAndDecodeTests.test_truncation_rejected) ... ok
+test_active_flow_limit_never_evicts_silently (tests.test_monitoring.FlowTests.test_active_flow_limit_never_evicts_silently) ... ok
+test_features_and_grouping_match_offline_extractor (tests.test_monitoring.FlowTests.test_features_and_grouping_match_offline_extractor) ... ok
+test_idle_expiry_without_new_packets (tests.test_monitoring.FlowTests.test_idle_expiry_without_new_packets) ... ok
+test_out_of_order_and_rejection_counts (tests.test_monitoring.FlowTests.test_out_of_order_and_rejection_counts) ... ok
+test_packet_windows_bound_frame_retention (tests.test_monitoring.FlowTests.test_packet_windows_bound_frame_retention) ... ok
+test_syn_retransmission_and_new_connection (tests.test_monitoring.FlowTests.test_syn_retransmission_and_new_connection) ... ok
+test_authorization_required (tests.test_monitoring.LifecycleTests.test_authorization_required) ... ok
+test_capture_error_is_recorded_and_restart_possible (tests.test_monitoring.LifecycleTests.test_capture_error_is_recorded_and_restart_possible) ... ok
+test_duration_stops_without_render_loop (tests.test_monitoring.LifecycleTests.test_duration_stops_without_render_loop) ... ok
+test_lease_expiry_stops_abandoned_capture (tests.test_monitoring.LifecycleTests.test_lease_expiry_stops_abandoned_capture) ... ok
+test_memory_limit_stops_capture (tests.test_monitoring.LifecycleTests.test_memory_limit_stops_capture) ... ok
+test_server_capture_slot_prevents_second_manager (tests.test_monitoring.LifecycleTests.test_server_capture_slot_prevents_second_manager) ... ok
+test_unique_start_and_idempotent_stop (tests.test_monitoring.LifecycleTests.test_unique_start_and_idempotent_stop) ... ok
+test_unknown_interface_cannot_become_a_command (tests.test_monitoring.LifecycleTests.test_unknown_interface_cannot_become_a_command) ... ok
+test_capture_dependency_error_leaves_csv_available (tests.test_monitoring.MonitoringUITests.test_capture_dependency_error_leaves_csv_available) ... 2026-11-09 14:17:25.719 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2026-11-09 14:17:25.764 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_start_disabled_without_authorization (tests.test_monitoring.MonitoringUITests.test_start_disabled_without_authorization) ... 2026-11-09 14:17:28.772 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_ui_start_packets_alerts_review_and_stop_without_duplicate (tests.test_monitoring.MonitoringUITests.test_ui_start_packets_alerts_review_and_stop_without_duplicate) ... 2026-11-09 14:17:29.064 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_ack_is_not_a_syn_attempt (tests.test_monitoring.RuleTests.test_ack_is_not_a_syn_attempt) ... ok
+test_cooldown_and_window_expiry (tests.test_monitoring.RuleTests.test_cooldown_and_window_expiry) ... ok
+test_ports_are_distinct_initial_syn_destination_ports (tests.test_monitoring.RuleTests.test_ports_are_distinct_initial_syn_destination_ports) ... ok
+test_rule_window_memory_bound (tests.test_monitoring.RuleTests.test_rule_window_memory_bound) ... ok
+test_syn_counts_observed_packets_including_retransmission (tests.test_monitoring.RuleTests.test_syn_counts_observed_packets_including_retransmission) ... ok
+test_udp_only_triggers_observed_volume (tests.test_monitoring.RuleTests.test_udp_only_triggers_observed_volume) ... ok
+test_dead_owner_session_recovered (tests.test_monitoring.StoreTests.test_dead_owner_session_recovered) ... ok
+test_duplicate_alert_insert_preserves_manual_review (tests.test_monitoring.StoreTests.test_duplicate_alert_insert_preserves_manual_review) ... ok
+test_read_empty_history_creates_no_database (tests.test_monitoring.StoreTests.test_read_empty_history_creates_no_database) ... ok
+test_review_validation_and_parameter_binding (tests.test_monitoring.StoreTests.test_review_validation_and_parameter_binding) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 8.996s
+
+OK

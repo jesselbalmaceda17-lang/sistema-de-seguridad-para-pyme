@@ -1,0 +1,173 @@
+{
+  "state": {
+    "status": "failed",
+    "session_id": "f65803aa0b5f40ebba51964e9253447a",
+    "interface": "Adapter for loopback traffic capture",
+    "reason": "Cierre forzado; captura posiblemente incompleta.",
+    "errors": [],
+    "packets_seen": 151,
+    "packets_accepted": 151,
+    "packets_rejected": 0,
+    "connections_observed": 13,
+    "flows_closed": 13,
+    "flows_persisted": 13,
+    "alerts_generated": 3,
+    "alerts_persisted": 3,
+    "capture_rss_peak": 136413184,
+    "partial": true,
+    "forced_stop": true,
+    "source_kind": "live",
+    "recent_flows": [
+      {
+        "protocolo": "tcp",
+        "origen": "127.0.0.1:49673",
+        "destino": "127.0.0.1:57843",
+        "paquetes": 11,
+        "cierre": "monitor_partial"
+      },
+      {
+        "protocolo": "tcp",
+        "origen": "127.0.0.1:49674",
+        "destino": "127.0.0.1:57844",
+        "paquetes": 11,
+        "cierre": "monitor_partial"
+      },
+      {
+        "protocolo": "tcp",
+        "origen": "127.0.0.1:49675",
+        "destino": "127.0.0.1:57845",
+        "paquetes": 12,
+        "cierre": "monitor_partial"
+      },
+      {
+        "protocolo": "tcp",
+        "origen": "127.0.0.1:49676",
+        "destino": "127.0.0.1:57846",
+        "paquetes": 11,
+        "cierre": "monitor_partial"
+      },
+      {
+        "protocolo": "tcp",
+        "origen": "127.0.0.1:49677",
+        "destino": "127.0.0.1:57848",
+        "paquetes": 11,
+        "cierre": "monitor_partial"
+      },
+      {
+        "protocolo": "tcp",
+        "origen": "127.0.0.1:49679",
+        "destino": "127.0.0.1:57849",
+        "paquetes": 12,
+        "cierre": "monitor_partial"
+      },
+      {
+        "protocolo": "tcp",
+        "origen": "127.0.0.1:49680",
+        "destino": "127.0.0.1:57843",
+        "paquetes": 12,
+        "cierre": "monitor_partial"
+      },
+      {
+        "protocolo": "tcp",
+        "origen": "127.0.0.1:49682",
+        "destino": "127.0.0.1:57844",
+        "paquetes": 11,
+        "cierre": "monitor_partial"
+      },
+      {
+        "protocolo": "tcp",
+        "origen": "127.0.0.1:49683",
+        "destino": "127.0.0.1:57845",
+        "paquetes": 11,
+        "cierre": "monitor_partial"
+      },
+      {
+        "protocolo": "tcp",
+        "origen": "127.0.0.1:49684",
+        "destino": "127.0.0.1:57846",
+        "paquetes": 12,
+        "cierre": "monitor_partial"
+      },
+      {
+        "protocolo": "tcp",
+        "origen": "127.0.0.1:49685",
+        "destino": "127.0.0.1:57848",
+        "paquetes": 11,
+        "cierre": "monitor_partial"
+      },
+      {
+        "protocolo": "tcp",
+        "origen": "127.0.0.1:49686",
+        "destino": "127.0.0.1:57849",
+        "paquetes": 10,
+        "cierre": "monitor_partial"
+      },
+      {
+        "protocolo": "udp",
+        "origen": "127.0.0.1:62186",
+        "destino": "127.0.0.1:64608",
+        "paquetes": 16,
+        "cierre": "monitor_partial"
+      }
+    ],
+    "pid": 15012,
+    "rejections": {},
+    "active_flows": 0,
+    "elapsed_seconds": 8.21,
+    "storage_bytes": 116424,
+    "diagnostics": "Capturing on 'Adapter for loopback traffic capture'\n"
+  },
+  "alerts": [
+    {
+      "event_id": "bb739a3fe5e55f717e53c12fe509d43577367fbcb628c75047f885dbd0de090a",
+      "session_id": "f65803aa0b5f40ebba51964e9253447a",
+      "detector": "transparent_rules_v1",
+      "rule": "syn_observed",
+      "source": "127.0.0.1",
+      "severity": "media",
+      "detected_at": "2026-11-09T17:10:55.107456+00:00",
+      "message": "Muchos paquetes TCP SYN sin ACK observados desde este origen; pueden incluir retransmisiones. Requiere revisi\u00f3n; no confirma un ataque.",
+      "evidence_json": "{\"event_id\": \"bb739a3fe5e55f717e53c12fe509d43577367fbcb628c75047f885dbd0de090a\", \"session_id\": \"f65803aa0b5f40ebba51964e9253447a\", \"detector\": \"transparent_rules_v1\", \"rule\": \"syn_observed\", \"source\": \"127.0.0.1\", \"severity\": \"media\", \"detected_at\": \"2026-11-09T17:10:55.107456+00:00\", \"window_start_ns\": \"1794244225107456000\", \"window_end_ns\": \"1794244255107456000\", \"window_seconds\": 30, \"threshold\": 5, \"observed\": 5, \"evidence\": {\"value\": 5, \"operator\": \">=\", \"window_seconds\": 30, \"destination_ports\": [57843, 57844, 57845, 57846, 57848], \"visibility\": \"observed IPv4 TCP/UDP only; capture completeness not established\"}, \"message\": \"Muchos paquetes TCP SYN sin ACK observados desde este origen; pueden incluir retransmisiones. Requiere revisi\\u00f3n; no confirma un ataque.\", \"review_state\": \"pending\"}",
+      "review_state": "pending"
+    },
+    {
+      "event_id": "d65f7f17b70673dd1b7b677666491a0df81b489eab45aa6feebad5d7fdf67057",
+      "session_id": "f65803aa0b5f40ebba51964e9253447a",
+      "detector": "transparent_rules_v1",
+      "rule": "destination_ports",
+      "source": "127.0.0.1",
+      "severity": "media",
+      "detected_at": "2026-11-09T17:10:55.073401+00:00",
+      "message": "Se observaron SYN iniciales hacia numerosos puertos de destino distintos desde este origen. Requiere revisi\u00f3n; no confirma un ataque.",
+      "evidence_json": "{\"event_id\": \"d65f7f17b70673dd1b7b677666491a0df81b489eab45aa6feebad5d7fdf67057\", \"session_id\": \"f65803aa0b5f40ebba51964e9253447a\", \"detector\": \"transparent_rules_v1\", \"rule\": \"destination_ports\", \"source\": \"127.0.0.1\", \"severity\": \"media\", \"detected_at\": \"2026-11-09T17:10:55.073401+00:00\", \"window_start_ns\": \"1794244225073401200\", \"window_end_ns\": \"1794244255073401200\", \"window_seconds\": 30, \"threshold\": 4, \"observed\": 4, \"evidence\": {\"value\": 4, \"operator\": \">=\", \"window_seconds\": 30, \"destination_ports\": [57843, 57844, 57845, 57846], \"visibility\": \"observed IPv4 TCP/UDP only; capture completeness not established\"}, \"message\": \"Se observaron SYN iniciales hacia numerosos puertos de destino distintos desde este origen. Requiere revisi\\u00f3n; no confirma un ataque.\", \"review_state\": \"pending\"}",
+      "review_state": "pending"
+    },
+    {
+      "event_id": "cce41b491ea5f9216ae6af652c90a1d8c2a2c9d205cd82601a58cd0d145e40d3",
+      "session_id": "f65803aa0b5f40ebba51964e9253447a",
+      "detector": "transparent_rules_v1",
+      "rule": "ipv4_volume",
+      "source": "127.0.0.1",
+      "severity": "baja",
+      "detected_at": "2026-11-09T17:10:55.008327+00:00",
+      "message": "El volumen IPv4 observado desde este origen super\u00f3 el umbral; un volumen alto puede ser leg\u00edtimo. Requiere revisi\u00f3n; no confirma un ataque.",
+      "evidence_json": "{\"event_id\": \"cce41b491ea5f9216ae6af652c90a1d8c2a2c9d205cd82601a58cd0d145e40d3\", \"session_id\": \"f65803aa0b5f40ebba51964e9253447a\", \"detector\": \"transparent_rules_v1\", \"rule\": \"ipv4_volume\", \"source\": \"127.0.0.1\", \"severity\": \"baja\", \"detected_at\": \"2026-11-09T17:10:55.008327+00:00\", \"window_start_ns\": \"1794244225008326600\", \"window_end_ns\": \"1794244255008326600\", \"window_seconds\": 30, \"threshold\": 1024, \"observed\": 1042, \"evidence\": {\"value\": 1042, \"operator\": \">=\", \"window_seconds\": 30, \"destination_ports\": [57843, 57844], \"visibility\": \"observed IPv4 TCP/UDP only; capture completeness not established\"}, \"message\": \"El volumen IPv4 observado desde este origen super\\u00f3 el umbral; un volumen alto puede ser leg\\u00edtimo. Requiere revisi\\u00f3n; no confirma un ataque.\", \"review_state\": \"pending\"}",
+      "review_state": "pending"
+    }
+  ],
+  "generation": {
+    "scope": "Only self-owned loopback listeners; no remote targets or scanning",
+    "tcp_connections_completed": 12,
+    "udp_echoes_completed": 8,
+    "owned_service_ports": [
+      57843,
+      57844,
+      57845,
+      57846,
+      57848,
+      57849,
+      64608
+    ]
+  },
+  "kind": "actual Npcap loopback, not replay"
+}

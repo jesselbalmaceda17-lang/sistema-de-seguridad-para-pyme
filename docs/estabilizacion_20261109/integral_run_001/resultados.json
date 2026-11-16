@@ -1,0 +1,250 @@
+{
+  "finished_at_utc": "2026-11-09T15:17:51.127910+00:00",
+  "cases": [
+    {
+      "case": "Streamlit_CSV_original_model_alerts_SQLite_display_exports",
+      "passed": true,
+      "wall_seconds": 1.527427400000306,
+      "details": {
+        "records": 8,
+        "alerts": 4,
+        "display_and_exports_match_model_and_sqlite": true
+      }
+    },
+    {
+      "case": "Streamlit_reject_vacio.csv",
+      "passed": true,
+      "wall_seconds": 0.22633570000016334,
+      "details": {
+        "errors": [
+          "No se pudo validar el archivo: El archivo est\u00e1 vac\u00edo."
+        ],
+        "runs_created": 0
+      }
+    },
+    {
+      "case": "Streamlit_reject_solo_encabezado.csv",
+      "passed": true,
+      "wall_seconds": 0.23160229999939475,
+      "details": {
+        "errors": [
+          "No se pudo validar el archivo: El CSV contiene encabezados, pero no tiene registros."
+        ],
+        "runs_created": 0
+      }
+    },
+    {
+      "case": "Streamlit_reject_columna_faltante.csv",
+      "passed": true,
+      "wall_seconds": 0.29733179999948334,
+      "details": {
+        "errors": [
+          "No se pudo validar el archivo: El archivo no coincide con el esquema del modelo (faltan caracter\u00edsticas: ['dur'])."
+        ],
+        "runs_created": 0
+      }
+    },
+    {
+      "case": "Streamlit_reject_numero_invalido.csv",
+      "passed": true,
+      "wall_seconds": 0.5576381000000765,
+      "details": {
+        "errors": [
+          "No se pudo completar el an\u00e1lisis: La caracter\u00edstica num\u00e9rica 'dur' contiene valores no num\u00e9ricos o no finitos."
+        ],
+        "runs_created": 0
+      }
+    },
+    {
+      "case": "Streamlit_reject_no_finito.csv",
+      "passed": true,
+      "wall_seconds": 0.4813326000003144,
+      "details": {
+        "errors": [
+          "No se pudo completar el an\u00e1lisis: La caracter\u00edstica num\u00e9rica 'dur' contiene valores no num\u00e9ricos o no finitos."
+        ],
+        "runs_created": 0
+      }
+    },
+    {
+      "case": "Streamlit_reject_faltante.csv",
+      "passed": true,
+      "wall_seconds": 0.25557300000036776,
+      "details": {
+        "errors": [
+          "No se pudo validar el archivo: Hay valores faltantes en caracter\u00edsticas requeridas: {'dur': 1}."
+        ],
+        "runs_created": 0
+      }
+    },
+    {
+      "case": "Streamlit_reject_id_duplicado.csv",
+      "passed": true,
+      "wall_seconds": 0.259817799999837,
+      "details": {
+        "errors": [
+          "No se pudo validar el archivo: La columna `id` tiene valores duplicados. Use identificadores \u00fanicos para poder referenciar alertas."
+        ],
+        "runs_created": 0
+      }
+    },
+    {
+      "case": "Streamlit_reject_codificacion_invalida.csv",
+      "passed": true,
+      "wall_seconds": 0.2048893000001044,
+      "details": {
+        "errors": [
+          "No se pudo validar el archivo: No se pudo leer el CSV como texto UTF-8. Guarde el archivo en UTF-8 y vuelva a cargarlo."
+        ],
+        "runs_created": 0
+      }
+    },
+    {
+      "case": "Streamlit_reject_campo_extra.csv",
+      "passed": true,
+      "wall_seconds": 0.22700590000022203,
+      "details": {
+        "errors": [
+          "No se pudo validar el archivo: La estructura del CSV contiene m\u00e1s campos que columnas declaradas. Corrija las filas antes de analizar."
+        ],
+        "runs_created": 0
+      }
+    },
+    {
+      "case": "Replay_SQL_parameterization_manual_review_independent_connection",
+      "passed": true,
+      "wall_seconds": 0.5429644000005283,
+      "details": {
+        "replays": 2,
+        "same_predictions_and_scores": true,
+        "runs": 2,
+        "alerts": 8,
+        "literal_sql_source": "fixture'; DROP TABLE alerts; --.csv",
+        "manual_review_preserves_prediction": true
+      }
+    },
+    {
+      "case": "Existing_CSV_threshold_selector_policy_unchanged",
+      "passed": true,
+      "wall_seconds": 0.325072700000419,
+      "details": {
+        "rule": "predict_proba_gte",
+        "threshold_unchanged": 0.65,
+        "model_is_csv_threshold_study_not_pcap": true,
+        "predictions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "case": "Missing_model_actionable_UI_error",
+      "passed": true,
+      "wall_seconds": 0.22317999999995664,
+      "details": {
+        "errors": [
+          "No se pudo cargar el override del modelo: [WinError 2] El sistema no puede encontrar el archivo especificado: 'C:\\\\Users\\\\Ideapad15-itl6\\\\Desktop\\\\SeguridadInteligentePYMES\\\\docs\\\\estabilizacion_20261109\\\\integral_run_001\\\\absent.joblib'"
+        ],
+        "unhandled_exceptions": 0
+      }
+    },
+    {
+      "case": "Model_path_is_a_directory_UI_error",
+      "passed": true,
+      "wall_seconds": 0.22015149999970163,
+      "details": {
+        "errors": [
+          "No se pudo cargar el override del modelo: [Errno 13] Permission denied: 'C:\\\\Users\\\\Ideapad15-itl6\\\\Desktop\\\\SeguridadInteligentePYMES\\\\docs\\\\estabilizacion_20261109\\\\integral_run_001'"
+        ],
+        "unhandled_exceptions": 0
+      }
+    },
+    {
+      "case": "PCAP_experiment_model_cannot_enter_CSV_detection",
+      "passed": true,
+      "wall_seconds": 0.2359333999993396,
+      "details": {
+        "errors": [
+          "No se pudo cargar el override del modelo: El Pipeline C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\experiments\\pcap_v1\\run_003\\held_out_torii\\random_forest.joblib no contiene los pasos esperados 'preprocessing' y 'classifier'."
+        ],
+        "unhandled_exceptions": 0
+      }
+    },
+    {
+      "case": "Corrupt_SQLite_safe_UI_error",
+      "passed": true,
+      "wall_seconds": 0.21769970000059402,
+      "details": {
+        "errors": [
+          "No se pudo inicializar la base SQLite: No se pudo inicializar la base SQLite C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\estabilizacion_20261109\\integral_run_001\\corrupt.sqlite3: file is not a database"
+        ],
+        "unhandled_exceptions": 0
+      }
+    },
+    {
+      "case": "Invalid_database_parent_safe_UI_error",
+      "passed": true,
+      "wall_seconds": 0.23832300000049145,
+      "details": {
+        "errors": [
+          "No se pudo inicializar la base SQLite: No se pudo abrir la base SQLite C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\docs\\estabilizacion_20261109\\integral_run_001\\not_a_directory\\history.sqlite3: [WinError 183] No se puede crear un archivo que ya existe: 'C:\\\\Users\\\\Ideapad15-itl6\\\\Desktop\\\\SeguridadInteligentePYMES\\\\docs\\\\estabilizacion_20261109\\\\integral_run_001\\\\not_a_directory'"
+        ],
+        "unhandled_exceptions": 0
+      }
+    },
+    {
+      "case": "Upload_above_actual_100_MiB_guard",
+      "passed": true,
+      "wall_seconds": 0.02746209999986604,
+      "details": {
+        "bytes": 104857601,
+        "rejected_before_csv_parse": true
+      }
+    },
+    {
+      "case": "Offline_PCAP_PCAPNG_CLI_replay_and_invalid_paths_dependency",
+      "passed": true,
+      "wall_seconds": 3.367366200000106,
+      "details": {
+        "classic_and_ng_CLI": true,
+        "byte_reproducible_replay": true,
+        "features": 38,
+        "packets": 2,
+        "flows": 1,
+        "independent_byte_count_oracle": true,
+        "missing_dependency_error": "TShark no disponible. Instale manualmente Wireshark para Windows 11 desde https://www.wireshark.org/download.html seleccionando TShark. Compruebe tshark --version o use --tshark con la ruta a tshark.exe. Este componente solo lee archivos; no necesita capturar interfaces ni instalar Npcap para esa lectura.",
+        "classification_or_capture_executed": false
+      }
+    },
+    {
+      "case": "Controlled_10000_row_load_and_complete_alert_persistence",
+      "passed": true,
+      "wall_seconds": 1.0809702999995352,
+      "details": {
+        "records": 10000,
+        "alerts": 5000,
+        "wall_including_validation_and_sqlite_seconds": 0.833417300000292,
+        "inference_resources": {
+          "sample_size": 10000,
+          "elapsed_seconds": 0.2622858999993696,
+          "elapsed_ms_per_record": 0.026228589999936956,
+          "baseline_rss_mib": 346.87890625,
+          "peak_rss_mib": 367.078125,
+          "peak_rss_delta_mib": 20.19921875
+        },
+        "scope": "Synthetic software load test; not detector accuracy or benchmark"
+      }
+    }
+  ],
+  "passed": 20,
+  "failed": 0,
+  "all_passed": true,
+  "peak_process_working_set_bytes": 430665728,
+  "scope": "AppTest uses real render, original models and isolated SQLite; only upload transport/download widgets intercepted. Browser path separately tested without mocks. No fitting."
+}

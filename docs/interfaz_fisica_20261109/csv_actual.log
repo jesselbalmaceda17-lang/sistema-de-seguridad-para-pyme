@@ -1,0 +1,16 @@
+test_01_imports_and_dependencies_are_isolated (__main__.PackageAcceptance.test_01_imports_and_dependencies_are_isolated) ... ok
+test_02_model_and_repeated_api_predictions (__main__.PackageAcceptance.test_02_model_and_repeated_api_predictions) ... ok
+test_03_ui_csv_alerts_and_exports (__main__.PackageAcceptance.test_03_ui_csv_alerts_and_exports) ... 2026-11-09 14:17:37.321 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_04_invalid_csv_no_completed_analysis (__main__.PackageAcceptance.test_04_invalid_csv_no_completed_analysis) ... 2026-11-09 14:17:39.508 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-11-09 14:17:39.780 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-11-09 14:17:40.082 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_05_backup_restore_manual_review_and_refuse_overwrite (__main__.PackageAcceptance.test_05_backup_restore_manual_review_and_refuse_overwrite) ... ok
+test_06_corrupt_backup_refused_before_target_creation (__main__.PackageAcceptance.test_06_corrupt_backup_refused_before_target_creation) ... ok
+test_07_manifest_and_tampered_file_detection (__main__.PackageAcceptance.test_07_manifest_and_tampered_file_detection) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 6.286s
+
+OK

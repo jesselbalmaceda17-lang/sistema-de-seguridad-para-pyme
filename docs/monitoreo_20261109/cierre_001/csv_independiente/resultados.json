@@ -1,0 +1,9 @@
+{
+  "tests_run": 7,
+  "successful": true,
+  "failures": 0,
+  "errors": 0,
+  "package": "C:\\Users\\Ideapad15-itl6\\AppData\\Local\\Temp\\vscode-agent-codex-sandbox-Le0Mxc\\Validacion monitoreo independiente seuqglmk\\SeguridadInteligentePYMES-monitoreo-20261109",
+  "python": "C:\\Users\\Ideapad15-itl6\\Desktop\\SeguridadInteligentePYMES\\_delivery_validation\\venv_entrega\\Scripts\\python.exe",
+  "scope": "Real stored original model, isolated SQLite and AppTest; upload/download transport patched only."
+}
