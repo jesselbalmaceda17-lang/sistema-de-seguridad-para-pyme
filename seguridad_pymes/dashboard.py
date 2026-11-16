@@ -709,7 +709,7 @@ def _render_history(database_path: Path) -> None:
     ].iloc[0]
 
     with st.container(border=True):
-        st.subheader("Detalle de la alerta")
+        st.subheader("🚨 Detalle de la alerta")
         detail_left, detail_right = st.columns(2)
         detail_left.markdown("**¿Qué significa esta alerta?**")
         detail_left.write(
