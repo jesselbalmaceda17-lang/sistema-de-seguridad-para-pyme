@@ -822,6 +822,27 @@ def render_dashboard(
         page_icon="🛡️",
         layout="wide",
     )
+    st.markdown(
+        """
+        <style>
+        div[data-testid="stDownloadButton"] button {
+            transition: transform 120ms ease, box-shadow 120ms ease;
+        }
+        div[data-testid="stDownloadButton"] button:active {
+            transform: scale(0.98);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.22);
+        }
+        @media (prefers-reduced-motion: reduce) {
+            div[data-testid="stDownloadButton"] button,
+            div[data-testid="stDownloadButton"] button:active {
+                transition: none;
+                transform: none;
+            }
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
 
     st.title("Seguridad Inteligente PYMES")
     st.caption("Monitoreo autorizado por reglas y análisis independiente de archivos CSV.")
