@@ -12,9 +12,8 @@ sido probado en empresas.
   para su revisión.
 - [escalantejair543-jpg](https://github.com/escalantejair543-jpg) contribuyó a
   la sección «Filtros de alertas» del panel.
-- [javiermendoza497-creator](https://github.com/javiermendoza497-creator)
-  mejoró la respuesta visual de los botones de descarga al presionarlos y
-  respetó la preferencia del sistema para reducir el movimiento.
+- [javiermendoza497-creator](https://github.com/javiermendoza497-creator) agregó
+  los botones de descarga.
 
 > **Alcance operativo:** cargar un CSV es análisis por lotes de un archivo
 > histórico. El proyecto no captura paquetes ni monitorea una red en tiempo
