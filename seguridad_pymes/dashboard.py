@@ -553,7 +553,11 @@ def _render_history(database_path: Path) -> None:
         for _, row in alert_frame.iterrows()
     }
 
-    with st.expander("Filtros de alertas", expanded=True):
+    with st.expander(
+        "Filtros de alertas",
+        icon=":material/filter_alt:",
+        expanded=True,
+    ):
         filter_columns = st.columns(3)
         selected_model_filter = filter_columns[0].selectbox(
             "Modelo",
@@ -709,7 +713,7 @@ def _render_history(database_path: Path) -> None:
     ].iloc[0]
 
     with st.container(border=True):
-        st.subheader("Detalle de la alerta")
+        st.subheader("🚨 Detalle de la alerta")
         detail_left, detail_right = st.columns(2)
         detail_left.markdown("**¿Qué significa esta alerta?**")
         detail_left.write(

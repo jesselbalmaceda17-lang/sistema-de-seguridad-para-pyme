@@ -623,7 +623,11 @@ class DashboardInputTests(unittest.TestCase):
                     for alert_id in range(1, 8)
                 },
             )
-            alert_table = app.dataframe[1].value
+            alert_table = next(
+                dataframe.value
+                for dataframe in app.dataframe
+                if "ID de alerta" in dataframe.value.columns
+            )
             updated_row = alert_table.loc[
                 alert_table["ID de alerta"] == 7
             ].iloc[0]
@@ -661,7 +665,7 @@ class DashboardInputTests(unittest.TestCase):
             self.assertIn("Alerta: `7`", detail_markdown)
             self.assertIn("Registro: `51025`", detail_markdown)
             self.assertTrue(
-                any("Detalle de la alerta" in item.value for item in app.subheader)
+                any(item.value == "🚨 Detalle de la alerta" for item in app.subheader)
             )
             self.assertTrue(
                 any(
@@ -669,7 +673,11 @@ class DashboardInputTests(unittest.TestCase):
                     for value in detail_markdown
                 )
             )
-            reloaded_alert_table = reloaded_app.dataframe[1].value
+            reloaded_alert_table = next(
+                dataframe.value
+                for dataframe in reloaded_app.dataframe
+                if "ID de alerta" in dataframe.value.columns
+            )
             reloaded_row = reloaded_alert_table.loc[
                 reloaded_alert_table["ID de alerta"] == 7
             ].iloc[0]
