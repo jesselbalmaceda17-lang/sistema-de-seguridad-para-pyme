@@ -10,6 +10,8 @@ sido probado en empresas.
 - [isaias-2025](https://github.com/isaias-2025) aportó la sección «Detalle de
   la alerta» del panel, que presenta el contexto de la predicción y los datos
   para su revisión.
+- [escalantejair543-jpg](https://github.com/escalantejair543-jpg) contribuyó a
+  la sección «Filtros de alertas» del panel.
 
 > **Alcance operativo:** cargar un CSV es análisis por lotes de un archivo
 > histórico. El proyecto no captura paquetes ni monitorea una red en tiempo
